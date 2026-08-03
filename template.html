@@ -1,0 +1,2046 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wine Analytics</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.0/dist/chart.umd.js" integrity="sha384-iU8HYtnGQ8Cy4zl7gbNMOhsDTTKX02BTXptVP/vqAWIaTfM7isw76iyZCsjL2eVi" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0/dist/chartjs-plugin-datalabels.min.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/gridjs@5.0.2/dist/gridjs.umd.js" integrity="sha384-/XXDzxe4FsGiAe50i/u9pY/Vy/uX654MHB1xoc1BJNnH1WXHhqHga9g3q5tF4gj7" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gridjs@5.0.2/dist/theme/mermaid.min.css" integrity="sha384-jZvDSsmGB9oGGT/4l9bHXGoAv1OxvG/cFmSo0dZaSqmBgvQTKDBFAMftlXTmMbNW" crossorigin="anonymous">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="anonymous">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin="anonymous"></script>
+<style>
+:root {
+  color-scheme: light;
+  --burgundy: #6b1e2e;
+  --burgundy-dark: #4a1420;
+  --gold: #b8935a;
+  --cream: #faf6f0;
+  --ink: #2a1f1f;
+  --muted: #7a6d68;
+  --line: #e8ddd2;
+  --green: #4a7c59;
+  --amber: #c08a2e;
+  --red: #a63d3d;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  background: var(--cream);
+  color: var(--ink);
+}
+header.top {
+  background:
+    linear-gradient(135deg, rgba(107,30,46,0.55) 0%, rgba(74,20,32,0.72) 100%),
+    url('https://images.unsplash.com/photo-1558138818-34316d616e44?auto=format&fit=crop&w=1600&q=60') center 62%/cover no-repeat;
+  color: #fff;
+  padding: 28px 32px 22px;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+}
+header.top.scrolled {
+  padding: 14px 32px;
+  background:
+    linear-gradient(135deg, rgba(107,30,46,0.92) 0%, rgba(74,20,32,0.95) 100%),
+    url('https://images.unsplash.com/photo-1558138818-34316d616e44?auto=format&fit=crop&w=1600&q=60') center 62%/cover no-repeat;
+  transition: padding 0.2s ease;
+}
+header.top .title-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+header.top h1 { margin: 0; font-size: 28px; font-weight: 700; letter-spacing: 0.3px; text-shadow: 0 2px 10px rgba(0,0,0,0.35); }
+header.top .meta { font-size: 13px; opacity: 0.95; text-shadow: 0 1px 4px rgba(0,0,0,0.4); }
+header.top .tagline { font-size: 13.5px; opacity: 0.88; max-width: 1200px; margin: 4px auto 0; text-shadow: 0 1px 6px rgba(0,0,0,0.3); }
+.kbd-btn {
+  display: inline-flex; align-items: center; gap: 6px; background: rgba(30,10,15,0.4);
+  border: 1px solid rgba(255,255,255,0.3); color: #fff; font-size: 12.5px;
+  padding: 6px 11px; border-radius: 8px; cursor: pointer; transition: background 0.15s;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.4);
+}
+.kbd-btn:hover { background: rgba(30,10,15,0.6); }
+.kbd-btn kbd { background: rgba(255,255,255,0.18); border-radius: 4px; padding: 1px 5px; font-family: inherit; font-size: 11px; }
+nav.tabs {
+  max-width: 1200px;
+  margin: 16px auto 0;
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+nav.tabs a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 13.5px;
+  padding: 7px 14px;
+  border-radius: 999px;
+  background: rgba(30,10,15,0.35);
+  text-shadow: 0 1px 4px rgba(0,0,0,0.4);
+  transition: background 0.15s, color 0.15s;
+}
+nav.tabs a:hover { background: rgba(30,10,15,0.55); }
+nav.tabs a.active { background: var(--gold); color: var(--burgundy-dark); font-weight: 600; }
+main { max-width: 1200px; margin: 0 auto; padding: 28px 32px 80px; }
+section { margin-bottom: 46px; scroll-margin-top: 130px; }
+h2.section-title {
+  font-size: 19px;
+  margin: 0 0 4px;
+  color: var(--burgundy-dark);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+p.section-sub { color: var(--muted); font-size: 13px; margin: 0 0 18px; }
+.stat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 14px;
+  margin-top: -6px;
+}
+.stat-card {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 16px 18px;
+}
+.stat-card .num { font-size: 26px; font-weight: 700; color: var(--burgundy); }
+.stat-card .label { font-size: 12px; color: var(--muted); margin-top: 2px; text-transform: uppercase; letter-spacing: 0.4px; }
+.grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+@media (max-width: 860px) { .grid-2, .grid-3 { grid-template-columns: 1fr; } }
+.card {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 18px 20px;
+  transition: box-shadow 0.18s ease, transform 0.18s ease;
+}
+.card:hover { box-shadow: 0 6px 20px rgba(107,30,46,0.09); transform: translateY(-1px); }
+.card h3 { margin: 0 0 12px; font-size: 14.5px; color: var(--burgundy-dark); }
+.stat-card { transition: box-shadow 0.18s ease, transform 0.18s ease; }
+.stat-card:hover { box-shadow: 0 6px 20px rgba(107,30,46,0.09); transform: translateY(-1px); }
+.chart-wrap { position: relative; height: 260px; }
+.chart-wrap.tall { height: 320px; }
+table.simple { width: 100%; border-collapse: collapse; font-size: 13px; }
+table.simple th {
+  text-align: left; font-size: 11px; text-transform: uppercase; letter-spacing: 0.3px;
+  color: var(--muted); border-bottom: 1px solid var(--line); padding: 6px 8px;
+}
+table.simple td { padding: 7px 8px; border-bottom: 1px solid #f1ebe3; }
+table.simple tr:last-child td { border-bottom: none; }
+.pill { display: inline-block; padding: 2px 9px; border-radius: 999px; font-size: 11px; font-weight: 600; }
+.pill.now { background: #e3f0e6; color: var(--green); }
+.pill.soon { background: #fbf0dc; color: var(--amber); }
+.pill.hold { background: #eee7f5; color: #6b4a9c; }
+.pill.past { background: #f7e3e3; color: var(--red); }
+.window-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-bottom: 18px; }
+@media (max-width: 860px) { .window-grid { grid-template-columns: repeat(2, 1fr); } }
+.window-card { border-radius: 12px; padding: 14px 16px; }
+.window-card .n { font-size: 24px; font-weight: 700; }
+.window-card .l { font-size: 12px; margin-top: 2px; }
+.window-card.now { background: #e3f0e6; }
+.window-card.now .n, .window-card.now .l { color: var(--green); }
+.window-card.soon { background: #fbf0dc; }
+.window-card.soon .n, .window-card.soon .l { color: var(--amber); }
+.window-card.hold { background: #eee7f5; }
+.window-card.hold .n, .window-card.hold .l { color: #6b4a9c; }
+.window-card.past { background: #f7e3e3; }
+.window-card.past .n, .window-card.past .l { color: var(--red); }
+.score-badge {
+  display: inline-flex; align-items: center; justify-content: center;
+  background: var(--burgundy); color: #fff; font-weight: 700; font-size: 12.5px;
+  border-radius: 6px; padding: 3px 7px; min-width: 34px;
+}
+#full-table { font-size: 13px; }
+.gridjs-th { background: #fff !important; }
+footer { text-align: center; color: var(--muted); font-size: 12px; padding: 20px 0 40px; }
+
+/* ---- gainers/losers ---- */
+.pct { font-weight: 700; }
+.pct.up { color: var(--green); }
+.pct.down { color: var(--red); }
+
+/* ---- timeline ---- */
+.tl-list { display: flex; flex-direction: column; }
+.tl-month-header {
+  font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.4px;
+  color: var(--muted); padding: 14px 4px 6px; border-bottom: 1px solid var(--line);
+}
+.tl-row { display: flex; align-items: center; gap: 12px; padding: 9px 4px; border-bottom: 1px solid #f1ebe3; font-size: 13px; }
+.tl-date { width: 44px; flex-shrink: 0; color: var(--muted); font-size: 11.5px; }
+.tl-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--burgundy); flex-shrink: 0; }
+.tl-body { flex: 1; min-width: 0; }
+.tl-wine { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.tl-meta { color: var(--muted); font-size: 11.5px; }
+.tl-total { flex-shrink: 0; font-weight: 600; text-align: right; }
+.tl-toggle {
+  margin-top: 14px; display: inline-block; padding: 8px 16px; border-radius: 8px;
+  border: 1px solid var(--line); background: #fff; font-size: 12.5px; cursor: pointer; color: var(--ink);
+}
+
+/* ---- search / filters ---- */
+.filter-bar {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 10px;
+  margin-bottom: 16px;
+}
+.filter-bar input, .filter-bar select {
+  width: 100%; padding: 8px 10px; border: 1px solid var(--line); border-radius: 8px;
+  font-size: 13px; background: #fff; color: var(--ink); font-family: inherit;
+}
+.filter-bar label { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.3px; display: block; margin-bottom: 3px; }
+.filter-count { font-size: 12.5px; color: var(--muted); margin-bottom: 10px; }
+.filter-reset { background: none; border: none; color: var(--burgundy); font-size: 12.5px; cursor: pointer; text-decoration: underline; padding: 0; }
+
+/* ---- map ---- */
+#leaflet-map { height: 420px; border-radius: 12px; width: 100%; }
+.leaflet-popup-content { font-size: 13px; }
+
+/* ---- producers table ---- */
+#producer-table .gridjs-table { font-size: 13px; }
+#producer-table .gridjs-th { font-size: 11px; line-height: 1.3; height: auto; padding: 10px 8px; }
+#producer-table .gridjs-th-content { white-space: normal; overflow: visible; text-overflow: clip; height: auto; }
+
+/* ---- diversification / palate gaps ---- */
+.gap-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 10px; }
+.gap-item {
+  display: flex; align-items: center; justify-content: space-between; gap: 8px;
+  padding: 10px 12px; border-radius: 8px; font-size: 13px; border: 1px solid var(--line);
+}
+.gap-item.covered { background: #f1f7f2; }
+.gap-item.gap { background: #faf1f1; }
+.gap-badge { font-size: 11px; font-weight: 700; padding: 2px 8px; border-radius: 999px; flex-shrink: 0; }
+.gap-item.covered .gap-badge { background: #e3f0e6; color: var(--green); }
+.gap-item.gap .gap-badge { background: #f7e3e3; color: var(--red); }
+.div-score-row { display: flex; gap: 20px; flex-wrap: wrap; margin-bottom: 18px; }
+.div-score { flex: 1; min-width: 200px; }
+.div-score .label2 { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.3px; margin-bottom: 6px; }
+.div-bar-wrap { background: #f1ebe3; border-radius: 999px; height: 10px; overflow: hidden; margin-bottom: 6px; }
+.div-bar-fill { height: 100%; border-radius: 999px; background: linear-gradient(90deg, var(--burgundy), var(--gold)); }
+.div-score .val { font-size: 13px; color: var(--ink); }
+
+/* ---- maturity pressure ---- */
+.pressure-gauge { display: flex; align-items: center; gap: 20px; margin-bottom: 18px; flex-wrap: wrap; }
+.pressure-num { font-size: 40px; font-weight: 700; color: var(--burgundy); }
+.pressure-label { font-size: 13px; color: var(--muted); max-width: 320px; }
+.pressure-bar-wrap { display: flex; height: 22px; border-radius: 8px; overflow: hidden; width: 100%; margin-bottom: 8px; }
+.pressure-bar-seg { display: flex; align-items: center; justify-content: center; font-size: 10.5px; color: #fff; font-weight: 600; }
+.pressure-legend { display: flex; gap: 14px; flex-wrap: wrap; font-size: 11.5px; color: var(--muted); }
+.pressure-legend span.dot { display: inline-block; width: 9px; height: 9px; border-radius: 2px; margin-right: 4px; vertical-align: middle; }
+
+/* ---- taste profile ---- */
+.taste-item {
+  display: flex; align-items: center; justify-content: space-between; gap: 10px;
+  padding: 9px 10px; border-radius: 8px; font-size: 13px; border: 1px solid var(--line); margin-bottom: 6px;
+}
+.taste-item .tn { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.taste-item .tr { color: var(--muted); font-size: 11.5px; flex-shrink: 0; }
+.verdict-pill { font-size: 10.5px; font-weight: 700; padding: 2px 8px; border-radius: 999px; flex-shrink: 0; white-space: nowrap; }
+.verdict-pill.Underweight { background: #fbf0dc; color: var(--amber); }
+.verdict-pill.Overweight { background: #f7e3e3; color: var(--red); }
+.verdict-pill.Well-matched { background: #e3f0e6; color: var(--green); }
+.verdict-pill.Neutral { background: #f1ebe3; color: var(--muted); }
+.verdict-pill.Rightly-avoided { background: #eee7f5; color: #6b4a9c; }
+
+/* ---- explore tags ---- */
+.tag-groups { display: flex; flex-direction: column; gap: 16px; }
+.tag-group-label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.4px; color: var(--muted); margin-bottom: 8px; }
+.tag-pills { display: flex; flex-wrap: wrap; gap: 8px; }
+.tag-pill {
+  background: #f7f1e8; border: 1px solid var(--line); border-radius: 999px; padding: 6px 13px;
+  font-size: 12.5px; cursor: pointer; color: var(--ink); transition: background 0.15s, border-color 0.15s;
+}
+.tag-pill:hover { background: #f1e4d8; border-color: var(--gold); }
+.tag-pill.active { background: var(--burgundy); color: #fff; border-color: var(--burgundy); }
+.tag-pill .cnt { color: var(--muted); font-size: 11px; }
+.tag-pill.active .cnt { color: #f1e4d8; }
+
+/* ---- command palette ---- */
+.cmdk-overlay {
+  position: fixed; inset: 0; background: rgba(42,31,31,0.55); z-index: 200;
+  display: none; align-items: flex-start; justify-content: center; padding-top: 12vh;
+}
+.cmdk-overlay.open { display: flex; }
+.cmdk-box {
+  background: #fff; border-radius: 12px; width: 92%; max-width: 560px; max-height: 60vh;
+  overflow: hidden; box-shadow: 0 20px 60px rgba(0,0,0,0.35); display: flex; flex-direction: column;
+}
+.cmdk-input {
+  border: none; border-bottom: 1px solid var(--line); padding: 16px 18px; font-size: 15px;
+  font-family: inherit; outline: none; width: 100%; box-sizing: border-box;
+}
+.cmdk-results { overflow-y: auto; }
+.cmdk-item { padding: 11px 18px; cursor: pointer; font-size: 13.5px; display: flex; justify-content: space-between; gap: 10px; }
+.cmdk-item:hover, .cmdk-item.sel { background: #f7f1e8; }
+.cmdk-item .cmdk-sub { color: var(--muted); font-size: 11.5px; }
+.cmdk-empty { padding: 18px; color: var(--muted); font-size: 13px; text-align: center; }
+
+/* ---- generic modal (producer drill-down) ---- */
+.modal-overlay {
+  position: fixed; inset: 0; background: rgba(42,31,31,0.55); z-index: 210;
+  display: none; align-items: flex-start; justify-content: center; padding: 8vh 20px;
+  overflow-y: auto;
+}
+.modal-overlay.open { display: flex; }
+.modal-box {
+  background: #fff; border-radius: 12px; width: 100%; max-width: 720px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.35); padding: 24px 26px 20px; position: relative;
+}
+.modal-close {
+  position: absolute; top: 14px; right: 16px; border: none; background: none;
+  font-size: 22px; line-height: 1; color: var(--muted); cursor: pointer; padding: 4px 8px;
+  z-index: 5;
+}
+.modal-close:hover { color: var(--ink); }
+.modal-box h3 { margin: 0 16px 4px 0; font-size: 17px; color: var(--burgundy-dark); }
+.modal-sub { font-size: 12.5px; color: var(--muted); margin-bottom: 16px; }
+.modal-box table.simple { max-height: 55vh; display: block; overflow-y: auto; }
+.modal-box table.simple thead, .modal-box table.simple tbody tr { display: table; width: 100%; table-layout: fixed; }
+
+/* ---- producers table (clickable rows) ---- */
+#producer-table tbody tr { cursor: pointer; }
+#producer-table .gridjs-tbody tr:hover td { background: #faf5ec; }
+
+/* ---- wine detail modal ---- */
+#wine-modal-overlay .modal-box { padding: 0; max-width: 580px; overflow: hidden; }
+.wine-modal-header { background: var(--burgundy); color: #fff; padding: 20px 24px; position: relative; }
+.wine-modal-header .modal-close { color: rgba(255,255,255,0.8); }
+.wine-modal-header .modal-close:hover { color: #fff; }
+.wine-modal-eyebrow { font-size: 11.5px; letter-spacing: 0.4px; text-transform: uppercase; opacity: 0.75; margin-bottom: 4px; }
+.wine-modal-title { font-size: 19px; font-weight: 700; }
+.wine-modal-title .vtg { font-weight: 400; opacity: 0.85; }
+.wine-modal-sub { font-size: 13.5px; opacity: 0.85; margin-top: 2px; }
+.wine-modal-stats { display: grid; grid-template-columns: repeat(4,1fr); gap: 1px; background: var(--line); }
+.wine-modal-stats > div { background: #fff; padding: 12px 8px; text-align: center; }
+.wine-modal-stats .num { font-size: 17px; font-weight: 700; }
+.wine-modal-stats .lbl { font-size: 10.5px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.3px; margin-top: 2px; }
+.wine-modal-body { padding: 20px 24px 22px; max-height: 55vh; overflow-y: auto; }
+.wine-modal-row { display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px; }
+.wine-modal-block { border-top: 1px solid var(--line); padding-top: 14px; margin-bottom: 14px; }
+.wine-modal-block:last-child { margin-bottom: 0; }
+.wine-modal-block-label { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.3px; margin-bottom: 8px; }
+.wine-modal-note-text { font-size: 13.5px; color: var(--ink); line-height: 1.55; margin: 8px 0 0; }
+.wine-modal-empty { font-size: 12.5px; color: var(--muted); }
+
+/* ---- clickable wine rows ---- */
+#full-table .gridjs-tbody tr, #search-table tbody tr, #explore-results-table tbody tr, tr[data-iwine] { cursor: pointer; }
+#full-table .gridjs-tbody tr:hover td { background: #faf5ec; }
+#search-table tbody tr:hover td, #explore-results-table tbody tr:hover td, tr[data-iwine]:hover td { background: #faf5ec; }
+.tl-row[data-iwine] { cursor: pointer; border-radius: 6px; }
+.tl-row[data-iwine]:hover { background: #faf5ec; }
+
+/* ---- mobile ---- */
+@media (max-width: 640px) {
+  header.top { padding: 18px 16px 14px; }
+  header.top h1 { font-size: 20px; }
+  header.top .meta { font-size: 11px; }
+  nav.tabs { flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; padding-bottom: 2px; margin-top: 12px; }
+  nav.tabs::-webkit-scrollbar { height: 0; }
+  nav.tabs a { flex-shrink: 0; padding: 6px 12px; font-size: 12.5px; }
+  main { padding: 18px 14px 60px; }
+  section { margin-bottom: 34px; scroll-margin-top: 96px; }
+  h2.section-title { font-size: 17px; }
+  .stat-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+  .stat-card { padding: 12px 14px; }
+  .stat-card .num { font-size: 21px; }
+  .card { padding: 14px 16px; }
+  .window-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+  .chart-wrap { height: 220px; }
+  .chart-wrap.tall { height: 260px; }
+  table.simple { font-size: 12px; }
+  #leaflet-map { height: 300px; }
+  .filter-bar { grid-template-columns: repeat(2, 1fr); }
+  .modal-box { padding: 20px 16px 16px; max-width: 100%; }
+  .modal-box h3 { font-size: 15.5px; }
+}
+</style>
+</head>
+<body>
+
+<header class="top" id="site-header">
+  <div class="title-row">
+    <h1>&#127863; Wine Analytics</h1>
+    <div style="display:flex;align-items:center;gap:12px;">
+      <button class="kbd-btn" id="quick-search-btn">&#128269; Quick search <kbd>&#8984;K</kbd></button>
+      <div class="meta" id="refreshed-meta"></div>
+    </div>
+  </div>
+  <div class="tagline">A self-updating view of your CellarTracker cellar (ap2073)</div>
+  <nav class="tabs">
+    <a href="#overview">Overview</a>
+    <a href="#composition">Composition</a>
+    <a href="#drinking">Drinking Window</a>
+    <a href="#rated">Top Rated</a>
+    <a href="#taste">Taste Profile</a>
+    <a href="#foryou">For You</a>
+    <a href="#price">Price Analysis</a>
+    <a href="#stats">Stats</a>
+    <a href="#timeline">Timeline</a>
+    <a href="#explore">Explore</a>
+    <a href="#search">Search</a>
+    <a href="#map">Map</a>
+    <a href="#producers">Producers</a>
+    <a href="#value">Value &amp; Spend</a>
+    <a href="#cellar">Full Cellar</a>
+  </nav>
+</header>
+
+<main>
+
+<section id="overview">
+  <h2 class="section-title">Overview</h2>
+  <p class="section-sub">Live snapshot of your CellarTracker inventory (ap2073)</p>
+  <div class="stat-grid" id="stat-grid"></div>
+</section>
+
+<section id="composition">
+  <h2 class="section-title">Composition</h2>
+  <p class="section-sub">Value and bottle count from the broadest view down to the most granular &mdash; type, country, region, grape</p>
+  <div class="grid-2">
+  <div class="card">
+    <h3>Value by Type</h3>
+    <div class="chart-wrap"><canvas id="chart-style"></canvas></div>
+  </div>
+  <div class="card">
+    <h3>Value by Country</h3>
+    <div class="chart-wrap"><canvas id="chart-country"></canvas></div>
+  </div>
+  <div class="card">
+    <h3>Value by Region</h3>
+    <div class="chart-wrap"><canvas id="chart-region"></canvas></div>
+  </div>
+  <div class="card">
+    <h3>Value by Grape</h3>
+    <div class="chart-wrap"><canvas id="chart-varietal"></canvas></div>
+  </div>
+  </div>
+  <div class="card" style="margin-top:20px;"><h3>Top Producers by Value</h3><div class="chart-wrap tall"><canvas id="chart-producer"></canvas></div></div>
+  <div class="card" style="margin-top:20px;">
+    <h3>Diversification &amp; Palate Gaps</h3>
+    <div class="div-score-row" id="div-score-row"></div>
+    <div class="gap-grid" id="gap-grid"></div>
+  </div>
+  <div class="card" id="buy-targets-card" style="margin-top:20px;display:none;">
+    <h3>Buy More &mdash; Region Targets</h3>
+    <p class="section-sub" style="margin-bottom:14px;">Where the cellar doesn't match your palate. Built from your own tasting ratings vs. how much cellar space each region actually takes up.</p>
+    <div class="grid-2">
+      <div>
+        <div class="tag-group-label" style="color:var(--red);">Under-bought &mdash; buy more</div>
+        <div id="buy-targets-under"></div>
+      </div>
+      <div>
+        <div class="tag-group-label" style="color:var(--green);">Over-bought &mdash; well stocked</div>
+        <div id="buy-targets-over"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="drinking">
+  <h2 class="section-title">Drinking Window</h2>
+  <p class="section-sub">Readiness based on each wine's CellarTracker drinking window vs. today (Aug 2026)</p>
+  <div class="window-grid" id="window-grid"></div>
+  <div class="grid-2">
+    <div class="card"><h3>Drink Now &mdash; largest holdings</h3><table class="simple" id="tbl-drink-now"></table></div>
+    <div class="card"><h3>Drink Soon (next 2 yrs) &amp; Hold &mdash; earliest windows</h3><table class="simple" id="tbl-drink-soon"></table></div>
+  </div>
+  <div class="card" style="margin-top:20px;">
+    <h3>Cellar Maturity Pressure</h3>
+    <p class="section-sub" style="margin-bottom:14px;">How much of the cellar needs attention soon, weighted by how overdue it is</p>
+    <div class="pressure-gauge">
+      <div class="pressure-num" id="pressure-num">&mdash;</div>
+      <div class="pressure-label" id="pressure-label"></div>
+    </div>
+    <div class="pressure-bar-wrap" id="pressure-bar"></div>
+    <div class="pressure-legend" id="pressure-legend"></div>
+    <table class="simple" id="tbl-urgent" style="margin-top:16px;"></table>
+  </div>
+</section>
+
+<section id="rated">
+  <h2 class="section-title">Critic Score Leaderboard</h2>
+  <p class="section-sub">Highest average critic score across Wine Advocate, Wine Spectator, Vinous, and other rated sources on file</p>
+  <div class="card"><table class="simple" id="tbl-rated"></table></div>
+</section>
+
+<section id="taste">
+  <h2 class="section-title">Taste Profile</h2>
+  <p class="section-sub">Built from your CellarTracker tasting notes &mdash; what you actually rate highly vs. what's in the cellar, and how you compare to consensus</p>
+  <div class="stat-grid" id="taste-stat-grid" style="margin-bottom:20px;"></div>
+  <div class="card" id="taste-empty-card" style="display:none;">
+    <p style="color:var(--muted);font-size:13.5px;margin:0;">No tasting notes with ratings found yet on CellarTracker &mdash; log a few tastings there and this section will fill in automatically on the next refresh.</p>
+  </div>
+  <div id="taste-content">
+    <div class="grid-3" id="taste-profile-grid" style="margin-bottom:20px;"></div>
+    <div class="grid-2">
+      <div class="card"><h3>Tastings by Month</h3><div class="chart-wrap"><canvas id="chart-tastings-month"></canvas></div></div>
+      <div class="card"><h3>Recent Tastings</h3><table class="simple" id="tbl-recent-tastings"></table></div>
+    </div>
+    <div class="card" id="ready-untried-card" style="margin-top:20px;">
+      <h3>Ready to Drink, Never Tried <span style="font-weight:400;color:var(--muted);font-size:12px;" id="ready-untried-count"></span></h3>
+      <p class="section-sub" style="margin-bottom:14px;">Wines that are in their drinking window &mdash; or already past it &mdash; that you've never opened and logged. Click a row for details.</p>
+      <table class="simple" id="tbl-ready-untried"></table>
+    </div>
+  </div>
+</section>
+
+<section id="foryou">
+  <h2 class="section-title">For You</h2>
+  <p class="section-sub">Built from your own ratings against your own cellar &mdash; not just critic scores</p>
+
+  <div class="card" id="tonight-card" style="margin-bottom:20px;">
+    <h3>What to Open Tonight</h3>
+    <p class="section-sub" style="margin-bottom:14px;">Filter by mood or food and we'll surface your best-matching bottles right now</p>
+    <div class="filter-bar">
+      <div><label>Mood</label><select id="tonight-mood">
+        <option value="">Any</option>
+        <option value="light">Light &amp; easy</option>
+        <option value="bold">Bold &amp; structured</option>
+        <option value="celebration">Celebration / fizz</option>
+        <option value="sweet">Something sweet</option>
+      </select></div>
+      <div><label>Food</label><select id="tonight-food"><option value="">Any</option></select></div>
+      <div><label>Ready to drink now</label><select id="tonight-ready"><option value="">Any</option><option value="yes">Yes</option></select></div>
+      <div style="align-self:end;"><button class="filter-reset" id="tonight-reset">Reset</button></div>
+    </div>
+    <table class="simple" id="tbl-tonight" style="margin-top:14px;"></table>
+  </div>
+
+  <div class="card" id="critic-match-card">
+    <h3>Critic Match <span style="font-weight:400;color:var(--muted);font-size:12px;" id="critic-match-count"></span></h3>
+    <p class="section-sub" style="margin-bottom:14px;">Which critics' scores track closest with your own, based on wines where you've logged your own score and that critic scored the same wine</p>
+    <table class="simple" id="tbl-critic-match"></table>
+  </div>
+</section>
+
+<section id="price">
+  <h2 class="section-title">Price Analysis</h2>
+  <p class="section-sub">How much each bottle has moved since you paid for it</p>
+  <div class="stat-grid" id="price-stat-grid" style="margin-bottom:20px;"></div>
+  <div class="grid-2">
+    <div class="card"><h3>Bottles by Price Paid</h3><div class="chart-wrap"><canvas id="chart-price-dist"></canvas></div></div>
+    <div class="card"><h3>Cumulative Paid vs. Current Value</h3><div class="chart-wrap"><canvas id="chart-cost-basis"></canvas></div></div>
+  </div>
+  <div class="grid-2" style="margin-top:20px;">
+    <div class="card"><h3>Top Gainers</h3><table class="simple" id="tbl-gainers"></table></div>
+    <div class="card"><h3>Top Losers</h3><table class="simple" id="tbl-losers"></table></div>
+  </div>
+  <div class="card" style="margin-top:20px;">
+    <h3>Score vs. Price</h3>
+    <p class="section-sub" style="margin-bottom:14px;">If quality drove price, these dots would trend in a tight line up and to the right. Burgundy dots are critic scores; gold triangles are your own tasting ratings for cellar wines you've tried.</p>
+    <div class="chart-wrap tall"><canvas id="chart-score-price"></canvas></div>
+  </div>
+  <div class="grid-2" style="margin-top:20px;">
+    <div class="card">
+      <h3>What Score Points Are Worth</h3>
+      <p class="section-sub" style="margin-bottom:14px;">Average price per bottle by critic score band</p>
+      <table class="simple" id="tbl-score-bands"></table>
+    </div>
+    <div class="card">
+      <h3>The Region Premium</h3>
+      <p class="section-sub" style="margin-bottom:14px;">Average, priciest, and cheapest bottle by region</p>
+      <table class="simple" id="tbl-region-premium"></table>
+    </div>
+  </div>
+  <div class="grid-2" style="margin-top:20px;">
+    <div class="card">
+      <h3>Most Expensive per Point</h3>
+      <p class="section-sub" style="margin-bottom:14px;">Where you're paying the most for reputation and scarcity</p>
+      <table class="simple" id="tbl-price-per-point-high"></table>
+    </div>
+    <div class="card">
+      <h3>Best Value per Point</h3>
+      <p class="section-sub" style="margin-bottom:14px;">Quality for pennies on the pound</p>
+      <table class="simple" id="tbl-price-per-point-low"></table>
+    </div>
+  </div>
+</section>
+
+<section id="stats">
+  <h2 class="section-title">Stats &amp; Records</h2>
+  <p class="section-sub">Fun facts and cellar records</p>
+  <div class="stat-grid" id="records-grid"></div>
+  <div class="grid-2" style="margin-top:20px;">
+    <div class="card"><h3>Vintage Distribution <span style="font-weight:400;color:var(--muted);font-size:12px;" id="median-vintage-label"></span></h3><div class="chart-wrap"><canvas id="chart-vintage"></canvas></div></div>
+    <div class="card"><h3>Longest Held (still in cellar)</h3><table class="simple" id="tbl-longest-held"></table></div>
+  </div>
+  <div class="card" style="margin-top:20px;">
+    <h3>Critic Score Distribution</h3>
+    <p class="section-sub" style="margin-bottom:14px;">Click a bar to see which wines fall in that score range</p>
+    <div class="chart-wrap"><canvas id="chart-score-dist"></canvas></div>
+    <table class="simple" id="tbl-score-dist-detail" style="margin-top:10px;"></table>
+  </div>
+  <div class="grid-2" style="margin-top:20px;">
+    <div class="card"><h3>Avg Critic Score by Vintage</h3><div class="chart-wrap"><canvas id="chart-score-vintage"></canvas></div></div>
+    <div class="card"><h3>Drinking Window Timeline</h3><div class="chart-wrap"><canvas id="chart-window-timeline"></canvas></div></div>
+  </div>
+</section>
+
+<section id="timeline">
+  <h2 class="section-title">Timeline</h2>
+  <p class="section-sub">The story of your cellar, chronologically</p>
+  <div class="card" style="margin-bottom:20px;"><h3>Spend by Month</h3><div class="chart-wrap"><canvas id="chart-timeline-spend"></canvas></div></div>
+  <div class="card" style="margin-bottom:20px;">
+    <h3>Cellar Turnover</h3>
+    <p class="section-sub" style="margin-bottom:14px;">How much of what you've ever bought is still on hand vs. gone &mdash; the gap between the two lines is lifetime consumption</p>
+    <div class="stat-grid" id="turnover-stat-grid" style="margin-bottom:16px;"></div>
+    <div class="chart-wrap"><canvas id="chart-turnover"></canvas></div>
+  </div>
+  <div class="card">
+    <h3>Recent Acquisitions</h3>
+    <div class="tl-list" id="timeline-list"></div>
+    <button class="tl-toggle" id="timeline-more">Show more</button>
+  </div>
+</section>
+
+<section id="explore">
+  <h2 class="section-title">Explore by Tag</h2>
+  <p class="section-sub">Click a country, grape, style, or producer to browse the matching wines</p>
+  <div class="card">
+    <div class="tag-groups" id="tag-groups"></div>
+  </div>
+  <div class="card" id="explore-results-card" style="margin-top:16px;display:none;">
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:10px;">
+      <h3 style="margin:0;" id="explore-results-title"></h3>
+      <button class="filter-reset" id="explore-clear">Clear</button>
+    </div>
+    <table class="simple" id="explore-results-table"></table>
+  </div>
+</section>
+
+<section id="search">
+  <h2 class="section-title">Advanced Search</h2>
+  <p class="section-sub">Filter your cellar by any combination of criteria</p>
+  <div class="card">
+    <div class="filter-bar">
+      <div><label>Text</label><input type="text" id="f-text" placeholder="Wine, producer, region..."></div>
+      <div><label>Country</label><select id="f-country"><option value="">All</option></select></div>
+      <div><label>Color</label><select id="f-color"><option value="">All</option></select></div>
+      <div><label>Varietal</label><select id="f-varietal"><option value="">All</option></select></div>
+      <div><label>Min score</label><input type="number" id="f-score" placeholder="e.g. 90" min="0" max="100"></div>
+      <div><label>Max £/bottle</label><input type="number" id="f-maxprice" placeholder="e.g. 100" min="0"></div>
+      <div><label>Ready to drink now</label><select id="f-ready"><option value="">All</option><option value="yes">Yes</option></select></div>
+      <div style="align-self:end;"><button class="filter-reset" id="f-reset">Reset filters</button></div>
+    </div>
+    <div class="filter-count" id="f-count"></div>
+    <div id="search-table-wrap"><table id="search-table"></table></div>
+  </div>
+</section>
+
+<section id="map">
+  <h2 class="section-title">Map</h2>
+  <p class="section-sub">Where your cellar comes from, sized by bottle count</p>
+  <div class="card"><div id="leaflet-map"></div></div>
+</section>
+
+<section id="producers">
+  <h2 class="section-title">Producers</h2>
+  <p class="section-sub">Full producer comparison &mdash; bottles, spend, value, and appreciation</p>
+  <div class="card"><div id="producer-table"></div></div>
+</section>
+
+<section id="value">
+  <h2 class="section-title">Value &amp; Spend</h2>
+  <p class="section-sub">Purchase history and current market valuation</p>
+  <div class="grid-2">
+    <div class="card"><h3>Spend by Month</h3><div class="chart-wrap"><canvas id="chart-spend-month"></canvas></div></div>
+    <div class="card"><h3>Spend by Merchant</h3><div class="chart-wrap"><canvas id="chart-spend-store"></canvas></div></div>
+  </div>
+  <div class="card" style="margin-top:20px;"><h3>Most Valuable Bottles in Cellar (per-bottle value)</h3><table class="simple" id="tbl-top-value"></table></div>
+</section>
+
+<section id="cellar">
+  <h2 class="section-title">Full Cellar</h2>
+  <p class="section-sub">Every wine currently in stock &mdash; sortable, searchable</p>
+  <div id="full-table"></div>
+</section>
+
+</main>
+
+<footer>Wine Analytics &middot; source: CellarTracker (xlquery export) &middot; refreshes automatically</footer>
+
+<div class="cmdk-overlay" id="cmdk-overlay">
+  <div class="cmdk-box">
+    <input class="cmdk-input" id="cmdk-input" placeholder="Jump to a wine, producer, or section..." autocomplete="off">
+    <div class="cmdk-results" id="cmdk-results"></div>
+  </div>
+</div>
+
+<div class="modal-overlay" id="producer-modal-overlay">
+  <div class="modal-box">
+    <button class="modal-close" id="producer-modal-close" aria-label="Close">&times;</button>
+    <h3 id="producer-modal-title"></h3>
+    <div class="modal-sub" id="producer-modal-sub"></div>
+    <div id="producer-modal-wikidata" style="display:none;margin:-8px 0 16px;font-size:13px;color:var(--ink);line-height:1.5;">
+      <p id="producer-modal-wikidata-text" style="margin:0 0 4px;"></p>
+      <a id="producer-modal-wikidata-link" href="#" target="_blank" rel="noopener" style="font-size:11.5px;color:var(--muted);">Source: Wikipedia &#8599;</a>
+    </div>
+    <table class="simple" id="producer-modal-table"></table>
+  </div>
+</div>
+
+<div class="modal-overlay" id="wine-modal-overlay">
+  <div class="modal-box">
+    <div class="wine-modal-header">
+      <button class="modal-close" id="wine-modal-close" aria-label="Close">&times;</button>
+      <div class="wine-modal-eyebrow" id="wine-modal-eyebrow"></div>
+      <div class="wine-modal-title" id="wine-modal-title"></div>
+      <div class="wine-modal-sub" id="wine-modal-sub"></div>
+    </div>
+    <div class="wine-modal-stats" id="wine-modal-stats"></div>
+    <div class="wine-modal-body">
+      <div class="wine-modal-row">
+        <div>
+          <div class="wine-modal-block-label" style="margin-bottom:2px;">Drinking window</div>
+          <div id="wine-modal-window" style="font-size:14px;"></div>
+        </div>
+        <span class="pill" id="wine-modal-window-pill"></span>
+      </div>
+      <div class="wine-modal-block">
+        <div class="wine-modal-row" style="margin-bottom:6px;">
+          <div class="wine-modal-block-label" style="margin-bottom:0;">Decanting <span style="font-weight:400;color:var(--muted);">(estimate)</span></div>
+          <div id="wine-modal-decant" style="font-size:13px;color:var(--ink);text-align:right;"></div>
+        </div>
+        <div class="wine-modal-block-label" style="margin-top:10px;">Suggested pairings</div>
+        <div id="wine-modal-pairings" style="font-size:13px;color:var(--ink);margin-top:4px;"></div>
+      </div>
+      <div class="wine-modal-block" id="wine-modal-wiki-block" style="display:none;">
+        <div class="wine-modal-block-label">About <span id="wine-modal-wiki-varietal"></span></div>
+        <p class="wine-modal-note-text" id="wine-modal-wiki-text" style="margin-top:6px;"></p>
+        <a id="wine-modal-wiki-link" href="#" target="_blank" rel="noopener" style="font-size:11.5px;color:var(--muted);">Source: Wikipedia ↗</a>
+      </div>
+      <div class="wine-modal-block" id="wine-modal-purchases-block">
+        <div class="wine-modal-block-label">Purchase history</div>
+        <table class="simple" id="wine-modal-purchases"></table>
+      </div>
+      <div class="wine-modal-block">
+        <div class="wine-modal-row" style="margin-bottom:0;">
+          <div class="wine-modal-block-label" style="margin-bottom:0;">Your tasting note</div>
+          <div id="wine-modal-note-date" style="font-size:12px;color:var(--muted);"></div>
+        </div>
+        <div id="wine-modal-note-body"></div>
+      </div>
+      <div class="wine-modal-block" id="wine-modal-vintages-block" style="display:none;">
+        <div class="wine-modal-block-label">Other vintages in your cellar</div>
+        <table class="simple" id="wine-modal-vintages" style="margin-top:6px;"></table>
+      </div>
+      <div class="wine-modal-block" id="wine-modal-similar-block" style="display:none;">
+        <div class="wine-modal-block-label">Similar to this, from your cellar</div>
+        <div id="wine-modal-similar-list" style="margin-top:6px;"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="application/json" id="cellar-data">__DATA_JSON__</script>
+<script>
+const DATA = JSON.parse(document.getElementById('cellar-data').textContent);
+const GBP = n => '£' + Number(n).toLocaleString('en-GB', {maximumFractionDigits: 0});
+const GBP2 = n => '£' + Number(n).toLocaleString('en-GB', {minimumFractionDigits: 2, maximumFractionDigits: 2});
+const NUM = n => Number(n).toLocaleString('en-GB');
+const axisGBP = v => '£' + Number(v).toLocaleString('en-GB');
+
+// Delegated click-to-open-Wine-Detail wiring, reused across every table/list that lists individual wines.
+// Rows must carry a data-iwine attribute; safe to call multiple times per container (wires once).
+// rowSelector defaults to table rows; pass '[data-iwine]' (or similar) for non-table containers like the timeline.
+function wireWineRowClicks(containerId, rowSelector) {
+  rowSelector = rowSelector || 'tr[data-iwine]';
+  const el = document.getElementById(containerId);
+  if (!el || el.dataset.wired) return;
+  el.dataset.wired = '1';
+  el.addEventListener('click', (e) => {
+    const row = e.target.closest(rowSelector);
+    if (!row || !row.dataset.iwine) return;
+    const w = DATA.wines.find(w => w.iWine === row.dataset.iwine);
+    if (w) openWineModal(w);
+  });
+}
+// Only wines currently in the cellar dataset have a Wine Detail modal to open (tasting notes can
+// reference wines tasted outside this cellar's own purchase history). Use to gate data-iwine attrs
+// so rows for those "outside" wines don't show a misleading pointer cursor.
+const CELLAR_IWINES = new Set(DATA.wines.map(w => w.iWine).filter(Boolean));
+
+document.getElementById('refreshed-meta').textContent =
+  'Last refreshed ' + new Date(DATA.generated_at).toLocaleString('en-GB', {dateStyle:'medium', timeStyle:'short'});
+
+// ---- Overview stats ----
+const s = DATA.summary;
+const stats = [
+  {n: NUM(DATA.summary.total_bottles), l: 'Bottles in cellar'},
+  {n: NUM(DATA.summary.total_wines), l: 'Distinct wines'},
+  {n: GBP(DATA.summary.total_value), l: 'Current valuation'},
+  {n: GBP(DATA.summary.total_paid), l: 'Total paid'},
+  {n: DATA.summary.countries, l: 'Countries'},
+  {n: DATA.summary.avg_critic_score, l: 'Avg critic score'},
+];
+document.getElementById('stat-grid').innerHTML = stats.map(x =>
+  `<div class="stat-card"><div class="num">${x.n}</div><div class="label">${x.l}</div></div>`
+).join('');
+
+if (window.ChartDataLabels) { Chart.register(ChartDataLabels); Chart.defaults.plugins.datalabels.display = false; }
+
+const PALETTE = ['#6b1e2e','#b8935a','#4a7c59','#6b4a9c','#c08a2e','#3d6b8a','#a63d3d','#8a6b4a','#4a8a6b','#9c6b4a'];
+
+function barChart(id, labels, values, color, horizontal) {
+  new Chart(document.getElementById(id), {
+    type: 'bar',
+    data: { labels, datasets: [{ data: values, backgroundColor: color || '#6b1e2e', borderRadius: 4 }] },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      indexAxis: horizontal ? 'y' : 'x',
+      plugins: { legend: { display: false } },
+      scales: { x: { grid: { display: !horizontal } }, y: { grid: { display: horizontal } } }
+    }
+  });
+}
+
+// ---- Shared helpers: avg critic score by dimension (client-side, from DATA.wines) ----
+function avgScoreBy(field) {
+  const agg = {};
+  DATA.wines.forEach(w => {
+    if (!w.avg_critic_score) return;
+    const k = w[field] || 'Unknown';
+    (agg[k] = agg[k] || []).push(w.avg_critic_score);
+  });
+  const out = {};
+  Object.keys(agg).forEach(k => out[k] = Math.round((agg[k].reduce((a,b)=>a+b,0)/agg[k].length)*10)/10);
+  return out;
+}
+const avgScoreByCountry = avgScoreBy('country');
+const avgScoreByProducer = avgScoreBy('producer');
+
+// ---- Value by Type ----
+const styleSorted = [...DATA.by_style].sort((a,b) => b.value - a.value);
+new Chart(document.getElementById('chart-style'), {
+  type: 'bar',
+  data: {
+    labels: styleSorted.map(x=>x.name),
+    datasets: [{ data: styleSorted.map(x=>Math.round(x.value)), backgroundColor: '#4a7c59', borderRadius: 4 }]
+  },
+  options: { layout: { padding: { right: 44 } }, 
+    responsive:true, maintainAspectRatio:false, indexAxis:'y',
+    plugins: { datalabels: { display: true, anchor: 'end', align: 'end', clamp: true, clip: false, backgroundColor: '#2a1f1f', borderRadius: 8, color: '#fff', font: { size: 10, weight: '600' }, padding: { top: 2, bottom: 2, left: 6, right: 6 }, formatter: (v, ctx) => { const it = styleSorted[ctx.dataIndex]; return it.bottles + ' btl'; } },  legend:{display:false}, tooltip: { callbacks: { afterLabel: (ctx) => {
+      const s = styleSorted[ctx.dataIndex]; return s.bottles + ' bottles';
+    }}}},
+    scales: { x: { ticks: { callback: v => axisGBP(v) } } }
+  }
+});
+
+// Country: dual metric -> bottle count + avg score in tooltip
+new Chart(document.getElementById('chart-country'), {
+  type: 'bar',
+  data: {
+    labels: DATA.by_country.slice(0,8).map(x=>x.name),
+    datasets: [{ label: 'Value', data: DATA.by_country.slice(0,8).map(x=>Math.round(x.value)), backgroundColor: '#6b1e2e', borderRadius: 4 }]
+  },
+  options: { layout: { padding: { right: 44 } }, 
+    responsive:true, maintainAspectRatio:false, indexAxis:'y',
+    plugins: { datalabels: { display: true, anchor: 'end', align: 'end', clamp: true, clip: false, backgroundColor: '#2a1f1f', borderRadius: 8, color: '#fff', font: { size: 10, weight: '600' }, padding: { top: 2, bottom: 2, left: 6, right: 6 }, formatter: (v, ctx) => { const it = DATA.by_country.slice(0,8)[ctx.dataIndex]; return it.bottles + ' btl'; } },  legend:{display:false}, tooltip: { callbacks: { afterLabel: (ctx) => {
+      const c = DATA.by_country[ctx.dataIndex];
+      const score = avgScoreByCountry[c.name];
+      return c.bottles + ' bottles, ' + c.wines + ' wines' + (score ? ' · avg score ' + score : '');
+    }}}},
+    scales: { x: { ticks: { callback: v => axisGBP(v) } } }
+  }
+});
+
+new Chart(document.getElementById('chart-region'), {
+  type: 'bar',
+  data: {
+    labels: DATA.by_region.slice(0,10).map(x=>x.name),
+    datasets: [{ data: DATA.by_region.slice(0,10).map(x=>Math.round(x.value)), backgroundColor: '#6b4a9c', borderRadius: 4 }]
+  },
+  options: { layout: { padding: { right: 44 } }, 
+    responsive:true, maintainAspectRatio:false, indexAxis:'y',
+    plugins: { datalabels: { display: true, anchor: 'end', align: 'end', clamp: true, clip: false, backgroundColor: '#2a1f1f', borderRadius: 8, color: '#fff', font: { size: 10, weight: '600' }, padding: { top: 2, bottom: 2, left: 6, right: 6 }, formatter: (v, ctx) => { const it = DATA.by_region.slice(0,10)[ctx.dataIndex]; return it.bottles + ' btl'; } },  legend:{display:false}, tooltip: { callbacks: { afterLabel: (ctx) => {
+      const r = DATA.by_region.slice(0,10)[ctx.dataIndex]; return r.bottles + ' bottles, ' + r.wines + ' wines';
+    }}}},
+    scales: { x: { ticks: { callback: v => axisGBP(v) } } }
+  }
+});
+
+new Chart(document.getElementById('chart-varietal'), {
+  type: 'bar',
+  data: {
+    labels: DATA.by_varietal.slice(0,8).map(x=>x.name),
+    datasets: [{ data: DATA.by_varietal.slice(0,8).map(x=>Math.round(x.value)), backgroundColor: '#b8935a', borderRadius: 4 }]
+  },
+  options: { layout: { padding: { right: 44 } }, 
+    responsive:true, maintainAspectRatio:false, indexAxis:'y',
+    plugins: { datalabels: { display: true, anchor: 'end', align: 'end', clamp: true, clip: false, backgroundColor: '#2a1f1f', borderRadius: 8, color: '#fff', font: { size: 10, weight: '600' }, padding: { top: 2, bottom: 2, left: 6, right: 6 }, formatter: (v, ctx) => { const it = DATA.by_varietal.slice(0,8)[ctx.dataIndex]; return it.bottles + ' btl'; } },  legend:{display:false}, tooltip: { callbacks: { afterLabel: (ctx) => {
+      const v = DATA.by_varietal.slice(0,8)[ctx.dataIndex]; return v.bottles + ' bottles, ' + v.wines + ' wines';
+    }}}},
+    scales: { x: { ticks: { callback: v => axisGBP(v) } } }
+  }
+});
+
+new Chart(document.getElementById('chart-producer'), {
+  type: 'bar',
+  data: {
+    labels: DATA.top_producers_value.slice(0,10).map(x=>x.name),
+    datasets: [{ data: DATA.top_producers_value.slice(0,10).map(x=>Math.round(x.value)), backgroundColor: '#3d6b8a', borderRadius: 4 }]
+  },
+  options: { layout: { padding: { right: 44 } }, 
+    responsive:true, maintainAspectRatio:false, indexAxis:'y',
+    plugins: { datalabels: { display: true, anchor: 'end', align: 'end', clamp: true, clip: false, backgroundColor: '#2a1f1f', borderRadius: 8, color: '#fff', font: { size: 10, weight: '600' }, padding: { top: 2, bottom: 2, left: 6, right: 6 }, formatter: (v, ctx) => { const it = DATA.top_producers_value.slice(0,10)[ctx.dataIndex]; return it.bottles + ' btl'; } },  legend:{display:false}, tooltip: { callbacks: { afterLabel: (ctx) => {
+      const p = DATA.top_producers_value.slice(0,10)[ctx.dataIndex];
+      const score = avgScoreByProducer[p.name];
+      return p.bottles + ' bottles, ' + p.wines + ' wines' + (score ? ' · avg score ' + score : '');
+    }}}},
+    scales: { x: { ticks: { callback: v => axisGBP(v) } } }
+  }
+});
+
+// ---- Diversification & Palate Gaps ----
+const div = DATA.diversification;
+const divScores = [
+  {label: 'Varietal diversity', score: div.varietal_score, tag: div.varietal_label},
+  {label: 'Country diversity', score: div.country_score, tag: div.country_label},
+];
+document.getElementById('div-score-row').innerHTML = divScores.map(x => `
+  <div class="div-score">
+    <div class="label2">${x.label}</div>
+    <div class="div-bar-wrap"><div class="div-bar-fill" style="width:${Math.min(100,x.score)}%"></div></div>
+    <div class="val">${x.score} / 100 &mdash; ${x.tag}</div>
+  </div>
+`).join('');
+document.getElementById('gap-grid').innerHTML = div.palate_gaps.map(g => `
+  <div class="gap-item ${g.covered ? 'covered' : 'gap'}">
+    <span>${g.name}</span>
+    <span class="gap-badge">${g.covered ? g.bottles + ' btl' : 'Gap'}</span>
+  </div>
+`).join('') + `<div style="grid-column:1/-1;font-size:12px;color:var(--muted);margin-top:4px;">
+  ${div.covered_count} of ${div.covered_count + div.gaps_count} styles represented in the cellar
+</div>`;
+
+// ---- Buy More: quantified region targets ----
+(function() {
+  const byRegion = DATA.tasting && DATA.tasting.taste_profile && DATA.tasting.taste_profile.by_region;
+  if (!byRegion || byRegion.length < 3) return; // not enough tasted regions to build a meaningful target model
+  const totalBottles = DATA.summary.total_bottles;
+  const minRating = Math.min(...byRegion.map(r => r.avg_rating));
+  const weights = byRegion.map(r => Math.max(r.avg_rating - minRating + 1, 0.1));
+  const weightSum = weights.reduce((a,b) => a+b, 0);
+  const targets = byRegion.map((r, i) => {
+    const idealPct = weights[i] / weightSum * 100;
+    const gapPct = idealPct - r.cellar_pct;
+    return { name: r.name, avg_rating: r.avg_rating, tastings: r.tastings, cellar_pct: r.cellar_pct,
+              idealPct, gapPct, targetBottles: Math.round(gapPct/100 * totalBottles) };
+  });
+  const under = targets.filter(t => t.gapPct > 0.5).sort((a,b) => b.gapPct - a.gapPct).slice(0,8);
+  const over = targets.filter(t => t.gapPct < -0.5).sort((a,b) => a.gapPct - b.gapPct).slice(0,8);
+  if (!under.length && !over.length) return;
+  function targetRow(t, covered) {
+    return `<div class="gap-item ${covered ? 'covered' : 'gap'}" style="margin-bottom:8px;">
+      <span>${t.name} <span style="color:var(--muted);font-size:11px;">${t.avg_rating} avg &middot; ${t.cellar_pct}% cellar</span></span>
+      <span class="gap-badge">${covered ? '' : '+'}${Math.abs(t.targetBottles)} btl</span>
+    </div>`;
+  }
+  document.getElementById('buy-targets-under').innerHTML = under.length
+    ? under.map(t => targetRow(t, false)).join('')
+    : '<p style="color:var(--muted);font-size:12.5px;">No clear under-bought regions right now.</p>';
+  document.getElementById('buy-targets-over').innerHTML = over.length
+    ? over.map(t => targetRow(t, true)).join('')
+    : '<p style="color:var(--muted);font-size:12.5px;">No clear over-bought regions right now.</p>';
+  document.getElementById('buy-targets-card').style.display = 'block';
+})();
+
+// ---- Drinking window ----
+const dw = DATA.drinking_window;
+const wcards = [
+  {k:'now', n:dw.drink_now.length, l:'Drink Now', cls:'now'},
+  {k:'soon', n:dw.drink_soon.length, l:'Drink Soon (≤2 yrs)', cls:'soon'},
+  {k:'hold', n:dw.hold.length, l:'Hold / Ageing', cls:'hold'},
+  {k:'past', n:dw.past_peak.length, l:'Past Peak', cls:'past'},
+];
+document.getElementById('window-grid').innerHTML = wcards.map(c =>
+  `<div class="window-card ${c.cls}"><div class="n">${c.n}</div><div class="l">${c.l}</div></div>`
+).join('');
+
+function windowRows(list, showBadge) {
+  if (!list.length) return '<tr><td style="color:#999;padding:10px 8px;">None</td></tr>';
+  return list.slice(0,10).map(w => {
+    const win = (w.begin||'?') + '–' + (w.end||'?');
+    return `<tr data-iwine="${w.iWine||''}"><td>${w.wine} <span style="color:var(--muted)">'${String(w.vintage).slice(-2)}</span></td><td style="color:var(--muted)">${w.quantity} btl</td><td style="text-align:right;color:var(--muted)">${win}</td></tr>`;
+  }).join('');
+}
+document.getElementById('tbl-drink-now').innerHTML =
+  '<tr><th>Wine</th><th>Qty</th><th style="text-align:right">Window</th></tr>' + windowRows(dw.drink_now);
+document.getElementById('tbl-drink-soon').innerHTML =
+  '<tr><th>Wine</th><th>Qty</th><th style="text-align:right">Window</th></tr>' + windowRows(dw.drink_soon.concat(dw.hold));
+wireWineRowClicks('tbl-drink-now');
+wireWineRowClicks('tbl-drink-soon');
+
+// ---- Cellar maturity pressure ----
+const mp = DATA.maturity_pressure;
+document.getElementById('pressure-num').textContent = mp.score + '%';
+document.getElementById('pressure-label').textContent = mp.label;
+
+const PRESSURE_TIERS = [
+  {k:'critical', l:'Critical (≤1yr)', c:'#a63d3d'},
+  {k:'high', l:'High (2–3yr)', c:'#c08a2e'},
+  {k:'moderate', l:'Moderate (4–6yr)', c:'#6b4a9c'},
+  {k:'low', l:'Low (7yr+)', c:'#4a7c59'},
+  {k:'unknown', l:'No window set', c:'#c9bfb4'},
+];
+const pressureTotal = PRESSURE_TIERS.reduce((sum,t) => sum + mp.buckets[t.k].bottles, 0) || 1;
+document.getElementById('pressure-bar').innerHTML = PRESSURE_TIERS.map(t => {
+  const b = mp.buckets[t.k].bottles;
+  const pct = (b / pressureTotal * 100);
+  if (!pct) return '';
+  return `<div class="pressure-bar-seg" style="width:${pct}%;background:${t.c}">${pct >= 8 ? b : ''}</div>`;
+}).join('');
+document.getElementById('pressure-legend').innerHTML = PRESSURE_TIERS.map(t =>
+  `<span><span class="dot" style="background:${t.c}"></span>${t.l}: ${mp.buckets[t.k].bottles} btl</span>`
+).join('');
+document.getElementById('tbl-urgent').innerHTML =
+  '<tr><th>Wine</th><th>Vintage</th><th>Qty</th><th>Window closes</th><th style="text-align:right">Years left</th></tr>' +
+  (mp.urgent_list.length ? mp.urgent_list.map(w => `<tr data-iwine="${w.iWine||''}">
+    <td>${w.wine}</td>
+    <td>${w.vintage}</td>
+    <td>${w.quantity}</td>
+    <td style="color:var(--muted)">${w.end_consume}</td>
+    <td style="text-align:right"><span class="pill ${w.tier==='critical'?'past':w.tier==='high'?'soon':'now'}">${w.years_left <= 0 ? 'Now' : w.years_left + ' yr'}</span></td>
+  </tr>`).join('') : '<tr><td style="color:#999;padding:10px 8px;">No wines with a set drinking window are urgent</td></tr>');
+wireWineRowClicks('tbl-urgent');
+
+// ---- Top rated ----
+document.getElementById('tbl-rated').innerHTML =
+  '<tr><th>Score</th><th>Wine</th><th>Vintage</th><th>Region</th><th style="text-align:right">Qty</th></tr>' +
+  DATA.top_rated.map(w => `<tr data-iwine="${w.iWine||''}">
+    <td><span class="score-badge">${w.avg_critic_score}</span></td>
+    <td>${w.wine}</td>
+    <td>${w.vintage}</td>
+    <td style="color:var(--muted)">${w.region}${w.appellation && w.appellation!=='Unknown' ? ', '+w.appellation : ''}</td>
+    <td style="text-align:right">${w.quantity}</td>
+  </tr>`).join('');
+wireWineRowClicks('tbl-rated');
+
+// ---- Spend ----
+new Chart(document.getElementById('chart-spend-month'), {
+  type: 'line',
+  data: {
+    labels: DATA.spend_by_month.map(x=>x.month),
+    datasets: [{ data: DATA.spend_by_month.map(x=>x.total), borderColor:'#6b1e2e', backgroundColor:'rgba(107,30,46,0.12)', fill:true, tension:0.25, pointRadius:3 }]
+  },
+  options: {
+    responsive:true, maintainAspectRatio:false,
+    plugins: { legend:{display:false} },
+    scales: { y: { ticks: { callback: v => axisGBP(v) } } }
+  }
+});
+
+new Chart(document.getElementById('chart-spend-store'), {
+  type: 'bar',
+  data: {
+    labels: DATA.spend_by_store.map(x=>x.name),
+    datasets: [{ data: DATA.spend_by_store.map(x=>Math.round(x.total)), backgroundColor: PALETTE, borderRadius:4 }]
+  },
+  options: {
+    responsive:true, maintainAspectRatio:false,
+    plugins: { legend:{display:false} },
+    scales: { y: { ticks: { callback: v => axisGBP(v) } } }
+  }
+});
+
+document.getElementById('tbl-top-value').innerHTML =
+  '<tr><th>Wine</th><th>Vintage</th><th style="text-align:right">Qty</th><th style="text-align:right">£/btl now</th><th style="text-align:right">Total value</th></tr>' +
+  DATA.top_value_bottles.map(w => `<tr data-iwine="${w.iWine||''}">
+    <td>${w.wine}</td><td>${w.vintage}</td>
+    <td style="text-align:right">${w.quantity}</td>
+    <td style="text-align:right">${GBP2(w.value_bottle)}</td>
+    <td style="text-align:right;font-weight:600">${GBP2(w.total_value)}</td>
+  </tr>`).join('');
+wireWineRowClicks('tbl-top-value');
+
+// ---- Full cellar grid ----
+new gridjs.Grid({
+  columns: [
+    { name: 'Wine' }, { name: 'Vintage', width: '80px' }, { name: 'Producer' },
+    { name: 'Country', width: '110px' }, { name: 'Region' }, { name: 'Color', width: '90px' },
+    { name: 'Qty', width: '60px' }, { name: 'Score', width: '70px' },
+    { name: 'Value/btl', width: '95px' }, { name: 'Drink Window', width: '110px' },
+  ],
+  data: DATA.wines.map(w => [
+    w.wine, w.vintage, w.producer, w.country, w.region, w.color, w.quantity,
+    w.avg_critic_score || '—',
+    GBP2(w.value_bottle),
+    (w.begin_consume||'?') + '–' + (w.end_consume||'?')
+  ]),
+  search: true, sort: true, pagination: { limit: 15 },
+  className: { table: 'gridjs-table' },
+}).render(document.getElementById('full-table'));
+
+// ==================== PRICE ANALYSIS ====================
+const SR = DATA.stats_records;
+const pctStr = p => (p===null||p===undefined) ? '—' : (p>=0 ? '+' : '') + p.toFixed(1) + '%';
+const priceStats = [
+  {n: pctStr(SR.total_appreciation_pct), l: 'Overall appreciation'},
+  {n: GBP(DATA.summary.total_value - DATA.summary.total_paid), l: 'Unrealized gain'},
+  {n: GBP2(SR.avg_bottle_price_paid), l: 'Avg paid / bottle'},
+  {n: GBP2(SR.avg_bottle_value_now), l: 'Avg value / bottle now'},
+];
+document.getElementById('price-stat-grid').innerHTML = priceStats.map(x =>
+  `<div class="stat-card"><div class="num">${x.n}</div><div class="label">${x.l}</div></div>`
+).join('');
+
+// Same bucket boundaries as build.py's PRICE_BUCKETS, matched by index to DATA.price_distribution
+const PRICE_BUCKET_RANGES = [[0,20],[20,40],[40,60],[60,100],[100,150],[150,250],[250,Infinity]];
+new Chart(document.getElementById('chart-price-dist'), {
+  type: 'bar',
+  data: {
+    labels: DATA.price_distribution.map(x=>x.label),
+    datasets: [{ data: DATA.price_distribution.map(x=>x.bottles), backgroundColor: '#6b1e2e', borderRadius: 4 }]
+  },
+  options: {
+    responsive:true, maintainAspectRatio:false,
+    plugins: { legend:{display:false}, tooltip: { callbacks: { afterLabel: (ctx) => {
+      const bucket = DATA.price_distribution[ctx.dataIndex];
+      const [lo,hi] = PRICE_BUCKET_RANGES[ctx.dataIndex] || [0,Infinity];
+      const bwines = DATA.wines.filter(w => w.price_paid_bottle >= lo && w.price_paid_bottle < hi && w.avg_critic_score);
+      const avg = bwines.length ? Math.round((bwines.reduce((s,w)=>s+w.avg_critic_score,0)/bwines.length)*10)/10 : null;
+      return bucket.wines + ' wines' + (avg ? ' · avg score ' + avg : '');
+    } } } },
+  }
+});
+
+new Chart(document.getElementById('chart-cost-basis'), {
+  type: 'bar',
+  data: {
+    labels: ['Cellar'],
+    datasets: [
+      { label: 'Total Paid', data: [DATA.summary.total_paid], backgroundColor: '#b8935a', borderRadius: 4 },
+      { label: 'Current Value', data: [DATA.summary.total_value], backgroundColor: '#6b1e2e', borderRadius: 4 },
+    ]
+  },
+  options: {
+    responsive:true, maintainAspectRatio:false, indexAxis: 'y',
+    plugins: { legend: { position: 'bottom', labels:{boxWidth:12,font:{size:11}} } },
+    scales: { x: { ticks: { callback: v => axisGBP(v) } } }
+  }
+});
+
+function pctRows(list) {
+  return list.map(w => `<tr data-iwine="${w.iWine||''}">
+    <td>${w.wine} <span style="color:var(--muted)">'${String(w.vintage).slice(-2)}</span></td>
+    <td style="text-align:right;color:var(--muted)">${GBP2(w.price_paid_bottle)} &rarr; ${GBP2(w.value_bottle)}</td>
+    <td style="text-align:right" class="pct ${w.appreciation_pct>=0?'up':'down'}">${pctStr(w.appreciation_pct)}</td>
+  </tr>`).join('');
+}
+document.getElementById('tbl-gainers').innerHTML =
+  '<tr><th>Wine</th><th style="text-align:right">Paid &rarr; Now</th><th style="text-align:right">Change</th></tr>' + pctRows(DATA.top_gainers.slice(0,10));
+document.getElementById('tbl-losers').innerHTML =
+  '<tr><th>Wine</th><th style="text-align:right">Paid &rarr; Now</th><th style="text-align:right">Change</th></tr>' + pctRows(DATA.top_losers.slice(0,10));
+wireWineRowClicks('tbl-gainers');
+wireWineRowClicks('tbl-losers');
+
+// ---- Score vs. Price scatter (critic score + your own ratings) ----
+const scoredWines = DATA.wines.filter(w => w.avg_critic_score && w.value_bottle > 0);
+const valueByIWine = {};
+DATA.wines.forEach(w => { if (w.iWine && w.value_bottle > 0) valueByIWine[w.iWine] = w; });
+const allTastingsForScatter = (DATA.tasting && (DATA.tasting.all || DATA.tasting.recent)) || [];
+const myRatedWines = [];
+const seenIWine = new Set();
+allTastingsForScatter.forEach(t => {
+  const w = t.iWine && valueByIWine[t.iWine];
+  if (w && !seenIWine.has(t.iWine)) { seenIWine.add(t.iWine); myRatedWines.push({ ...w, my_rating: t.rating }); }
+});
+const scatterDatasets = [{
+  label: 'Critic score',
+  data: scoredWines.map(w => ({ x: w.avg_critic_score, y: w.value_bottle, w })),
+  backgroundColor: 'rgba(107,30,46,0.55)', pointRadius: 5, pointHoverRadius: 7,
+}];
+if (myRatedWines.length) {
+  scatterDatasets.push({
+    label: 'Your rating',
+    data: myRatedWines.map(w => ({ x: w.my_rating, y: w.value_bottle, w })),
+    backgroundColor: 'rgba(184,147,90,0.75)', pointStyle: 'triangle', pointRadius: 6, pointHoverRadius: 8,
+  });
+}
+new Chart(document.getElementById('chart-score-price'), {
+  type: 'scatter',
+  data: { datasets: scatterDatasets },
+  options: {
+    responsive: true, maintainAspectRatio: false,
+    plugins: {
+      legend: { display: scatterDatasets.length > 1, position: 'top', align: 'end', labels: { boxWidth: 12, font: { size: 11 } } },
+      tooltip: { callbacks: { label: (ctx) => {
+        const w = ctx.raw.w;
+        const scoreLabel = ctx.dataset.label === 'Your rating' ? `you rated ${w.my_rating}` : `${w.avg_critic_score}pt critic`;
+        return `${w.wine} '${String(w.vintage).slice(-2)} — ${scoreLabel}, ${GBP2(w.value_bottle)}`;
+      } } }
+    },
+    scales: {
+      x: { title: { display: true, text: 'Score' } },
+      y: { title: { display: true, text: 'Value per bottle (£)' }, ticks: { callback: v => axisGBP(v) } },
+    }
+  }
+});
+
+// ---- What Score Points Are Worth ----
+const SCORE_BANDS = [[96,100],[93,95],[90,92],[85,89],[0,84]];
+document.getElementById('tbl-score-bands').innerHTML =
+  '<tr><th>Score Band</th><th style="text-align:right">Wines</th><th style="text-align:right">Avg £/bottle</th></tr>' +
+  SCORE_BANDS.map(([lo,hi]) => {
+    const ws = scoredWines.filter(w => w.avg_critic_score >= lo && w.avg_critic_score <= hi);
+    if (!ws.length) return '';
+    const avg = ws.reduce((s,w)=>s+w.value_bottle,0) / ws.length;
+    return `<tr><td>${lo===0?'<85':lo+'-'+hi}</td><td style="text-align:right">${ws.length}</td><td style="text-align:right">${GBP2(avg)}</td></tr>`;
+  }).join('');
+
+// ---- The Region Premium ----
+const regionGroups = {};
+DATA.wines.forEach(w => {
+  if (w.value_bottle <= 0) return;
+  const r = w.region || 'Unknown';
+  (regionGroups[r] = regionGroups[r] || []).push(w);
+});
+const regionRows = Object.entries(regionGroups)
+  .filter(([,ws]) => ws.length >= 2)
+  .map(([name, ws]) => {
+    const avg = ws.reduce((s,w)=>s+w.value_bottle,0) / ws.length;
+    const priciest = ws.reduce((a,b)=>a.value_bottle>b.value_bottle?a:b);
+    const cheapest = ws.reduce((a,b)=>a.value_bottle<b.value_bottle?a:b);
+    const subregions = [...new Set(ws.map(w=>w.subregion).filter(s => s && s !== 'Unknown'))];
+    return { name, count: ws.length, avg, priciest, cheapest, subregions };
+  })
+  .sort((a,b) => b.avg - a.avg).slice(0,15);
+document.getElementById('tbl-region-premium').innerHTML =
+  '<tr><th>Region</th><th style="text-align:right">Wines</th><th style="text-align:right">Avg £</th></tr>' +
+  regionRows.map(r => `<tr>
+    <td>${r.name}${r.subregions.length && r.subregions.length <= 3 ? ` <span style="color:var(--muted);font-weight:400;">(${r.subregions.join(', ')})</span>` : ''}<div style="color:var(--muted);font-size:11px;"><span class="wine-cell" data-iwine="${r.priciest.iWine||''}" style="cursor:pointer;">${r.priciest.wine}</span> (${GBP2(r.priciest.value_bottle)}) &middot; <span class="wine-cell" data-iwine="${r.cheapest.iWine||''}" style="cursor:pointer;">${r.cheapest.wine}</span> (${GBP2(r.cheapest.value_bottle)})</div></td>
+    <td style="text-align:right">${r.count}</td>
+    <td style="text-align:right">${GBP2(r.avg)}</td>
+  </tr>`).join('');
+document.getElementById('tbl-region-premium').querySelectorAll('[data-iwine]').forEach(el => {
+  el.addEventListener('click', () => {
+    const w = DATA.wines.find(x => x.iWine === el.dataset.iwine);
+    if (w) openWineModal(w);
+  });
+});
+
+// ---- Price per Score Point ----
+const ppp = scoredWines.map(w => ({ ...w, ppp: w.value_bottle / w.avg_critic_score }));
+const pppHigh = [...ppp].sort((a,b) => b.ppp - a.ppp).slice(0,10);
+const pppLow = [...ppp].sort((a,b) => a.ppp - b.ppp).slice(0,10);
+function pppRows(list) {
+  return list.map(w => `<tr data-iwine="${w.iWine||''}">
+    <td>${w.wine} <span style="color:var(--muted)">'${String(w.vintage).slice(-2)}</span></td>
+    <td style="text-align:right">${w.avg_critic_score}</td>
+    <td style="text-align:right">${GBP2(w.value_bottle)}</td>
+    <td style="text-align:right">${w.ppp.toFixed(2)}</td>
+  </tr>`).join('');
+}
+const pppHead = '<tr><th>Wine</th><th style="text-align:right">Score</th><th style="text-align:right">£</th><th style="text-align:right">£/pt</th></tr>';
+document.getElementById('tbl-price-per-point-high').innerHTML = pppHead + pppRows(pppHigh);
+document.getElementById('tbl-price-per-point-low').innerHTML = pppHead + pppRows(pppLow);
+wireWineRowClicks('tbl-price-per-point-high');
+wireWineRowClicks('tbl-price-per-point-low');
+
+// ==================== STATS & RECORDS ====================
+function recordCard(num, label) {
+  return `<div class="stat-card"><div class="num" style="font-size:17px;">${num}</div><div class="label">${label}</div></div>`;
+}
+const ob = SR.oldest_bottle, me = SR.most_expensive_bottle, lp = SR.largest_single_purchase;
+function recordCardWine(iWine, label, valueHtml) {
+  return `<div class="stat-card" ${iWine ? `data-iwine="${iWine}" style="cursor:pointer;"` : ''}><div class="num" style="font-size:17px;">${valueHtml}</div><div class="label">${label}</div></div>`;
+}
+const records = [
+  recordCardWine(ob.iWine, 'Oldest bottle', `${ob.wine} '${ob.vintage}`),
+  recordCardWine(me.iWine, 'Most expensive bottle', `${me.wine} '${me.vintage} &mdash; ${GBP2(me.value_bottle)}`),
+  recordCard(`${SR.avg_cellar_age_years} yrs`, 'Avg. cellar age'),
+  recordCard(`${SR.biggest_producer_by_value.name} &mdash; ${GBP(SR.biggest_producer_by_value.value)}`, 'Biggest producer by value'),
+  recordCardWine(lp.iWine, 'Largest single purchase', `${lp.wine} &mdash; ${GBP2(lp.total)}`),
+  recordCard(new Date(SR.first_purchase_date).toLocaleDateString('en-GB', {day:'numeric',month:'short',year:'numeric'}), 'First recorded purchase'),
+  recordCard(SR.most_visited_store, 'Most-used merchant'),
+  recordCard(NUM(SR.total_orders), 'Total orders on file'),
+];
+document.getElementById('records-grid').innerHTML = records.join('');
+document.getElementById('records-grid').querySelectorAll('[data-iwine]').forEach(el => {
+  el.addEventListener('click', () => {
+    const w = DATA.wines.find(x => x.iWine === el.dataset.iwine);
+    if (w) openWineModal(w);
+  });
+});
+
+document.getElementById('tbl-longest-held').innerHTML =
+  '<tr><th>Wine</th><th>Since</th><th style="text-align:right">Held</th></tr>' +
+  SR.longest_held.map(h => `<tr data-iwine="${h.iWine||''}">
+    <td>${h.wine} <span style="color:var(--muted)">'${String(h.vintage).slice(-2)}</span></td>
+    <td style="color:var(--muted)">${new Date(h.since).toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric'})}</td>
+    <td style="text-align:right">${Math.round(h.days_held/365*10)/10} yrs</td>
+  </tr>`).join('');
+wireWineRowClicks('tbl-longest-held');
+
+// ==================== TIMELINE ====================
+new Chart(document.getElementById('chart-timeline-spend'), {
+  type: 'line',
+  data: {
+    labels: DATA.spend_by_month.map(x=>x.month),
+    datasets: [{ data: DATA.spend_by_month.map(x=>x.total), borderColor:'#6b1e2e', backgroundColor:'rgba(107,30,46,0.12)', fill:true, tension:0.25, pointRadius:3 }]
+  },
+  options: { responsive:true, maintainAspectRatio:false, plugins: { legend:{display:false} }, scales: { y: { ticks: { callback: v => axisGBP(v) } } } }
+});
+
+// ---- Cellar Turnover ----
+(function() {
+  const c = DATA.consumption;
+  if (!c || !c.turnover_series || !c.turnover_series.length) return;
+  const turnoverStats = [
+    { n: NUM(c.total_purchased_ever), l: 'Bottles ever purchased' },
+    { n: NUM(c.total_consumed_ever), l: 'Consumed / gone' },
+    { n: c.consumed_pct != null ? c.consumed_pct + '%' : '—', l: 'Lifetime turnover' },
+  ];
+  document.getElementById('turnover-stat-grid').innerHTML = turnoverStats.map(x =>
+    `<div class="stat-card"><div class="num">${x.n}</div><div class="label">${x.l}</div></div>`
+  ).join('');
+  new Chart(document.getElementById('chart-turnover'), {
+    type: 'line',
+    data: {
+      labels: c.turnover_series.map(x => x.year),
+      datasets: [
+        { label: 'Cumulative purchased', data: c.turnover_series.map(x => x.cumulative_purchased), borderColor: '#b8935a', backgroundColor: 'rgba(184,147,90,0.12)', fill: true, tension: 0.2, pointRadius: 3 },
+        { label: 'Still remaining', data: c.turnover_series.map(x => x.cumulative_remaining), borderColor: '#6b1e2e', backgroundColor: 'rgba(107,30,46,0.15)', fill: true, tension: 0.2, pointRadius: 3 },
+      ]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: { legend: { position: 'top', align: 'end', labels: { boxWidth: 12, font: { size: 11 } } } },
+      scales: { y: { title: { display: true, text: 'Bottles' } } }
+    }
+  });
+})();
+
+const purchasesDesc = DATA.purchases.slice().sort((a,b) => b.date.localeCompare(a.date));
+function renderTimeline(count) {
+  let lastMonth = null;
+  let html = '';
+  purchasesDesc.slice(0, count).forEach(p => {
+    const monthLabel = new Date(p.date).toLocaleDateString('en-GB', {month:'long', year:'numeric'});
+    if (monthLabel !== lastMonth) { html += `<div class="tl-month-header">${monthLabel}</div>`; lastMonth = monthLabel; }
+    const day = new Date(p.date).toLocaleDateString('en-GB', {day:'numeric', month:'short'});
+    html += `<div class="tl-row" data-iwine="${p.iWine||''}">
+      <div class="tl-date">${day}</div>
+      <div class="tl-dot"></div>
+      <div class="tl-body"><div class="tl-wine">${p.wine} <span style="color:var(--muted)">'${String(p.year).slice(-2)}</span></div>
+      <div class="tl-meta">${p.quantity} btl &middot; ${p.store}</div></div>
+      <div class="tl-total">${GBP2(p.total)}</div>
+    </div>`;
+  });
+  document.getElementById('timeline-list').innerHTML = html;
+  const btn = document.getElementById('timeline-more');
+  btn.style.display = count >= purchasesDesc.length ? 'none' : 'inline-block';
+}
+let timelineCount = 25;
+renderTimeline(timelineCount);
+document.getElementById('timeline-more').addEventListener('click', () => {
+  timelineCount += 25;
+  renderTimeline(timelineCount);
+});
+wireWineRowClicks('timeline-list', '.tl-row[data-iwine]');
+
+// ==================== ADVANCED SEARCH ====================
+function uniqueSorted(arr) { return [...new Set(arr)].filter(Boolean).sort(); }
+const countryOpts = uniqueSorted(DATA.wines.map(w=>w.country));
+const colorOpts = uniqueSorted(DATA.wines.map(w=>w.color));
+const varietalOpts = uniqueSorted(DATA.wines.map(w=>w.varietal));
+document.getElementById('f-country').innerHTML += countryOpts.map(c=>`<option value="${c}">${c}</option>`).join('');
+document.getElementById('f-color').innerHTML += colorOpts.map(c=>`<option value="${c}">${c}</option>`).join('');
+document.getElementById('f-varietal').innerHTML += varietalOpts.map(c=>`<option value="${c}">${c}</option>`).join('');
+
+function applyFilters() {
+  const text = document.getElementById('f-text').value.trim().toLowerCase();
+  const country = document.getElementById('f-country').value;
+  const color = document.getElementById('f-color').value;
+  const varietal = document.getElementById('f-varietal').value;
+  const minScore = parseFloat(document.getElementById('f-score').value);
+  const maxPrice = parseFloat(document.getElementById('f-maxprice').value);
+  const readyOnly = document.getElementById('f-ready').value === 'yes';
+
+  const results = DATA.wines.filter(w => {
+    if (text && !(`${w.wine} ${w.producer} ${w.region} ${w.country} ${w.varietal}`.toLowerCase().includes(text))) return false;
+    if (country && w.country !== country) return false;
+    if (color && w.color !== color) return false;
+    if (varietal && w.varietal !== varietal) return false;
+    if (!isNaN(minScore) && (!w.avg_critic_score || w.avg_critic_score < minScore)) return false;
+    if (!isNaN(maxPrice) && w.value_bottle > maxPrice) return false;
+    if (readyOnly) {
+      const b = w.begin_consume, e = w.end_consume;
+      const ready = b !== null && b <= DATA.current_year && (e === null || e >= DATA.current_year);
+      if (!ready) return false;
+    }
+    return true;
+  });
+
+  document.getElementById('f-count').textContent = `${results.length} of ${DATA.wines.length} wines`;
+  document.getElementById('search-table').innerHTML =
+    '<tr><th>Wine</th><th>Vintage</th><th>Producer</th><th>Region</th><th>Color</th><th style="text-align:right">Qty</th><th style="text-align:right">Score</th><th style="text-align:right">£/btl</th></tr>' +
+    results.slice(0,300).map(w => `<tr data-iwine="${w.iWine||''}">
+      <td>${w.wine}</td><td>${w.vintage}</td><td style="color:var(--muted)">${w.producer}</td>
+      <td style="color:var(--muted)">${w.region}</td><td>${w.color}</td>
+      <td style="text-align:right">${w.quantity}</td><td style="text-align:right">${w.avg_critic_score||'—'}</td>
+      <td style="text-align:right">${GBP2(w.value_bottle)}</td>
+    </tr>`).join('');
+}
+document.getElementById('search-table').className = 'simple';
+document.getElementById('search-table').addEventListener('click', (e) => {
+  const tr = e.target.closest('tbody tr, tr[data-iwine]');
+  if (!tr || !tr.dataset.iwine) return;
+  openWineModal(DATA.wines.find(w => w.iWine === tr.dataset.iwine));
+});
+['f-text','f-country','f-color','f-varietal','f-score','f-maxprice','f-ready'].forEach(id => {
+  document.getElementById(id).addEventListener('input', applyFilters);
+  document.getElementById(id).addEventListener('change', applyFilters);
+});
+document.getElementById('f-reset').addEventListener('click', () => {
+  ['f-text','f-score','f-maxprice'].forEach(id => document.getElementById(id).value = '');
+  ['f-country','f-color','f-varietal','f-ready'].forEach(id => document.getElementById(id).value = '');
+  applyFilters();
+});
+applyFilters();
+
+// ==================== MAP ====================
+const map = L.map('leaflet-map', { scrollWheelZoom: false }).setView([20, 10], 2);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  attribution: '&copy; OpenStreetMap contributors', maxZoom: 8,
+}).addTo(map);
+const maxBottles = Math.max(...DATA.map_countries.map(c=>c.bottles), 1);
+DATA.map_countries.forEach(c => {
+  const radius = 8 + (c.bottles / maxBottles) * 26;
+  L.circleMarker([c.lat, c.lon], {
+    radius, fillColor: '#6b1e2e', color: '#4a1420', weight: 1.5, fillOpacity: 0.55,
+  }).addTo(map).bindPopup(`<strong>${c.name}</strong><br>${c.bottles} bottles &middot; ${c.wines} wines<br>${GBP(c.value)} value`);
+});
+
+// ==================== PRODUCERS ====================
+new gridjs.Grid({
+  columns: [
+    { name: 'Producer' }, { name: 'Wines', width: '85px' }, { name: 'Bottles', width: '95px' },
+    { name: 'Paid', width: '100px' }, { name: 'Value now', width: '105px' }, { name: 'Change', width: '90px' },
+    { name: 'Avg score', width: '100px' }, { name: 'Countries' },
+  ],
+  data: DATA.producer_detail.map(p => [
+    p.name, p.wines, NUM(p.bottles), GBP(p.paid), GBP(p.value),
+    p.appreciation_pct===null ? '—' : (p.appreciation_pct>=0?'+':'')+p.appreciation_pct.toFixed(1)+'%',
+    p.avg_score || '—', p.countries.join(', ')
+  ]),
+  search: true, sort: true, pagination: { limit: 15 },
+  className: { table: 'gridjs-table' },
+}).render(document.getElementById('producer-table'));
+
+// ---- Producer drill-down modal ----
+const producerModalOverlay = document.getElementById('producer-modal-overlay');
+function openProducerModal(name) {
+  const wines = DATA.wines.filter(w => w.producer === name).sort((a,b) => b.total_value - a.total_value);
+  if (!wines.length) return;
+  const bottles = wines.reduce((s,w) => s+w.quantity, 0);
+  const value = wines.reduce((s,w) => s+w.total_value, 0);
+  document.getElementById('producer-modal-title').textContent = name;
+  document.getElementById('producer-modal-sub').textContent = `${wines.length} wine${wines.length===1?'':'s'} · ${bottles} bottles · ${GBP(value)} value`;
+
+  // ---- Winery profile (Wikidata, best-effort — not every producer has an entry) ----
+  const pd = DATA.producer_detail.find(p => p.name === name);
+  const wdBlock = document.getElementById('producer-modal-wikidata');
+  if (pd && pd.wikidata && (pd.wikidata.description || pd.wikidata.founded)) {
+    wdBlock.style.display = '';
+    const founded = pd.wikidata.founded ? ` Founded ${pd.wikidata.founded}.` : '';
+    document.getElementById('producer-modal-wikidata-text').textContent = `${pd.wikidata.description || ''}${founded}`;
+    const link = document.getElementById('producer-modal-wikidata-link');
+    if (pd.wikidata.wikipedia_url) { link.href = pd.wikidata.wikipedia_url; link.style.display = ''; }
+    else { link.style.display = 'none'; }
+  } else {
+    wdBlock.style.display = 'none';
+  }
+
+  document.getElementById('producer-modal-table').innerHTML =
+    '<tr><th>Wine</th><th>Vintage</th><th style="text-align:right">Qty</th><th style="text-align:right">Score</th><th style="text-align:right">Value/btl</th><th style="text-align:right">Change</th></tr>' +
+    wines.map(w => `<tr data-iwine="${w.iWine}">
+      <td>${w.wine}</td><td>${w.vintage}</td>
+      <td style="text-align:right">${w.quantity}</td>
+      <td style="text-align:right">${w.avg_critic_score || '—'}</td>
+      <td style="text-align:right">${GBP2(w.value_bottle)}</td>
+      <td style="text-align:right">${w.appreciation_pct===null?'—':(w.appreciation_pct>=0?'+':'')+w.appreciation_pct.toFixed(1)+'%'}</td>
+    </tr>`).join('');
+  producerModalOverlay.classList.add('open');
+}
+function closeProducerModal() { producerModalOverlay.classList.remove('open'); }
+// Clicking a wine inside the Producer drill-down closes that modal, then opens the Wine Detail
+// modal on top of it — stacking both looked cluttered in testing, so we swap instead.
+document.getElementById('producer-modal-table').addEventListener('click', (e) => {
+  const tr = e.target.closest('tr[data-iwine]');
+  if (!tr || !tr.dataset.iwine) return;
+  const w = DATA.wines.find(w => w.iWine === tr.dataset.iwine);
+  if (!w) return;
+  closeProducerModal();
+  openWineModal(w);
+});
+document.getElementById('producer-table').addEventListener('click', (e) => {
+  const tr = e.target.closest('tbody tr');
+  if (!tr) return;
+  const nameCell = tr.querySelector('td');
+  if (nameCell) openProducerModal(nameCell.textContent.trim());
+});
+document.getElementById('producer-modal-close').addEventListener('click', closeProducerModal);
+producerModalOverlay.addEventListener('click', (e) => { if (e.target === producerModalOverlay) closeProducerModal(); });
+document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && producerModalOverlay.classList.contains('open')) closeProducerModal(); });
+
+// ---- Wine detail modal ----
+const wineModalOverlay = document.getElementById('wine-modal-overlay');
+const wineTastingsByIWine = {};
+((DATA.tasting && (DATA.tasting.all || DATA.tasting.recent)) || []).forEach(t => {
+  if (!t.iWine) return;
+  (wineTastingsByIWine[t.iWine] = wineTastingsByIWine[t.iWine] || []).push(t);
+});
+function windowStatus(w) {
+  const b = w.begin_consume, e = w.end_consume, y = DATA.current_year;
+  if (b == null && e == null) return { cls: 'hold', label: 'No data' };
+  if (e != null && e < y) return { cls: 'past', label: 'Past peak' };
+  if (b != null && b <= y && (e == null || e >= y)) return { cls: 'now', label: 'Drink now' };
+  if (b != null && b <= y + 2) return { cls: 'soon', label: 'Drink soon' };
+  return { cls: 'hold', label: 'Hold' };
+}
+function openWineModal(w) {
+  if (!w) return;
+  const validSubregion = w.subregion && w.subregion !== 'Unknown' && w.subregion !== w.region;
+  const regionLabel = validSubregion ? `${w.region} (${w.subregion})` : (w.region || w.country);
+  document.getElementById('wine-modal-eyebrow').textContent = `${regionLabel} · ${w.color} · ${w.varietal}`;
+  document.getElementById('wine-modal-title').innerHTML = `${w.wine} <span class="vtg">'${String(w.vintage).slice(-2)}</span>`;
+  document.getElementById('wine-modal-sub').textContent = `${w.producer}${w.appellation && w.appellation !== 'Unknown' ? ', ' + w.appellation : ''}`;
+  document.getElementById('wine-modal-stats').innerHTML = [
+    { n: w.quantity, l: 'Bottles' },
+    { n: GBP2(w.value_bottle), l: 'Value / btl' },
+    { n: w.appreciation_pct === null ? '—' : (w.appreciation_pct >= 0 ? '+' : '') + w.appreciation_pct.toFixed(1) + '%', l: 'Change' },
+    { n: w.avg_critic_score || '—', l: 'Critic score' },
+  ].map(s => `<div><div class="num">${s.n}</div><div class="lbl">${s.l}</div></div>`).join('');
+
+  document.getElementById('wine-modal-window').textContent = (w.begin_consume||'?') + ' – ' + (w.end_consume||'?');
+  const st = windowStatus(w);
+  document.getElementById('wine-modal-window-pill').className = 'pill ' + st.cls;
+  document.getElementById('wine-modal-window-pill').textContent = st.label;
+
+  // ---- Decanting estimate + food pairings (heuristic from grape/style/age, not a critic source) ----
+  if (w.decant) {
+    document.getElementById('wine-modal-decant').textContent = w.decant.label;
+  }
+  document.getElementById('wine-modal-pairings').textContent = (w.pairings && w.pairings.length) ? w.pairings.join(' · ') : '—';
+
+  // ---- Wikipedia grape-variety context (short attributed excerpt) ----
+  const wikiBlock = document.getElementById('wine-modal-wiki-block');
+  if (w.wiki && w.wiki.summary) {
+    wikiBlock.style.display = '';
+    document.getElementById('wine-modal-wiki-varietal').textContent = w.wiki.title || w.varietal;
+    document.getElementById('wine-modal-wiki-text').textContent = w.wiki.summary;
+    document.getElementById('wine-modal-wiki-link').href = w.wiki.url || '#';
+  } else {
+    wikiBlock.style.display = 'none';
+  }
+
+  const purchases = (DATA.purchases || []).filter(p => p.iWine && p.iWine === w.iWine)
+    .sort((a,b) => new Date(b.date) - new Date(a.date));
+  const purchBlock = document.getElementById('wine-modal-purchases-block');
+  if (purchases.length) {
+    purchBlock.style.display = '';
+    document.getElementById('wine-modal-purchases').innerHTML =
+      '<tr><th>Date</th><th>Qty</th><th style="text-align:right">Paid</th></tr>' +
+      purchases.map(p => `<tr>
+        <td style="color:var(--muted)">${new Date(p.date).toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric'})}</td>
+        <td>${p.quantity} btl</td>
+        <td style="text-align:right">${GBP2(p.total)}</td>
+      </tr>`).join('');
+  } else {
+    purchBlock.style.display = 'none';
+  }
+
+  const tastings = (wineTastingsByIWine[w.iWine] || []).sort((a,b) => new Date(b.date) - new Date(a.date));
+  if (tastings.length) {
+    const t = tastings[0];
+    document.getElementById('wine-modal-note-date').textContent = new Date(t.date).toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric'});
+    const deltaStr = t.delta === null || t.delta === undefined ? '' : ` · you rated it ${t.delta>=0?'+':''}${t.delta} ${t.delta>=0?'above':'below'} the room`;
+    document.getElementById('wine-modal-note-body').innerHTML = `
+      <div style="display:flex;gap:10px;align-items:center;margin:8px 0;">
+        <span class="score-badge">${t.rating}</span>
+        <span style="font-size:12.5px;color:var(--muted);">Consensus ${t.community_score != null ? t.community_score.toFixed(1) : '—'}${deltaStr}</span>
+      </div>
+      ${t.notes_text ? `<p class="wine-modal-note-text">${t.notes_text}</p>` : ''}
+    `;
+  } else {
+    document.getElementById('wine-modal-note-date').textContent = '';
+    document.getElementById('wine-modal-note-body').innerHTML = '<p class="wine-modal-empty">Not tasted yet — no note logged for this wine.</p>';
+  }
+
+  // ---- Other vintages of this same wine in your cellar ----
+  const vintagesBlock = document.getElementById('wine-modal-vintages-block');
+  const siblingVintages = DATA.wines.filter(o => o.iWine !== w.iWine && o.producer === w.producer && o.wine === w.wine)
+    .sort((a,b) => (parseInt(a.vintage)||0) - (parseInt(b.vintage)||0));
+  if (siblingVintages.length) {
+    vintagesBlock.style.display = '';
+    document.getElementById('wine-modal-vintages').innerHTML =
+      '<tr><th>Vintage</th><th style="text-align:right">Score</th><th style="text-align:right">Value/btl</th><th style="text-align:right">Window</th></tr>' +
+      siblingVintages.map(o => `<tr data-iwine="${o.iWine}">
+        <td>${o.vintage}${o.vintage===w.vintage?' <span style="color:var(--muted);">(this one)</span>':''}</td>
+        <td style="text-align:right">${o.avg_critic_score || '—'}</td>
+        <td style="text-align:right">${GBP2(o.value_bottle)}</td>
+        <td style="text-align:right;color:var(--muted)">${(o.begin_consume||'?')}–${(o.end_consume||'?')}</td>
+      </tr>`).join('');
+    document.getElementById('wine-modal-vintages').querySelectorAll('[data-iwine]').forEach(el => {
+      el.addEventListener('click', () => {
+        const match = DATA.wines.find(x => x.iWine === el.dataset.iwine);
+        if (match) openWineModal(match);
+      });
+    });
+  } else {
+    vintagesBlock.style.display = 'none';
+  }
+
+  // ---- Similar to this, from your cellar (same varietal, else same color+country) ----
+  const similarBlock = document.getElementById('wine-modal-similar-block');
+  let similar = DATA.wines.filter(o => o.iWine !== w.iWine && o.varietal === w.varietal && o.varietal !== 'Unknown');
+  if (similar.length < 2) {
+    similar = DATA.wines.filter(o => o.iWine !== w.iWine && o.color === w.color && o.country === w.country);
+  }
+  similar.sort((a,b) => {
+    const ar = (wineTastingsByIWine[a.iWine]||[])[0]?.rating, br = (wineTastingsByIWine[b.iWine]||[])[0]?.rating;
+    if (ar != null && br != null) return br - ar;
+    if (ar != null) return -1;
+    if (br != null) return 1;
+    return (b.avg_critic_score||0) - (a.avg_critic_score||0);
+  });
+  similar = similar.slice(0, 4);
+  if (similar.length) {
+    similarBlock.style.display = '';
+    document.getElementById('wine-modal-similar-list').innerHTML = similar.map(o => {
+      const t = (wineTastingsByIWine[o.iWine]||[])[0];
+      const scoreStr = t ? `<span class="score-badge" style="transform:scale(0.85);">${t.rating}</span>` : (o.avg_critic_score ? `<span style="color:var(--muted);font-size:12px;">${o.avg_critic_score} critic</span>` : '');
+      return `<div class="wine-cell" data-iwine="${o.iWine}" style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;cursor:pointer;border-bottom:1px solid var(--line);">
+        <span>${o.wine} <span style="color:var(--muted)">'${String(o.vintage).slice(-2)} — ${o.producer}</span></span>
+        ${scoreStr}
+      </div>`;
+    }).join('');
+    document.getElementById('wine-modal-similar-list').querySelectorAll('[data-iwine]').forEach(el => {
+      el.addEventListener('click', () => {
+        const match = DATA.wines.find(x => x.iWine === el.dataset.iwine);
+        if (match) openWineModal(match);
+      });
+    });
+  } else {
+    similarBlock.style.display = 'none';
+  }
+
+  wineModalOverlay.classList.add('open');
+}
+function closeWineModal() { wineModalOverlay.classList.remove('open'); }
+function findWineByNameVintage(name, vintage) {
+  return DATA.wines.find(w => w.wine === name && String(w.vintage) === String(vintage));
+}
+document.getElementById('wine-modal-close').addEventListener('click', closeWineModal);
+wineModalOverlay.addEventListener('click', (e) => { if (e.target === wineModalOverlay) closeWineModal(); });
+document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && wineModalOverlay.classList.contains('open')) closeWineModal(); });
+
+// Full Cellar grid rows: [Wine, Vintage, ...]
+document.getElementById('full-table').addEventListener('click', (e) => {
+  const tr = e.target.closest('tbody tr');
+  if (!tr) return;
+  const cells = tr.querySelectorAll('td');
+  if (cells.length < 2) return;
+  openWineModal(findWineByNameVintage(cells[0].textContent.trim(), cells[1].textContent.trim()));
+});
+
+// ==================== VINTAGE DISTRIBUTION ====================
+const vd = DATA.vintage_distribution;
+document.getElementById('median-vintage-label').textContent = vd.median_vintage ? `(median vintage ${vd.median_vintage})` : '';
+(function() {
+  const vintages = vd.buckets.map(b => b.vintage);
+  const dw = DATA.drinking_window;
+  const TIERS = [
+    { key: 'drink_now', label: 'Drink now', color: '#4a7c59' },
+    { key: 'drink_soon', label: 'Drink soon', color: '#c08a2e' },
+    { key: 'hold', label: 'Hold', color: '#6b4a9c' },
+    { key: 'past_peak', label: 'Past peak', color: '#a63d3d' },
+    { key: 'unknown_window', label: 'No window data', color: '#c9beae' },
+  ];
+  const datasets = TIERS.map(t => ({
+    label: t.label,
+    backgroundColor: t.color,
+    data: vintages.map(vy => (dw[t.key] || [])
+      .filter(e => parseInt(e.vintage) === vy)
+      .reduce((s,e) => s + e.quantity, 0)),
+  }));
+  new Chart(document.getElementById('chart-vintage'), {
+    type: 'bar',
+    data: { labels: vintages, datasets },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: { legend: { position: 'bottom', labels: { boxWidth: 12, font: { size: 11 } } } },
+      scales: { x: { stacked: true, ticks: { maxRotation: 90, minRotation: 60 } }, y: { stacked: true } }
+    }
+  });
+})();
+
+// ---- Critic Score Distribution (clickable) ----
+(function() {
+  const ws = DATA.wines.filter(w => w.avg_critic_score);
+  if (!ws.length) return;
+  const minS = Math.floor(Math.min(...ws.map(w=>w.avg_critic_score)));
+  const maxS = Math.ceil(Math.max(...ws.map(w=>w.avg_critic_score)));
+  const bins = [];
+  for (let s = minS; s <= maxS; s++) bins.push(s);
+  const counts = bins.map(s => ws.filter(w => Math.round(w.avg_critic_score) === s).length);
+  function showDetail(idx) {
+    const s = bins[idx];
+    const matches = ws.filter(w => Math.round(w.avg_critic_score) === s).sort((a,b)=>b.value_bottle-a.value_bottle);
+    document.getElementById('tbl-score-dist-detail').innerHTML =
+      `<tr><th colspan="3">${matches.length} wine${matches.length===1?'':'s'} scoring ~${s}</th></tr>` +
+      '<tr><th>Wine</th><th style="text-align:right">Score</th><th style="text-align:right">Value/btl</th></tr>' +
+      matches.slice(0,12).map(w => `<tr data-iwine="${w.iWine||''}">
+        <td>${w.wine} <span style="color:var(--muted)">'${String(w.vintage).slice(-2)}</span></td>
+        <td style="text-align:right">${w.avg_critic_score}</td>
+        <td style="text-align:right">${GBP2(w.value_bottle)}</td>
+      </tr>`).join('');
+    wireWineRowClicks('tbl-score-dist-detail');
+  }
+  const scoreDistChart = new Chart(document.getElementById('chart-score-dist'), {
+    type: 'bar',
+    data: { labels: bins, datasets: [{ data: counts, backgroundColor: '#6b1e2e', borderRadius: 3 }] },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: { legend: { display: false } },
+      onClick: (evt, elements) => { if (elements.length) showDetail(elements[0].index); },
+      onHover: (evt, elements) => { evt.native.target.style.cursor = elements.length ? 'pointer' : 'default'; }
+    }
+  });
+})();
+
+// ---- Avg Critic Score by Vintage ----
+(function() {
+  const ws = DATA.wines.filter(w => w.avg_critic_score && w.vintage && /^\d{4}$/.test(String(w.vintage)));
+  if (!ws.length) return;
+  const byVintage = {};
+  ws.forEach(w => (byVintage[w.vintage] = byVintage[w.vintage] || []).push(w.avg_critic_score));
+  const vintages = Object.keys(byVintage).sort();
+  const avgs = vintages.map(v => Math.round((byVintage[v].reduce((a,b)=>a+b,0)/byVintage[v].length)*10)/10);
+  new Chart(document.getElementById('chart-score-vintage'), {
+    type: 'line',
+    data: { labels: vintages, datasets: [{ data: avgs, borderColor: '#b8935a', backgroundColor: 'rgba(184,147,90,0.15)', fill: true, tension: 0.25, pointRadius: 3 }] },
+    options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { y: { title: { display: true, text: 'Avg score' } } } }
+  });
+})();
+
+// ---- Drinking Window Timeline (stacked by colour) ----
+(function() {
+  const ws = DATA.wines.filter(w => w.begin_consume && w.end_consume);
+  if (!ws.length) return;
+  const startYear = DATA.current_year;
+  const endYear = startYear + 15;
+  const years = [];
+  for (let y = startYear; y <= endYear; y++) years.push(y);
+  const colors = [...new Set(ws.map(w => w.color || 'Unknown'))];
+  const colorMap = { Red: '#6b1e2e', White: '#d9c88a', Rosé: '#e8a3a3', Sparkling: '#a9c9d6', Unknown: '#c9beae' };
+  const datasets = colors.map(c => ({
+    label: c,
+    data: years.map(y => ws.filter(w => (w.color||'Unknown') === c && w.begin_consume <= y && w.end_consume >= y)
+                            .reduce((s,w) => s + w.quantity, 0)),
+    backgroundColor: colorMap[c] || '#999',
+  }));
+  new Chart(document.getElementById('chart-window-timeline'), {
+    type: 'bar',
+    data: { labels: years, datasets },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: { legend: { position: 'bottom', labels: { boxWidth: 12, font: { size: 11 } } } },
+      scales: { x: { stacked: true }, y: { stacked: true, title: { display: true, text: 'Bottles in window' } } }
+    }
+  });
+})();
+
+// ==================== TASTE PROFILE ====================
+const ts = DATA.tasting;
+if (!ts || !ts.total_tastings) {
+  document.getElementById('taste-empty-card').style.display = 'block';
+  document.getElementById('taste-content').style.display = 'none';
+} else {
+  const deltaStr = ts.avg_delta_vs_consensus === null ? '—' : (ts.avg_delta_vs_consensus>=0?'+':'')+ts.avg_delta_vs_consensus;
+  const tasteStats = [
+    {n: ts.total_tastings, l: 'Tastings logged'},
+    {n: ts.avg_personal_rating, l: 'Your avg rating'},
+    {n: deltaStr, l: 'vs. community consensus'},
+  ];
+  document.getElementById('taste-stat-grid').innerHTML = tasteStats.map(x =>
+    `<div class="stat-card"><div class="num">${x.n}</div><div class="label">${x.l}</div></div>`
+  ).join('') + `<div class="stat-card" style="grid-column:span 2;display:flex;align-items:center;"><div class="label" style="text-transform:none;font-size:13px;color:var(--ink);">${ts.calibration_label}</div></div>`;
+
+  function verdictClass(v) { return v.replace(/\s+/g, '-'); }
+  function tasteCard(title, entries) {
+    if (!entries.length) return `<div class="card"><h3>${title}</h3><p style="color:var(--muted);font-size:12.5px;">Not enough repeat tastings yet</p></div>`;
+    return `<div class="card"><h3>${title}</h3>` + entries.slice(0,8).map(e => `
+      <div class="taste-item">
+        <span class="tn">${e.name}</span>
+        <span class="tr">${e.avg_rating} avg &middot; ${e.tastings}x &middot; ${e.cellar_pct}% cellar</span>
+        <span class="verdict-pill ${verdictClass(e.verdict)}">${e.verdict}</span>
+      </div>`).join('') + `</div>`;
+  }
+  document.getElementById('taste-profile-grid').innerHTML =
+    tasteCard('By Varietal', ts.taste_profile.by_varietal) +
+    tasteCard('By Country', ts.taste_profile.by_country) +
+    tasteCard('By Style', ts.taste_profile.by_color);
+
+  new Chart(document.getElementById('chart-tastings-month'), {
+    type: 'bar',
+    data: {
+      labels: ts.tastings_by_month.map(m => m.month),
+      datasets: [{ data: ts.tastings_by_month.map(m => m.count), backgroundColor: '#b8935a', borderRadius: 4 }]
+    },
+    options: { responsive:true, maintainAspectRatio:false, plugins:{legend:{display:false}} }
+  });
+
+  document.getElementById('tbl-recent-tastings').innerHTML =
+    '<tr><th>Date</th><th>Wine</th><th style="text-align:right">Your Score</th><th style="text-align:right">Consensus</th></tr>' +
+    ts.recent.slice(0,15).map(t => `<tr${t.iWine && CELLAR_IWINES.has(t.iWine) ? ` data-iwine="${t.iWine}"` : ''}>
+      <td style="color:var(--muted)">${t.date}</td>
+      <td>${t.wine} <span style="color:var(--muted)">'${String(t.vintage).slice(-2)}</span></td>
+      <td style="text-align:right"><span class="score-badge">${t.rating}</span></td>
+      <td style="text-align:right;color:var(--muted)">${t.community_score ? Math.round(t.community_score*10)/10 : '—'}</td>
+    </tr>`).join('');
+  wireWineRowClicks('tbl-recent-tastings');
+
+  // ---- Never Tasted (cellar wines with no logged tasting note) ----
+  const allTastings = ts.all || ts.recent || [];
+  const tastedIWines = new Set(allTastings.map(t => t.iWine).filter(Boolean));
+  const neverTasted = DATA.wines.filter(w => w.iWine && !tastedIWines.has(w.iWine))
+    .sort((a,b) => (b.avg_critic_score||0) - (a.avg_critic_score||0));
+
+  // ---- Ready to Drink, Never Tried (drinking-window status × never-tasted, cross-referenced) ----
+  const urgencyRank = { past: 0, now: 1, soon: 2, hold: 3, unknown: 4 };
+  const readyUntried = neverTasted
+    .map(w => ({ w, status: windowStatus(w) }))
+    .filter(x => x.status.cls === 'past' || x.status.cls === 'now')
+    .sort((a,b) => urgencyRank[a.status.cls] - urgencyRank[b.status.cls] || (a.w.end_consume||9999) - (b.w.end_consume||9999));
+  document.getElementById('ready-untried-count').textContent = `(${readyUntried.length} wine${readyUntried.length===1?'':'s'})`;
+  if (!readyUntried.length) {
+    document.getElementById('tbl-ready-untried').innerHTML = '<tr><td style="color:var(--muted);padding:8px 0;">Nothing urgent — every wine that\'s ready or past its window has already been tried.</td></tr>';
+  } else {
+    document.getElementById('tbl-ready-untried').innerHTML =
+      '<tr><th>Wine</th><th style="text-align:right">Qty</th><th style="text-align:right">Window</th><th style="text-align:right">Status</th></tr>' +
+      readyUntried.map(x => `<tr data-iwine="${x.w.iWine}">
+        <td class="wine-cell">${x.w.wine} <span style="color:var(--muted)">'${String(x.w.vintage).slice(-2)}</span> <span style="color:var(--muted)">— ${x.w.producer}</span></td>
+        <td style="text-align:right">${x.w.quantity}</td>
+        <td style="text-align:right;color:var(--muted)">${x.w.begin_consume||'?'}–${x.w.end_consume||'?'}</td>
+        <td style="text-align:right"><span class="pill ${x.status.cls}">${x.status.label}</span></td>
+      </tr>`).join('');
+    wireWineRowClicks('tbl-ready-untried');
+  }
+}
+
+// ==================== FOR YOU ====================
+(function() {
+  // ---- Critic Match ----
+  const matches = DATA.critic_match || [];
+  document.getElementById('critic-match-count').textContent = matches.length ? `(${matches.length})` : '';
+  if (!matches.length) {
+    document.getElementById('tbl-critic-match').innerHTML =
+      '<tr><td style="color:var(--muted);padding:8px 0;">Not enough wines yet with both your own score and a critic score logged &mdash; this fills in as you score more wines on CellarTracker.</td></tr>';
+  } else {
+    document.getElementById('tbl-critic-match').innerHTML =
+      '<tr><th>Critic</th><th style="text-align:right">Wines</th><th style="text-align:right">Your Avg</th><th style="text-align:right">Their Avg</th><th style="text-align:right">Correlation</th><th>Match</th></tr>' +
+      matches.map(m => `<tr>
+        <td>${m.name}</td>
+        <td style="text-align:right">${m.n}</td>
+        <td style="text-align:right">${m.avg_your_score}</td>
+        <td style="text-align:right">${m.avg_critic_score}</td>
+        <td style="text-align:right">${m.correlation === null ? '—' : m.correlation}</td>
+        <td style="color:var(--muted);font-size:12.5px;">${m.match_label}${m.bias_label && m.correlation !== null ? ' · ' + m.bias_label.toLowerCase() : ''}</td>
+      </tr>`).join('');
+  }
+
+  // ---- What to Open Tonight ----
+  const foodSet = new Set();
+  DATA.wines.forEach(w => (w.pairings || []).forEach(p => foodSet.add(p)));
+  const foodSelect = document.getElementById('tonight-food');
+  [...foodSet].sort().forEach(f => {
+    const opt = document.createElement('option'); opt.value = f; opt.textContent = f;
+    foodSelect.appendChild(opt);
+  });
+
+  function moodMatch(w, mood) {
+    if (!mood) return true;
+    if (mood === 'celebration') return w.style === 'Sparkling';
+    if (mood === 'sweet') return w.style === 'Dessert / Sweet' || w.style === 'Fortified';
+    if (mood === 'light') return w.body === 'Light' || w.body === 'Light-medium';
+    if (mood === 'bold') return (w.body === 'Full' || w.body === 'Medium-full') && (w.tannin === 'High' || w.tannin === 'Very high' || w.tannin === 'Medium-high');
+    return true;
+  }
+
+  function renderTonight() {
+    const mood = document.getElementById('tonight-mood').value;
+    const food = document.getElementById('tonight-food').value;
+    const readyOnly = document.getElementById('tonight-ready').value === 'yes';
+    let candidates = DATA.wines.filter(w => {
+      if (!moodMatch(w, mood)) return false;
+      if (food && !(w.pairings || []).includes(food)) return false;
+      if (readyOnly) {
+        const st = windowStatus(w);
+        if (st.cls !== 'now' && st.cls !== 'past') return false;
+      }
+      return true;
+    });
+    candidates.sort((a,b) => (b.avg_critic_score||0) - (a.avg_critic_score||0));
+    candidates = candidates.slice(0, 10);
+    if (!candidates.length) {
+      document.getElementById('tbl-tonight').innerHTML = '<tr><td style="color:var(--muted);padding:8px 0;">No bottles match that combination — try loosening a filter.</td></tr>';
+      return;
+    }
+    document.getElementById('tbl-tonight').innerHTML =
+      '<tr><th>Wine</th><th>Pairs with</th><th style="text-align:right">Qty</th><th style="text-align:right">Status</th></tr>' +
+      candidates.map(w => {
+        const st = windowStatus(w);
+        return `<tr data-iwine="${w.iWine}">
+          <td class="wine-cell">${w.wine} <span style="color:var(--muted)">'${String(w.vintage).slice(-2)}</span> <span style="color:var(--muted)">— ${w.producer}</span></td>
+          <td style="color:var(--muted);font-size:12.5px;">${(w.pairings||[]).slice(0,2).join(', ')}</td>
+          <td style="text-align:right">${w.quantity}</td>
+          <td style="text-align:right"><span class="pill ${st.cls}">${st.label}</span></td>
+        </tr>`;
+      }).join('');
+    wireWineRowClicks('tbl-tonight');
+  }
+  ['tonight-mood','tonight-food','tonight-ready'].forEach(id => document.getElementById(id).addEventListener('change', renderTonight));
+  document.getElementById('tonight-reset').addEventListener('click', () => {
+    document.getElementById('tonight-mood').value = '';
+    document.getElementById('tonight-food').value = '';
+    document.getElementById('tonight-ready').value = '';
+    renderTonight();
+  });
+  renderTonight();
+})();
+
+// ==================== EXPLORE BY TAG ====================
+function buildTagGroup(label, dimKey, items, matchFn) {
+  const pills = items.slice(0, 16).map(it => `<span class="tag-pill" data-dim="${dimKey}" data-val="${it.name.replace(/"/g,'&quot;')}">${it.name} <span class="cnt">${it.bottles}</span></span>`).join('');
+  return `<div><div class="tag-group-label">${label}</div><div class="tag-pills">${pills}</div></div>`;
+}
+document.getElementById('tag-groups').innerHTML =
+  buildTagGroup('Country', 'country', DATA.by_country) +
+  buildTagGroup('Grape / Varietal', 'varietal', DATA.by_varietal) +
+  buildTagGroup('Style', 'color', DATA.by_color) +
+  buildTagGroup('Producer', 'producer', DATA.top_producers_value);
+
+let activeTag = null;
+document.getElementById('tag-groups').addEventListener('click', (e) => {
+  const pill = e.target.closest('.tag-pill');
+  if (!pill) return;
+  const dim = pill.dataset.dim, val = pill.dataset.val;
+  document.querySelectorAll('.tag-pill').forEach(p => p.classList.remove('active'));
+  if (activeTag && activeTag.dim === dim && activeTag.val === val) {
+    activeTag = null;
+    document.getElementById('explore-results-card').style.display = 'none';
+    return;
+  }
+  activeTag = { dim, val };
+  pill.classList.add('active');
+  const dimField = dim === 'varietal' ? 'varietal' : dim === 'producer' ? 'producer' : dim === 'color' ? 'color' : 'country';
+  const matches = DATA.wines.filter(w => w[dimField] === val);
+  document.getElementById('explore-results-title').textContent = `${val} — ${matches.length} wine${matches.length===1?'':'s'}, ${matches.reduce((s,w)=>s+w.quantity,0)} bottles`;
+  document.getElementById('explore-results-table').innerHTML =
+    '<tr><th>Wine</th><th>Vintage</th><th>Producer</th><th style="text-align:right">Qty</th><th style="text-align:right">Value</th></tr>' +
+    matches.sort((a,b)=>b.total_value-a.total_value).map(w => `<tr data-iwine="${w.iWine||''}">
+      <td>${w.wine}</td><td>${w.vintage}</td><td style="color:var(--muted)">${w.producer}</td>
+      <td style="text-align:right">${w.quantity}</td><td style="text-align:right">${GBP2(w.total_value)}</td>
+    </tr>`).join('');
+  document.getElementById('explore-results-card').style.display = 'block';
+});
+document.getElementById('explore-results-table').addEventListener('click', (e) => {
+  const tr = e.target.closest('tr[data-iwine]');
+  if (!tr || !tr.dataset.iwine) return;
+  openWineModal(DATA.wines.find(w => w.iWine === tr.dataset.iwine));
+});
+document.getElementById('explore-clear').addEventListener('click', () => {
+  activeTag = null;
+  document.querySelectorAll('.tag-pill').forEach(p => p.classList.remove('active'));
+  document.getElementById('explore-results-card').style.display = 'none';
+});
+
+// ==================== QUICK SEARCH (⌘K) ====================
+const cmdkOverlay = document.getElementById('cmdk-overlay');
+const cmdkInput = document.getElementById('cmdk-input');
+const cmdkResults = document.getElementById('cmdk-results');
+const sectionIndex = Array.from(document.querySelectorAll('nav.tabs a')).map(a => ({
+  type: 'section', label: a.textContent, href: a.getAttribute('href')
+}));
+const wineIndex = DATA.wines.map(w => ({
+  type: 'wine', label: `${w.wine} '${String(w.vintage).slice(-2)}`, sub: w.producer, name: w.wine, iWine: w.iWine
+}));
+function openCmdk() {
+  cmdkOverlay.classList.add('open');
+  cmdkInput.value = '';
+  cmdkInput.focus();
+  renderCmdk('');
+}
+function closeCmdk() { cmdkOverlay.classList.remove('open'); }
+function renderCmdk(q) {
+  q = q.trim().toLowerCase();
+  let results;
+  if (!q) {
+    results = sectionIndex.slice(0, 8);
+  } else {
+    results = [
+      ...sectionIndex.filter(s => s.label.toLowerCase().includes(q)),
+      ...wineIndex.filter(w => w.label.toLowerCase().includes(q) || (w.sub||'').toLowerCase().includes(q)).slice(0, 20),
+    ].slice(0, 20);
+  }
+  if (!results.length) {
+    cmdkResults.innerHTML = '<div class="cmdk-empty">No matches</div>';
+    return;
+  }
+  cmdkResults.innerHTML = results.map((r, i) => `
+    <div class="cmdk-item" data-i="${i}">
+      <span>${r.label}</span>
+      <span class="cmdk-sub">${r.type === 'section' ? 'Section' : (r.sub||'')}</span>
+    </div>`).join('');
+  cmdkResults.dataset.results = JSON.stringify(results);
+}
+cmdkInput.addEventListener('input', () => renderCmdk(cmdkInput.value));
+cmdkResults.addEventListener('click', (e) => {
+  const item = e.target.closest('.cmdk-item');
+  if (!item) return;
+  const results = JSON.parse(cmdkResults.dataset.results || '[]');
+  const r = results[Number(item.dataset.i)];
+  if (!r) return;
+  if (r.type === 'section') {
+    location.hash = r.href;
+  } else {
+    const w = DATA.wines.find(x => x.iWine === r.iWine);
+    if (w) openWineModal(w);
+  }
+  closeCmdk();
+});
+document.getElementById('quick-search-btn').addEventListener('click', openCmdk);
+document.addEventListener('keydown', (e) => {
+  if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
+    e.preventDefault();
+    openCmdk();
+  } else if (e.key === 'Escape') {
+    closeCmdk();
+  }
+});
+cmdkOverlay.addEventListener('click', (e) => { if (e.target === cmdkOverlay) closeCmdk(); });
+
+// ==================== SCROLLSPY + HEADER SHRINK ====================
+const siteHeader = document.getElementById('site-header');
+const navLinks = Array.from(document.querySelectorAll('nav.tabs a'));
+const allSections = navLinks.map(a => document.querySelector(a.getAttribute('href'))).filter(Boolean);
+window.addEventListener('scroll', () => {
+  siteHeader.classList.toggle('scrolled', window.scrollY > 40);
+  let current = allSections[0];
+  for (const sec of allSections) {
+    if (sec.getBoundingClientRect().top - 140 <= 0) current = sec;
+  }
+  navLinks.forEach(a => a.classList.toggle('active', current && a.getAttribute('href') === '#'+current.id));
+}, { passive: true });
+</script>
+</body>
+</html>
