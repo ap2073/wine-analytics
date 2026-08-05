@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-08-04T12:31:26.115637+00:00",
+ "generated_at": "2026-08-05T12:27:54.731424+00:00",
  "current_year": 2026,
  "summary": {
   "total_bottles": 250,
   "total_wines": 76,
-  "total_value": 26178.39,
+  "total_value": 26238.39,
   "total_paid": 19777.25,
   "countries": 10,
   "avg_critic_score": 93.0
@@ -13,31 +13,31 @@
   {
    "name": "France",
    "bottles": 105,
-   "value": 10279.24,
+   "value": 10296.399999999998,
    "wines": 24
   },
   {
    "name": "Australia",
    "bottles": 28,
-   "value": 7035.510000000001,
+   "value": 7033.670000000001,
    "wines": 7
   },
   {
    "name": "Italy",
    "bottles": 56,
-   "value": 4138.55,
+   "value": 4141.780000000001,
    "wines": 18
   },
   {
    "name": "Spain",
    "bottles": 11,
-   "value": 1943.07,
+   "value": 1951.1,
    "wines": 7
   },
   {
    "name": "South Africa",
    "bottles": 33,
-   "value": 1630.04,
+   "value": 1663.5700000000002,
    "wines": 11
   },
   {
@@ -49,7 +49,7 @@
   {
    "name": "New Zealand",
    "bottles": 3,
-   "value": 188.45,
+   "value": 189.29,
    "wines": 1
   },
   {
@@ -67,7 +67,7 @@
   {
    "name": "Argentina",
    "bottles": 1,
-   "value": 32.08,
+   "value": 31.13,
    "wines": 1
   }
  ],
@@ -75,7 +75,7 @@
   {
    "name": "Red Bordeaux Blend",
    "bottles": 88,
-   "value": 9669.560000000001,
+   "value": 9687.080000000002,
    "wines": 23
   },
   {
@@ -87,19 +87,19 @@
   {
    "name": "Cabernet Sauvignon",
    "bottles": 19,
-   "value": 2515.31,
+   "value": 2549.3199999999997,
    "wines": 4
   },
   {
    "name": "Tempranillo",
    "bottles": 8,
-   "value": 1838.34,
+   "value": 1846.07,
    "wines": 4
   },
   {
    "name": "Sangiovese",
    "bottles": 24,
-   "value": 1723.6300000000003,
+   "value": 1726.8600000000004,
    "wines": 6
   },
   {
@@ -165,13 +165,13 @@
   {
    "name": "Albariño",
    "bottles": 2,
-   "value": 93.62,
+   "value": 93.92,
    "wines": 2
   },
   {
    "name": "Mourvèdre",
    "bottles": 3,
-   "value": 81.05,
+   "value": 79.21,
    "wines": 1
   },
   {
@@ -189,7 +189,7 @@
   {
    "name": "Malbec",
    "bottles": 1,
-   "value": 32.08,
+   "value": 31.13,
    "wines": 1
   }
  ],
@@ -197,25 +197,25 @@
   {
    "name": "Bordeaux",
    "bottles": 75,
-   "value": 8059.4,
+   "value": 8076.5599999999995,
    "wines": 15
   },
   {
    "name": "South Australia",
    "bottles": 25,
-   "value": 6955.330000000001,
+   "value": 6953.490000000001,
    "wines": 6
   },
   {
    "name": "Tuscany",
    "bottles": 30,
-   "value": 3026.21,
+   "value": 3029.44,
    "wines": 7
   },
   {
    "name": "Castilla y León",
    "bottles": 9,
-   "value": 1849.45,
+   "value": 1857.18,
    "wines": 5
   },
   {
@@ -227,7 +227,7 @@
   {
    "name": "Coastal Region",
    "bottles": 27,
-   "value": 1456.6399999999999,
+   "value": 1490.17,
    "wines": 10
   },
   {
@@ -263,7 +263,7 @@
   {
    "name": "North Island",
    "bottles": 3,
-   "value": 188.45,
+   "value": 189.29,
    "wines": 1
   },
   {
@@ -287,7 +287,7 @@
   {
    "name": "Galicia",
    "bottles": 2,
-   "value": 93.62,
+   "value": 93.92,
    "wines": 2
   },
   {
@@ -305,7 +305,7 @@
   {
    "name": "Mendoza",
    "bottles": 1,
-   "value": 32.08,
+   "value": 31.13,
    "wines": 1
   },
   {
@@ -319,24 +319,24 @@
   {
    "name": "Red",
    "bottles": 233,
-   "value": 25227.22000000001
+   "value": 25286.920000000002
   },
   {
    "name": "White",
    "bottles": 17,
-   "value": 951.17
+   "value": 951.47
   }
  ],
  "by_style": [
   {
    "name": "Red",
    "bottles": 233,
-   "value": 25227.22000000001
+   "value": 25286.920000000002
   },
   {
    "name": "White",
    "bottles": 10,
-   "value": 536.1899999999999
+   "value": 536.49
   },
   {
    "name": "Dessert / Sweet",
@@ -354,7 +354,7 @@
   {
    "name": "Bodegas Vega-Sicilia",
    "bottles": 7,
-   "value": 1802.77,
+   "value": 1810.5,
    "wines": 3
   },
   {
@@ -372,7 +372,7 @@
   {
    "name": "Château Cos d'Estournel",
    "bottles": 6,
-   "value": 1199.88,
+   "value": 1214.76,
    "wines": 1
   },
   {
@@ -390,7 +390,7 @@
   {
    "name": "Château Léoville Barton",
    "bottles": 9,
-   "value": 841.98,
+   "value": 843.42,
    "wines": 2
   },
   {
@@ -440,17 +440,17 @@
   {
    "name": "Cellar",
    "bottles": 55,
-   "value": 4566.240000000001
+   "value": 4573.320000000001
   },
   {
    "name": "Cellar - Wine Society",
    "bottles": 90,
-   "value": 5055.29
+   "value": 5092.49
   },
   {
    "name": "Cellar - BB&R",
    "bottles": 105,
-   "value": 16556.859999999997
+   "value": 16572.579999999998
   }
  ],
  "drinking_window": {
@@ -952,7 +952,7 @@
     "producer": "Château Clinet",
     "quantity": 6,
     "begin": 2029,
-    "end": 2048
+    "end": 2047
    },
    {
     "iWine": "5296333",
@@ -1220,11 +1220,7 @@
     "hours": 1.5,
     "label": "~1.5–2 hrs (longer if young & tightly wound)"
    },
-   "wiki": {
-    "summary": "Syrah, also known as Shiraz, is a dark-skinned grape variety grown throughout the world and used primarily to produce red wine. In 1999, Syrah was found to be the offspring of two obscure grapes from southeastern France, Dureza and Mondeuse Blanche. Syrah should not be confused with Petite Sirah, a cross of Syrah with Peloursin dating from 1880.",
-    "url": "https://en.wikipedia.org/wiki/Syrah",
-    "title": "Syrah"
-   }
+   "wiki": null
   },
   {
    "iWine": "5749319",
@@ -1298,11 +1294,7 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": {
-    "summary": "Syrah, also known as Shiraz, is a dark-skinned grape variety grown throughout the world and used primarily to produce red wine. In 1999, Syrah was found to be the offspring of two obscure grapes from southeastern France, Dureza and Mondeuse Blanche. Syrah should not be confused with Petite Sirah, a cross of Syrah with Peloursin dating from 1880.",
-    "url": "https://en.wikipedia.org/wiki/Syrah",
-    "title": "Syrah"
-   }
+   "wiki": null
   },
   {
    "iWine": "5296333",
@@ -1319,15 +1311,15 @@
    "location": "Cellar - Wine Society",
    "quantity": 6,
    "price_paid_bottle": 57.0,
-   "value_bottle": 61.04,
+   "value_bottle": 61.57,
    "total_paid": 342.0,
-   "total_value": 366.22,
+   "total_value": 369.45,
    "avg_critic_score": 96.0,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2029,
    "end_consume": 2041,
-   "appreciation_pct": 7.1,
+   "appreciation_pct": 8.0,
    "body": "Medium",
    "tannin": "Medium-high",
    "pairings": [
@@ -1339,11 +1331,7 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": {
-    "summary": "Sangiovese is a red Italian wine grape variety that derives its name from the Latin sanguis Jovis, \"blood of Jupiter\".",
-    "url": "https://en.wikipedia.org/wiki/Sangiovese",
-    "title": "Sangiovese"
-   }
+   "wiki": null
   },
   {
    "iWine": "1223731",
@@ -1380,11 +1368,7 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": {
-    "summary": "Syrah, also known as Shiraz, is a dark-skinned grape variety grown throughout the world and used primarily to produce red wine. In 1999, Syrah was found to be the offspring of two obscure grapes from southeastern France, Dureza and Mondeuse Blanche. Syrah should not be confused with Petite Sirah, a cross of Syrah with Peloursin dating from 1880.",
-    "url": "https://en.wikipedia.org/wiki/Syrah",
-    "title": "Syrah"
-   }
+   "wiki": null
   },
   {
    "iWine": "3485127",
@@ -1421,11 +1405,7 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": {
-    "summary": "Tempranillo is a black grape variety widely grown to make full-bodied red wines in its native Spain. Its name is the diminutive of the Spanish temprano (\"early\"), a reference to the fact that it ripens several weeks earlier than most Spanish red grapes. Tempranillo has been grown on the Iberian Peninsula since the time of Phoenician settlements. It is the main grape used in Rioja, and is often referred to as Spain's noble grape. The grape has been planted throughout the…",
-    "url": "https://en.wikipedia.org/wiki/Tempranillo",
-    "title": "Tempranillo"
-   }
+   "wiki": null
   },
   {
    "iWine": "2628120",
@@ -1442,15 +1422,15 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 129.0,
-   "value_bottle": 199.98,
+   "value_bottle": 202.46,
    "total_paid": 774.0,
-   "total_value": 1199.88,
+   "total_value": 1214.76,
    "avg_critic_score": 95.6,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2027,
    "end_consume": 2057,
-   "appreciation_pct": 55.0,
+   "appreciation_pct": 56.9,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -1597,7 +1577,7 @@
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2029,
-   "end_consume": 2048,
+   "end_consume": 2047,
    "appreciation_pct": 66.9,
    "body": "Medium",
    "tannin": "Medium",
@@ -1649,11 +1629,7 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": {
-    "summary": "Syrah, also known as Shiraz, is a dark-skinned grape variety grown throughout the world and used primarily to produce red wine. In 1999, Syrah was found to be the offspring of two obscure grapes from southeastern France, Dureza and Mondeuse Blanche. Syrah should not be confused with Petite Sirah, a cross of Syrah with Peloursin dating from 1880.",
-    "url": "https://en.wikipedia.org/wiki/Syrah",
-    "title": "Syrah"
-   }
+   "wiki": null
   },
   {
    "iWine": "4419381",
@@ -1670,9 +1646,9 @@
    "location": "Cellar",
    "quantity": 1,
    "price_paid_bottle": 0.0,
-   "value_bottle": 344.04,
+   "value_bottle": 351.77,
    "total_paid": 0.0,
-   "total_value": 344.04,
+   "total_value": 351.77,
    "avg_critic_score": 94.8,
    "my_score": null,
    "critic_scores": {},
@@ -1690,11 +1666,7 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": {
-    "summary": "Tempranillo is a black grape variety widely grown to make full-bodied red wines in its native Spain. Its name is the diminutive of the Spanish temprano (\"early\"), a reference to the fact that it ripens several weeks earlier than most Spanish red grapes. Tempranillo has been grown on the Iberian Peninsula since the time of Phoenician settlements. It is the main grape used in Rioja, and is often referred to as Spain's noble grape. The grape has been planted throughout the…",
-    "url": "https://en.wikipedia.org/wiki/Tempranillo",
-    "title": "Tempranillo"
-   }
+   "wiki": null
   },
   {
    "iWine": "5749031",
@@ -1711,15 +1683,15 @@
    "location": "Cellar - Wine Society",
    "quantity": 3,
    "price_paid_bottle": 53.0,
-   "value_bottle": 72.99,
+   "value_bottle": 73.47,
    "total_paid": 159.0,
-   "total_value": 218.96,
+   "total_value": 220.4,
    "avg_critic_score": 94.7,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2035,
    "end_consume": 2059,
-   "appreciation_pct": 37.7,
+   "appreciation_pct": 38.6,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -1959,11 +1931,7 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": {
-    "summary": "Syrah, also known as Shiraz, is a dark-skinned grape variety grown throughout the world and used primarily to produce red wine. In 1999, Syrah was found to be the offspring of two obscure grapes from southeastern France, Dureza and Mondeuse Blanche. Syrah should not be confused with Petite Sirah, a cross of Syrah with Peloursin dating from 1880.",
-    "url": "https://en.wikipedia.org/wiki/Syrah",
-    "title": "Syrah"
-   }
+   "wiki": null
   },
   {
    "iWine": "1223731",
@@ -2000,11 +1968,7 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": {
-    "summary": "Syrah, also known as Shiraz, is a dark-skinned grape variety grown throughout the world and used primarily to produce red wine. In 1999, Syrah was found to be the offspring of two obscure grapes from southeastern France, Dureza and Mondeuse Blanche. Syrah should not be confused with Petite Sirah, a cross of Syrah with Peloursin dating from 1880.",
-    "url": "https://en.wikipedia.org/wiki/Syrah",
-    "title": "Syrah"
-   }
+   "wiki": null
   },
   {
    "iWine": "3485127",
@@ -2041,11 +2005,7 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": {
-    "summary": "Tempranillo is a black grape variety widely grown to make full-bodied red wines in its native Spain. Its name is the diminutive of the Spanish temprano (\"early\"), a reference to the fact that it ripens several weeks earlier than most Spanish red grapes. Tempranillo has been grown on the Iberian Peninsula since the time of Phoenician settlements. It is the main grape used in Rioja, and is often referred to as Spain's noble grape. The grape has been planted throughout the…",
-    "url": "https://en.wikipedia.org/wiki/Tempranillo",
-    "title": "Tempranillo"
-   }
+   "wiki": null
   },
   {
    "iWine": "4419381",
@@ -2062,9 +2022,9 @@
    "location": "Cellar",
    "quantity": 1,
    "price_paid_bottle": 0.0,
-   "value_bottle": 344.04,
+   "value_bottle": 351.77,
    "total_paid": 0.0,
-   "total_value": 344.04,
+   "total_value": 351.77,
    "avg_critic_score": 94.8,
    "my_score": null,
    "critic_scores": {},
@@ -2082,11 +2042,7 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": {
-    "summary": "Tempranillo is a black grape variety widely grown to make full-bodied red wines in its native Spain. Its name is the diminutive of the Spanish temprano (\"early\"), a reference to the fact that it ripens several weeks earlier than most Spanish red grapes. Tempranillo has been grown on the Iberian Peninsula since the time of Phoenician settlements. It is the main grape used in Rioja, and is often referred to as Spain's noble grape. The grape has been planted throughout the…",
-    "url": "https://en.wikipedia.org/wiki/Tempranillo",
-    "title": "Tempranillo"
-   }
+   "wiki": null
   },
   {
    "iWine": "3709255",
@@ -2218,15 +2174,15 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 129.0,
-   "value_bottle": 199.98,
+   "value_bottle": 202.46,
    "total_paid": 774.0,
-   "total_value": 1199.88,
+   "total_value": 1214.76,
    "avg_critic_score": 95.6,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2027,
    "end_consume": 2057,
-   "appreciation_pct": 55.0,
+   "appreciation_pct": 56.9,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -2349,11 +2305,7 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": {
-    "summary": "Sangiovese is a red Italian wine grape variety that derives its name from the Latin sanguis Jovis, \"blood of Jupiter\".",
-    "url": "https://en.wikipedia.org/wiki/Sangiovese",
-    "title": "Sangiovese"
-   }
+   "wiki": null
   },
   {
    "iWine": "1123088",
@@ -2431,11 +2383,7 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": {
-    "summary": "Syrah, also known as Shiraz, is a dark-skinned grape variety grown throughout the world and used primarily to produce red wine. In 1999, Syrah was found to be the offspring of two obscure grapes from southeastern France, Dureza and Mondeuse Blanche. Syrah should not be confused with Petite Sirah, a cross of Syrah with Peloursin dating from 1880.",
-    "url": "https://en.wikipedia.org/wiki/Syrah",
-    "title": "Syrah"
-   }
+   "wiki": null
   },
   {
    "iWine": "4495677",
@@ -2472,11 +2420,7 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": {
-    "summary": "Tempranillo is a black grape variety widely grown to make full-bodied red wines in its native Spain. Its name is the diminutive of the Spanish temprano (\"early\"), a reference to the fact that it ripens several weeks earlier than most Spanish red grapes. Tempranillo has been grown on the Iberian Peninsula since the time of Phoenician settlements. It is the main grape used in Rioja, and is often referred to as Spain's noble grape. The grape has been planted throughout the…",
-    "url": "https://en.wikipedia.org/wiki/Tempranillo",
-    "title": "Tempranillo"
-   }
+   "wiki": null
   },
   {
    "iWine": "3984055",
@@ -2835,11 +2779,7 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": {
-    "summary": "Nebbiolo is an Italian red wine grape variety predominantly associated with its native Piedmont region, where it makes the Denominazione di Origine Controllata e Garantita (DOCG) wines of Barolo, Barbaresco, Gattinara, Ghemme, and Roero, together with numerous DOC wines. Nebbiolo is thought to derive its name from the Italian nebbia or Piedmontese nebia, meaning 'fog'. During harvest, which generally takes place late in October, a deep, intense fog sets into the Langhe…",
-    "url": "https://en.wikipedia.org/wiki/Nebbiolo",
-    "title": "Nebbiolo"
-   }
+   "wiki": null
   },
   {
    "iWine": "5159319",
@@ -2915,11 +2855,7 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": {
-    "summary": "Pinot noir, also known as Pinot nero, and Spätburgunder is a red-wine grape variety of the species Vitis vinifera. The name also refers to wines created predominantly from Pinot noir grapes. The name is derived from the French words for pine and black. The word pine alludes to the grape variety having tightly clustered, pinecone-shaped bunches of fruit.",
-    "url": "https://en.wikipedia.org/wiki/Pinot_noir",
-    "title": "Pinot noir"
-   }
+   "wiki": null
   },
   {
    "iWine": "4561939",
@@ -2956,11 +2892,7 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": {
-    "summary": "Pinot noir, also known as Pinot nero, and Spätburgunder is a red-wine grape variety of the species Vitis vinifera. The name also refers to wines created predominantly from Pinot noir grapes. The name is derived from the French words for pine and black. The word pine alludes to the grape variety having tightly clustered, pinecone-shaped bunches of fruit.",
-    "url": "https://en.wikipedia.org/wiki/Pinot_noir",
-    "title": "Pinot noir"
-   }
+   "wiki": null
   },
   {
    "iWine": "5743674",
@@ -2997,11 +2929,7 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": {
-    "summary": "Nerello mascalese is a name given to a variety of red wine grapes named after the Mascali area in Catania, that grow primarily in Sicily and Sardinia.\nIt is grown mainly on the northeastern side of Sicily and is thought to be superior in quality to the Nerello Cappuccio. There is an experimental vineyard in Agliano Terme, Piedmont, where Nerello has been planted by the winery, Vini Ragerra, and they are credited with being the first to plant and vinify Nerello in this…",
-    "url": "https://en.wikipedia.org/wiki/Nerello_mascalese",
-    "title": "Nerello mascalese"
-   }
+   "wiki": null
   },
   {
    "iWine": "5743675",
@@ -3038,11 +2966,7 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": {
-    "summary": "Nerello mascalese is a name given to a variety of red wine grapes named after the Mascali area in Catania, that grow primarily in Sicily and Sardinia.\nIt is grown mainly on the northeastern side of Sicily and is thought to be superior in quality to the Nerello Cappuccio. There is an experimental vineyard in Agliano Terme, Piedmont, where Nerello has been planted by the winery, Vini Ragerra, and they are credited with being the first to plant and vinify Nerello in this…",
-    "url": "https://en.wikipedia.org/wiki/Nerello_mascalese",
-    "title": "Nerello mascalese"
-   }
+   "wiki": null
   },
   {
    "iWine": "2667924",
@@ -3079,11 +3003,7 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": {
-    "summary": "Sangiovese is a red Italian wine grape variety that derives its name from the Latin sanguis Jovis, \"blood of Jupiter\".",
-    "url": "https://en.wikipedia.org/wiki/Sangiovese",
-    "title": "Sangiovese"
-   }
+   "wiki": null
   },
   {
    "iWine": "4876898",
@@ -3120,11 +3040,7 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": {
-    "summary": "Sangiovese is a red Italian wine grape variety that derives its name from the Latin sanguis Jovis, \"blood of Jupiter\".",
-    "url": "https://en.wikipedia.org/wiki/Sangiovese",
-    "title": "Sangiovese"
-   }
+   "wiki": null
   },
   {
    "iWine": "4820684",
@@ -3141,15 +3057,15 @@
    "location": "Cellar",
    "quantity": 1,
    "price_paid_bottle": 29.0,
-   "value_bottle": 32.08,
+   "value_bottle": 31.13,
    "total_paid": 29.0,
-   "total_value": 32.08,
+   "total_value": 31.13,
    "avg_critic_score": 90.0,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2024,
    "end_consume": 2031,
-   "appreciation_pct": 10.6,
+   "appreciation_pct": 7.3,
    "body": "Full",
    "tannin": "Medium-high",
    "pairings": [
@@ -3202,11 +3118,7 @@
     "hours": 1.5,
     "label": "~1.5–2 hrs (longer if young & tightly wound)"
    },
-   "wiki": {
-    "summary": "Syrah, also known as Shiraz, is a dark-skinned grape variety grown throughout the world and used primarily to produce red wine. In 1999, Syrah was found to be the offspring of two obscure grapes from southeastern France, Dureza and Mondeuse Blanche. Syrah should not be confused with Petite Sirah, a cross of Syrah with Peloursin dating from 1880.",
-    "url": "https://en.wikipedia.org/wiki/Syrah",
-    "title": "Syrah"
-   }
+   "wiki": null
   },
   {
    "iWine": "4312950",
@@ -3267,7 +3179,7 @@
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2029,
-   "end_consume": 2048,
+   "end_consume": 2047,
    "appreciation_pct": 66.9,
    "body": "Medium",
    "tannin": "Medium",
@@ -3297,15 +3209,15 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 129.0,
-   "value_bottle": 199.98,
+   "value_bottle": 202.46,
    "total_paid": 774.0,
-   "total_value": 1199.88,
+   "total_value": 1214.76,
    "avg_critic_score": 95.6,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2027,
    "end_consume": 2057,
-   "appreciation_pct": 55.0,
+   "appreciation_pct": 56.9,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -3334,15 +3246,15 @@
    "location": "Cellar - Wine Society",
    "quantity": 6,
    "price_paid_bottle": 57.0,
-   "value_bottle": 61.04,
+   "value_bottle": 61.57,
    "total_paid": 342.0,
-   "total_value": 366.22,
+   "total_value": 369.45,
    "avg_critic_score": 96.0,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2029,
    "end_consume": 2041,
-   "appreciation_pct": 7.1,
+   "appreciation_pct": 8.0,
    "body": "Medium",
    "tannin": "Medium-high",
    "pairings": [
@@ -3354,11 +3266,7 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": {
-    "summary": "Sangiovese is a red Italian wine grape variety that derives its name from the Latin sanguis Jovis, \"blood of Jupiter\".",
-    "url": "https://en.wikipedia.org/wiki/Sangiovese",
-    "title": "Sangiovese"
-   }
+   "wiki": null
   },
   {
    "iWine": "2546394",
@@ -3432,11 +3340,7 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": {
-    "summary": "Nerello mascalese is a name given to a variety of red wine grapes named after the Mascali area in Catania, that grow primarily in Sicily and Sardinia.\nIt is grown mainly on the northeastern side of Sicily and is thought to be superior in quality to the Nerello Cappuccio. There is an experimental vineyard in Agliano Terme, Piedmont, where Nerello has been planted by the winery, Vini Ragerra, and they are credited with being the first to plant and vinify Nerello in this…",
-    "url": "https://en.wikipedia.org/wiki/Nerello_mascalese",
-    "title": "Nerello mascalese"
-   }
+   "wiki": null
   },
   {
    "iWine": "4386234",
@@ -3555,11 +3459,7 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": {
-    "summary": "Nebbiolo is an Italian red wine grape variety predominantly associated with its native Piedmont region, where it makes the Denominazione di Origine Controllata e Garantita (DOCG) wines of Barolo, Barbaresco, Gattinara, Ghemme, and Roero, together with numerous DOC wines. Nebbiolo is thought to derive its name from the Italian nebbia or Piedmontese nebia, meaning 'fog'. During harvest, which generally takes place late in October, a deep, intense fog sets into the Langhe…",
-    "url": "https://en.wikipedia.org/wiki/Nebbiolo",
-    "title": "Nebbiolo"
-   }
+   "wiki": null
   },
   {
    "iWine": "5519448",
@@ -3596,11 +3496,7 @@
     "hours": 1.5,
     "label": "~1.5–2 hrs (longer if young & tightly wound)"
    },
-   "wiki": {
-    "summary": "Syrah, also known as Shiraz, is a dark-skinned grape variety grown throughout the world and used primarily to produce red wine. In 1999, Syrah was found to be the offspring of two obscure grapes from southeastern France, Dureza and Mondeuse Blanche. Syrah should not be confused with Petite Sirah, a cross of Syrah with Peloursin dating from 1880.",
-    "url": "https://en.wikipedia.org/wiki/Syrah",
-    "title": "Syrah"
-   }
+   "wiki": null
   },
   {
    "iWine": "5559329",
@@ -3658,15 +3554,15 @@
    "location": "Cellar - Wine Society",
    "quantity": 1,
    "price_paid_bottle": 31.0,
-   "value_bottle": 31.0,
+   "value_bottle": 30.92,
    "total_paid": 31.0,
-   "total_value": 31.0,
+   "total_value": 30.92,
    "avg_critic_score": null,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2032,
    "end_consume": 2042,
-   "appreciation_pct": 0.0,
+   "appreciation_pct": -0.3,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -3799,11 +3695,7 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": {
-    "summary": "Syrah, also known as Shiraz, is a dark-skinned grape variety grown throughout the world and used primarily to produce red wine. In 1999, Syrah was found to be the offspring of two obscure grapes from southeastern France, Dureza and Mondeuse Blanche. Syrah should not be confused with Petite Sirah, a cross of Syrah with Peloursin dating from 1880.",
-    "url": "https://en.wikipedia.org/wiki/Syrah",
-    "title": "Syrah"
-   }
+   "wiki": null
   },
   {
    "iWine": "2856200",
@@ -3861,15 +3753,15 @@
    "location": "Cellar - Wine Society",
    "quantity": 1,
    "price_paid_bottle": 31.0,
-   "value_bottle": 31.0,
+   "value_bottle": 30.92,
    "total_paid": 31.0,
-   "total_value": 31.0,
+   "total_value": 30.92,
    "avg_critic_score": null,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2032,
    "end_consume": 2042,
-   "appreciation_pct": 0.0,
+   "appreciation_pct": -0.3,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -3976,15 +3868,15 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 18.33,
-   "value_bottle": 33.68,
+   "value_bottle": 33.82,
    "total_paid": 109.98,
-   "total_value": 202.08,
+   "total_value": 202.92,
    "avg_critic_score": 93.8,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2028,
    "end_consume": 2044,
-   "appreciation_pct": 83.7,
+   "appreciation_pct": 84.5,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -4050,15 +3942,15 @@
    "location": "Cellar - Wine Society",
    "quantity": 3,
    "price_paid_bottle": 53.0,
-   "value_bottle": 72.99,
+   "value_bottle": 73.47,
    "total_paid": 159.0,
-   "total_value": 218.96,
+   "total_value": 220.4,
    "avg_critic_score": 94.7,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2035,
    "end_consume": 2059,
-   "appreciation_pct": 37.7,
+   "appreciation_pct": 38.6,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -4267,11 +4159,7 @@
     "hours": 3.0,
     "label": "~3–3.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": {
-    "summary": "Nebbiolo is an Italian red wine grape variety predominantly associated with its native Piedmont region, where it makes the Denominazione di Origine Controllata e Garantita (DOCG) wines of Barolo, Barbaresco, Gattinara, Ghemme, and Roero, together with numerous DOC wines. Nebbiolo is thought to derive its name from the Italian nebbia or Piedmontese nebia, meaning 'fog'. During harvest, which generally takes place late in October, a deep, intense fog sets into the Langhe…",
-    "url": "https://en.wikipedia.org/wiki/Nebbiolo",
-    "title": "Nebbiolo"
-   }
+   "wiki": null
   },
   {
    "iWine": "5855669",
@@ -4288,15 +4176,15 @@
    "location": "Cellar - Wine Society",
    "quantity": 1,
    "price_paid_bottle": 31.0,
-   "value_bottle": 31.0,
+   "value_bottle": 30.92,
    "total_paid": 31.0,
-   "total_value": 31.0,
+   "total_value": 30.92,
    "avg_critic_score": null,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2031,
    "end_consume": 2044,
-   "appreciation_pct": 0.0,
+   "appreciation_pct": -0.3,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -4325,15 +4213,15 @@
    "location": "Cellar - Wine Society",
    "quantity": 6,
    "price_paid_bottle": 22.0,
-   "value_bottle": 22.0,
+   "value_bottle": 27.67,
    "total_paid": 132.0,
-   "total_value": 132.0,
+   "total_value": 166.01,
    "avg_critic_score": null,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2030,
    "end_consume": 2039,
-   "appreciation_pct": 0.0,
+   "appreciation_pct": 25.8,
    "body": "Full",
    "tannin": "High",
    "pairings": [
@@ -4386,11 +4274,7 @@
     "hours": 1.5,
     "label": "~1.5–2 hrs (longer if young & tightly wound)"
    },
-   "wiki": {
-    "summary": "Tempranillo is a black grape variety widely grown to make full-bodied red wines in its native Spain. Its name is the diminutive of the Spanish temprano (\"early\"), a reference to the fact that it ripens several weeks earlier than most Spanish red grapes. Tempranillo has been grown on the Iberian Peninsula since the time of Phoenician settlements. It is the main grape used in Rioja, and is often referred to as Spain's noble grape. The grape has been planted throughout the…",
-    "url": "https://en.wikipedia.org/wiki/Tempranillo",
-    "title": "Tempranillo"
-   }
+   "wiki": null
   },
   {
    "iWine": "5749116",
@@ -4464,11 +4348,7 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": {
-    "summary": "Sangiovese is a red Italian wine grape variety that derives its name from the Latin sanguis Jovis, \"blood of Jupiter\".",
-    "url": "https://en.wikipedia.org/wiki/Sangiovese",
-    "title": "Sangiovese"
-   }
+   "wiki": null
   },
   {
    "iWine": "4844161",
@@ -4526,15 +4406,15 @@
    "location": "Cellar",
    "quantity": 1,
    "price_paid_bottle": 46.0,
-   "value_bottle": 47.79,
+   "value_bottle": 48.09,
    "total_paid": 46.0,
-   "total_value": 47.79,
+   "total_value": 48.09,
    "avg_critic_score": 92.5,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2024,
    "end_consume": 2031,
-   "appreciation_pct": 3.9,
+   "appreciation_pct": 4.5,
    "body": "Light-medium",
    "tannin": "None",
    "pairings": [
@@ -4665,11 +4545,7 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": {
-    "summary": "Syrah, also known as Shiraz, is a dark-skinned grape variety grown throughout the world and used primarily to produce red wine. In 1999, Syrah was found to be the offspring of two obscure grapes from southeastern France, Dureza and Mondeuse Blanche. Syrah should not be confused with Petite Sirah, a cross of Syrah with Peloursin dating from 1880.",
-    "url": "https://en.wikipedia.org/wiki/Syrah",
-    "title": "Syrah"
-   }
+   "wiki": null
   },
   {
    "iWine": "4316519",
@@ -4706,11 +4582,7 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": {
-    "summary": "Syrah, also known as Shiraz, is a dark-skinned grape variety grown throughout the world and used primarily to produce red wine. In 1999, Syrah was found to be the offspring of two obscure grapes from southeastern France, Dureza and Mondeuse Blanche. Syrah should not be confused with Petite Sirah, a cross of Syrah with Peloursin dating from 1880.",
-    "url": "https://en.wikipedia.org/wiki/Syrah",
-    "title": "Syrah"
-   }
+   "wiki": null
   },
   {
    "iWine": "5370346",
@@ -4747,11 +4619,7 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": {
-    "summary": "Nerello mascalese is a name given to a variety of red wine grapes named after the Mascali area in Catania, that grow primarily in Sicily and Sardinia.\nIt is grown mainly on the northeastern side of Sicily and is thought to be superior in quality to the Nerello Cappuccio. There is an experimental vineyard in Agliano Terme, Piedmont, where Nerello has been planted by the winery, Vini Ragerra, and they are credited with being the first to plant and vinify Nerello in this…",
-    "url": "https://en.wikipedia.org/wiki/Nerello_mascalese",
-    "title": "Nerello mascalese"
-   }
+   "wiki": null
   },
   {
    "iWine": "874157",
@@ -4862,11 +4730,7 @@
     "hours": 1.5,
     "label": "~1.5–2 hrs (longer if young & tightly wound)"
    },
-   "wiki": {
-    "summary": "Syrah, also known as Shiraz, is a dark-skinned grape variety grown throughout the world and used primarily to produce red wine. In 1999, Syrah was found to be the offspring of two obscure grapes from southeastern France, Dureza and Mondeuse Blanche. Syrah should not be confused with Petite Sirah, a cross of Syrah with Peloursin dating from 1880.",
-    "url": "https://en.wikipedia.org/wiki/Syrah",
-    "title": "Syrah"
-   }
+   "wiki": null
   },
   {
    "iWine": "4520343",
@@ -4957,15 +4821,15 @@
    "location": "Cellar - Wine Society",
    "quantity": 1,
    "price_paid_bottle": 31.0,
-   "value_bottle": 31.0,
+   "value_bottle": 30.92,
    "total_paid": 31.0,
-   "total_value": 31.0,
+   "total_value": 30.92,
    "avg_critic_score": null,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2031,
    "end_consume": 2042,
-   "appreciation_pct": 0.0,
+   "appreciation_pct": -0.3,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -5207,11 +5071,7 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": {
-    "summary": "Sangiovese is a red Italian wine grape variety that derives its name from the Latin sanguis Jovis, \"blood of Jupiter\".",
-    "url": "https://en.wikipedia.org/wiki/Sangiovese",
-    "title": "Sangiovese"
-   }
+   "wiki": null
   },
   {
    "iWine": "5271148",
@@ -5248,11 +5108,7 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": {
-    "summary": "Sangiovese is a red Italian wine grape variety that derives its name from the Latin sanguis Jovis, \"blood of Jupiter\".",
-    "url": "https://en.wikipedia.org/wiki/Sangiovese",
-    "title": "Sangiovese"
-   }
+   "wiki": null
   },
   {
    "iWine": "5855674",
@@ -5269,15 +5125,15 @@
    "location": "Cellar - Wine Society",
    "quantity": 1,
    "price_paid_bottle": 31.0,
-   "value_bottle": 31.0,
+   "value_bottle": 30.92,
    "total_paid": 31.0,
-   "total_value": 31.0,
+   "total_value": 30.92,
    "avg_critic_score": null,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2031,
    "end_consume": 2043,
-   "appreciation_pct": 0.0,
+   "appreciation_pct": -0.3,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -5326,11 +5182,7 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": {
-    "summary": "Nerello mascalese is a name given to a variety of red wine grapes named after the Mascali area in Catania, that grow primarily in Sicily and Sardinia.\nIt is grown mainly on the northeastern side of Sicily and is thought to be superior in quality to the Nerello Cappuccio. There is an experimental vineyard in Agliano Terme, Piedmont, where Nerello has been planted by the winery, Vini Ragerra, and they are credited with being the first to plant and vinify Nerello in this…",
-    "url": "https://en.wikipedia.org/wiki/Nerello_mascalese",
-    "title": "Nerello mascalese"
-   }
+   "wiki": null
   },
   {
    "iWine": "5407672",
@@ -5367,11 +5219,7 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": {
-    "summary": "Nerello mascalese is a name given to a variety of red wine grapes named after the Mascali area in Catania, that grow primarily in Sicily and Sardinia.\nIt is grown mainly on the northeastern side of Sicily and is thought to be superior in quality to the Nerello Cappuccio. There is an experimental vineyard in Agliano Terme, Piedmont, where Nerello has been planted by the winery, Vini Ragerra, and they are credited with being the first to plant and vinify Nerello in this…",
-    "url": "https://en.wikipedia.org/wiki/Nerello_mascalese",
-    "title": "Nerello mascalese"
-   }
+   "wiki": null
   },
   {
    "iWine": "5652593",
@@ -5388,15 +5236,15 @@
    "location": "Cellar - Wine Society",
    "quantity": 3,
    "price_paid_bottle": 48.0,
-   "value_bottle": 62.82,
+   "value_bottle": 63.1,
    "total_paid": 144.0,
-   "total_value": 188.45,
+   "total_value": 189.29,
    "avg_critic_score": 94.0,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2030,
    "end_consume": 2044,
-   "appreciation_pct": 30.9,
+   "appreciation_pct": 31.5,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -5540,15 +5388,15 @@
    "location": "Cellar - Wine Society",
    "quantity": 3,
    "price_paid_bottle": 20.0,
-   "value_bottle": 27.02,
+   "value_bottle": 26.4,
    "total_paid": 60.0,
-   "total_value": 81.05,
+   "total_value": 79.21,
    "avg_critic_score": null,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2027,
    "end_consume": 2034,
-   "appreciation_pct": 35.1,
+   "appreciation_pct": 32.0,
    "body": "Full",
    "tannin": "High",
    "pairings": [
@@ -5601,11 +5449,7 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": {
-    "summary": "Tempranillo is a black grape variety widely grown to make full-bodied red wines in its native Spain. Its name is the diminutive of the Spanish temprano (\"early\"), a reference to the fact that it ripens several weeks earlier than most Spanish red grapes. Tempranillo has been grown on the Iberian Peninsula since the time of Phoenician settlements. It is the main grape used in Rioja, and is often referred to as Spain's noble grape. The grape has been planted throughout the…",
-    "url": "https://en.wikipedia.org/wiki/Tempranillo",
-    "title": "Tempranillo"
-   }
+   "wiki": null
   },
   {
    "iWine": "4419381",
@@ -5622,9 +5466,9 @@
    "location": "Cellar",
    "quantity": 1,
    "price_paid_bottle": 0.0,
-   "value_bottle": 344.04,
+   "value_bottle": 351.77,
    "total_paid": 0.0,
-   "total_value": 344.04,
+   "total_value": 351.77,
    "avg_critic_score": 94.8,
    "my_score": null,
    "critic_scores": {},
@@ -5642,11 +5486,7 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": {
-    "summary": "Tempranillo is a black grape variety widely grown to make full-bodied red wines in its native Spain. Its name is the diminutive of the Spanish temprano (\"early\"), a reference to the fact that it ripens several weeks earlier than most Spanish red grapes. Tempranillo has been grown on the Iberian Peninsula since the time of Phoenician settlements. It is the main grape used in Rioja, and is often referred to as Spain's noble grape. The grape has been planted throughout the…",
-    "url": "https://en.wikipedia.org/wiki/Tempranillo",
-    "title": "Tempranillo"
-   }
+   "wiki": null
   },
   {
    "iWine": "4495677",
@@ -5683,11 +5523,7 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": {
-    "summary": "Tempranillo is a black grape variety widely grown to make full-bodied red wines in its native Spain. Its name is the diminutive of the Spanish temprano (\"early\"), a reference to the fact that it ripens several weeks earlier than most Spanish red grapes. Tempranillo has been grown on the Iberian Peninsula since the time of Phoenician settlements. It is the main grape used in Rioja, and is often referred to as Spain's noble grape. The grape has been planted throughout the…",
-    "url": "https://en.wikipedia.org/wiki/Tempranillo",
-    "title": "Tempranillo"
-   }
+   "wiki": null
   },
   {
    "iWine": "2522593",
@@ -5724,11 +5560,7 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": {
-    "summary": "Syrah, also known as Shiraz, is a dark-skinned grape variety grown throughout the world and used primarily to produce red wine. In 1999, Syrah was found to be the offspring of two obscure grapes from southeastern France, Dureza and Mondeuse Blanche. Syrah should not be confused with Petite Sirah, a cross of Syrah with Peloursin dating from 1880.",
-    "url": "https://en.wikipedia.org/wiki/Syrah",
-    "title": "Syrah"
-   }
+   "wiki": null
   },
   {
    "iWine": "5855671",
@@ -5745,15 +5577,15 @@
    "location": "Cellar - Wine Society",
    "quantity": 1,
    "price_paid_bottle": 31.0,
-   "value_bottle": 31.0,
+   "value_bottle": 30.92,
    "total_paid": 31.0,
-   "total_value": 31.0,
+   "total_value": 30.92,
    "avg_critic_score": null,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2030,
    "end_consume": 2038,
-   "appreciation_pct": 0.0,
+   "appreciation_pct": -0.3,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -5821,15 +5653,15 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 18.33,
-   "value_bottle": 33.68,
+   "value_bottle": 33.82,
    "total_paid": 109.98,
-   "total_value": 202.08,
+   "total_value": 202.92,
    "avg_critic_score": 93.8,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2028,
    "end_consume": 2044,
-   "appreciation_pct": 83.7,
+   "appreciation_pct": 84.5,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -5917,11 +5749,7 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": {
-    "summary": "Syrah, also known as Shiraz, is a dark-skinned grape variety grown throughout the world and used primarily to produce red wine. In 1999, Syrah was found to be the offspring of two obscure grapes from southeastern France, Dureza and Mondeuse Blanche. Syrah should not be confused with Petite Sirah, a cross of Syrah with Peloursin dating from 1880.",
-    "url": "https://en.wikipedia.org/wiki/Syrah",
-    "title": "Syrah"
-   }
+   "wiki": null
   },
   {
    "iWine": "3984055",
@@ -5995,11 +5823,7 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": {
-    "summary": "Nebbiolo is an Italian red wine grape variety predominantly associated with its native Piedmont region, where it makes the Denominazione di Origine Controllata e Garantita (DOCG) wines of Barolo, Barbaresco, Gattinara, Ghemme, and Roero, together with numerous DOC wines. Nebbiolo is thought to derive its name from the Italian nebbia or Piedmontese nebia, meaning 'fog'. During harvest, which generally takes place late in October, a deep, intense fog sets into the Langhe…",
-    "url": "https://en.wikipedia.org/wiki/Nebbiolo",
-    "title": "Nebbiolo"
-   }
+   "wiki": null
   },
   {
    "iWine": "4641506",
@@ -6023,7 +5847,7 @@
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2029,
-   "end_consume": 2048,
+   "end_consume": 2047,
    "appreciation_pct": 66.9,
    "body": "Medium",
    "tannin": "Medium",
@@ -6094,15 +5918,15 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 129.0,
-   "value_bottle": 199.98,
+   "value_bottle": 202.46,
    "total_paid": 774.0,
-   "total_value": 1199.88,
+   "total_value": 1214.76,
    "avg_critic_score": 95.6,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2027,
    "end_consume": 2057,
-   "appreciation_pct": 55.0,
+   "appreciation_pct": 56.9,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -6151,11 +5975,7 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": {
-    "summary": "Syrah, also known as Shiraz, is a dark-skinned grape variety grown throughout the world and used primarily to produce red wine. In 1999, Syrah was found to be the offspring of two obscure grapes from southeastern France, Dureza and Mondeuse Blanche. Syrah should not be confused with Petite Sirah, a cross of Syrah with Peloursin dating from 1880.",
-    "url": "https://en.wikipedia.org/wiki/Syrah",
-    "title": "Syrah"
-   }
+   "wiki": null
   },
   {
    "iWine": "5458680",
@@ -6192,11 +6012,7 @@
     "hours": 1.5,
     "label": "~1.5–2 hrs (longer if young & tightly wound)"
    },
-   "wiki": {
-    "summary": "Tempranillo is a black grape variety widely grown to make full-bodied red wines in its native Spain. Its name is the diminutive of the Spanish temprano (\"early\"), a reference to the fact that it ripens several weeks earlier than most Spanish red grapes. Tempranillo has been grown on the Iberian Peninsula since the time of Phoenician settlements. It is the main grape used in Rioja, and is often referred to as Spain's noble grape. The grape has been planted throughout the…",
-    "url": "https://en.wikipedia.org/wiki/Tempranillo",
-    "title": "Tempranillo"
-   }
+   "wiki": null
   },
   {
    "iWine": "2656322",
@@ -6270,11 +6086,7 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": {
-    "summary": "Sangiovese is a red Italian wine grape variety that derives its name from the Latin sanguis Jovis, \"blood of Jupiter\".",
-    "url": "https://en.wikipedia.org/wiki/Sangiovese",
-    "title": "Sangiovese"
-   }
+   "wiki": null
   },
   {
    "iWine": "1123088",
@@ -6312,6 +6124,43 @@
    "decant": {
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
+   },
+   "wiki": null
+  },
+  {
+   "iWine": "5749031",
+   "wine": "Château Léoville Barton",
+   "vintage": "2025",
+   "producer": "Château Léoville Barton",
+   "country": "France",
+   "region": "Bordeaux",
+   "subregion": "Médoc",
+   "appellation": "Saint-Julien",
+   "color": "Red",
+   "style": "Red",
+   "varietal": "Red Bordeaux Blend",
+   "location": "Cellar - Wine Society",
+   "quantity": 3,
+   "price_paid_bottle": 53.0,
+   "value_bottle": 73.47,
+   "total_paid": 159.0,
+   "total_value": 220.4,
+   "avg_critic_score": 94.7,
+   "my_score": null,
+   "critic_scores": {},
+   "begin_consume": 2035,
+   "end_consume": 2059,
+   "appreciation_pct": 38.6,
+   "body": "Medium",
+   "tannin": "Medium",
+   "pairings": [
+    "red meat",
+    "hard cheese",
+    "roasted vegetables"
+   ],
+   "decant": {
+    "hours": 1.0,
+    "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
    "wiki": null
   },
@@ -6355,43 +6204,6 @@
     "url": "https://en.wikipedia.org/wiki/Grenache",
     "title": "Grenache"
    }
-  },
-  {
-   "iWine": "5749031",
-   "wine": "Château Léoville Barton",
-   "vintage": "2025",
-   "producer": "Château Léoville Barton",
-   "country": "France",
-   "region": "Bordeaux",
-   "subregion": "Médoc",
-   "appellation": "Saint-Julien",
-   "color": "Red",
-   "style": "Red",
-   "varietal": "Red Bordeaux Blend",
-   "location": "Cellar - Wine Society",
-   "quantity": 3,
-   "price_paid_bottle": 53.0,
-   "value_bottle": 72.99,
-   "total_paid": 159.0,
-   "total_value": 218.96,
-   "avg_critic_score": 94.7,
-   "my_score": null,
-   "critic_scores": {},
-   "begin_consume": 2035,
-   "end_consume": 2059,
-   "appreciation_pct": 37.7,
-   "body": "Medium",
-   "tannin": "Medium",
-   "pairings": [
-    "red meat",
-    "hard cheese",
-    "roasted vegetables"
-   ],
-   "decant": {
-    "hours": 1.0,
-    "label": "~1–1.5 hrs (longer if young & tightly wound)"
-   },
-   "wiki": null
   }
  ],
  "top_losers": [
@@ -6430,11 +6242,7 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": {
-    "summary": "Nerello mascalese is a name given to a variety of red wine grapes named after the Mascali area in Catania, that grow primarily in Sicily and Sardinia.\nIt is grown mainly on the northeastern side of Sicily and is thought to be superior in quality to the Nerello Cappuccio. There is an experimental vineyard in Agliano Terme, Piedmont, where Nerello has been planted by the winery, Vini Ragerra, and they are credited with being the first to plant and vinify Nerello in this…",
-    "url": "https://en.wikipedia.org/wiki/Nerello_mascalese",
-    "title": "Nerello mascalese"
-   }
+   "wiki": null
   },
   {
    "iWine": "5322676",
@@ -6512,11 +6320,7 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": {
-    "summary": "Syrah, also known as Shiraz, is a dark-skinned grape variety grown throughout the world and used primarily to produce red wine. In 1999, Syrah was found to be the offspring of two obscure grapes from southeastern France, Dureza and Mondeuse Blanche. Syrah should not be confused with Petite Sirah, a cross of Syrah with Peloursin dating from 1880.",
-    "url": "https://en.wikipedia.org/wiki/Syrah",
-    "title": "Syrah"
-   }
+   "wiki": null
   },
   {
    "iWine": "3645986",
@@ -6590,11 +6394,7 @@
     "hours": 1.5,
     "label": "~1.5–2 hrs (longer if young & tightly wound)"
    },
-   "wiki": {
-    "summary": "Syrah, also known as Shiraz, is a dark-skinned grape variety grown throughout the world and used primarily to produce red wine. In 1999, Syrah was found to be the offspring of two obscure grapes from southeastern France, Dureza and Mondeuse Blanche. Syrah should not be confused with Petite Sirah, a cross of Syrah with Peloursin dating from 1880.",
-    "url": "https://en.wikipedia.org/wiki/Syrah",
-    "title": "Syrah"
-   }
+   "wiki": null
   },
   {
    "iWine": "5736051",
@@ -6695,15 +6495,15 @@
    "location": "Cellar - Wine Society",
    "quantity": 1,
    "price_paid_bottle": 31.0,
-   "value_bottle": 31.0,
+   "value_bottle": 30.92,
    "total_paid": 31.0,
-   "total_value": 31.0,
+   "total_value": 30.92,
    "avg_critic_score": null,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2032,
    "end_consume": 2042,
-   "appreciation_pct": 0.0,
+   "appreciation_pct": -0.3,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -6732,15 +6532,15 @@
    "location": "Cellar - Wine Society",
    "quantity": 1,
    "price_paid_bottle": 31.0,
-   "value_bottle": 31.0,
+   "value_bottle": 30.92,
    "total_paid": 31.0,
-   "total_value": 31.0,
+   "total_value": 30.92,
    "avg_critic_score": null,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2032,
    "end_consume": 2042,
-   "appreciation_pct": 0.0,
+   "appreciation_pct": -0.3,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -6769,15 +6569,15 @@
    "location": "Cellar - Wine Society",
    "quantity": 1,
    "price_paid_bottle": 31.0,
-   "value_bottle": 31.0,
+   "value_bottle": 30.92,
    "total_paid": 31.0,
-   "total_value": 31.0,
+   "total_value": 30.92,
    "avg_critic_score": null,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2031,
    "end_consume": 2044,
-   "appreciation_pct": 0.0,
+   "appreciation_pct": -0.3,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -6790,47 +6590,6 @@
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
    "wiki": null
-  },
-  {
-   "iWine": "5855677",
-   "wine": "Mullineux Cabernet Sauvignon Leeu Passant",
-   "vintage": "2025",
-   "producer": "Mullineux",
-   "country": "South Africa",
-   "region": "Coastal Region",
-   "subregion": "Stellenbosch",
-   "appellation": "Stellenbosch",
-   "color": "Red",
-   "style": "Red",
-   "varietal": "Cabernet Sauvignon",
-   "location": "Cellar - Wine Society",
-   "quantity": 6,
-   "price_paid_bottle": 22.0,
-   "value_bottle": 22.0,
-   "total_paid": 132.0,
-   "total_value": 132.0,
-   "avg_critic_score": null,
-   "my_score": null,
-   "critic_scores": {},
-   "begin_consume": 2030,
-   "end_consume": 2039,
-   "appreciation_pct": 0.0,
-   "body": "Full",
-   "tannin": "High",
-   "pairings": [
-    "grilled or roast red meat",
-    "hard aged cheese (cheddar, gouda)",
-    "lamb"
-   ],
-   "decant": {
-    "hours": 2.0,
-    "label": "~2–2.5 hrs (longer if young & tightly wound)"
-   },
-   "wiki": {
-    "summary": "Cabernet Sauvignon is one of the world's most widely recognized red wine grape varieties. It is grown in nearly every major wine producing country among a diverse spectrum of climates from Australia and British Columbia, Canada to Lebanon's Beqaa Valley.",
-    "url": "https://en.wikipedia.org/wiki/Cabernet_Sauvignon",
-    "title": "Cabernet Sauvignon"
-   }
   },
   {
    "iWine": "5855676",
@@ -6847,15 +6606,15 @@
    "location": "Cellar - Wine Society",
    "quantity": 1,
    "price_paid_bottle": 31.0,
-   "value_bottle": 31.0,
+   "value_bottle": 30.92,
    "total_paid": 31.0,
-   "total_value": 31.0,
+   "total_value": 30.92,
    "avg_critic_score": null,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2031,
    "end_consume": 2042,
-   "appreciation_pct": 0.0,
+   "appreciation_pct": -0.3,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -6884,15 +6643,15 @@
    "location": "Cellar - Wine Society",
    "quantity": 1,
    "price_paid_bottle": 31.0,
-   "value_bottle": 31.0,
+   "value_bottle": 30.92,
    "total_paid": 31.0,
-   "total_value": 31.0,
+   "total_value": 30.92,
    "avg_critic_score": null,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2031,
    "end_consume": 2043,
-   "appreciation_pct": 0.0,
+   "appreciation_pct": -0.3,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -6921,15 +6680,15 @@
    "location": "Cellar - Wine Society",
    "quantity": 1,
    "price_paid_bottle": 31.0,
-   "value_bottle": 31.0,
+   "value_bottle": 30.92,
    "total_paid": 31.0,
-   "total_value": 31.0,
+   "total_value": 30.92,
    "avg_critic_score": null,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2030,
    "end_consume": 2038,
-   "appreciation_pct": 0.0,
+   "appreciation_pct": -0.3,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -6961,6 +6720,47 @@
    "value_bottle": 45.52,
    "total_paid": 45.0,
    "total_value": 45.52,
+   "avg_critic_score": 92.5,
+   "my_score": null,
+   "critic_scores": {},
+   "begin_consume": 2024,
+   "end_consume": 2038,
+   "appreciation_pct": 1.2,
+   "body": "Light",
+   "tannin": "None",
+   "pairings": [
+    "spicy Asian food",
+    "pork",
+    "soft cheese"
+   ],
+   "decant": {
+    "hours": 0,
+    "label": "No decanting needed — drink straight from the bottle"
+   },
+   "wiki": {
+    "summary": "Riesling is a white grape variety that is believed to have originated from the Rhine Valley region of western Germany, before later being traced to the Alsace region by 1470 and Austria by 1700. Riesling is an aromatic grape variety displaying flowery, almost perfumed, aromas as well as high acidity. It is used to make dry, semi-sweet, sweet, and sparkling white wines. Riesling wines are usually varietally pure and are seldom oaked. As of 2004, Riesling was estimated to be…",
+    "url": "https://en.wikipedia.org/wiki/Riesling",
+    "title": "Riesling"
+   }
+  },
+  {
+   "iWine": "4773903",
+   "wine": "Hugel Riesling Schoenenbourg Grossi Laüe",
+   "vintage": "2015",
+   "producer": "Hugel",
+   "country": "France",
+   "region": "Alsace",
+   "subregion": "Unknown",
+   "appellation": "Alsace Grand Cru",
+   "color": "White",
+   "style": "White",
+   "varietal": "Riesling",
+   "location": "Cellar - Wine Society",
+   "quantity": 3,
+   "price_paid_bottle": 45.0,
+   "value_bottle": 45.52,
+   "total_paid": 135.0,
+   "total_value": 136.55,
    "avg_critic_score": 92.5,
    "my_score": null,
    "critic_scores": {},
@@ -7050,8 +6850,8 @@
    "wines": 3,
    "bottles": 7,
    "paid": 1224.0,
-   "value": 1802.77,
-   "appreciation_pct": 47.3,
+   "value": 1810.5,
+   "appreciation_pct": 47.9,
    "avg_score": 94.8,
    "countries": [
     "Spain"
@@ -7116,8 +6916,8 @@
    "wines": 1,
    "bottles": 6,
    "paid": 774.0,
-   "value": 1199.88,
-   "appreciation_pct": 55.0,
+   "value": 1214.76,
+   "appreciation_pct": 56.9,
    "avg_score": 95.6,
    "countries": [
     "France"
@@ -7170,8 +6970,8 @@
    "wines": 2,
    "bottles": 9,
    "paid": 568.98,
-   "value": 841.98,
-   "appreciation_pct": 48.0,
+   "value": 843.42,
+   "appreciation_pct": 48.2,
    "avg_score": 94.6,
    "countries": [
     "France"
@@ -7350,6 +7150,22 @@
    }
   },
   {
+   "name": "Conti Costanti",
+   "wines": 1,
+   "bottles": 6,
+   "paid": 342.0,
+   "value": 369.45,
+   "appreciation_pct": 8.0,
+   "avg_score": 96.0,
+   "countries": [
+    "Italy"
+   ],
+   "regions": [
+    "Tuscany"
+   ],
+   "wikidata": null
+  },
+  {
    "name": "Roccolo Grassi",
    "wines": 1,
    "bottles": 6,
@@ -7362,22 +7178,6 @@
    ],
    "regions": [
     "Veneto"
-   ],
-   "wikidata": null
-  },
-  {
-   "name": "Conti Costanti",
-   "wines": 1,
-   "bottles": 6,
-   "paid": 342.0,
-   "value": 366.22,
-   "appreciation_pct": 7.1,
-   "avg_score": 96.0,
-   "countries": [
-    "Italy"
-   ],
-   "regions": [
-    "Tuscany"
    ],
    "wikidata": null
   },
@@ -7504,8 +7304,8 @@
    "wines": 1,
    "bottles": 6,
    "paid": 109.98,
-   "value": 202.08,
-   "appreciation_pct": 83.7,
+   "value": 202.92,
+   "appreciation_pct": 84.5,
    "avg_score": 93.8,
    "countries": [
     "France"
@@ -7536,8 +7336,8 @@
    "wines": 1,
    "bottles": 3,
    "paid": 144.0,
-   "value": 188.45,
-   "appreciation_pct": 30.9,
+   "value": 189.29,
+   "appreciation_pct": 31.5,
    "avg_score": 94.0,
    "countries": [
     "New Zealand"
@@ -7618,34 +7418,34 @@
    "wikidata": null
   },
   {
-   "name": "Vanguardist Wines",
-   "wines": 2,
-   "bottles": 6,
-   "paid": 120.0,
-   "value": 164.05,
-   "appreciation_pct": 36.7,
-   "avg_score": 90.3,
-   "countries": [
-    "Australia"
-   ],
-   "regions": [
-    "South Australia"
-   ],
-   "wikidata": null
-  },
-  {
    "name": "Mullineux",
    "wines": 1,
    "bottles": 6,
    "paid": 132.0,
-   "value": 132.0,
-   "appreciation_pct": 0.0,
+   "value": 166.01,
+   "appreciation_pct": 25.8,
    "avg_score": null,
    "countries": [
     "South Africa"
    ],
    "regions": [
     "Coastal Region"
+   ],
+   "wikidata": null
+  },
+  {
+   "name": "Vanguardist Wines",
+   "wines": 2,
+   "bottles": 6,
+   "paid": 120.0,
+   "value": 162.21,
+   "appreciation_pct": 35.2,
+   "avg_score": 90.3,
+   "countries": [
+    "Australia"
+   ],
+   "regions": [
+    "South Australia"
    ],
    "wikidata": null
   },
@@ -7702,8 +7502,8 @@
    "wines": 2,
    "bottles": 2,
    "paid": 92.0,
-   "value": 93.62,
-   "appreciation_pct": 1.8,
+   "value": 93.92,
+   "appreciation_pct": 2.1,
    "avg_score": 92.5,
    "countries": [
     "Spain"
@@ -7846,8 +7646,8 @@
    "wines": 1,
    "bottles": 1,
    "paid": 29.0,
-   "value": 32.08,
-   "appreciation_pct": 10.6,
+   "value": 31.13,
+   "appreciation_pct": 7.3,
    "avg_score": 90.0,
    "countries": [
     "Argentina"
@@ -7868,8 +7668,8 @@
    "wines": 1,
    "bottles": 1,
    "paid": 31.0,
-   "value": 31.0,
-   "appreciation_pct": 0.0,
+   "value": 30.92,
+   "appreciation_pct": -0.3,
    "avg_score": null,
    "countries": [
     "South Africa"
@@ -7884,8 +7684,8 @@
    "wines": 1,
    "bottles": 1,
    "paid": 31.0,
-   "value": 31.0,
-   "appreciation_pct": 0.0,
+   "value": 30.92,
+   "appreciation_pct": -0.3,
    "avg_score": null,
    "countries": [
     "South Africa"
@@ -7900,8 +7700,8 @@
    "wines": 1,
    "bottles": 1,
    "paid": 31.0,
-   "value": 31.0,
-   "appreciation_pct": 0.0,
+   "value": 30.92,
+   "appreciation_pct": -0.3,
    "avg_score": null,
    "countries": [
     "South Africa"
@@ -7922,8 +7722,8 @@
    "wines": 1,
    "bottles": 1,
    "paid": 31.0,
-   "value": 31.0,
-   "appreciation_pct": 0.0,
+   "value": 30.92,
+   "appreciation_pct": -0.3,
    "avg_score": null,
    "countries": [
     "South Africa"
@@ -7938,8 +7738,8 @@
    "wines": 1,
    "bottles": 1,
    "paid": 31.0,
-   "value": 31.0,
-   "appreciation_pct": 0.0,
+   "value": 30.92,
+   "appreciation_pct": -0.3,
    "avg_score": null,
    "countries": [
     "South Africa"
@@ -7954,8 +7754,8 @@
    "wines": 1,
    "bottles": 1,
    "paid": 31.0,
-   "value": 31.0,
-   "appreciation_pct": 0.0,
+   "value": 30.92,
+   "appreciation_pct": -0.3,
    "avg_score": null,
    "countries": [
     "South Africa"
@@ -8139,11 +7939,7 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": {
-    "summary": "Syrah, also known as Shiraz, is a dark-skinned grape variety grown throughout the world and used primarily to produce red wine. In 1999, Syrah was found to be the offspring of two obscure grapes from southeastern France, Dureza and Mondeuse Blanche. Syrah should not be confused with Petite Sirah, a cross of Syrah with Peloursin dating from 1880.",
-    "url": "https://en.wikipedia.org/wiki/Syrah",
-    "title": "Syrah"
-   }
+   "wiki": null
   },
   "biggest_producer_by_bottles": {
    "name": "Penfolds",
@@ -8190,7 +7986,7 @@
    }
   },
   "avg_bottle_price_paid": 79.11,
-  "avg_bottle_value_now": 104.71,
+  "avg_bottle_value_now": 104.95,
   "avg_cellar_age_years": 7.0,
   "largest_single_purchase": {
    "date": "2026-03-06",
@@ -8220,7 +8016,7 @@
     "vintage": "2019",
     "producer": "Dunn Vineyards",
     "since": "2025-05-10",
-    "days_held": 451
+    "days_held": 452
    },
    {
     "iWine": "4386234",
@@ -8228,7 +8024,7 @@
     "vintage": "2019",
     "producer": "Dunn Vineyards",
     "since": "2025-05-10",
-    "days_held": 451
+    "days_held": 452
    },
    {
     "iWine": "4986829",
@@ -8236,7 +8032,7 @@
     "vintage": "2023",
     "producer": "Roc de Cambes",
     "since": "2025-06-07",
-    "days_held": 423
+    "days_held": 424
    },
    {
     "iWine": "4390612",
@@ -8244,7 +8040,7 @@
     "vintage": "2022",
     "producer": "Penfolds",
     "since": "2025-06-11",
-    "days_held": 419
+    "days_held": 420
    },
    {
     "iWine": "4641506",
@@ -8252,7 +8048,7 @@
     "vintage": "2022",
     "producer": "Château Clinet",
     "since": "2025-07-03",
-    "days_held": 397
+    "days_held": 398
    },
    {
     "iWine": "4638895",
@@ -8260,7 +8056,7 @@
     "vintage": "2022",
     "producer": "Château Troplong Mondot",
     "since": "2025-07-03",
-    "days_held": 397
+    "days_held": 398
    },
    {
     "iWine": "4876898",
@@ -8268,7 +8064,7 @@
     "vintage": "2019",
     "producer": "Canalicchio di Sopra",
     "since": "2025-07-12",
-    "days_held": 388
+    "days_held": 389
    },
    {
     "iWine": "4547984",
@@ -8276,7 +8072,7 @@
     "vintage": "2019",
     "producer": "Massolino",
     "since": "2025-07-12",
-    "days_held": 388
+    "days_held": 389
    },
    {
     "iWine": "3709255",
@@ -8284,7 +8080,7 @@
     "vintage": "2018",
     "producer": "Penfolds",
     "since": "2025-07-12",
-    "days_held": 388
+    "days_held": 389
    },
    {
     "iWine": "5271148",
@@ -8292,16 +8088,16 @@
     "vintage": "2019",
     "producer": "San Polino",
     "since": "2025-07-12",
-    "days_held": 388
+    "days_held": 389
    }
   ],
-  "total_appreciation_pct": 32.4
+  "total_appreciation_pct": 32.7
  },
  "map_countries": [
   {
    "name": "France",
    "bottles": 105,
-   "value": 10279.24,
+   "value": 10296.399999999998,
    "wines": 24,
    "lat": 46.6,
    "lon": 2.2
@@ -8309,7 +8105,7 @@
   {
    "name": "Australia",
    "bottles": 28,
-   "value": 7035.510000000001,
+   "value": 7033.670000000001,
    "wines": 7,
    "lat": -33.9,
    "lon": 143.9
@@ -8317,7 +8113,7 @@
   {
    "name": "Italy",
    "bottles": 56,
-   "value": 4138.55,
+   "value": 4141.780000000001,
    "wines": 18,
    "lat": 42.8,
    "lon": 12.6
@@ -8325,7 +8121,7 @@
   {
    "name": "Spain",
    "bottles": 11,
-   "value": 1943.07,
+   "value": 1951.1,
    "wines": 7,
    "lat": 40.3,
    "lon": -3.7
@@ -8333,7 +8129,7 @@
   {
    "name": "South Africa",
    "bottles": 33,
-   "value": 1630.04,
+   "value": 1663.5700000000002,
    "wines": 11,
    "lat": -33.9,
    "lon": 20.0
@@ -8349,7 +8145,7 @@
   {
    "name": "New Zealand",
    "bottles": 3,
-   "value": 188.45,
+   "value": 189.29,
    "wines": 1,
    "lat": -41.5,
    "lon": 173.5
@@ -8373,7 +8169,7 @@
   {
    "name": "Argentina",
    "bottles": 1,
-   "value": 32.08,
+   "value": 31.13,
    "wines": 1,
    "lat": -34.6,
    "lon": -68.5
@@ -16007,8 +15803,8 @@
     "date": "2026-07-17",
     "month": "2026-07",
     "rating": 89.0,
-    "community_score": 90.5,
-    "delta": -1.5,
+    "community_score": 90.0,
+    "delta": -1.0,
     "notes_text": ""
    },
    {
@@ -16039,8 +15835,8 @@
     "date": "2026-07-17",
     "month": "2026-07",
     "rating": 90.0,
-    "community_score": 88.75,
-    "delta": 1.2,
+    "community_score": 89.0,
+    "delta": 1.0,
     "notes_text": ""
    },
    {
@@ -16649,8 +16445,8 @@
     "date": "2026-07-17",
     "month": "2026-07",
     "rating": 89.0,
-    "community_score": 90.5,
-    "delta": -1.5,
+    "community_score": 90.0,
+    "delta": -1.0,
     "notes_text": ""
    },
    {
@@ -16681,8 +16477,8 @@
     "date": "2026-07-17",
     "month": "2026-07",
     "rating": 90.0,
-    "community_score": 88.75,
-    "delta": 1.2,
+    "community_score": 89.0,
+    "delta": 1.0,
     "notes_text": ""
    },
    {
