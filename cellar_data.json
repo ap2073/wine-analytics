@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-08-06T12:31:56.349735+00:00",
+ "generated_at": "2026-08-07T09:38:47.221461+00:00",
  "current_year": 2026,
  "summary": {
   "total_bottles": 250,
   "total_wines": 76,
-  "total_value": 26297.41,
+  "total_value": 26320.55,
   "total_paid": 19777.25,
   "countries": 10,
   "avg_critic_score": 93.0
@@ -13,25 +13,25 @@
   {
    "name": "France",
    "bottles": 105,
-   "value": 10281.349999999999,
+   "value": 10275.14,
    "wines": 24
   },
   {
    "name": "Australia",
    "bottles": 28,
-   "value": 7036.26,
+   "value": 7065.039999999999,
    "wines": 7
   },
   {
    "name": "Italy",
    "bottles": 56,
-   "value": 4196.620000000001,
+   "value": 4194.9400000000005,
    "wines": 18
   },
   {
    "name": "Spain",
    "bottles": 11,
-   "value": 1963.5099999999998,
+   "value": 1965.7599999999998,
    "wines": 7
   },
   {
@@ -75,13 +75,13 @@
   {
    "name": "Red Bordeaux Blend",
    "bottles": 88,
-   "value": 9726.87,
+   "value": 9720.660000000002,
    "wines": 23
   },
   {
    "name": "Syrah",
    "bottles": 34,
-   "value": 6521.089999999999,
+   "value": 6549.87,
    "wines": 7
   },
   {
@@ -93,13 +93,13 @@
   {
    "name": "Tempranillo",
    "bottles": 8,
-   "value": 1858.4799999999998,
+   "value": 1860.7299999999998,
    "wines": 4
   },
   {
    "name": "Sangiovese",
    "bottles": 24,
-   "value": 1726.8600000000004,
+   "value": 1725.18,
    "wines": 6
   },
   {
@@ -197,25 +197,25 @@
   {
    "name": "Bordeaux",
    "bottles": 75,
-   "value": 8061.510000000001,
+   "value": 8055.3,
    "wines": 15
   },
   {
    "name": "South Australia",
    "bottles": 25,
-   "value": 6955.43,
+   "value": 6984.209999999999,
    "wines": 6
   },
   {
    "name": "Tuscany",
    "bottles": 30,
-   "value": 3084.28,
+   "value": 3082.6000000000004,
    "wines": 7
   },
   {
    "name": "Castilla y León",
    "bottles": 9,
-   "value": 1869.59,
+   "value": 1871.84,
    "wines": 5
   },
   {
@@ -319,7 +319,7 @@
   {
    "name": "Red",
    "bottles": 233,
-   "value": 25345.940000000006
+   "value": 25369.079999999998
   },
   {
    "name": "White",
@@ -331,7 +331,7 @@
   {
    "name": "Red",
    "bottles": 233,
-   "value": 25345.940000000006
+   "value": 25369.079999999998
   },
   {
    "name": "White",
@@ -348,7 +348,7 @@
   {
    "name": "Penfolds",
    "bottles": 19,
-   "value": 6791.280000000001,
+   "value": 6820.0599999999995,
    "wines": 4
   },
   {
@@ -414,7 +414,7 @@
   {
    "name": "Château Lynch-Bages",
    "bottles": 4,
-   "value": 609.86,
+   "value": 605.64,
    "wines": 1
   },
   {
@@ -440,17 +440,17 @@
   {
    "name": "Cellar",
    "bottles": 55,
-   "value": 4578.080000000001
+   "value": 4576.110000000001
   },
   {
    "name": "Cellar - Wine Society",
    "bottles": 90,
-   "value": 5094.709999999999
+   "value": 5093.03
   },
   {
    "name": "Cellar - BB&R",
    "bottles": 105,
-   "value": 16624.62
+   "value": 16651.409999999996
   }
  ],
  "drinking_window": {
@@ -1311,15 +1311,15 @@
    "location": "Cellar - Wine Society",
    "quantity": 6,
    "price_paid_bottle": 57.0,
-   "value_bottle": 61.57,
+   "value_bottle": 61.3,
    "total_paid": 342.0,
-   "total_value": 369.45,
+   "total_value": 367.77,
    "avg_critic_score": 96.0,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2029,
    "end_consume": 2041,
-   "appreciation_pct": 8.0,
+   "appreciation_pct": 7.5,
    "body": "Medium",
    "tannin": "Medium-high",
    "pairings": [
@@ -1348,15 +1348,15 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 333.0,
-   "value_bottle": 410.08,
+   "value_bottle": 414.88,
    "total_paid": 1998.0,
-   "total_value": 2460.51,
+   "total_value": 2489.29,
    "avg_critic_score": 96.0,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2022,
    "end_consume": 2046,
-   "appreciation_pct": 23.1,
+   "appreciation_pct": 24.6,
    "body": "Full",
    "tannin": "High",
    "pairings": [
@@ -1897,6 +1897,43 @@
  ],
  "top_value_bottles": [
   {
+   "iWine": "1223731",
+   "wine": "Penfolds Grange",
+   "vintage": "2008",
+   "producer": "Penfolds",
+   "country": "Australia",
+   "region": "South Australia",
+   "subregion": "Unknown",
+   "appellation": "Unknown",
+   "color": "Red",
+   "style": "Red",
+   "varietal": "Syrah",
+   "location": "Cellar - BB&R",
+   "quantity": 6,
+   "price_paid_bottle": 333.0,
+   "value_bottle": 414.88,
+   "total_paid": 1998.0,
+   "total_value": 2489.29,
+   "avg_critic_score": 96.0,
+   "my_score": null,
+   "critic_scores": {},
+   "begin_consume": 2022,
+   "end_consume": 2046,
+   "appreciation_pct": 24.6,
+   "body": "Full",
+   "tannin": "High",
+   "pairings": [
+    "peppered steak",
+    "game",
+    "barbecue"
+   ],
+   "decant": {
+    "hours": 0.5,
+    "label": "~30 min — a short splash-decant to open it up"
+   },
+   "wiki": null
+  },
+  {
    "iWine": "4316519",
    "wine": "Penfolds Grange",
    "vintage": "2018",
@@ -1920,43 +1957,6 @@
    "begin_consume": 2030,
    "end_consume": 2057,
    "appreciation_pct": 54.2,
-   "body": "Full",
-   "tannin": "High",
-   "pairings": [
-    "peppered steak",
-    "game",
-    "barbecue"
-   ],
-   "decant": {
-    "hours": 0.5,
-    "label": "~30 min — a short splash-decant to open it up"
-   },
-   "wiki": null
-  },
-  {
-   "iWine": "1223731",
-   "wine": "Penfolds Grange",
-   "vintage": "2008",
-   "producer": "Penfolds",
-   "country": "Australia",
-   "region": "South Australia",
-   "subregion": "Unknown",
-   "appellation": "Unknown",
-   "color": "Red",
-   "style": "Red",
-   "varietal": "Syrah",
-   "location": "Cellar - BB&R",
-   "quantity": 6,
-   "price_paid_bottle": 333.0,
-   "value_bottle": 410.08,
-   "total_paid": 1998.0,
-   "total_value": 2460.51,
-   "avg_critic_score": 96.0,
-   "my_score": null,
-   "critic_scores": {},
-   "begin_consume": 2022,
-   "end_consume": 2046,
-   "appreciation_pct": 23.1,
    "body": "Full",
    "tannin": "High",
    "pairings": [
@@ -2322,9 +2322,9 @@
    "location": "Cellar",
    "quantity": 4,
    "price_paid_bottle": 108.0,
-   "value_bottle": 152.46,
+   "value_bottle": 151.41,
    "total_paid": 432.0,
-   "total_value": 609.86,
+   "total_value": 605.64,
    "avg_critic_score": 93.7,
    "my_score": 92.0,
    "critic_scores": {
@@ -2332,7 +2332,7 @@
    },
    "begin_consume": 2021,
    "end_consume": 2047,
-   "appreciation_pct": 41.2,
+   "appreciation_pct": 40.2,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -3246,15 +3246,15 @@
    "location": "Cellar - Wine Society",
    "quantity": 6,
    "price_paid_bottle": 57.0,
-   "value_bottle": 61.57,
+   "value_bottle": 61.3,
    "total_paid": 342.0,
-   "total_value": 369.45,
+   "total_value": 367.77,
    "avg_critic_score": 96.0,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2029,
    "end_consume": 2041,
-   "appreciation_pct": 8.0,
+   "appreciation_pct": 7.5,
    "body": "Medium",
    "tannin": "Medium-high",
    "pairings": [
@@ -3611,11 +3611,7 @@
     "hours": 0,
     "label": "No decanting needed — drink straight from the bottle"
    },
-   "wiki": {
-    "summary": "Riesling is a white grape variety that is believed to have originated from the Rhine Valley region of western Germany, before later being traced to the Alsace region by 1470 and Austria by 1700. Riesling is an aromatic grape variety displaying flowery, almost perfumed, aromas as well as high acidity. It is used to make dry, semi-sweet, sweet, and sparkling white wines. Riesling wines are usually varietally pure and are seldom oaked. As of 2004, Riesling was estimated to be…",
-    "url": "https://en.wikipedia.org/wiki/Riesling",
-    "title": "Riesling"
-   }
+   "wiki": null
   },
   {
    "iWine": "4773903",
@@ -3652,11 +3648,7 @@
     "hours": 0,
     "label": "No decanting needed — drink straight from the bottle"
    },
-   "wiki": {
-    "summary": "Riesling is a white grape variety that is believed to have originated from the Rhine Valley region of western Germany, before later being traced to the Alsace region by 1470 and Austria by 1700. Riesling is an aromatic grape variety displaying flowery, almost perfumed, aromas as well as high acidity. It is used to make dry, semi-sweet, sweet, and sparkling white wines. Riesling wines are usually varietally pure and are seldom oaked. As of 2004, Riesling was estimated to be…",
-    "url": "https://en.wikipedia.org/wiki/Riesling",
-    "title": "Riesling"
-   }
+   "wiki": null
   },
   {
    "iWine": "2925612",
@@ -3868,15 +3860,15 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 18.33,
-   "value_bottle": 33.67,
+   "value_bottle": 33.34,
    "total_paid": 109.98,
-   "total_value": 202.03,
+   "total_value": 200.04,
    "avg_critic_score": 93.8,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2028,
    "end_consume": 2044,
-   "appreciation_pct": 83.7,
+   "appreciation_pct": 81.9,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -4059,9 +4051,9 @@
    "location": "Cellar",
    "quantity": 4,
    "price_paid_bottle": 108.0,
-   "value_bottle": 152.46,
+   "value_bottle": 151.41,
    "total_paid": 432.0,
-   "total_value": 609.86,
+   "total_value": 605.64,
    "avg_critic_score": 93.7,
    "my_score": 92.0,
    "critic_scores": {
@@ -4069,7 +4061,7 @@
    },
    "begin_consume": 2021,
    "end_consume": 2047,
-   "appreciation_pct": 41.2,
+   "appreciation_pct": 40.2,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -4254,15 +4246,15 @@
    "location": "Cellar",
    "quantity": 1,
    "price_paid_bottle": 23.33,
-   "value_bottle": 35.57,
+   "value_bottle": 37.82,
    "total_paid": 23.33,
-   "total_value": 35.57,
+   "total_value": 37.82,
    "avg_critic_score": 91.5,
    "my_score": 90.0,
    "critic_scores": {},
    "begin_consume": 2026,
    "end_consume": 2040,
-   "appreciation_pct": 52.5,
+   "appreciation_pct": 62.1,
    "body": "Medium-full",
    "tannin": "Medium-high",
    "pairings": [
@@ -4525,15 +4517,15 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 333.0,
-   "value_bottle": 410.08,
+   "value_bottle": 414.88,
    "total_paid": 1998.0,
-   "total_value": 2460.51,
+   "total_value": 2489.29,
    "avg_critic_score": 96.0,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2022,
    "end_consume": 2046,
-   "appreciation_pct": 23.1,
+   "appreciation_pct": 24.6,
    "body": "Full",
    "tannin": "High",
    "pairings": [
@@ -5649,15 +5641,15 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 18.33,
-   "value_bottle": 33.67,
+   "value_bottle": 33.34,
    "total_paid": 109.98,
-   "total_value": 202.03,
+   "total_value": 200.04,
    "avg_critic_score": 93.8,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2028,
    "end_consume": 2044,
-   "appreciation_pct": 83.7,
+   "appreciation_pct": 81.9,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -5859,6 +5851,43 @@
    "wiki": null
   },
   {
+   "iWine": "5458680",
+   "wine": "Pago de Carraovejas Ribera del Duero",
+   "vintage": "2023",
+   "producer": "Pago de Carraovejas",
+   "country": "Spain",
+   "region": "Castilla y León",
+   "subregion": "Unknown",
+   "appellation": "Ribera del Duero",
+   "color": "Red",
+   "style": "Red",
+   "varietal": "Tempranillo",
+   "location": "Cellar",
+   "quantity": 1,
+   "price_paid_bottle": 23.33,
+   "value_bottle": 37.82,
+   "total_paid": 23.33,
+   "total_value": 37.82,
+   "avg_critic_score": 91.5,
+   "my_score": 90.0,
+   "critic_scores": {},
+   "begin_consume": 2026,
+   "end_consume": 2040,
+   "appreciation_pct": 62.1,
+   "body": "Medium-full",
+   "tannin": "Medium-high",
+   "pairings": [
+    "roast lamb",
+    "chorizo & charcuterie",
+    "manchego cheese"
+   ],
+   "decant": {
+    "hours": 1.5,
+    "label": "~1.5–2 hrs (longer if young & tightly wound)"
+   },
+   "wiki": null
+  },
+  {
    "iWine": "2856200",
    "wine": "Domaine de la Janasse Châteauneuf-du-Pape Cuvée Chaupin",
    "vintage": "2016",
@@ -5974,43 +6003,6 @@
    "wiki": null
   },
   {
-   "iWine": "5458680",
-   "wine": "Pago de Carraovejas Ribera del Duero",
-   "vintage": "2023",
-   "producer": "Pago de Carraovejas",
-   "country": "Spain",
-   "region": "Castilla y León",
-   "subregion": "Unknown",
-   "appellation": "Ribera del Duero",
-   "color": "Red",
-   "style": "Red",
-   "varietal": "Tempranillo",
-   "location": "Cellar",
-   "quantity": 1,
-   "price_paid_bottle": 23.33,
-   "value_bottle": 35.57,
-   "total_paid": 23.33,
-   "total_value": 35.57,
-   "avg_critic_score": 91.5,
-   "my_score": 90.0,
-   "critic_scores": {},
-   "begin_consume": 2026,
-   "end_consume": 2040,
-   "appreciation_pct": 52.5,
-   "body": "Medium-full",
-   "tannin": "Medium-high",
-   "pairings": [
-    "roast lamb",
-    "chorizo & charcuterie",
-    "manchego cheese"
-   ],
-   "decant": {
-    "hours": 1.5,
-    "label": "~1.5–2 hrs (longer if young & tightly wound)"
-   },
-   "wiki": null
-  },
-  {
    "iWine": "2656322",
    "wine": "Château Léoville Barton",
    "vintage": "2016",
@@ -6099,9 +6091,9 @@
    "location": "Cellar",
    "quantity": 4,
    "price_paid_bottle": 108.0,
-   "value_bottle": 152.46,
+   "value_bottle": 151.41,
    "total_paid": 432.0,
-   "total_value": 609.86,
+   "total_value": 605.64,
    "avg_critic_score": 93.7,
    "my_score": 92.0,
    "critic_scores": {
@@ -6109,7 +6101,7 @@
    },
    "begin_consume": 2021,
    "end_consume": 2047,
-   "appreciation_pct": 41.2,
+   "appreciation_pct": 40.2,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -6733,11 +6725,7 @@
     "hours": 0,
     "label": "No decanting needed — drink straight from the bottle"
    },
-   "wiki": {
-    "summary": "Riesling is a white grape variety that is believed to have originated from the Rhine Valley region of western Germany, before later being traced to the Alsace region by 1470 and Austria by 1700. Riesling is an aromatic grape variety displaying flowery, almost perfumed, aromas as well as high acidity. It is used to make dry, semi-sweet, sweet, and sparkling white wines. Riesling wines are usually varietally pure and are seldom oaked. As of 2004, Riesling was estimated to be…",
-    "url": "https://en.wikipedia.org/wiki/Riesling",
-    "title": "Riesling"
-   }
+   "wiki": null
   },
   {
    "iWine": "4773903",
@@ -6774,11 +6762,7 @@
     "hours": 0,
     "label": "No decanting needed — drink straight from the bottle"
    },
-   "wiki": {
-    "summary": "Riesling is a white grape variety that is believed to have originated from the Rhine Valley region of western Germany, before later being traced to the Alsace region by 1470 and Austria by 1700. Riesling is an aromatic grape variety displaying flowery, almost perfumed, aromas as well as high acidity. It is used to make dry, semi-sweet, sweet, and sparkling white wines. Riesling wines are usually varietally pure and are seldom oaked. As of 2004, Riesling was estimated to be…",
-    "url": "https://en.wikipedia.org/wiki/Riesling",
-    "title": "Riesling"
-   }
+   "wiki": null
   }
  ],
  "price_distribution": [
@@ -6824,8 +6808,8 @@
    "wines": 4,
    "bottles": 19,
    "paid": 5056.02,
-   "value": 6791.28,
-   "appreciation_pct": 34.3,
+   "value": 6820.06,
+   "appreciation_pct": 34.9,
    "avg_score": 94.8,
    "countries": [
     "Australia"
@@ -7036,8 +7020,8 @@
    "wines": 1,
    "bottles": 4,
    "paid": 432.0,
-   "value": 609.86,
-   "appreciation_pct": 41.2,
+   "value": 605.64,
+   "appreciation_pct": 40.2,
    "avg_score": 93.7,
    "countries": [
     "France"
@@ -7150,8 +7134,8 @@
    "wines": 1,
    "bottles": 6,
    "paid": 342.0,
-   "value": 369.45,
-   "appreciation_pct": 8.0,
+   "value": 367.77,
+   "appreciation_pct": 7.5,
    "avg_score": 96.0,
    "countries": [
     "Italy"
@@ -7300,8 +7284,8 @@
    "wines": 1,
    "bottles": 6,
    "paid": 109.98,
-   "value": 202.03,
-   "appreciation_pct": 83.7,
+   "value": 200.04,
+   "appreciation_pct": 81.9,
    "avg_score": 93.8,
    "countries": [
     "France"
@@ -7578,8 +7562,8 @@
    "wines": 1,
    "bottles": 1,
    "paid": 23.33,
-   "value": 35.57,
-   "appreciation_pct": 52.5,
+   "value": 37.82,
+   "appreciation_pct": 62.1,
    "avg_score": 91.5,
    "countries": [
     "Spain"
@@ -7901,9 +7885,9 @@
    }
   },
   "most_expensive_bottle": {
-   "iWine": "4316519",
+   "iWine": "1223731",
    "wine": "Penfolds Grange",
-   "vintage": "2018",
+   "vintage": "2008",
    "producer": "Penfolds",
    "country": "Australia",
    "region": "South Australia",
@@ -7914,16 +7898,16 @@
    "varietal": "Syrah",
    "location": "Cellar - BB&R",
    "quantity": 6,
-   "price_paid_bottle": 268.0,
-   "value_bottle": 413.23,
-   "total_paid": 1608.0,
-   "total_value": 2479.39,
-   "avg_critic_score": 96.4,
+   "price_paid_bottle": 333.0,
+   "value_bottle": 414.88,
+   "total_paid": 1998.0,
+   "total_value": 2489.29,
+   "avg_critic_score": 96.0,
    "my_score": null,
    "critic_scores": {},
-   "begin_consume": 2030,
-   "end_consume": 2057,
-   "appreciation_pct": 54.2,
+   "begin_consume": 2022,
+   "end_consume": 2046,
+   "appreciation_pct": 24.6,
    "body": "Full",
    "tannin": "High",
    "pairings": [
@@ -7942,8 +7926,8 @@
    "wines": 4,
    "bottles": 19,
    "paid": 5056.02,
-   "value": 6791.28,
-   "appreciation_pct": 34.3,
+   "value": 6820.06,
+   "appreciation_pct": 34.9,
    "avg_score": 94.8,
    "countries": [
     "Australia"
@@ -7964,8 +7948,8 @@
    "wines": 4,
    "bottles": 19,
    "paid": 5056.02,
-   "value": 6791.28,
-   "appreciation_pct": 34.3,
+   "value": 6820.06,
+   "appreciation_pct": 34.9,
    "avg_score": 94.8,
    "countries": [
     "Australia"
@@ -7982,7 +7966,7 @@
    }
   },
   "avg_bottle_price_paid": 79.11,
-  "avg_bottle_value_now": 105.19,
+  "avg_bottle_value_now": 105.28,
   "avg_cellar_age_years": 7.0,
   "largest_single_purchase": {
    "date": "2026-03-06",
@@ -8012,7 +7996,7 @@
     "vintage": "2019",
     "producer": "Dunn Vineyards",
     "since": "2025-05-10",
-    "days_held": 453
+    "days_held": 454
    },
    {
     "iWine": "4386234",
@@ -8020,7 +8004,7 @@
     "vintage": "2019",
     "producer": "Dunn Vineyards",
     "since": "2025-05-10",
-    "days_held": 453
+    "days_held": 454
    },
    {
     "iWine": "4986829",
@@ -8028,7 +8012,7 @@
     "vintage": "2023",
     "producer": "Roc de Cambes",
     "since": "2025-06-07",
-    "days_held": 425
+    "days_held": 426
    },
    {
     "iWine": "4390612",
@@ -8036,7 +8020,7 @@
     "vintage": "2022",
     "producer": "Penfolds",
     "since": "2025-06-11",
-    "days_held": 421
+    "days_held": 422
    },
    {
     "iWine": "4641506",
@@ -8044,7 +8028,7 @@
     "vintage": "2022",
     "producer": "Château Clinet",
     "since": "2025-07-03",
-    "days_held": 399
+    "days_held": 400
    },
    {
     "iWine": "4638895",
@@ -8052,7 +8036,7 @@
     "vintage": "2022",
     "producer": "Château Troplong Mondot",
     "since": "2025-07-03",
-    "days_held": 399
+    "days_held": 400
    },
    {
     "iWine": "4876898",
@@ -8060,7 +8044,7 @@
     "vintage": "2019",
     "producer": "Canalicchio di Sopra",
     "since": "2025-07-12",
-    "days_held": 390
+    "days_held": 391
    },
    {
     "iWine": "4547984",
@@ -8068,7 +8052,7 @@
     "vintage": "2019",
     "producer": "Massolino",
     "since": "2025-07-12",
-    "days_held": 390
+    "days_held": 391
    },
    {
     "iWine": "3709255",
@@ -8076,7 +8060,7 @@
     "vintage": "2018",
     "producer": "Penfolds",
     "since": "2025-07-12",
-    "days_held": 390
+    "days_held": 391
    },
    {
     "iWine": "5271148",
@@ -8084,16 +8068,16 @@
     "vintage": "2019",
     "producer": "San Polino",
     "since": "2025-07-12",
-    "days_held": 390
+    "days_held": 391
    }
   ],
-  "total_appreciation_pct": 33.0
+  "total_appreciation_pct": 33.1
  },
  "map_countries": [
   {
    "name": "France",
    "bottles": 105,
-   "value": 10281.349999999999,
+   "value": 10275.14,
    "wines": 24,
    "lat": 46.6,
    "lon": 2.2
@@ -8101,7 +8085,7 @@
   {
    "name": "Australia",
    "bottles": 28,
-   "value": 7036.26,
+   "value": 7065.039999999999,
    "wines": 7,
    "lat": -33.9,
    "lon": 143.9
@@ -8109,7 +8093,7 @@
   {
    "name": "Italy",
    "bottles": 56,
-   "value": 4196.620000000001,
+   "value": 4194.9400000000005,
    "wines": 18,
    "lat": 42.8,
    "lon": 12.6
@@ -8117,7 +8101,7 @@
   {
    "name": "Spain",
    "bottles": 11,
-   "value": 1963.5099999999998,
+   "value": 1965.7599999999998,
    "wines": 7,
    "lat": 40.3,
    "lon": -3.7
@@ -17001,7 +16985,7 @@
     "date": "2026-05-16",
     "month": "2026-05",
     "rating": 88.0,
-    "community_score": 92.237037037037,
+    "community_score": 92.2426470588235,
     "delta": -4.2,
     "notes_text": ""
    },
@@ -17305,7 +17289,7 @@
     "date": "2026-04-05",
     "month": "2026-04",
     "rating": 90.0,
-    "community_score": 93.0357142857143,
+    "community_score": 93.0352941176471,
     "delta": -3.0,
     "notes_text": ""
    },
@@ -22809,7 +22793,7 @@
     "date": "2025-06-01",
     "month": "2025-06",
     "rating": 90.0,
-    "community_score": 92.0645161290323,
+    "community_score": 92.0793650793651,
     "delta": -2.1,
     "notes_text": ""
    },
