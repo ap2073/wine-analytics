@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-08-07T09:38:47.221461+00:00",
+ "generated_at": "2026-08-08T08:08:05.678558+00:00",
  "current_year": 2026,
  "summary": {
-  "total_bottles": 250,
-  "total_wines": 76,
-  "total_value": 26320.55,
-  "total_paid": 19777.25,
+  "total_bottles": 249,
+  "total_wines": 75,
+  "total_value": 26292.21,
+  "total_paid": 19747.25,
   "countries": 10,
-  "avg_critic_score": 93.0
+  "avg_critic_score": 93.1
  },
  "by_country": [
   {
    "name": "France",
-   "bottles": 105,
-   "value": 10275.14,
-   "wines": 24
+   "bottles": 104,
+   "value": 10248.4,
+   "wines": 23
   },
   {
    "name": "Australia",
@@ -37,7 +37,7 @@
   {
    "name": "South Africa",
    "bottles": 33,
-   "value": 1667.8,
+   "value": 1664.1599999999999,
    "wines": 11
   },
   {
@@ -61,7 +61,7 @@
   {
    "name": "Hungary",
    "bottles": 1,
-   "value": 34.15,
+   "value": 36.19,
    "wines": 1
   },
   {
@@ -75,7 +75,7 @@
   {
    "name": "Red Bordeaux Blend",
    "bottles": 88,
-   "value": 9720.660000000002,
+   "value": 9723.940000000002,
    "wines": 23
   },
   {
@@ -177,13 +177,7 @@
   {
    "name": "Furmint",
    "bottles": 1,
-   "value": 34.15,
-   "wines": 1
-  },
-  {
-   "name": "Gamay",
-   "bottles": 1,
-   "value": 33.66,
+   "value": 36.19,
    "wines": 1
   },
   {
@@ -191,13 +185,19 @@
    "bottles": 1,
    "value": 31.13,
    "wines": 1
+  },
+  {
+   "name": "Montepulciano",
+   "bottles": 1,
+   "value": 22.46,
+   "wines": 1
   }
  ],
  "by_region": [
   {
    "name": "Bordeaux",
    "bottles": 75,
-   "value": 8055.3,
+   "value": 8062.22,
    "wines": 15
   },
   {
@@ -227,7 +227,7 @@
   {
    "name": "Coastal Region",
    "bottles": 27,
-   "value": 1494.4,
+   "value": 1490.76,
    "wines": 10
   },
   {
@@ -244,9 +244,9 @@
   },
   {
    "name": "Burgundy",
-   "bottles": 7,
-   "value": 445.13,
-   "wines": 3
+   "bottles": 6,
+   "value": 411.46999999999997,
+   "wines": 2
   },
   {
    "name": "Veneto",
@@ -299,7 +299,7 @@
   {
    "name": "Tokaji",
    "bottles": 1,
-   "value": 34.15,
+   "value": 36.19,
    "wines": 1
   },
   {
@@ -318,20 +318,20 @@
  "by_color": [
   {
    "name": "Red",
-   "bottles": 233,
-   "value": 25369.079999999998
+   "bottles": 232,
+   "value": 25338.700000000008
   },
   {
    "name": "White",
    "bottles": 17,
-   "value": 951.47
+   "value": 953.51
   }
  ],
  "by_style": [
   {
    "name": "Red",
-   "bottles": 233,
-   "value": 25369.079999999998
+   "bottles": 232,
+   "value": 25338.700000000008
   },
   {
    "name": "White",
@@ -341,7 +341,7 @@
   {
    "name": "Dessert / Sweet",
    "bottles": 7,
-   "value": 414.97999999999996
+   "value": 417.02
   }
  ],
  "top_producers_value": [
@@ -360,7 +360,7 @@
   {
    "name": "Château Pontet-Canet",
    "bottles": 11,
-   "value": 1428.4099999999999,
+   "value": 1450.76,
    "wines": 2
   },
   {
@@ -372,7 +372,7 @@
   {
    "name": "Château Cos d'Estournel",
    "bottles": 6,
-   "value": 1214.76,
+   "value": 1205.4,
    "wines": 1
   },
   {
@@ -408,19 +408,19 @@
   {
    "name": "Château Palmer",
    "bottles": 3,
-   "value": 674.93,
-   "wines": 1
-  },
-  {
-   "name": "Château Lynch-Bages",
-   "bottles": 4,
-   "value": 605.64,
+   "value": 671.56,
    "wines": 1
   },
   {
    "name": "Sadie Family",
    "bottles": 6,
    "value": 595.56,
+   "wines": 1
+  },
+  {
+   "name": "Château Lynch-Bages",
+   "bottles": 4,
+   "value": 590.72,
    "wines": 1
   },
   {
@@ -439,18 +439,18 @@
  "by_location": [
   {
    "name": "Cellar",
-   "bottles": 55,
-   "value": 4576.110000000001
+   "bottles": 54,
+   "value": 4551.92
   },
   {
    "name": "Cellar - Wine Society",
    "bottles": 90,
-   "value": 5093.03
+   "value": 5095.73
   },
   {
    "name": "Cellar - BB&R",
    "bottles": 105,
-   "value": 16651.409999999996
+   "value": 16644.559999999998
   }
  ],
  "drinking_window": {
@@ -679,15 +679,6 @@
     "quantity": 1,
     "begin": 2025,
     "end": 2038
-   },
-   {
-    "iWine": "5559329",
-    "wine": "Jean Foillard Morgon Côte du Py",
-    "vintage": "2024",
-    "producer": "Jean Foillard",
-    "quantity": 1,
-    "begin": 2026,
-    "end": 2034
    },
    {
     "iWine": "4773903",
@@ -1163,15 +1154,15 @@
    "location": "Cellar - Wine Society",
    "quantity": 3,
    "price_paid_bottle": 193.0,
-   "value_bottle": 224.98,
+   "value_bottle": 223.85,
    "total_paid": 579.0,
-   "total_value": 674.93,
+   "total_value": 671.56,
    "avg_critic_score": 98.0,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2039,
    "end_consume": 2058,
-   "appreciation_pct": 16.6,
+   "appreciation_pct": 16.0,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -1422,15 +1413,15 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 129.0,
-   "value_bottle": 202.46,
+   "value_bottle": 200.9,
    "total_paid": 774.0,
-   "total_value": 1214.76,
+   "total_value": 1205.4,
    "avg_critic_score": 95.6,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2027,
    "end_consume": 2057,
-   "appreciation_pct": 56.9,
+   "appreciation_pct": 55.7,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -1496,15 +1487,15 @@
    "location": "Cellar",
    "quantity": 5,
    "price_paid_bottle": 136.0,
-   "value_bottle": 180.57,
+   "value_bottle": 185.04,
    "total_paid": 680.0,
-   "total_value": 902.85,
+   "total_value": 925.2,
    "avg_critic_score": 95.4,
    "my_score": 93.0,
    "critic_scores": {},
    "begin_consume": 2022,
    "end_consume": 2054,
-   "appreciation_pct": 32.8,
+   "appreciation_pct": 36.1,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -2137,15 +2128,15 @@
    "location": "Cellar - Wine Society",
    "quantity": 3,
    "price_paid_bottle": 193.0,
-   "value_bottle": 224.98,
+   "value_bottle": 223.85,
    "total_paid": 579.0,
-   "total_value": 674.93,
+   "total_value": 671.56,
    "avg_critic_score": 98.0,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2039,
    "end_consume": 2058,
-   "appreciation_pct": 16.6,
+   "appreciation_pct": 16.0,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -2174,15 +2165,52 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 129.0,
-   "value_bottle": 202.46,
+   "value_bottle": 200.9,
    "total_paid": 774.0,
-   "total_value": 1214.76,
+   "total_value": 1205.4,
    "avg_critic_score": 95.6,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2027,
    "end_consume": 2057,
-   "appreciation_pct": 56.9,
+   "appreciation_pct": 55.7,
+   "body": "Medium",
+   "tannin": "Medium",
+   "pairings": [
+    "red meat",
+    "hard cheese",
+    "roasted vegetables"
+   ],
+   "decant": {
+    "hours": 0.5,
+    "label": "~30 min — a short splash-decant to open it up"
+   },
+   "wiki": null
+  },
+  {
+   "iWine": "874157",
+   "wine": "Château Pontet-Canet",
+   "vintage": "2009",
+   "producer": "Château Pontet-Canet",
+   "country": "France",
+   "region": "Bordeaux",
+   "subregion": "Médoc",
+   "appellation": "Pauillac",
+   "color": "Red",
+   "style": "Red",
+   "varietal": "Red Bordeaux Blend",
+   "location": "Cellar",
+   "quantity": 5,
+   "price_paid_bottle": 136.0,
+   "value_bottle": 185.04,
+   "total_paid": 680.0,
+   "total_value": 925.2,
+   "avg_critic_score": 95.4,
+   "my_score": 93.0,
+   "critic_scores": {},
+   "begin_consume": 2022,
+   "end_consume": 2054,
+   "appreciation_pct": 36.1,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -2220,43 +2248,6 @@
    "begin_consume": 2020,
    "end_consume": 2037,
    "appreciation_pct": null,
-   "body": "Medium",
-   "tannin": "Medium",
-   "pairings": [
-    "red meat",
-    "hard cheese",
-    "roasted vegetables"
-   ],
-   "decant": {
-    "hours": 0.5,
-    "label": "~30 min — a short splash-decant to open it up"
-   },
-   "wiki": null
-  },
-  {
-   "iWine": "874157",
-   "wine": "Château Pontet-Canet",
-   "vintage": "2009",
-   "producer": "Château Pontet-Canet",
-   "country": "France",
-   "region": "Bordeaux",
-   "subregion": "Médoc",
-   "appellation": "Pauillac",
-   "color": "Red",
-   "style": "Red",
-   "varietal": "Red Bordeaux Blend",
-   "location": "Cellar",
-   "quantity": 5,
-   "price_paid_bottle": 136.0,
-   "value_bottle": 180.57,
-   "total_paid": 680.0,
-   "total_value": 902.85,
-   "avg_critic_score": 95.4,
-   "my_score": 93.0,
-   "critic_scores": {},
-   "begin_consume": 2022,
-   "end_consume": 2054,
-   "appreciation_pct": 32.8,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -2322,9 +2313,9 @@
    "location": "Cellar",
    "quantity": 4,
    "price_paid_bottle": 108.0,
-   "value_bottle": 151.41,
+   "value_bottle": 147.68,
    "total_paid": 432.0,
-   "total_value": 605.64,
+   "total_value": 590.72,
    "avg_critic_score": 93.7,
    "my_score": 92.0,
    "critic_scores": {
@@ -2332,7 +2323,7 @@
    },
    "begin_consume": 2021,
    "end_consume": 2047,
-   "appreciation_pct": 40.2,
+   "appreciation_pct": 36.7,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -3209,15 +3200,15 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 129.0,
-   "value_bottle": 202.46,
+   "value_bottle": 200.9,
    "total_paid": 774.0,
-   "total_value": 1214.76,
+   "total_value": 1205.4,
    "avg_critic_score": 95.6,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2027,
    "end_consume": 2057,
-   "appreciation_pct": 56.9,
+   "appreciation_pct": 55.7,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -3499,47 +3490,6 @@
    "wiki": null
   },
   {
-   "iWine": "5559329",
-   "wine": "Jean Foillard Morgon Côte du Py",
-   "vintage": "2024",
-   "producer": "Jean Foillard",
-   "country": "France",
-   "region": "Burgundy",
-   "subregion": "Beaujolais",
-   "appellation": "Morgon",
-   "color": "Red",
-   "style": "Red",
-   "varietal": "Gamay",
-   "location": "Cellar",
-   "quantity": 1,
-   "price_paid_bottle": 30.0,
-   "value_bottle": 33.66,
-   "total_paid": 30.0,
-   "total_value": 33.66,
-   "avg_critic_score": 91.3,
-   "my_score": null,
-   "critic_scores": {},
-   "begin_consume": 2026,
-   "end_consume": 2034,
-   "appreciation_pct": 12.2,
-   "body": "Light",
-   "tannin": "Low",
-   "pairings": [
-    "charcuterie",
-    "roast chicken",
-    "light bistro fare"
-   ],
-   "decant": {
-    "hours": 0.25,
-    "label": "~15 min — a short splash-decant to open it up"
-   },
-   "wiki": {
-    "summary": "Gamay is a purple-colored grape variety used to make red wines, most notably grown in Beaujolais and in the Loire Valley around Tours. Its full name is Gamay Noir à Jus Blanc. It is a very old cultivar, mentioned as long ago as the 15th century. It has been often cultivated because it makes for abundant production; however, it can produce wines of distinction when planted on acidic soils, which help to soften the grape's naturally high acidity.",
-    "url": "https://en.wikipedia.org/wiki/Gamay",
-    "title": "Gamay"
-   }
-  },
-  {
    "iWine": "5855672",
    "wine": "Glenelly Estate Lady May",
    "vintage": "2025",
@@ -3611,7 +3561,11 @@
     "hours": 0,
     "label": "No decanting needed — drink straight from the bottle"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Riesling is a white grape variety that is believed to have originated from the Rhine Valley region of western Germany, before later being traced to the Alsace region by 1470 and Austria by 1700. Riesling is an aromatic grape variety displaying flowery, almost perfumed, aromas as well as high acidity. It is used to make dry, semi-sweet, sweet, and sparkling white wines. Riesling wines are usually varietally pure and are seldom oaked. As of 2004, Riesling was estimated to be…",
+    "url": "https://en.wikipedia.org/wiki/Riesling",
+    "title": "Riesling"
+   }
   },
   {
    "iWine": "4773903",
@@ -3648,7 +3602,11 @@
     "hours": 0,
     "label": "No decanting needed — drink straight from the bottle"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Riesling is a white grape variety that is believed to have originated from the Rhine Valley region of western Germany, before later being traced to the Alsace region by 1470 and Austria by 1700. Riesling is an aromatic grape variety displaying flowery, almost perfumed, aromas as well as high acidity. It is used to make dry, semi-sweet, sweet, and sparkling white wines. Riesling wines are usually varietally pure and are seldom oaked. As of 2004, Riesling was estimated to be…",
+    "url": "https://en.wikipedia.org/wiki/Riesling",
+    "title": "Riesling"
+   }
   },
   {
    "iWine": "2925612",
@@ -3823,15 +3781,15 @@
    "location": "Cellar - Wine Society",
    "quantity": 6,
    "price_paid_bottle": 51.0,
-   "value_bottle": 48.49,
+   "value_bottle": 50.11,
    "total_paid": 306.0,
-   "total_value": 290.93,
+   "total_value": 300.64,
    "avg_critic_score": 92.5,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2026,
    "end_consume": 2045,
-   "appreciation_pct": -4.9,
+   "appreciation_pct": -1.7,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -3860,15 +3818,15 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 18.33,
-   "value_bottle": 33.34,
+   "value_bottle": 33.76,
    "total_paid": 109.98,
-   "total_value": 200.04,
+   "total_value": 202.55,
    "avg_critic_score": 93.8,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2028,
    "end_consume": 2044,
-   "appreciation_pct": 81.9,
+   "appreciation_pct": 84.2,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -4051,9 +4009,9 @@
    "location": "Cellar",
    "quantity": 4,
    "price_paid_bottle": 108.0,
-   "value_bottle": 151.41,
+   "value_bottle": 147.68,
    "total_paid": 432.0,
-   "total_value": 605.64,
+   "total_value": 590.72,
    "avg_critic_score": 93.7,
    "my_score": 92.0,
    "critic_scores": {
@@ -4061,7 +4019,7 @@
    },
    "begin_consume": 2021,
    "end_consume": 2047,
-   "appreciation_pct": 40.2,
+   "appreciation_pct": 36.7,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -4283,15 +4241,15 @@
    "location": "Cellar - Wine Society",
    "quantity": 3,
    "price_paid_bottle": 193.0,
-   "value_bottle": 224.98,
+   "value_bottle": 223.85,
    "total_paid": 579.0,
-   "total_value": 674.93,
+   "total_value": 671.56,
    "avg_critic_score": 98.0,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2039,
    "end_consume": 2058,
-   "appreciation_pct": 16.6,
+   "appreciation_pct": 16.0,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -4628,15 +4586,15 @@
    "location": "Cellar",
    "quantity": 5,
    "price_paid_bottle": 136.0,
-   "value_bottle": 180.57,
+   "value_bottle": 185.04,
    "total_paid": 680.0,
-   "total_value": 902.85,
+   "total_value": 925.2,
    "avg_critic_score": 95.4,
    "my_score": 93.0,
    "critic_scores": {},
    "begin_consume": 2022,
    "end_consume": 2054,
-   "appreciation_pct": 32.8,
+   "appreciation_pct": 36.1,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -4928,9 +4886,9 @@
    "location": "Cellar",
    "quantity": 1,
    "price_paid_bottle": 0.0,
-   "value_bottle": 34.15,
+   "value_bottle": 36.19,
    "total_paid": 0.0,
-   "total_value": 34.15,
+   "total_value": 36.19,
    "avg_critic_score": 90.8,
    "my_score": 92.0,
    "critic_scores": {},
@@ -5117,15 +5075,15 @@
    "location": "Cellar - Wine Society",
    "quantity": 1,
    "price_paid_bottle": 31.0,
-   "value_bottle": 30.92,
+   "value_bottle": 27.28,
    "total_paid": 31.0,
-   "total_value": 30.92,
+   "total_value": 27.28,
    "avg_critic_score": null,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2031,
    "end_consume": 2043,
-   "appreciation_pct": -0.3,
+   "appreciation_pct": -12.0,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -5400,7 +5358,11 @@
     "hours": 1.5,
     "label": "~1.5–2 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Mourvèdre is a red wine grape variety grown in many regions around the world. It is found in the Rhône and Provence regions of France, the Valencia, Alicante and Jumilla, Bullas and Yecla denominaciones de origen (DOs) of Spain, as well as the Balearic Islands, California and Washington and the Australian regions of South Australia and New South Wales, plus South Africa. In addition to making red varietal wines, Mourvèdre is a prominent component in \"GSM\" blends. The variety…",
+    "url": "https://en.wikipedia.org/wiki/Mourv%C3%A8dre",
+    "title": "Mourvèdre"
+   }
   },
   {
    "iWine": "3485127",
@@ -5641,15 +5603,15 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 18.33,
-   "value_bottle": 33.34,
+   "value_bottle": 33.76,
    "total_paid": 109.98,
-   "total_value": 200.04,
+   "total_value": 202.55,
    "avg_critic_score": 93.8,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2028,
    "end_consume": 2044,
-   "appreciation_pct": 81.9,
+   "appreciation_pct": 84.2,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -5943,15 +5905,15 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 129.0,
-   "value_bottle": 202.46,
+   "value_bottle": 200.9,
    "total_paid": 774.0,
-   "total_value": 1214.76,
+   "total_value": 1205.4,
    "avg_critic_score": 95.6,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2027,
    "end_consume": 2057,
-   "appreciation_pct": 56.9,
+   "appreciation_pct": 55.7,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -6077,45 +6039,6 @@
    "wiki": null
   },
   {
-   "iWine": "1123088",
-   "wine": "Château Lynch-Bages",
-   "vintage": "2010",
-   "producer": "Château Lynch-Bages",
-   "country": "France",
-   "region": "Bordeaux",
-   "subregion": "Médoc",
-   "appellation": "Pauillac",
-   "color": "Red",
-   "style": "Red",
-   "varietal": "Red Bordeaux Blend",
-   "location": "Cellar",
-   "quantity": 4,
-   "price_paid_bottle": 108.0,
-   "value_bottle": 151.41,
-   "total_paid": 432.0,
-   "total_value": 605.64,
-   "avg_critic_score": 93.7,
-   "my_score": 92.0,
-   "critic_scores": {
-    "JG": 94.0
-   },
-   "begin_consume": 2021,
-   "end_consume": 2047,
-   "appreciation_pct": 40.2,
-   "body": "Medium",
-   "tannin": "Medium",
-   "pairings": [
-    "red meat",
-    "hard cheese",
-    "roasted vegetables"
-   ],
-   "decant": {
-    "hours": 0.5,
-    "label": "~30 min — a short splash-decant to open it up"
-   },
-   "wiki": null
-  },
-  {
    "iWine": "5749031",
    "wine": "Château Léoville Barton",
    "vintage": "2025",
@@ -6192,6 +6115,45 @@
     "url": "https://en.wikipedia.org/wiki/Grenache",
     "title": "Grenache"
    }
+  },
+  {
+   "iWine": "1123088",
+   "wine": "Château Lynch-Bages",
+   "vintage": "2010",
+   "producer": "Château Lynch-Bages",
+   "country": "France",
+   "region": "Bordeaux",
+   "subregion": "Médoc",
+   "appellation": "Pauillac",
+   "color": "Red",
+   "style": "Red",
+   "varietal": "Red Bordeaux Blend",
+   "location": "Cellar",
+   "quantity": 4,
+   "price_paid_bottle": 108.0,
+   "value_bottle": 147.68,
+   "total_paid": 432.0,
+   "total_value": 590.72,
+   "avg_critic_score": 93.7,
+   "my_score": 92.0,
+   "critic_scores": {
+    "JG": 94.0
+   },
+   "begin_consume": 2021,
+   "end_consume": 2047,
+   "appreciation_pct": 36.7,
+   "body": "Medium",
+   "tannin": "Medium",
+   "pairings": [
+    "red meat",
+    "hard cheese",
+    "roasted vegetables"
+   ],
+   "decant": {
+    "hours": 0.5,
+    "label": "~30 min — a short splash-decant to open it up"
+   },
+   "wiki": null
   }
  ],
  "top_losers": [
@@ -6311,29 +6273,29 @@
    "wiki": null
   },
   {
-   "iWine": "3645986",
-   "wine": "Château Lagrange (St. Julien)",
-   "vintage": "2019",
-   "producer": "Château Lagrange (St. Julien)",
-   "country": "France",
-   "region": "Bordeaux",
-   "subregion": "Médoc",
-   "appellation": "Saint-Julien",
+   "iWine": "5855674",
+   "wine": "Taaibosch Crescendo",
+   "vintage": "2025",
+   "producer": "Taaibosch",
+   "country": "South Africa",
+   "region": "Coastal Region",
+   "subregion": "Stellenbosch",
+   "appellation": "Stellenbosch",
    "color": "Red",
    "style": "Red",
    "varietal": "Red Bordeaux Blend",
    "location": "Cellar - Wine Society",
-   "quantity": 6,
-   "price_paid_bottle": 51.0,
-   "value_bottle": 48.49,
-   "total_paid": 306.0,
-   "total_value": 290.93,
-   "avg_critic_score": 92.5,
+   "quantity": 1,
+   "price_paid_bottle": 31.0,
+   "value_bottle": 27.28,
+   "total_paid": 31.0,
+   "total_value": 27.28,
+   "avg_critic_score": null,
    "my_score": null,
    "critic_scores": {},
-   "begin_consume": 2026,
-   "end_consume": 2045,
-   "appreciation_pct": -4.9,
+   "begin_consume": 2031,
+   "end_consume": 2043,
+   "appreciation_pct": -12.0,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -6426,6 +6388,43 @@
     "url": "https://en.wikipedia.org/wiki/Menc%C3%ADa_(grape)",
     "title": "Mencía (grape)"
    }
+  },
+  {
+   "iWine": "3645986",
+   "wine": "Château Lagrange (St. Julien)",
+   "vintage": "2019",
+   "producer": "Château Lagrange (St. Julien)",
+   "country": "France",
+   "region": "Bordeaux",
+   "subregion": "Médoc",
+   "appellation": "Saint-Julien",
+   "color": "Red",
+   "style": "Red",
+   "varietal": "Red Bordeaux Blend",
+   "location": "Cellar - Wine Society",
+   "quantity": 6,
+   "price_paid_bottle": 51.0,
+   "value_bottle": 50.11,
+   "total_paid": 306.0,
+   "total_value": 300.64,
+   "avg_critic_score": 92.5,
+   "my_score": null,
+   "critic_scores": {},
+   "begin_consume": 2026,
+   "end_consume": 2045,
+   "appreciation_pct": -1.7,
+   "body": "Medium",
+   "tannin": "Medium",
+   "pairings": [
+    "red meat",
+    "hard cheese",
+    "roasted vegetables"
+   ],
+   "decant": {
+    "hours": 1.0,
+    "label": "~1–1.5 hrs (longer if young & tightly wound)"
+   },
+   "wiki": null
   },
   {
    "iWine": "4844161",
@@ -6617,43 +6616,6 @@
    "wiki": null
   },
   {
-   "iWine": "5855674",
-   "wine": "Taaibosch Crescendo",
-   "vintage": "2025",
-   "producer": "Taaibosch",
-   "country": "South Africa",
-   "region": "Coastal Region",
-   "subregion": "Stellenbosch",
-   "appellation": "Stellenbosch",
-   "color": "Red",
-   "style": "Red",
-   "varietal": "Red Bordeaux Blend",
-   "location": "Cellar - Wine Society",
-   "quantity": 1,
-   "price_paid_bottle": 31.0,
-   "value_bottle": 30.92,
-   "total_paid": 31.0,
-   "total_value": 30.92,
-   "avg_critic_score": null,
-   "my_score": null,
-   "critic_scores": {},
-   "begin_consume": 2031,
-   "end_consume": 2043,
-   "appreciation_pct": -0.3,
-   "body": "Medium",
-   "tannin": "Medium",
-   "pairings": [
-    "red meat",
-    "hard cheese",
-    "roasted vegetables"
-   ],
-   "decant": {
-    "hours": 1.0,
-    "label": "~1–1.5 hrs (longer if young & tightly wound)"
-   },
-   "wiki": null
-  },
-  {
    "iWine": "5855671",
    "wine": "Warwick Estate Trilogy",
    "vintage": "2025",
@@ -6725,7 +6687,11 @@
     "hours": 0,
     "label": "No decanting needed — drink straight from the bottle"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Riesling is a white grape variety that is believed to have originated from the Rhine Valley region of western Germany, before later being traced to the Alsace region by 1470 and Austria by 1700. Riesling is an aromatic grape variety displaying flowery, almost perfumed, aromas as well as high acidity. It is used to make dry, semi-sweet, sweet, and sparkling white wines. Riesling wines are usually varietally pure and are seldom oaked. As of 2004, Riesling was estimated to be…",
+    "url": "https://en.wikipedia.org/wiki/Riesling",
+    "title": "Riesling"
+   }
   },
   {
    "iWine": "4773903",
@@ -6762,7 +6728,11 @@
     "hours": 0,
     "label": "No decanting needed — drink straight from the bottle"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Riesling is a white grape variety that is believed to have originated from the Rhine Valley region of western Germany, before later being traced to the Alsace region by 1470 and Austria by 1700. Riesling is an aromatic grape variety displaying flowery, almost perfumed, aromas as well as high acidity. It is used to make dry, semi-sweet, sweet, and sparkling white wines. Riesling wines are usually varietally pure and are seldom oaked. As of 2004, Riesling was estimated to be…",
+    "url": "https://en.wikipedia.org/wiki/Riesling",
+    "title": "Riesling"
+   }
   }
  ],
  "price_distribution": [
@@ -6773,8 +6743,8 @@
   },
   {
    "label": "£20-40",
-   "wines": 24,
-   "bottles": 56
+   "wines": 23,
+   "bottles": 55
   },
   {
    "label": "£40-60",
@@ -6852,8 +6822,8 @@
    "wines": 2,
    "bottles": 11,
    "paid": 980.0,
-   "value": 1428.41,
-   "appreciation_pct": 45.8,
+   "value": 1450.76,
+   "appreciation_pct": 48.0,
    "avg_score": 94.4,
    "countries": [
     "France"
@@ -6896,8 +6866,8 @@
    "wines": 1,
    "bottles": 6,
    "paid": 774.0,
-   "value": 1214.76,
-   "appreciation_pct": 56.9,
+   "value": 1205.4,
+   "appreciation_pct": 55.7,
    "avg_score": 95.6,
    "countries": [
     "France"
@@ -6998,8 +6968,8 @@
    "wines": 1,
    "bottles": 3,
    "paid": 579.0,
-   "value": 674.93,
-   "appreciation_pct": 16.6,
+   "value": 671.56,
+   "appreciation_pct": 16.0,
    "avg_score": 98.0,
    "countries": [
     "France"
@@ -7013,28 +6983,6 @@
     "lat": 45.0369,
     "lon": -0.6694,
     "wikipedia_url": "https://en.wikipedia.org/wiki/Château_Palmer"
-   }
-  },
-  {
-   "name": "Château Lynch-Bages",
-   "wines": 1,
-   "bottles": 4,
-   "paid": 432.0,
-   "value": 605.64,
-   "appreciation_pct": 40.2,
-   "avg_score": 93.7,
-   "countries": [
-    "France"
-   ],
-   "regions": [
-    "Bordeaux"
-   ],
-   "wikidata": {
-    "description": "Winery",
-    "founded": null,
-    "lat": 45.19083,
-    "lon": -0.75561,
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Château_Lynch-Bages"
    }
   },
   {
@@ -7052,6 +7000,28 @@
     "Coastal Region"
    ],
    "wikidata": null
+  },
+  {
+   "name": "Château Lynch-Bages",
+   "wines": 1,
+   "bottles": 4,
+   "paid": 432.0,
+   "value": 590.72,
+   "appreciation_pct": 36.7,
+   "avg_score": 93.7,
+   "countries": [
+    "France"
+   ],
+   "regions": [
+    "Bordeaux"
+   ],
+   "wikidata": {
+    "description": "Winery",
+    "founded": null,
+    "lat": 45.19083,
+    "lon": -0.75561,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Château_Lynch-Bages"
+   }
   },
   {
    "name": "Château Clinet",
@@ -7200,6 +7170,22 @@
    }
   },
   {
+   "name": "Château Lagrange (St. Julien)",
+   "wines": 1,
+   "bottles": 6,
+   "paid": 306.0,
+   "value": 300.64,
+   "appreciation_pct": -1.8,
+   "avg_score": 92.5,
+   "countries": [
+    "France"
+   ],
+   "regions": [
+    "Bordeaux"
+   ],
+   "wikidata": null
+  },
+  {
    "name": "Roc de Cambes",
    "wines": 1,
    "bottles": 6,
@@ -7228,22 +7214,6 @@
    ],
    "regions": [
     "Burgundy"
-   ],
-   "wikidata": null
-  },
-  {
-   "name": "Château Lagrange (St. Julien)",
-   "wines": 1,
-   "bottles": 6,
-   "paid": 306.0,
-   "value": 290.93,
-   "appreciation_pct": -4.9,
-   "avg_score": 92.5,
-   "countries": [
-    "France"
-   ],
-   "regions": [
-    "Bordeaux"
    ],
    "wikidata": null
   },
@@ -7284,8 +7254,8 @@
    "wines": 1,
    "bottles": 6,
    "paid": 109.98,
-   "value": 200.04,
-   "appreciation_pct": 81.9,
+   "value": 202.55,
+   "appreciation_pct": 84.2,
    "avg_score": 93.8,
    "countries": [
     "France"
@@ -7574,6 +7544,22 @@
    "wikidata": null
   },
   {
+   "name": "Royal Tokaji Wine Co.",
+   "wines": 1,
+   "bottles": 1,
+   "paid": 0.0,
+   "value": 36.19,
+   "appreciation_pct": null,
+   "avg_score": 90.8,
+   "countries": [
+    "Hungary"
+   ],
+   "regions": [
+    "Tokaji"
+   ],
+   "wikidata": null
+  },
+  {
    "name": "Pietradolce",
    "wines": 1,
    "bottles": 1,
@@ -7586,38 +7572,6 @@
    ],
    "regions": [
     "Sicily"
-   ],
-   "wikidata": null
-  },
-  {
-   "name": "Royal Tokaji Wine Co.",
-   "wines": 1,
-   "bottles": 1,
-   "paid": 0.0,
-   "value": 34.15,
-   "appreciation_pct": null,
-   "avg_score": 90.8,
-   "countries": [
-    "Hungary"
-   ],
-   "regions": [
-    "Tokaji"
-   ],
-   "wikidata": null
-  },
-  {
-   "name": "Jean Foillard",
-   "wines": 1,
-   "bottles": 1,
-   "paid": 30.0,
-   "value": 33.66,
-   "appreciation_pct": 12.2,
-   "avg_score": 91.3,
-   "countries": [
-    "France"
-   ],
-   "regions": [
-    "Burgundy"
    ],
    "wikidata": null
   },
@@ -7714,7 +7668,7 @@
    "wikidata": null
   },
   {
-   "name": "Taaibosch",
+   "name": "Warwick Estate",
    "wines": 1,
    "bottles": 1,
    "paid": 31.0,
@@ -7730,12 +7684,12 @@
    "wikidata": null
   },
   {
-   "name": "Warwick Estate",
+   "name": "Taaibosch",
    "wines": 1,
    "bottles": 1,
    "paid": 31.0,
-   "value": 30.92,
-   "appreciation_pct": -0.3,
+   "value": 27.28,
+   "appreciation_pct": -12.0,
    "avg_score": null,
    "countries": [
     "South Africa"
@@ -7965,8 +7919,8 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/Penfolds"
    }
   },
-  "avg_bottle_price_paid": 79.11,
-  "avg_bottle_value_now": 105.28,
+  "avg_bottle_price_paid": 79.31,
+  "avg_bottle_value_now": 105.59,
   "avg_cellar_age_years": 7.0,
   "largest_single_purchase": {
    "date": "2026-03-06",
@@ -7996,7 +7950,7 @@
     "vintage": "2019",
     "producer": "Dunn Vineyards",
     "since": "2025-05-10",
-    "days_held": 454
+    "days_held": 455
    },
    {
     "iWine": "4386234",
@@ -8004,7 +7958,7 @@
     "vintage": "2019",
     "producer": "Dunn Vineyards",
     "since": "2025-05-10",
-    "days_held": 454
+    "days_held": 455
    },
    {
     "iWine": "4986829",
@@ -8012,7 +7966,7 @@
     "vintage": "2023",
     "producer": "Roc de Cambes",
     "since": "2025-06-07",
-    "days_held": 426
+    "days_held": 427
    },
    {
     "iWine": "4390612",
@@ -8020,7 +7974,7 @@
     "vintage": "2022",
     "producer": "Penfolds",
     "since": "2025-06-11",
-    "days_held": 422
+    "days_held": 423
    },
    {
     "iWine": "4641506",
@@ -8028,7 +7982,7 @@
     "vintage": "2022",
     "producer": "Château Clinet",
     "since": "2025-07-03",
-    "days_held": 400
+    "days_held": 401
    },
    {
     "iWine": "4638895",
@@ -8036,7 +7990,7 @@
     "vintage": "2022",
     "producer": "Château Troplong Mondot",
     "since": "2025-07-03",
-    "days_held": 400
+    "days_held": 401
    },
    {
     "iWine": "4876898",
@@ -8044,7 +7998,7 @@
     "vintage": "2019",
     "producer": "Canalicchio di Sopra",
     "since": "2025-07-12",
-    "days_held": 391
+    "days_held": 392
    },
    {
     "iWine": "4547984",
@@ -8052,7 +8006,7 @@
     "vintage": "2019",
     "producer": "Massolino",
     "since": "2025-07-12",
-    "days_held": 391
+    "days_held": 392
    },
    {
     "iWine": "3709255",
@@ -8060,7 +8014,7 @@
     "vintage": "2018",
     "producer": "Penfolds",
     "since": "2025-07-12",
-    "days_held": 391
+    "days_held": 392
    },
    {
     "iWine": "5271148",
@@ -8068,7 +8022,7 @@
     "vintage": "2019",
     "producer": "San Polino",
     "since": "2025-07-12",
-    "days_held": 391
+    "days_held": 392
    }
   ],
   "total_appreciation_pct": 33.1
@@ -8076,9 +8030,9 @@
  "map_countries": [
   {
    "name": "France",
-   "bottles": 105,
-   "value": 10275.14,
-   "wines": 24,
+   "bottles": 104,
+   "value": 10248.4,
+   "wines": 23,
    "lat": 46.6,
    "lon": 2.2
   },
@@ -8109,7 +8063,7 @@
   {
    "name": "South Africa",
    "bottles": 33,
-   "value": 1667.8,
+   "value": 1664.1599999999999,
    "wines": 11,
    "lat": -33.9,
    "lon": 20.0
@@ -8141,7 +8095,7 @@
   {
    "name": "Hungary",
    "bottles": 1,
-   "value": 34.15,
+   "value": 36.19,
    "wines": 1,
    "lat": 47.2,
    "lon": 19.5
@@ -15145,8 +15099,8 @@
   }
  ],
  "diversification": {
-  "varietal_score": 83.3,
-  "country_score": 74.0,
+  "varietal_score": 83.1,
+  "country_score": 74.1,
   "varietal_label": "Highly diversified",
   "country_label": "Well diversified",
   "palate_gaps": [
@@ -15243,8 +15197,8 @@
     "wines": 6
    },
    "low": {
-    "bottles": 239,
-    "wines": 67
+    "bottles": 238,
+    "wines": 66
    },
    "unknown": {
     "bottles": 0,
@@ -15449,7 +15403,7 @@
    },
    {
     "vintage": 2024,
-    "bottles": 18
+    "bottles": 17
    },
    {
     "vintage": 2025,
@@ -15459,7 +15413,7 @@
   "median_vintage": 2019
  },
  "tasting": {
-  "total_tastings": 445,
+  "total_tastings": 446,
   "avg_personal_rating": 84.9,
   "rating_stdev": 5.5,
   "avg_delta_vs_consensus": -1.5,
@@ -15527,10 +15481,26 @@
    },
    {
     "month": "2026-08",
-    "count": 1
+    "count": 2
    }
   ],
   "recent": [
+   {
+    "iWine": "5559329",
+    "wine": "Jean Foillard Morgon Côte du Py",
+    "vintage": "2024",
+    "producer": "Jean Foillard",
+    "country": "France",
+    "region": "Burgundy",
+    "varietal": "Gamay",
+    "color": "Red",
+    "date": "2026-08-07",
+    "month": "2026-08",
+    "rating": 86.0,
+    "community_score": 90.0,
+    "delta": -4.0,
+    "notes_text": ""
+   },
    {
     "iWine": "5840845",
     "wine": "La Croix de Garde Hermitage Les Rouies",
@@ -16154,25 +16124,25 @@
     "community_score": 86.0,
     "delta": 0.0,
     "notes_text": ""
-   },
-   {
-    "iWine": "5271148",
-    "wine": "San Polino Brunello di Montalcino Riserva",
-    "vintage": "2019",
-    "producer": "San Polino",
-    "country": "Italy",
-    "region": "Tuscany",
-    "varietal": "Sangiovese",
-    "color": "Red",
-    "date": "2026-05-30",
-    "month": "2026-05",
-    "rating": 94.0,
-    "community_score": 93.5,
-    "delta": 0.5,
-    "notes_text": ""
    }
   ],
   "all": [
+   {
+    "iWine": "5559329",
+    "wine": "Jean Foillard Morgon Côte du Py",
+    "vintage": "2024",
+    "producer": "Jean Foillard",
+    "country": "France",
+    "region": "Burgundy",
+    "varietal": "Gamay",
+    "color": "Red",
+    "date": "2026-08-07",
+    "month": "2026-08",
+    "rating": 86.0,
+    "community_score": 90.0,
+    "delta": -4.0,
+    "notes_text": ""
+   },
    {
     "iWine": "5840845",
     "wine": "La Croix de Garde Hermitage Les Rouies",
@@ -22793,7 +22763,7 @@
     "date": "2025-06-01",
     "month": "2025-06",
     "rating": 90.0,
-    "community_score": 92.0793650793651,
+    "community_score": 92.09375,
     "delta": -2.1,
     "notes_text": ""
    },
@@ -23065,7 +23035,7 @@
     "date": "2025-05-30",
     "month": "2025-05",
     "rating": 90.0,
-    "community_score": 91.8333333333333,
+    "community_score": 91.8064516129032,
     "delta": -1.8,
     "notes_text": ""
    },
@@ -23357,7 +23327,7 @@
      "avg_rating": 87.5,
      "tastings": 61,
      "cellar_bottles": 88,
-     "cellar_pct": 35.2,
+     "cellar_pct": 35.3,
      "verdict": "Neutral"
     },
     {
@@ -23411,9 +23381,9 @@
     {
      "name": "Gamay",
      "avg_rating": 86.2,
-     "tastings": 4,
-     "cellar_bottles": 1,
-     "cellar_pct": 0.4,
+     "tastings": 5,
+     "cellar_bottles": 0,
+     "cellar_pct": 0,
      "verdict": "Neutral"
     },
     {
@@ -23421,7 +23391,7 @@
      "avg_rating": 85.7,
      "tastings": 24,
      "cellar_bottles": 34,
-     "cellar_pct": 13.6,
+     "cellar_pct": 13.7,
      "verdict": "Neutral"
     },
     {
@@ -23598,7 +23568,7 @@
      "tastings": 6,
      "cellar_bottles": 6,
      "cellar_pct": 2.4,
-     "verdict": "Overweight"
+     "verdict": "Rightly avoided"
     },
     {
      "name": "Montepulciano",
@@ -23653,9 +23623,9 @@
     {
      "name": "France",
      "avg_rating": 86.4,
-     "tastings": 157,
-     "cellar_bottles": 105,
-     "cellar_pct": 42.0,
+     "tastings": 158,
+     "cellar_bottles": 104,
+     "cellar_pct": 41.8,
      "verdict": "Neutral"
     },
     {
@@ -23679,7 +23649,7 @@
      "avg_rating": 84.8,
      "tastings": 96,
      "cellar_bottles": 56,
-     "cellar_pct": 22.4,
+     "cellar_pct": 22.5,
      "verdict": "Neutral"
     },
     {
@@ -23719,7 +23689,7 @@
      "avg_rating": 82.2,
      "tastings": 10,
      "cellar_bottles": 33,
-     "cellar_pct": 13.2,
+     "cellar_pct": 13.3,
      "verdict": "Neutral"
     },
     {
@@ -23809,7 +23779,7 @@
      "avg_rating": 87.4,
      "tastings": 66,
      "cellar_bottles": 75,
-     "cellar_pct": 30.0,
+     "cellar_pct": 30.1,
      "verdict": "Neutral"
     },
     {
@@ -23862,10 +23832,10 @@
     },
     {
      "name": "Burgundy",
-     "avg_rating": 86.3,
-     "tastings": 19,
-     "cellar_bottles": 7,
-     "cellar_pct": 2.8,
+     "avg_rating": 86.2,
+     "tastings": 20,
+     "cellar_bottles": 6,
+     "cellar_pct": 2.4,
      "verdict": "Neutral"
     },
     {
@@ -24066,7 +24036,7 @@
      "tastings": 10,
      "cellar_bottles": 6,
      "cellar_pct": 2.4,
-     "verdict": "Overweight"
+     "verdict": "Rightly avoided"
     },
     {
      "name": "Castilla-La Mancha",
@@ -24106,7 +24076,7 @@
      "tastings": 2,
      "cellar_bottles": 6,
      "cellar_pct": 2.4,
-     "verdict": "Overweight"
+     "verdict": "Rightly avoided"
     },
     {
      "name": "Murcia",
@@ -24129,8 +24099,8 @@
     {
      "name": "Red",
      "avg_rating": 85.2,
-     "tastings": 316,
-     "cellar_bottles": 233,
+     "tastings": 317,
+     "cellar_bottles": 232,
      "cellar_pct": 93.2,
      "verdict": "Neutral"
     },
@@ -24557,9 +24527,9 @@
  },
  "consumption": {
   "total_purchased_ever": 624,
-  "total_remaining_ever": 250,
-  "total_consumed_ever": 374,
-  "consumed_pct": 59.9,
+  "total_remaining_ever": 249,
+  "total_consumed_ever": 375,
+  "consumed_pct": 60.1,
   "turnover_series": [
    {
     "year": 2019,
@@ -24599,7 +24569,7 @@
    {
     "year": 2026,
     "cumulative_purchased": 624,
-    "cumulative_remaining": 250
+    "cumulative_remaining": 249
    }
   ]
  },
