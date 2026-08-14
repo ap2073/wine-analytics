@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-08-13T09:48:57.479402+00:00",
+ "generated_at": "2026-08-14T09:43:34.381713+00:00",
  "current_year": 2026,
  "summary": {
   "total_bottles": 251,
   "total_wines": 75,
-  "total_value": 27209.11,
+  "total_value": 27183.36,
   "total_paid": 20410.75,
   "countries": 10,
   "avg_critic_score": 93.1
@@ -13,7 +13,7 @@
   {
    "name": "France",
    "bottles": 104,
-   "value": 10250.99,
+   "value": 10220.519999999999,
    "wines": 23
   },
   {
@@ -25,7 +25,7 @@
   {
    "name": "Italy",
    "bottles": 56,
-   "value": 4193.51,
+   "value": 4199.110000000001,
    "wines": 18
   },
   {
@@ -37,7 +37,7 @@
   {
    "name": "South Africa",
    "bottles": 33,
-   "value": 1659.3399999999997,
+   "value": 1658.4599999999998,
    "wines": 11
   },
   {
@@ -75,13 +75,13 @@
   {
    "name": "Red Bordeaux Blend",
    "bottles": 88,
-   "value": 9714.200000000003,
+   "value": 9684.290000000003,
    "wines": 23
   },
   {
    "name": "Syrah",
    "bottles": 34,
-   "value": 6491.23,
+   "value": 6489.79,
    "wines": 7
   },
   {
@@ -147,7 +147,7 @@
   {
    "name": "Nerello Mascalese",
    "bottles": 6,
-   "value": 198.26999999999998,
+   "value": 203.87,
    "wines": 6
   },
   {
@@ -197,7 +197,7 @@
   {
    "name": "Bordeaux",
    "bottles": 75,
-   "value": 8064.81,
+   "value": 8034.34,
    "wines": 15
   },
   {
@@ -227,7 +227,7 @@
   {
    "name": "Coastal Region",
    "bottles": 27,
-   "value": 1485.9399999999998,
+   "value": 1485.06,
    "wines": 10
   },
   {
@@ -257,7 +257,7 @@
   {
    "name": "Sicily",
    "bottles": 6,
-   "value": 198.26999999999998,
+   "value": 203.87,
    "wines": 6
   },
   {
@@ -319,7 +319,7 @@
   {
    "name": "Red",
    "bottles": 234,
-   "value": 26255.250000000004
+   "value": 26229.500000000004
   },
   {
    "name": "White",
@@ -331,7 +331,7 @@
   {
    "name": "Red",
    "bottles": 234,
-   "value": 26255.250000000004
+   "value": 26229.500000000004
   },
   {
    "name": "White",
@@ -360,7 +360,7 @@
   {
    "name": "Château Pontet-Canet",
    "bottles": 11,
-   "value": 1501.55,
+   "value": 1491.6399999999999,
    "wines": 2
   },
   {
@@ -378,7 +378,7 @@
   {
    "name": "Château Troplong Mondot",
    "bottles": 9,
-   "value": 949.1099999999999,
+   "value": 949.8199999999999,
    "wines": 2
   },
   {
@@ -390,7 +390,7 @@
   {
    "name": "Château Léoville Barton",
    "bottles": 9,
-   "value": 843.59,
+   "value": 831.63,
    "wines": 2
   },
   {
@@ -414,7 +414,7 @@
   {
    "name": "Château Clinet",
    "bottles": 6,
-   "value": 598.43,
+   "value": 604.11,
    "wines": 1
   },
   {
@@ -424,33 +424,33 @@
    "wines": 1
   },
   {
-   "name": "Château Lynch-Bages",
-   "bottles": 4,
-   "value": 588.39,
-   "wines": 1
-  },
-  {
    "name": "Dunn Vineyards",
    "bottles": 7,
    "value": 581.27,
    "wines": 2
+  },
+  {
+   "name": "Château Lynch-Bages",
+   "bottles": 4,
+   "value": 577.99,
+   "wines": 1
   }
  ],
  "by_location": [
   {
    "name": "Cellar",
    "bottles": 53,
-   "value": 4583.81
+   "value": 4568.51
   },
   {
    "name": "Cellar - Wine Society",
    "bottles": 90,
-   "value": 5087.509999999999
+   "value": 5086.080000000001
   },
   {
    "name": "Cellar - BB&R",
    "bottles": 108,
-   "value": 17537.789999999997
+   "value": 17528.77
   }
  ],
  "drinking_window": {
@@ -1191,15 +1191,15 @@
    "location": "Cellar - Wine Society",
    "quantity": 3,
    "price_paid_bottle": 54.0,
-   "value_bottle": 55.4,
+   "value_bottle": 54.92,
    "total_paid": 162.0,
-   "total_value": 166.21,
+   "total_value": 164.77,
    "avg_critic_score": 96.7,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2028,
    "end_consume": 2040,
-   "appreciation_pct": 2.6,
+   "appreciation_pct": 1.7,
    "body": "Full",
    "tannin": "High",
    "pairings": [
@@ -1228,15 +1228,15 @@
    "location": "Cellar - Wine Society",
    "quantity": 3,
    "price_paid_bottle": 74.0,
-   "value_bottle": 91.4,
+   "value_bottle": 91.64,
    "total_paid": 222.0,
-   "total_value": 274.2,
+   "total_value": 274.91,
    "avg_critic_score": 96.5,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2031,
    "end_consume": 2053,
-   "appreciation_pct": 23.5,
+   "appreciation_pct": 23.8,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -1487,15 +1487,15 @@
    "location": "Cellar",
    "quantity": 5,
    "price_paid_bottle": 136.0,
-   "value_bottle": 194.91,
+   "value_bottle": 193.93,
    "total_paid": 680.0,
-   "total_value": 974.53,
+   "total_value": 969.63,
    "avg_critic_score": 95.4,
    "my_score": 93.0,
    "critic_scores": {},
    "begin_consume": 2022,
    "end_consume": 2054,
-   "appreciation_pct": 43.3,
+   "appreciation_pct": 42.6,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -1598,15 +1598,15 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 58.33,
-   "value_bottle": 99.74,
+   "value_bottle": 100.68,
    "total_paid": 349.98,
-   "total_value": 598.43,
+   "total_value": 604.11,
    "avg_critic_score": 95.0,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2029,
    "end_consume": 2047,
-   "appreciation_pct": 71.0,
+   "appreciation_pct": 72.6,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -1711,15 +1711,15 @@
    "location": "Cellar - Wine Society",
    "quantity": 3,
    "price_paid_bottle": 53.0,
-   "value_bottle": 73.28,
+   "value_bottle": 72.11,
    "total_paid": 159.0,
-   "total_value": 219.83,
+   "total_value": 216.33,
    "avg_critic_score": 94.7,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2035,
    "end_consume": 2059,
-   "appreciation_pct": 38.3,
+   "appreciation_pct": 36.1,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -1789,15 +1789,15 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 68.33,
-   "value_bottle": 103.96,
+   "value_bottle": 102.55,
    "total_paid": 409.98,
-   "total_value": 623.76,
+   "total_value": 615.3,
    "avg_critic_score": 94.4,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2026,
    "end_consume": 2047,
-   "appreciation_pct": 52.1,
+   "appreciation_pct": 50.1,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -2202,15 +2202,15 @@
    "location": "Cellar",
    "quantity": 5,
    "price_paid_bottle": 136.0,
-   "value_bottle": 194.91,
+   "value_bottle": 193.93,
    "total_paid": 680.0,
-   "total_value": 974.53,
+   "total_value": 969.63,
    "avg_critic_score": 95.4,
    "my_score": 93.0,
    "critic_scores": {},
    "begin_consume": 2022,
    "end_consume": 2054,
-   "appreciation_pct": 43.3,
+   "appreciation_pct": 42.6,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -2350,9 +2350,9 @@
    "location": "Cellar",
    "quantity": 4,
    "price_paid_bottle": 108.0,
-   "value_bottle": 147.1,
+   "value_bottle": 144.5,
    "total_paid": 432.0,
-   "total_value": 588.39,
+   "total_value": 577.99,
    "avg_critic_score": 93.7,
    "my_score": 92.0,
    "critic_scores": {
@@ -2360,7 +2360,7 @@
    },
    "begin_consume": 2021,
    "end_consume": 2047,
-   "appreciation_pct": 36.2,
+   "appreciation_pct": 33.8,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -2850,7 +2850,11 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Pinot noir, also known as Pinot nero, and Spätburgunder is a red-wine grape variety of the species Vitis vinifera. The name also refers to wines created predominantly from Pinot noir grapes. The name is derived from the French words for pine and black. The word pine alludes to the grape variety having tightly clustered, pinecone-shaped bunches of fruit.",
+    "url": "https://en.wikipedia.org/wiki/Pinot_noir",
+    "title": "Pinot noir"
+   }
   },
   {
    "iWine": "4561939",
@@ -2887,7 +2891,11 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Pinot noir, also known as Pinot nero, and Spätburgunder is a red-wine grape variety of the species Vitis vinifera. The name also refers to wines created predominantly from Pinot noir grapes. The name is derived from the French words for pine and black. The word pine alludes to the grape variety having tightly clustered, pinecone-shaped bunches of fruit.",
+    "url": "https://en.wikipedia.org/wiki/Pinot_noir",
+    "title": "Pinot noir"
+   }
   },
   {
    "iWine": "5743674",
@@ -3175,15 +3183,15 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 58.33,
-   "value_bottle": 99.74,
+   "value_bottle": 100.68,
    "total_paid": 349.98,
-   "total_value": 598.43,
+   "total_value": 604.11,
    "avg_critic_score": 95.0,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2029,
    "end_consume": 2047,
-   "appreciation_pct": 71.0,
+   "appreciation_pct": 72.6,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -3793,15 +3801,15 @@
    "location": "Cellar - Wine Society",
    "quantity": 6,
    "price_paid_bottle": 51.0,
-   "value_bottle": 46.06,
+   "value_bottle": 45.5,
    "total_paid": 306.0,
-   "total_value": 276.33,
+   "total_value": 272.97,
    "avg_critic_score": 92.5,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2026,
    "end_consume": 2045,
-   "appreciation_pct": -9.7,
+   "appreciation_pct": -10.8,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -3830,15 +3838,15 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 18.33,
-   "value_bottle": 33.61,
+   "value_bottle": 33.4,
    "total_paid": 109.98,
-   "total_value": 201.65,
+   "total_value": 200.42,
    "avg_critic_score": 93.8,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2028,
    "end_consume": 2044,
-   "appreciation_pct": 83.4,
+   "appreciation_pct": 82.2,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -3867,15 +3875,15 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 68.33,
-   "value_bottle": 103.96,
+   "value_bottle": 102.55,
    "total_paid": 409.98,
-   "total_value": 623.76,
+   "total_value": 615.3,
    "avg_critic_score": 94.4,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2026,
    "end_consume": 2047,
-   "appreciation_pct": 52.1,
+   "appreciation_pct": 50.1,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -3904,15 +3912,15 @@
    "location": "Cellar - Wine Society",
    "quantity": 3,
    "price_paid_bottle": 53.0,
-   "value_bottle": 73.28,
+   "value_bottle": 72.11,
    "total_paid": 159.0,
-   "total_value": 219.83,
+   "total_value": 216.33,
    "avg_critic_score": 94.7,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2035,
    "end_consume": 2059,
-   "appreciation_pct": 38.3,
+   "appreciation_pct": 36.1,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -3978,9 +3986,9 @@
    "location": "Cellar",
    "quantity": 4,
    "price_paid_bottle": 108.0,
-   "value_bottle": 147.1,
+   "value_bottle": 144.5,
    "total_paid": 432.0,
-   "total_value": 588.39,
+   "total_value": 577.99,
    "avg_critic_score": 93.7,
    "my_score": 92.0,
    "critic_scores": {
@@ -3988,7 +3996,7 @@
    },
    "begin_consume": 2021,
    "end_consume": 2047,
-   "appreciation_pct": 36.2,
+   "appreciation_pct": 33.8,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -4563,15 +4571,15 @@
    "location": "Cellar",
    "quantity": 5,
    "price_paid_bottle": 136.0,
-   "value_bottle": 194.91,
+   "value_bottle": 193.93,
    "total_paid": 680.0,
-   "total_value": 974.53,
+   "total_value": 969.63,
    "avg_critic_score": 95.4,
    "my_score": 93.0,
    "critic_scores": {},
    "begin_consume": 2022,
    "end_consume": 2054,
-   "appreciation_pct": 43.3,
+   "appreciation_pct": 42.6,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -4600,15 +4608,15 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 50.0,
-   "value_bottle": 87.84,
+   "value_bottle": 87.0,
    "total_paid": 300.0,
-   "total_value": 527.02,
+   "total_value": 522.01,
    "avg_critic_score": 93.4,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2028,
    "end_consume": 2051,
-   "appreciation_pct": 75.7,
+   "appreciation_pct": 74.0,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -4637,15 +4645,15 @@
    "location": "Cellar - Wine Society",
    "quantity": 3,
    "price_paid_bottle": 54.0,
-   "value_bottle": 55.4,
+   "value_bottle": 54.92,
    "total_paid": 162.0,
-   "total_value": 166.21,
+   "total_value": 164.77,
    "avg_critic_score": 96.7,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2028,
    "end_consume": 2040,
-   "appreciation_pct": 2.6,
+   "appreciation_pct": 1.7,
    "body": "Full",
    "tannin": "High",
    "pairings": [
@@ -5052,15 +5060,15 @@
    "location": "Cellar - Wine Society",
    "quantity": 1,
    "price_paid_bottle": 31.0,
-   "value_bottle": 24.37,
+   "value_bottle": 24.93,
    "total_paid": 31.0,
-   "total_value": 24.37,
+   "total_value": 24.93,
    "avg_critic_score": null,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2031,
    "end_consume": 2043,
-   "appreciation_pct": -21.4,
+   "appreciation_pct": -19.6,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -5130,15 +5138,15 @@
    "location": "Cellar - Wine Society",
    "quantity": 1,
    "price_paid_bottle": 30.0,
-   "value_bottle": 34.79,
+   "value_bottle": 40.39,
    "total_paid": 30.0,
-   "total_value": 34.79,
+   "total_value": 40.39,
    "avg_critic_score": null,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2027,
    "end_consume": 2034,
-   "appreciation_pct": 16.0,
+   "appreciation_pct": 34.6,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -5245,15 +5253,15 @@
    "location": "Cellar - Wine Society",
    "quantity": 3,
    "price_paid_bottle": 74.0,
-   "value_bottle": 91.4,
+   "value_bottle": 91.64,
    "total_paid": 222.0,
-   "total_value": 274.2,
+   "total_value": 274.91,
    "avg_critic_score": 96.5,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2031,
    "end_consume": 2053,
-   "appreciation_pct": 23.5,
+   "appreciation_pct": 23.8,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -5625,52 +5633,15 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 18.33,
-   "value_bottle": 33.61,
+   "value_bottle": 33.4,
    "total_paid": 109.98,
-   "total_value": 201.65,
+   "total_value": 200.42,
    "avg_critic_score": 93.8,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2028,
    "end_consume": 2044,
-   "appreciation_pct": 83.4,
-   "body": "Medium",
-   "tannin": "Medium",
-   "pairings": [
-    "red meat",
-    "hard cheese",
-    "roasted vegetables"
-   ],
-   "decant": {
-    "hours": 1.0,
-    "label": "~1–1.5 hrs (longer if young & tightly wound)"
-   },
-   "wiki": null
-  },
-  {
-   "iWine": "3650113",
-   "wine": "Château Pontet-Canet",
-   "vintage": "2019",
-   "producer": "Château Pontet-Canet",
-   "country": "France",
-   "region": "Bordeaux",
-   "subregion": "Médoc",
-   "appellation": "Pauillac",
-   "color": "Red",
-   "style": "Red",
-   "varietal": "Red Bordeaux Blend",
-   "location": "Cellar - BB&R",
-   "quantity": 6,
-   "price_paid_bottle": 50.0,
-   "value_bottle": 87.84,
-   "total_paid": 300.0,
-   "total_value": 527.02,
-   "avg_critic_score": 93.4,
-   "my_score": null,
-   "critic_scores": {},
-   "begin_consume": 2028,
-   "end_consume": 2051,
-   "appreciation_pct": 75.7,
+   "appreciation_pct": 82.2,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -5720,6 +5691,43 @@
    "decant": {
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
+   },
+   "wiki": null
+  },
+  {
+   "iWine": "3650113",
+   "wine": "Château Pontet-Canet",
+   "vintage": "2019",
+   "producer": "Château Pontet-Canet",
+   "country": "France",
+   "region": "Bordeaux",
+   "subregion": "Médoc",
+   "appellation": "Pauillac",
+   "color": "Red",
+   "style": "Red",
+   "varietal": "Red Bordeaux Blend",
+   "location": "Cellar - BB&R",
+   "quantity": 6,
+   "price_paid_bottle": 50.0,
+   "value_bottle": 87.0,
+   "total_paid": 300.0,
+   "total_value": 522.01,
+   "avg_critic_score": 93.4,
+   "my_score": null,
+   "critic_scores": {},
+   "begin_consume": 2028,
+   "end_consume": 2051,
+   "appreciation_pct": 74.0,
+   "body": "Medium",
+   "tannin": "Medium",
+   "pairings": [
+    "red meat",
+    "hard cheese",
+    "roasted vegetables"
+   ],
+   "decant": {
+    "hours": 1.0,
+    "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
    "wiki": null
   },
@@ -5775,15 +5783,15 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 58.33,
-   "value_bottle": 99.74,
+   "value_bottle": 100.68,
    "total_paid": 349.98,
-   "total_value": 598.43,
+   "total_value": 604.11,
    "avg_critic_score": 95.0,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2029,
    "end_consume": 2047,
-   "appreciation_pct": 71.0,
+   "appreciation_pct": 72.6,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -5917,43 +5925,6 @@
    }
   },
   {
-   "iWine": "2656322",
-   "wine": "Château Léoville Barton",
-   "vintage": "2016",
-   "producer": "Château Léoville Barton",
-   "country": "France",
-   "region": "Bordeaux",
-   "subregion": "Médoc",
-   "appellation": "Saint-Julien",
-   "color": "Red",
-   "style": "Red",
-   "varietal": "Red Bordeaux Blend",
-   "location": "Cellar - BB&R",
-   "quantity": 6,
-   "price_paid_bottle": 68.33,
-   "value_bottle": 103.96,
-   "total_paid": 409.98,
-   "total_value": 623.76,
-   "avg_critic_score": 94.4,
-   "my_score": null,
-   "critic_scores": {},
-   "begin_consume": 2026,
-   "end_consume": 2047,
-   "appreciation_pct": 52.1,
-   "body": "Medium",
-   "tannin": "Medium",
-   "pairings": [
-    "red meat",
-    "hard cheese",
-    "roasted vegetables"
-   ],
-   "decant": {
-    "hours": 0.5,
-    "label": "~30 min — a short splash-decant to open it up"
-   },
-   "wiki": null
-  },
-  {
    "iWine": "4316519",
    "wine": "Penfolds Grange",
    "vintage": "2018",
@@ -5983,6 +5954,43 @@
     "peppered steak",
     "game",
     "barbecue"
+   ],
+   "decant": {
+    "hours": 0.5,
+    "label": "~30 min — a short splash-decant to open it up"
+   },
+   "wiki": null
+  },
+  {
+   "iWine": "2656322",
+   "wine": "Château Léoville Barton",
+   "vintage": "2016",
+   "producer": "Château Léoville Barton",
+   "country": "France",
+   "region": "Bordeaux",
+   "subregion": "Médoc",
+   "appellation": "Saint-Julien",
+   "color": "Red",
+   "style": "Red",
+   "varietal": "Red Bordeaux Blend",
+   "location": "Cellar - BB&R",
+   "quantity": 6,
+   "price_paid_bottle": 68.33,
+   "value_bottle": 102.55,
+   "total_paid": 409.98,
+   "total_value": 615.3,
+   "avg_critic_score": 94.4,
+   "my_score": null,
+   "critic_scores": {},
+   "begin_consume": 2026,
+   "end_consume": 2047,
+   "appreciation_pct": 50.1,
+   "body": "Medium",
+   "tannin": "Medium",
+   "pairings": [
+    "red meat",
+    "hard cheese",
+    "roasted vegetables"
    ],
    "decant": {
     "hours": 0.5,
@@ -6116,15 +6124,15 @@
    "location": "Cellar",
    "quantity": 5,
    "price_paid_bottle": 136.0,
-   "value_bottle": 194.91,
+   "value_bottle": 193.93,
    "total_paid": 680.0,
-   "total_value": 974.53,
+   "total_value": 969.63,
    "avg_critic_score": 95.4,
    "my_score": 93.0,
    "critic_scores": {},
    "begin_consume": 2022,
    "end_consume": 2054,
-   "appreciation_pct": 43.3,
+   "appreciation_pct": 42.6,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -6196,15 +6204,15 @@
    "location": "Cellar - Wine Society",
    "quantity": 1,
    "price_paid_bottle": 31.0,
-   "value_bottle": 24.37,
+   "value_bottle": 24.93,
    "total_paid": 31.0,
-   "total_value": 24.37,
+   "total_value": 24.93,
    "avg_critic_score": null,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2031,
    "end_consume": 2043,
-   "appreciation_pct": -21.4,
+   "appreciation_pct": -19.6,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -6352,15 +6360,15 @@
    "location": "Cellar - Wine Society",
    "quantity": 6,
    "price_paid_bottle": 51.0,
-   "value_bottle": 46.06,
+   "value_bottle": 45.5,
    "total_paid": 306.0,
-   "total_value": 276.33,
+   "total_value": 272.97,
    "avg_critic_score": 92.5,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2026,
    "end_consume": 2045,
-   "appreciation_pct": -9.7,
+   "appreciation_pct": -10.8,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -6712,29 +6720,29 @@
    "wiki": null
   },
   {
-   "iWine": "5519448",
-   "wine": "Fogwell Syrah",
-   "vintage": "2024",
-   "producer": "Fogwell",
+   "iWine": "5456365",
+   "wine": "Porseleinberg Swartland",
+   "vintage": "2023",
+   "producer": "Porseleinberg",
    "country": "South Africa",
-   "region": "Western Cape",
-   "subregion": "Unknown",
+   "region": "Coastal Region",
+   "subregion": "Swartland",
    "appellation": "Unknown",
    "color": "Red",
    "style": "Red",
    "varietal": "Syrah",
    "location": "Cellar - Wine Society",
-   "quantity": 6,
-   "price_paid_bottle": 28.33,
-   "value_bottle": 28.9,
-   "total_paid": 169.98,
-   "total_value": 173.4,
-   "avg_critic_score": null,
+   "quantity": 3,
+   "price_paid_bottle": 54.0,
+   "value_bottle": 54.92,
+   "total_paid": 162.0,
+   "total_value": 164.77,
+   "avg_critic_score": 96.7,
    "my_score": null,
    "critic_scores": {},
-   "begin_consume": 2026,
-   "end_consume": 2034,
-   "appreciation_pct": 2.0,
+   "begin_consume": 2028,
+   "end_consume": 2040,
+   "appreciation_pct": 1.7,
    "body": "Full",
    "tannin": "High",
    "pairings": [
@@ -6836,8 +6844,8 @@
    "wines": 2,
    "bottles": 11,
    "paid": 980.0,
-   "value": 1501.55,
-   "appreciation_pct": 53.2,
+   "value": 1491.64,
+   "appreciation_pct": 52.2,
    "avg_score": 94.4,
    "countries": [
     "France"
@@ -6902,7 +6910,7 @@
    "wines": 2,
    "bottles": 9,
    "paid": 856.98,
-   "value": 949.11,
+   "value": 949.82,
    "appreciation_pct": 10.8,
    "avg_score": 95.3,
    "countries": [
@@ -6934,8 +6942,8 @@
    "wines": 2,
    "bottles": 9,
    "paid": 568.98,
-   "value": 843.59,
-   "appreciation_pct": 48.3,
+   "value": 831.63,
+   "appreciation_pct": 46.2,
    "avg_score": 94.6,
    "countries": [
     "France"
@@ -7004,8 +7012,8 @@
    "wines": 1,
    "bottles": 6,
    "paid": 349.98,
-   "value": 598.43,
-   "appreciation_pct": 71.0,
+   "value": 604.11,
+   "appreciation_pct": 72.6,
    "avg_score": 95.0,
    "countries": [
     "France"
@@ -7038,28 +7046,6 @@
    "wikidata": null
   },
   {
-   "name": "Château Lynch-Bages",
-   "wines": 1,
-   "bottles": 4,
-   "paid": 432.0,
-   "value": 588.39,
-   "appreciation_pct": 36.2,
-   "avg_score": 93.7,
-   "countries": [
-    "France"
-   ],
-   "regions": [
-    "Bordeaux"
-   ],
-   "wikidata": {
-    "description": "Winery",
-    "founded": null,
-    "lat": 45.19083,
-    "lon": -0.75561,
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Château_Lynch-Bages"
-   }
-  },
-  {
    "name": "Dunn Vineyards",
    "wines": 2,
    "bottles": 7,
@@ -7074,6 +7060,28 @@
     "California"
    ],
    "wikidata": null
+  },
+  {
+   "name": "Château Lynch-Bages",
+   "wines": 1,
+   "bottles": 4,
+   "paid": 432.0,
+   "value": 577.99,
+   "appreciation_pct": 33.8,
+   "avg_score": 93.7,
+   "countries": [
+    "France"
+   ],
+   "regions": [
+    "Bordeaux"
+   ],
+   "wikidata": {
+    "description": "Winery",
+    "founded": null,
+    "lat": 45.19083,
+    "lon": -0.75561,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Château_Lynch-Bages"
+   }
   },
   {
    "name": "San Polino",
@@ -7220,8 +7228,8 @@
    "wines": 1,
    "bottles": 6,
    "paid": 306.0,
-   "value": 276.33,
-   "appreciation_pct": -9.7,
+   "value": 272.97,
+   "appreciation_pct": -10.8,
    "avg_score": 92.5,
    "countries": [
     "France"
@@ -7268,8 +7276,8 @@
    "wines": 1,
    "bottles": 6,
    "paid": 109.98,
-   "value": 201.65,
-   "appreciation_pct": 83.4,
+   "value": 200.42,
+   "appreciation_pct": 82.2,
    "avg_score": 93.8,
    "countries": [
     "France"
@@ -7366,13 +7374,13 @@
    "wikidata": null
   },
   {
-   "name": "Porseleinberg",
+   "name": "Mullineux",
    "wines": 1,
-   "bottles": 3,
-   "paid": 162.0,
-   "value": 166.21,
-   "appreciation_pct": 2.6,
-   "avg_score": 96.7,
+   "bottles": 6,
+   "paid": 132.0,
+   "value": 166.01,
+   "appreciation_pct": 25.8,
+   "avg_score": null,
    "countries": [
     "South Africa"
    ],
@@ -7382,13 +7390,13 @@
    "wikidata": null
   },
   {
-   "name": "Mullineux",
+   "name": "Porseleinberg",
    "wines": 1,
-   "bottles": 6,
-   "paid": 132.0,
-   "value": 166.01,
-   "appreciation_pct": 25.8,
-   "avg_score": null,
+   "bottles": 3,
+   "paid": 162.0,
+   "value": 164.77,
+   "appreciation_pct": 1.7,
+   "avg_score": 96.7,
    "countries": [
     "South Africa"
    ],
@@ -7494,13 +7502,13 @@
    "wikidata": null
   },
   {
-   "name": "Benanti",
+   "name": "Tasca D'Almerita",
    "wines": 2,
    "bottles": 2,
    "paid": 60.0,
-   "value": 69.74,
-   "appreciation_pct": 16.2,
-   "avg_score": null,
+   "value": 74.55,
+   "appreciation_pct": 24.2,
+   "avg_score": 93.0,
    "countries": [
     "Italy"
    ],
@@ -7510,13 +7518,13 @@
    "wikidata": null
   },
   {
-   "name": "Tasca D'Almerita",
+   "name": "Benanti",
    "wines": 2,
    "bottles": 2,
    "paid": 60.0,
-   "value": 68.95,
-   "appreciation_pct": 14.9,
-   "avg_score": 93.0,
+   "value": 69.74,
+   "appreciation_pct": 16.2,
+   "avg_score": null,
    "countries": [
     "Italy"
    ],
@@ -7698,6 +7706,22 @@
    "wikidata": null
   },
   {
+   "name": "Taaibosch",
+   "wines": 1,
+   "bottles": 1,
+   "paid": 31.0,
+   "value": 24.93,
+   "appreciation_pct": -19.6,
+   "avg_score": null,
+   "countries": [
+    "South Africa"
+   ],
+   "regions": [
+    "Coastal Region"
+   ],
+   "wikidata": null
+  },
+  {
    "name": "Donnafugata",
    "wines": 1,
    "bottles": 1,
@@ -7710,22 +7734,6 @@
    ],
    "regions": [
     "Sicily"
-   ],
-   "wikidata": null
-  },
-  {
-   "name": "Taaibosch",
-   "wines": 1,
-   "bottles": 1,
-   "paid": 31.0,
-   "value": 24.37,
-   "appreciation_pct": -21.4,
-   "avg_score": null,
-   "countries": [
-    "South Africa"
-   ],
-   "regions": [
-    "Coastal Region"
    ],
    "wikidata": null
   },
@@ -7918,7 +7926,7 @@
    }
   },
   "avg_bottle_price_paid": 81.32,
-  "avg_bottle_value_now": 108.4,
+  "avg_bottle_value_now": 108.3,
   "avg_cellar_age_years": 7.1,
   "largest_single_purchase": {
    "date": "2026-03-06",
@@ -7948,7 +7956,7 @@
     "vintage": "2019",
     "producer": "Dunn Vineyards",
     "since": "2025-05-10",
-    "days_held": 460
+    "days_held": 461
    },
    {
     "iWine": "4386234",
@@ -7956,7 +7964,7 @@
     "vintage": "2019",
     "producer": "Dunn Vineyards",
     "since": "2025-05-10",
-    "days_held": 460
+    "days_held": 461
    },
    {
     "iWine": "4986829",
@@ -7964,7 +7972,7 @@
     "vintage": "2023",
     "producer": "Roc de Cambes",
     "since": "2025-06-07",
-    "days_held": 432
+    "days_held": 433
    },
    {
     "iWine": "4390612",
@@ -7972,7 +7980,7 @@
     "vintage": "2022",
     "producer": "Penfolds",
     "since": "2025-06-11",
-    "days_held": 428
+    "days_held": 429
    },
    {
     "iWine": "4641506",
@@ -7980,7 +7988,7 @@
     "vintage": "2022",
     "producer": "Château Clinet",
     "since": "2025-07-03",
-    "days_held": 406
+    "days_held": 407
    },
    {
     "iWine": "4638895",
@@ -7988,7 +7996,7 @@
     "vintage": "2022",
     "producer": "Château Troplong Mondot",
     "since": "2025-07-03",
-    "days_held": 406
+    "days_held": 407
    },
    {
     "iWine": "4876898",
@@ -7996,7 +8004,7 @@
     "vintage": "2019",
     "producer": "Canalicchio di Sopra",
     "since": "2025-07-12",
-    "days_held": 397
+    "days_held": 398
    },
    {
     "iWine": "4547984",
@@ -8004,7 +8012,7 @@
     "vintage": "2019",
     "producer": "Massolino",
     "since": "2025-07-12",
-    "days_held": 397
+    "days_held": 398
    },
    {
     "iWine": "3709255",
@@ -8012,7 +8020,7 @@
     "vintage": "2018",
     "producer": "Penfolds",
     "since": "2025-07-12",
-    "days_held": 397
+    "days_held": 398
    },
    {
     "iWine": "5271148",
@@ -8020,16 +8028,16 @@
     "vintage": "2019",
     "producer": "San Polino",
     "since": "2025-07-12",
-    "days_held": 397
+    "days_held": 398
    }
   ],
-  "total_appreciation_pct": 33.3
+  "total_appreciation_pct": 33.2
  },
  "map_countries": [
   {
    "name": "France",
    "bottles": 104,
-   "value": 10250.99,
+   "value": 10220.519999999999,
    "wines": 23,
    "lat": 46.6,
    "lon": 2.2
@@ -8045,7 +8053,7 @@
   {
    "name": "Italy",
    "bottles": 56,
-   "value": 4193.51,
+   "value": 4199.110000000001,
    "wines": 18,
    "lat": 42.8,
    "lon": 12.6
@@ -8061,7 +8069,7 @@
   {
    "name": "South Africa",
    "bottles": 33,
-   "value": 1659.3399999999997,
+   "value": 1658.4599999999998,
    "wines": 11,
    "lat": -33.9,
    "lon": 20.0
@@ -15580,8 +15588,8 @@
     "date": "2026-08-07",
     "month": "2026-08",
     "rating": 86.0,
-    "community_score": 90.0,
-    "delta": -4.0,
+    "community_score": 91.0,
+    "delta": -5.0,
     "notes_text": ""
    },
    {
@@ -16222,8 +16230,8 @@
     "date": "2026-08-07",
     "month": "2026-08",
     "rating": 86.0,
-    "community_score": 90.0,
-    "delta": -4.0,
+    "community_score": 91.0,
+    "delta": -5.0,
     "notes_text": ""
    },
    {
@@ -22846,7 +22854,7 @@
     "date": "2025-06-01",
     "month": "2025-06",
     "rating": 90.0,
-    "community_score": 92.09375,
+    "community_score": 92.0923076923077,
     "delta": -2.1,
     "notes_text": ""
    },
@@ -23038,7 +23046,7 @@
     "date": "2025-05-30",
     "month": "2025-05",
     "rating": 98.0,
-    "community_score": 95.4929971988796,
+    "community_score": 95.5027932960894,
     "delta": 2.5,
     "notes_text": ""
    },
