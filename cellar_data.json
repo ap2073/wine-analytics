@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-08-14T09:43:34.381713+00:00",
+ "generated_at": "2026-08-15T07:44:06.449633+00:00",
  "current_year": 2026,
  "summary": {
   "total_bottles": 251,
   "total_wines": 75,
-  "total_value": 27183.36,
+  "total_value": 27134.85,
   "total_paid": 20410.75,
   "countries": 10,
   "avg_critic_score": 93.1
@@ -13,13 +13,13 @@
   {
    "name": "France",
    "bottles": 104,
-   "value": 10220.519999999999,
+   "value": 10209.02,
    "wines": 23
   },
   {
    "name": "Australia",
    "bottles": 28,
-   "value": 7003.24,
+   "value": 6966.23,
    "wines": 7
   },
   {
@@ -75,13 +75,13 @@
   {
    "name": "Red Bordeaux Blend",
    "bottles": 88,
-   "value": 9684.290000000003,
+   "value": 9672.79,
    "wines": 23
   },
   {
    "name": "Syrah",
    "bottles": 34,
-   "value": 6489.79,
+   "value": 6452.780000000001,
    "wines": 7
   },
   {
@@ -197,13 +197,13 @@
   {
    "name": "Bordeaux",
    "bottles": 75,
-   "value": 8034.34,
+   "value": 8022.839999999999,
    "wines": 15
   },
   {
    "name": "South Australia",
    "bottles": 25,
-   "value": 6922.41,
+   "value": 6885.4,
    "wines": 6
   },
   {
@@ -319,7 +319,7 @@
   {
    "name": "Red",
    "bottles": 234,
-   "value": 26229.500000000004
+   "value": 26180.99000000001
   },
   {
    "name": "White",
@@ -331,7 +331,7 @@
   {
    "name": "Red",
    "bottles": 234,
-   "value": 26229.500000000004
+   "value": 26180.99000000001
   },
   {
    "name": "White",
@@ -348,7 +348,7 @@
   {
    "name": "Penfolds",
    "bottles": 19,
-   "value": 6758.26,
+   "value": 6721.25,
    "wines": 4
   },
   {
@@ -360,7 +360,7 @@
   {
    "name": "Château Pontet-Canet",
    "bottles": 11,
-   "value": 1491.6399999999999,
+   "value": 1498.75,
    "wines": 2
   },
   {
@@ -378,7 +378,7 @@
   {
    "name": "Château Troplong Mondot",
    "bottles": 9,
-   "value": 949.8199999999999,
+   "value": 949.8299999999999,
    "wines": 2
   },
   {
@@ -402,7 +402,7 @@
   {
    "name": "Château Les Carmes Haut-Brion",
    "bottles": 6,
-   "value": 745.83,
+   "value": 727.74,
    "wines": 1
   },
   {
@@ -445,12 +445,12 @@
   {
    "name": "Cellar - Wine Society",
    "bottles": 90,
-   "value": 5086.080000000001
+   "value": 5086.090000000001
   },
   {
    "name": "Cellar - BB&R",
    "bottles": 108,
-   "value": 17528.77
+   "value": 17480.25
   }
  ],
  "drinking_window": {
@@ -1230,7 +1230,7 @@
    "price_paid_bottle": 74.0,
    "value_bottle": 91.64,
    "total_paid": 222.0,
-   "total_value": 274.91,
+   "total_value": 274.92,
    "avg_critic_score": 96.5,
    "my_score": null,
    "critic_scores": {},
@@ -1265,15 +1265,15 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 268.0,
-   "value_bottle": 403.5,
+   "value_bottle": 397.33,
    "total_paid": 1608.0,
-   "total_value": 2421.02,
+   "total_value": 2384.01,
    "avg_critic_score": 96.4,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2030,
    "end_consume": 2057,
-   "appreciation_pct": 50.6,
+   "appreciation_pct": 48.3,
    "body": "Full",
    "tannin": "High",
    "pairings": [
@@ -1524,15 +1524,15 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 71.67,
-   "value_bottle": 124.3,
+   "value_bottle": 121.29,
    "total_paid": 430.02,
-   "total_value": 745.83,
+   "total_value": 727.74,
    "avg_critic_score": 95.1,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2030,
    "end_consume": 2053,
-   "appreciation_pct": 73.4,
+   "appreciation_pct": 69.2,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -1939,15 +1939,15 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 268.0,
-   "value_bottle": 403.5,
+   "value_bottle": 397.33,
    "total_paid": 1608.0,
-   "total_value": 2421.02,
+   "total_value": 2384.01,
    "avg_critic_score": 96.4,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2030,
    "end_consume": 2057,
-   "appreciation_pct": 50.6,
+   "appreciation_pct": 48.3,
    "body": "Full",
    "tannin": "High",
    "pairings": [
@@ -3838,15 +3838,15 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 18.33,
-   "value_bottle": 33.4,
+   "value_bottle": 33.31,
    "total_paid": 109.98,
-   "total_value": 200.42,
+   "total_value": 199.89,
    "avg_critic_score": 93.8,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2028,
    "end_consume": 2044,
-   "appreciation_pct": 82.2,
+   "appreciation_pct": 81.7,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -3949,15 +3949,15 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 71.67,
-   "value_bottle": 124.3,
+   "value_bottle": 121.29,
    "total_paid": 430.02,
-   "total_value": 745.83,
+   "total_value": 727.74,
    "avg_critic_score": 95.1,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2030,
    "end_consume": 2053,
-   "appreciation_pct": 73.4,
+   "appreciation_pct": 69.2,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -4493,15 +4493,15 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 268.0,
-   "value_bottle": 403.5,
+   "value_bottle": 397.33,
    "total_paid": 1608.0,
-   "total_value": 2421.02,
+   "total_value": 2384.01,
    "avg_critic_score": 96.4,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2030,
    "end_consume": 2057,
-   "appreciation_pct": 50.6,
+   "appreciation_pct": 48.3,
    "body": "Full",
    "tannin": "High",
    "pairings": [
@@ -4608,15 +4608,15 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 50.0,
-   "value_bottle": 87.0,
+   "value_bottle": 88.19,
    "total_paid": 300.0,
-   "total_value": 522.01,
+   "total_value": 529.12,
    "avg_critic_score": 93.4,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2028,
    "end_consume": 2051,
-   "appreciation_pct": 74.0,
+   "appreciation_pct": 76.4,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -5255,7 +5255,7 @@
    "price_paid_bottle": 74.0,
    "value_bottle": 91.64,
    "total_paid": 222.0,
-   "total_value": 274.91,
+   "total_value": 274.92,
    "avg_critic_score": 96.5,
    "my_score": null,
    "critic_scores": {},
@@ -5633,15 +5633,52 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 18.33,
-   "value_bottle": 33.4,
+   "value_bottle": 33.31,
    "total_paid": 109.98,
-   "total_value": 200.42,
+   "total_value": 199.89,
    "avg_critic_score": 93.8,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2028,
    "end_consume": 2044,
-   "appreciation_pct": 82.2,
+   "appreciation_pct": 81.7,
+   "body": "Medium",
+   "tannin": "Medium",
+   "pairings": [
+    "red meat",
+    "hard cheese",
+    "roasted vegetables"
+   ],
+   "decant": {
+    "hours": 1.0,
+    "label": "~1–1.5 hrs (longer if young & tightly wound)"
+   },
+   "wiki": null
+  },
+  {
+   "iWine": "3650113",
+   "wine": "Château Pontet-Canet",
+   "vintage": "2019",
+   "producer": "Château Pontet-Canet",
+   "country": "France",
+   "region": "Bordeaux",
+   "subregion": "Médoc",
+   "appellation": "Pauillac",
+   "color": "Red",
+   "style": "Red",
+   "varietal": "Red Bordeaux Blend",
+   "location": "Cellar - BB&R",
+   "quantity": 6,
+   "price_paid_bottle": 50.0,
+   "value_bottle": 88.19,
+   "total_paid": 300.0,
+   "total_value": 529.12,
+   "avg_critic_score": 93.4,
+   "my_score": null,
+   "critic_scores": {},
+   "begin_consume": 2028,
+   "end_consume": 2051,
+   "appreciation_pct": 76.4,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -5695,29 +5732,29 @@
    "wiki": null
   },
   {
-   "iWine": "3650113",
-   "wine": "Château Pontet-Canet",
-   "vintage": "2019",
-   "producer": "Château Pontet-Canet",
+   "iWine": "4641506",
+   "wine": "Château Clinet",
+   "vintage": "2022",
+   "producer": "Château Clinet",
    "country": "France",
    "region": "Bordeaux",
-   "subregion": "Médoc",
-   "appellation": "Pauillac",
+   "subregion": "Libournais",
+   "appellation": "Pomerol",
    "color": "Red",
    "style": "Red",
    "varietal": "Red Bordeaux Blend",
    "location": "Cellar - BB&R",
    "quantity": 6,
-   "price_paid_bottle": 50.0,
-   "value_bottle": 87.0,
-   "total_paid": 300.0,
-   "total_value": 522.01,
-   "avg_critic_score": 93.4,
+   "price_paid_bottle": 58.33,
+   "value_bottle": 100.68,
+   "total_paid": 349.98,
+   "total_value": 604.11,
+   "avg_critic_score": 95.0,
    "my_score": null,
    "critic_scores": {},
-   "begin_consume": 2028,
-   "end_consume": 2051,
-   "appreciation_pct": 74.0,
+   "begin_consume": 2029,
+   "end_consume": 2047,
+   "appreciation_pct": 72.6,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -5746,52 +5783,15 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 71.67,
-   "value_bottle": 124.3,
+   "value_bottle": 121.29,
    "total_paid": 430.02,
-   "total_value": 745.83,
+   "total_value": 727.74,
    "avg_critic_score": 95.1,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2030,
    "end_consume": 2053,
-   "appreciation_pct": 73.4,
-   "body": "Medium",
-   "tannin": "Medium",
-   "pairings": [
-    "red meat",
-    "hard cheese",
-    "roasted vegetables"
-   ],
-   "decant": {
-    "hours": 1.0,
-    "label": "~1–1.5 hrs (longer if young & tightly wound)"
-   },
-   "wiki": null
-  },
-  {
-   "iWine": "4641506",
-   "wine": "Château Clinet",
-   "vintage": "2022",
-   "producer": "Château Clinet",
-   "country": "France",
-   "region": "Bordeaux",
-   "subregion": "Libournais",
-   "appellation": "Pomerol",
-   "color": "Red",
-   "style": "Red",
-   "varietal": "Red Bordeaux Blend",
-   "location": "Cellar - BB&R",
-   "quantity": 6,
-   "price_paid_bottle": 58.33,
-   "value_bottle": 100.68,
-   "total_paid": 349.98,
-   "total_value": 604.11,
-   "avg_critic_score": 95.0,
-   "my_score": null,
-   "critic_scores": {},
-   "begin_consume": 2029,
-   "end_consume": 2047,
-   "appreciation_pct": 72.6,
+   "appreciation_pct": 69.2,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -5925,43 +5925,6 @@
    }
   },
   {
-   "iWine": "4316519",
-   "wine": "Penfolds Grange",
-   "vintage": "2018",
-   "producer": "Penfolds",
-   "country": "Australia",
-   "region": "South Australia",
-   "subregion": "Unknown",
-   "appellation": "Unknown",
-   "color": "Red",
-   "style": "Red",
-   "varietal": "Syrah",
-   "location": "Cellar - BB&R",
-   "quantity": 6,
-   "price_paid_bottle": 268.0,
-   "value_bottle": 403.5,
-   "total_paid": 1608.0,
-   "total_value": 2421.02,
-   "avg_critic_score": 96.4,
-   "my_score": null,
-   "critic_scores": {},
-   "begin_consume": 2030,
-   "end_consume": 2057,
-   "appreciation_pct": 50.6,
-   "body": "Full",
-   "tannin": "High",
-   "pairings": [
-    "peppered steak",
-    "game",
-    "barbecue"
-   ],
-   "decant": {
-    "hours": 0.5,
-    "label": "~30 min — a short splash-decant to open it up"
-   },
-   "wiki": null
-  },
-  {
    "iWine": "2656322",
    "wine": "Château Léoville Barton",
    "vintage": "2016",
@@ -5991,6 +5954,43 @@
     "red meat",
     "hard cheese",
     "roasted vegetables"
+   ],
+   "decant": {
+    "hours": 0.5,
+    "label": "~30 min — a short splash-decant to open it up"
+   },
+   "wiki": null
+  },
+  {
+   "iWine": "4316519",
+   "wine": "Penfolds Grange",
+   "vintage": "2018",
+   "producer": "Penfolds",
+   "country": "Australia",
+   "region": "South Australia",
+   "subregion": "Unknown",
+   "appellation": "Unknown",
+   "color": "Red",
+   "style": "Red",
+   "varietal": "Syrah",
+   "location": "Cellar - BB&R",
+   "quantity": 6,
+   "price_paid_bottle": 268.0,
+   "value_bottle": 397.33,
+   "total_paid": 1608.0,
+   "total_value": 2384.01,
+   "avg_critic_score": 96.4,
+   "my_score": null,
+   "critic_scores": {},
+   "begin_consume": 2030,
+   "end_consume": 2057,
+   "appreciation_pct": 48.3,
+   "body": "Full",
+   "tannin": "High",
+   "pairings": [
+    "peppered steak",
+    "game",
+    "barbecue"
    ],
    "decant": {
     "hours": 0.5,
@@ -6800,8 +6800,8 @@
    "wines": 4,
    "bottles": 19,
    "paid": 5056.02,
-   "value": 6758.26,
-   "appreciation_pct": 33.7,
+   "value": 6721.25,
+   "appreciation_pct": 32.9,
    "avg_score": 94.8,
    "countries": [
     "Australia"
@@ -6844,8 +6844,8 @@
    "wines": 2,
    "bottles": 11,
    "paid": 980.0,
-   "value": 1491.64,
-   "appreciation_pct": 52.2,
+   "value": 1498.75,
+   "appreciation_pct": 52.9,
    "avg_score": 94.4,
    "countries": [
     "France"
@@ -6910,7 +6910,7 @@
    "wines": 2,
    "bottles": 9,
    "paid": 856.98,
-   "value": 949.82,
+   "value": 949.83,
    "appreciation_pct": 10.8,
    "avg_score": 95.3,
    "countries": [
@@ -6974,8 +6974,8 @@
    "wines": 1,
    "bottles": 6,
    "paid": 430.02,
-   "value": 745.83,
-   "appreciation_pct": 73.4,
+   "value": 727.74,
+   "appreciation_pct": 69.2,
    "avg_score": 95.1,
    "countries": [
     "France"
@@ -7276,8 +7276,8 @@
    "wines": 1,
    "bottles": 6,
    "paid": 109.98,
-   "value": 200.42,
-   "appreciation_pct": 82.2,
+   "value": 199.89,
+   "appreciation_pct": 81.8,
    "avg_score": 93.8,
    "countries": [
     "France"
@@ -7886,8 +7886,8 @@
    "wines": 4,
    "bottles": 19,
    "paid": 5056.02,
-   "value": 6758.26,
-   "appreciation_pct": 33.7,
+   "value": 6721.25,
+   "appreciation_pct": 32.9,
    "avg_score": 94.8,
    "countries": [
     "Australia"
@@ -7908,8 +7908,8 @@
    "wines": 4,
    "bottles": 19,
    "paid": 5056.02,
-   "value": 6758.26,
-   "appreciation_pct": 33.7,
+   "value": 6721.25,
+   "appreciation_pct": 32.9,
    "avg_score": 94.8,
    "countries": [
     "Australia"
@@ -7926,7 +7926,7 @@
    }
   },
   "avg_bottle_price_paid": 81.32,
-  "avg_bottle_value_now": 108.3,
+  "avg_bottle_value_now": 108.11,
   "avg_cellar_age_years": 7.1,
   "largest_single_purchase": {
    "date": "2026-03-06",
@@ -7956,7 +7956,7 @@
     "vintage": "2019",
     "producer": "Dunn Vineyards",
     "since": "2025-05-10",
-    "days_held": 461
+    "days_held": 462
    },
    {
     "iWine": "4386234",
@@ -7964,7 +7964,7 @@
     "vintage": "2019",
     "producer": "Dunn Vineyards",
     "since": "2025-05-10",
-    "days_held": 461
+    "days_held": 462
    },
    {
     "iWine": "4986829",
@@ -7972,7 +7972,7 @@
     "vintage": "2023",
     "producer": "Roc de Cambes",
     "since": "2025-06-07",
-    "days_held": 433
+    "days_held": 434
    },
    {
     "iWine": "4390612",
@@ -7980,7 +7980,7 @@
     "vintage": "2022",
     "producer": "Penfolds",
     "since": "2025-06-11",
-    "days_held": 429
+    "days_held": 430
    },
    {
     "iWine": "4641506",
@@ -7988,7 +7988,7 @@
     "vintage": "2022",
     "producer": "Château Clinet",
     "since": "2025-07-03",
-    "days_held": 407
+    "days_held": 408
    },
    {
     "iWine": "4638895",
@@ -7996,7 +7996,7 @@
     "vintage": "2022",
     "producer": "Château Troplong Mondot",
     "since": "2025-07-03",
-    "days_held": 407
+    "days_held": 408
    },
    {
     "iWine": "4876898",
@@ -8004,7 +8004,7 @@
     "vintage": "2019",
     "producer": "Canalicchio di Sopra",
     "since": "2025-07-12",
-    "days_held": 398
+    "days_held": 399
    },
    {
     "iWine": "4547984",
@@ -8012,7 +8012,7 @@
     "vintage": "2019",
     "producer": "Massolino",
     "since": "2025-07-12",
-    "days_held": 398
+    "days_held": 399
    },
    {
     "iWine": "3709255",
@@ -8020,7 +8020,7 @@
     "vintage": "2018",
     "producer": "Penfolds",
     "since": "2025-07-12",
-    "days_held": 398
+    "days_held": 399
    },
    {
     "iWine": "5271148",
@@ -8028,16 +8028,16 @@
     "vintage": "2019",
     "producer": "San Polino",
     "since": "2025-07-12",
-    "days_held": 398
+    "days_held": 399
    }
   ],
-  "total_appreciation_pct": 33.2
+  "total_appreciation_pct": 32.9
  },
  "map_countries": [
   {
    "name": "France",
    "bottles": 104,
-   "value": 10220.519999999999,
+   "value": 10209.02,
    "wines": 23,
    "lat": 46.6,
    "lon": 2.2
@@ -8045,7 +8045,7 @@
   {
    "name": "Australia",
    "bottles": 28,
-   "value": 7003.24,
+   "value": 6966.23,
    "wines": 7,
    "lat": -33.9,
    "lon": 143.9
@@ -15828,7 +15828,7 @@
     "date": "2026-07-17",
     "month": "2026-07",
     "rating": 87.0,
-    "community_score": 93.4301075268817,
+    "community_score": 93.4148936170213,
     "delta": -6.4,
     "notes_text": ""
    },
@@ -16470,7 +16470,7 @@
     "date": "2026-07-17",
     "month": "2026-07",
     "rating": 87.0,
-    "community_score": 93.4301075268817,
+    "community_score": 93.4148936170213,
     "delta": -6.4,
     "notes_text": ""
    },
@@ -22854,7 +22854,7 @@
     "date": "2025-06-01",
     "month": "2025-06",
     "rating": 90.0,
-    "community_score": 92.0923076923077,
+    "community_score": 92.1212121212121,
     "delta": -2.1,
     "notes_text": ""
    },
