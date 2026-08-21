@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-08-20T08:06:27.227037+00:00",
+ "generated_at": "2026-08-21T08:06:27.635341+00:00",
  "current_year": 2026,
  "summary": {
-  "total_bottles": 263,
-  "total_wines": 77,
-  "total_value": 27862.91,
-  "total_paid": 20761.75,
+  "total_bottles": 269,
+  "total_wines": 78,
+  "total_value": 28113.84,
+  "total_paid": 20869.75,
   "countries": 11,
   "avg_critic_score": 93.1
  },
  "by_country": [
   {
    "name": "France",
-   "bottles": 104,
-   "value": 10310.36,
-   "wines": 23
+   "bottles": 110,
+   "value": 10478.449999999999,
+   "wines": 24
   },
   {
    "name": "Australia",
@@ -25,7 +25,7 @@
   {
    "name": "Italy",
    "bottles": 62,
-   "value": 4508.06,
+   "value": 4591.69,
    "wines": 19
   },
   {
@@ -37,7 +37,7 @@
   {
    "name": "South Africa",
    "bottles": 33,
-   "value": 1659.2399999999998,
+   "value": 1658.4499999999998,
    "wines": 11
   },
   {
@@ -80,14 +80,14 @@
  "by_varietal": [
   {
    "name": "Red Bordeaux Blend",
-   "bottles": 88,
-   "value": 9788.630000000001,
-   "wines": 23
+   "bottles": 94,
+   "value": 10043.210000000001,
+   "wines": 24
   },
   {
    "name": "Syrah",
    "bottles": 34,
-   "value": 6470.4800000000005,
+   "value": 6469.6900000000005,
    "wines": 7
   },
   {
@@ -105,7 +105,7 @@
   {
    "name": "Sangiovese",
    "bottles": 30,
-   "value": 2029.0700000000002,
+   "value": 2026.21,
    "wines": 7
   },
   {
@@ -202,9 +202,9 @@
  "by_region": [
   {
    "name": "Bordeaux",
-   "bottles": 75,
-   "value": 8126.5599999999995,
-   "wines": 15
+   "bottles": 81,
+   "value": 8294.65,
+   "wines": 16
   },
   {
    "name": "South Australia",
@@ -215,7 +215,7 @@
   {
    "name": "Tuscany",
    "bottles": 36,
-   "value": 3390.1200000000003,
+   "value": 3473.7500000000005,
    "wines": 8
   },
   {
@@ -233,7 +233,7 @@
   {
    "name": "Coastal Region",
    "bottles": 27,
-   "value": 1485.8400000000001,
+   "value": 1485.0500000000002,
    "wines": 10
   },
   {
@@ -324,8 +324,8 @@
  "by_color": [
   {
    "name": "Red",
-   "bottles": 240,
-   "value": 26611.15000000001
+   "bottles": 246,
+   "value": 26862.080000000005
   },
   {
    "name": "White",
@@ -336,8 +336,8 @@
  "by_style": [
   {
    "name": "Red",
-   "bottles": 240,
-   "value": 26611.15000000001
+   "bottles": 246,
+   "value": 26862.080000000005
   },
   {
    "name": "White",
@@ -366,25 +366,25 @@
   {
    "name": "Château Pontet-Canet",
    "bottles": 11,
-   "value": 1519.33,
+   "value": 1518.4099999999999,
    "wines": 2
   },
   {
    "name": "Tenuta San Guido",
    "bottles": 6,
-   "value": 1361.05,
+   "value": 1447.54,
    "wines": 1
   },
   {
    "name": "Château Cos d'Estournel",
    "bottles": 6,
-   "value": 1166.74,
+   "value": 1173.99,
    "wines": 1
   },
   {
    "name": "Château Troplong Mondot",
    "bottles": 9,
-   "value": 949.99,
+   "value": 941.71,
    "wines": 2
   },
   {
@@ -420,7 +420,7 @@
   {
    "name": "Château Clinet",
    "bottles": 6,
-   "value": 604.11,
+   "value": 616.53,
    "wines": 1
   },
   {
@@ -451,12 +451,12 @@
   {
    "name": "Cellar - Wine Society",
    "bottles": 90,
-   "value": 5125.04
+   "value": 5126.23
   },
   {
    "name": "Cellar - BB&R",
-   "bottles": 120,
-   "value": 18152.679999999997
+   "bottles": 126,
+   "value": 18402.42
   }
  ],
  "drinking_window": {
@@ -523,6 +523,15 @@
     "quantity": 6,
     "begin": 2016,
     "end": 2037
+   },
+   {
+    "iWine": "3656215",
+    "wine": "Château Laroque Saint-Émilion Grand Cru",
+    "vintage": "2019",
+    "producer": "Château Laroque",
+    "quantity": 6,
+    "begin": 2025,
+    "end": 2041
    },
    {
     "iWine": "2656322",
@@ -1215,15 +1224,15 @@
    "location": "Cellar - Wine Society",
    "quantity": 3,
    "price_paid_bottle": 54.0,
-   "value_bottle": 55.66,
+   "value_bottle": 55.39,
    "total_paid": 162.0,
-   "total_value": 166.97,
+   "total_value": 166.18,
    "avg_critic_score": 96.7,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2028,
    "end_consume": 2040,
-   "appreciation_pct": 3.1,
+   "appreciation_pct": 2.6,
    "body": "Full",
    "tannin": "High",
    "pairings": [
@@ -1235,11 +1244,7 @@
     "hours": 1.5,
     "label": "~1.5–2 hrs (longer if young & tightly wound)"
    },
-   "wiki": {
-    "summary": "Syrah, also known as Shiraz, is a dark-skinned grape variety grown throughout the world and used primarily to produce red wine. In 1999, Syrah was found to be the offspring of two obscure grapes from southeastern France, Dureza and Mondeuse Blanche. Syrah should not be confused with Petite Sirah, a cross of Syrah with Peloursin dating from 1880.",
-    "url": "https://en.wikipedia.org/wiki/Syrah",
-    "title": "Syrah"
-   }
+   "wiki": null
   },
   {
    "iWine": "5749319",
@@ -1313,52 +1318,7 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": {
-    "summary": "Syrah, also known as Shiraz, is a dark-skinned grape variety grown throughout the world and used primarily to produce red wine. In 1999, Syrah was found to be the offspring of two obscure grapes from southeastern France, Dureza and Mondeuse Blanche. Syrah should not be confused with Petite Sirah, a cross of Syrah with Peloursin dating from 1880.",
-    "url": "https://en.wikipedia.org/wiki/Syrah",
-    "title": "Syrah"
-   }
-  },
-  {
-   "iWine": "5296333",
-   "wine": "Conti Costanti Brunello di Montalcino",
-   "vintage": "2021",
-   "producer": "Conti Costanti",
-   "country": "Italy",
-   "region": "Tuscany",
-   "subregion": "Montalcino",
-   "appellation": "Brunello di Montalcino",
-   "color": "Red",
-   "style": "Red",
-   "varietal": "Sangiovese",
-   "location": "Cellar - Wine Society",
-   "quantity": 6,
-   "price_paid_bottle": 57.0,
-   "value_bottle": 68.64,
-   "total_paid": 342.0,
-   "total_value": 411.85,
-   "avg_critic_score": 96.0,
-   "my_score": null,
-   "critic_scores": {},
-   "begin_consume": 2029,
-   "end_consume": 2040,
-   "appreciation_pct": 20.4,
-   "body": "Medium",
-   "tannin": "Medium-high",
-   "pairings": [
-    "tomato-based pasta",
-    "pizza",
-    "grilled poultry"
-   ],
-   "decant": {
-    "hours": 1.0,
-    "label": "~1–1.5 hrs (longer if young & tightly wound)"
-   },
-   "wiki": {
-    "summary": "Sangiovese is a red Italian wine grape variety that derives its name from the Latin sanguis Jovis, \"blood of Jupiter\".",
-    "url": "https://en.wikipedia.org/wiki/Sangiovese",
-    "title": "Sangiovese"
-   }
+   "wiki": null
   },
   {
    "iWine": "1223731",
@@ -1395,11 +1355,7 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": {
-    "summary": "Syrah, also known as Shiraz, is a dark-skinned grape variety grown throughout the world and used primarily to produce red wine. In 1999, Syrah was found to be the offspring of two obscure grapes from southeastern France, Dureza and Mondeuse Blanche. Syrah should not be confused with Petite Sirah, a cross of Syrah with Peloursin dating from 1880.",
-    "url": "https://en.wikipedia.org/wiki/Syrah",
-    "title": "Syrah"
-   }
+   "wiki": null
   },
   {
    "iWine": "3485127",
@@ -1457,15 +1413,15 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 129.0,
-   "value_bottle": 194.46,
+   "value_bottle": 195.67,
    "total_paid": 774.0,
-   "total_value": 1166.74,
+   "total_value": 1173.99,
    "avg_critic_score": 95.6,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2027,
    "end_consume": 2057,
-   "appreciation_pct": 50.7,
+   "appreciation_pct": 51.7,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -1478,6 +1434,47 @@
     "label": "~30 min — a short splash-decant to open it up"
    },
    "wiki": null
+  },
+  {
+   "iWine": "5296333",
+   "wine": "Conti Costanti Brunello di Montalcino",
+   "vintage": "2021",
+   "producer": "Conti Costanti",
+   "country": "Italy",
+   "region": "Tuscany",
+   "subregion": "Montalcino",
+   "appellation": "Brunello di Montalcino",
+   "color": "Red",
+   "style": "Red",
+   "varietal": "Sangiovese",
+   "location": "Cellar - Wine Society",
+   "quantity": 6,
+   "price_paid_bottle": 57.0,
+   "value_bottle": 68.97,
+   "total_paid": 342.0,
+   "total_value": 413.83,
+   "avg_critic_score": 95.5,
+   "my_score": null,
+   "critic_scores": {},
+   "begin_consume": 2029,
+   "end_consume": 2040,
+   "appreciation_pct": 21.0,
+   "body": "Medium",
+   "tannin": "Medium-high",
+   "pairings": [
+    "tomato-based pasta",
+    "pizza",
+    "grilled poultry"
+   ],
+   "decant": {
+    "hours": 1.0,
+    "label": "~1–1.5 hrs (longer if young & tightly wound)"
+   },
+   "wiki": {
+    "summary": "Sangiovese is a red Italian wine grape variety that derives its name from the Latin sanguis Jovis, \"blood of Jupiter\".",
+    "url": "https://en.wikipedia.org/wiki/Sangiovese",
+    "title": "Sangiovese"
+   }
   },
   {
    "iWine": "874157",
@@ -1531,15 +1528,15 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 194.0,
-   "value_bottle": 226.84,
+   "value_bottle": 241.26,
    "total_paid": 1164.0,
-   "total_value": 1361.05,
+   "total_value": 1447.54,
    "avg_critic_score": 95.4,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2029,
    "end_consume": 2052,
-   "appreciation_pct": 16.9,
+   "appreciation_pct": 24.4,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -1646,15 +1643,15 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 58.33,
-   "value_bottle": 100.68,
+   "value_bottle": 102.76,
    "total_paid": 349.98,
-   "total_value": 604.11,
+   "total_value": 616.53,
    "avg_critic_score": 95.0,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2029,
    "end_consume": 2047,
-   "appreciation_pct": 72.6,
+   "appreciation_pct": 76.2,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -1705,11 +1702,7 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": {
-    "summary": "Syrah, also known as Shiraz, is a dark-skinned grape variety grown throughout the world and used primarily to produce red wine. In 1999, Syrah was found to be the offspring of two obscure grapes from southeastern France, Dureza and Mondeuse Blanche. Syrah should not be confused with Petite Sirah, a cross of Syrah with Peloursin dating from 1880.",
-    "url": "https://en.wikipedia.org/wiki/Syrah",
-    "title": "Syrah"
-   }
+   "wiki": null
   },
   {
    "iWine": "4419381",
@@ -1978,11 +1971,7 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": {
-    "summary": "Syrah, also known as Shiraz, is a dark-skinned grape variety grown throughout the world and used primarily to produce red wine. In 1999, Syrah was found to be the offspring of two obscure grapes from southeastern France, Dureza and Mondeuse Blanche. Syrah should not be confused with Petite Sirah, a cross of Syrah with Peloursin dating from 1880.",
-    "url": "https://en.wikipedia.org/wiki/Syrah",
-    "title": "Syrah"
-   }
+   "wiki": null
   },
   {
    "iWine": "4316519",
@@ -2019,11 +2008,7 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": {
-    "summary": "Syrah, also known as Shiraz, is a dark-skinned grape variety grown throughout the world and used primarily to produce red wine. In 1999, Syrah was found to be the offspring of two obscure grapes from southeastern France, Dureza and Mondeuse Blanche. Syrah should not be confused with Petite Sirah, a cross of Syrah with Peloursin dating from 1880.",
-    "url": "https://en.wikipedia.org/wiki/Syrah",
-    "title": "Syrah"
-   }
+   "wiki": null
   },
   {
    "iWine": "3485127",
@@ -2204,15 +2189,15 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 194.0,
-   "value_bottle": 226.84,
+   "value_bottle": 241.26,
    "total_paid": 1164.0,
-   "total_value": 1361.05,
+   "total_value": 1447.54,
    "avg_critic_score": 95.4,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2029,
    "end_consume": 2052,
-   "appreciation_pct": 16.9,
+   "appreciation_pct": 24.4,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -2315,15 +2300,15 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 129.0,
-   "value_bottle": 194.46,
+   "value_bottle": 195.67,
    "total_paid": 774.0,
-   "total_value": 1166.74,
+   "total_value": 1173.99,
    "avg_critic_score": 95.6,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2027,
    "end_consume": 2057,
-   "appreciation_pct": 50.7,
+   "appreciation_pct": 51.7,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -2491,11 +2476,7 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": {
-    "summary": "Syrah, also known as Shiraz, is a dark-skinned grape variety grown throughout the world and used primarily to produce red wine. In 1999, Syrah was found to be the offspring of two obscure grapes from southeastern France, Dureza and Mondeuse Blanche. Syrah should not be confused with Petite Sirah, a cross of Syrah with Peloursin dating from 1880.",
-    "url": "https://en.wikipedia.org/wiki/Syrah",
-    "title": "Syrah"
-   }
+   "wiki": null
   },
   {
    "iWine": "4495677",
@@ -2786,15 +2767,15 @@
   },
   {
    "month": "2026-08",
-   "total": 1874.9
+   "total": 1982.9
   }
  ],
  "spend_by_store": [
   {
    "name": "BB&R",
-   "total": 15634.919999999998,
-   "bottles": 159,
-   "orders": 28
+   "total": 15742.919999999998,
+   "bottles": 165,
+   "orders": 29
   },
   {
    "name": "Wine Society",
@@ -2821,7 +2802,7 @@
    "orders": 262
   }
  ],
- "total_purchases": 414,
+ "total_purchases": 415,
  "wines": [
   {
    "iWine": "5522783",
@@ -3225,11 +3206,7 @@
     "hours": 1.5,
     "label": "~1.5–2 hrs (longer if young & tightly wound)"
    },
-   "wiki": {
-    "summary": "Syrah, also known as Shiraz, is a dark-skinned grape variety grown throughout the world and used primarily to produce red wine. In 1999, Syrah was found to be the offspring of two obscure grapes from southeastern France, Dureza and Mondeuse Blanche. Syrah should not be confused with Petite Sirah, a cross of Syrah with Peloursin dating from 1880.",
-    "url": "https://en.wikipedia.org/wiki/Syrah",
-    "title": "Syrah"
-   }
+   "wiki": null
   },
   {
    "iWine": "4312950",
@@ -3283,15 +3260,15 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 58.33,
-   "value_bottle": 100.68,
+   "value_bottle": 102.76,
    "total_paid": 349.98,
-   "total_value": 604.11,
+   "total_value": 616.53,
    "avg_critic_score": 95.0,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2029,
    "end_consume": 2047,
-   "appreciation_pct": 72.6,
+   "appreciation_pct": 76.2,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -3320,15 +3297,15 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 129.0,
-   "value_bottle": 194.46,
+   "value_bottle": 195.67,
    "total_paid": 774.0,
-   "total_value": 1166.74,
+   "total_value": 1173.99,
    "avg_critic_score": 95.6,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2027,
    "end_consume": 2057,
-   "appreciation_pct": 50.7,
+   "appreciation_pct": 51.7,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -3357,15 +3334,15 @@
    "location": "Cellar - Wine Society",
    "quantity": 6,
    "price_paid_bottle": 57.0,
-   "value_bottle": 68.64,
+   "value_bottle": 68.97,
    "total_paid": 342.0,
-   "total_value": 411.85,
-   "avg_critic_score": 96.0,
+   "total_value": 413.83,
+   "avg_critic_score": 95.5,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2029,
    "end_consume": 2040,
-   "appreciation_pct": 20.4,
+   "appreciation_pct": 21.0,
    "body": "Medium",
    "tannin": "Medium-high",
    "pairings": [
@@ -3619,11 +3596,7 @@
     "hours": 1.5,
     "label": "~1.5–2 hrs (longer if young & tightly wound)"
    },
-   "wiki": {
-    "summary": "Syrah, also known as Shiraz, is a dark-skinned grape variety grown throughout the world and used primarily to produce red wine. In 1999, Syrah was found to be the offspring of two obscure grapes from southeastern France, Dureza and Mondeuse Blanche. Syrah should not be confused with Petite Sirah, a cross of Syrah with Peloursin dating from 1880.",
-    "url": "https://en.wikipedia.org/wiki/Syrah",
-    "title": "Syrah"
-   }
+   "wiki": null
   },
   {
    "iWine": "5855672",
@@ -3759,15 +3732,15 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 26.0,
-   "value_bottle": 43.88,
+   "value_bottle": 43.07,
    "total_paid": 156.0,
-   "total_value": 263.26,
+   "total_value": 258.42,
    "avg_critic_score": 91.8,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2024,
    "end_consume": 2038,
-   "appreciation_pct": 68.8,
+   "appreciation_pct": 65.7,
    "body": "Medium",
    "tannin": "Medium-high",
    "pairings": [
@@ -3822,11 +3795,7 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": {
-    "summary": "Syrah, also known as Shiraz, is a dark-skinned grape variety grown throughout the world and used primarily to produce red wine. In 1999, Syrah was found to be the offspring of two obscure grapes from southeastern France, Dureza and Mondeuse Blanche. Syrah should not be confused with Petite Sirah, a cross of Syrah with Peloursin dating from 1880.",
-    "url": "https://en.wikipedia.org/wiki/Syrah",
-    "title": "Syrah"
-   }
+   "wiki": null
   },
   {
    "iWine": "2856200",
@@ -3971,6 +3940,43 @@
    "begin_consume": 2027,
    "end_consume": 2045,
    "appreciation_pct": -7.2,
+   "body": "Medium",
+   "tannin": "Medium",
+   "pairings": [
+    "red meat",
+    "hard cheese",
+    "roasted vegetables"
+   ],
+   "decant": {
+    "hours": 1.0,
+    "label": "~1–1.5 hrs (longer if young & tightly wound)"
+   },
+   "wiki": null
+  },
+  {
+   "iWine": "3656215",
+   "wine": "Château Laroque Saint-Émilion Grand Cru",
+   "vintage": "2019",
+   "producer": "Château Laroque",
+   "country": "France",
+   "region": "Bordeaux",
+   "subregion": "Libournais",
+   "appellation": "Saint-Émilion Grand Cru",
+   "color": "Red",
+   "style": "Red",
+   "varietal": "Red Bordeaux Blend",
+   "location": "Cellar - BB&R",
+   "quantity": 6,
+   "price_paid_bottle": 18.0,
+   "value_bottle": 26.27,
+   "total_paid": 108.0,
+   "total_value": 157.62,
+   "avg_critic_score": 91.7,
+   "my_score": null,
+   "critic_scores": {},
+   "begin_consume": 2025,
+   "end_consume": 2041,
+   "appreciation_pct": 45.9,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -4645,11 +4651,7 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": {
-    "summary": "Syrah, also known as Shiraz, is a dark-skinned grape variety grown throughout the world and used primarily to produce red wine. In 1999, Syrah was found to be the offspring of two obscure grapes from southeastern France, Dureza and Mondeuse Blanche. Syrah should not be confused with Petite Sirah, a cross of Syrah with Peloursin dating from 1880.",
-    "url": "https://en.wikipedia.org/wiki/Syrah",
-    "title": "Syrah"
-   }
+   "wiki": null
   },
   {
    "iWine": "4316519",
@@ -4686,11 +4688,7 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": {
-    "summary": "Syrah, also known as Shiraz, is a dark-skinned grape variety grown throughout the world and used primarily to produce red wine. In 1999, Syrah was found to be the offspring of two obscure grapes from southeastern France, Dureza and Mondeuse Blanche. Syrah should not be confused with Petite Sirah, a cross of Syrah with Peloursin dating from 1880.",
-    "url": "https://en.wikipedia.org/wiki/Syrah",
-    "title": "Syrah"
-   }
+   "wiki": null
   },
   {
    "iWine": "5370346",
@@ -4785,15 +4783,15 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 50.0,
-   "value_bottle": 89.83,
+   "value_bottle": 89.67,
    "total_paid": 300.0,
-   "total_value": 538.97,
+   "total_value": 538.05,
    "avg_critic_score": 93.4,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2028,
    "end_consume": 2051,
-   "appreciation_pct": 79.7,
+   "appreciation_pct": 79.3,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -4822,15 +4820,15 @@
    "location": "Cellar - Wine Society",
    "quantity": 3,
    "price_paid_bottle": 54.0,
-   "value_bottle": 55.66,
+   "value_bottle": 55.39,
    "total_paid": 162.0,
-   "total_value": 166.97,
+   "total_value": 166.18,
    "avg_critic_score": 96.7,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2028,
    "end_consume": 2040,
-   "appreciation_pct": 3.1,
+   "appreciation_pct": 2.6,
    "body": "Full",
    "tannin": "High",
    "pairings": [
@@ -4842,11 +4840,7 @@
     "hours": 1.5,
     "label": "~1.5–2 hrs (longer if young & tightly wound)"
    },
-   "wiki": {
-    "summary": "Syrah, also known as Shiraz, is a dark-skinned grape variety grown throughout the world and used primarily to produce red wine. In 1999, Syrah was found to be the offspring of two obscure grapes from southeastern France, Dureza and Mondeuse Blanche. Syrah should not be confused with Petite Sirah, a cross of Syrah with Peloursin dating from 1880.",
-    "url": "https://en.wikipedia.org/wiki/Syrah",
-    "title": "Syrah"
-   }
+   "wiki": null
   },
   {
    "iWine": "4520343",
@@ -5171,15 +5165,15 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 194.0,
-   "value_bottle": 226.84,
+   "value_bottle": 241.26,
    "total_paid": 1164.0,
-   "total_value": 1361.05,
+   "total_value": 1447.54,
    "avg_critic_score": 95.4,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2029,
    "end_consume": 2052,
-   "appreciation_pct": 16.9,
+   "appreciation_pct": 24.4,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -5446,15 +5440,15 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 105.83,
-   "value_bottle": 112.64,
+   "value_bottle": 111.26,
    "total_paid": 634.98,
-   "total_value": 675.83,
+   "total_value": 667.55,
    "avg_critic_score": 94.2,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2030,
    "end_consume": 2056,
-   "appreciation_pct": 6.4,
+   "appreciation_pct": 5.1,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -5786,11 +5780,7 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": {
-    "summary": "Syrah, also known as Shiraz, is a dark-skinned grape variety grown throughout the world and used primarily to produce red wine. In 1999, Syrah was found to be the offspring of two obscure grapes from southeastern France, Dureza and Mondeuse Blanche. Syrah should not be confused with Petite Sirah, a cross of Syrah with Peloursin dating from 1880.",
-    "url": "https://en.wikipedia.org/wiki/Syrah",
-    "title": "Syrah"
-   }
+   "wiki": null
   },
   {
    "iWine": "5855671",
@@ -5920,15 +5910,52 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 50.0,
-   "value_bottle": 89.83,
+   "value_bottle": 89.67,
    "total_paid": 300.0,
-   "total_value": 538.97,
+   "total_value": 538.05,
    "avg_critic_score": 93.4,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2028,
    "end_consume": 2051,
-   "appreciation_pct": 79.7,
+   "appreciation_pct": 79.3,
+   "body": "Medium",
+   "tannin": "Medium",
+   "pairings": [
+    "red meat",
+    "hard cheese",
+    "roasted vegetables"
+   ],
+   "decant": {
+    "hours": 1.0,
+    "label": "~1–1.5 hrs (longer if young & tightly wound)"
+   },
+   "wiki": null
+  },
+  {
+   "iWine": "4641506",
+   "wine": "Château Clinet",
+   "vintage": "2022",
+   "producer": "Château Clinet",
+   "country": "France",
+   "region": "Bordeaux",
+   "subregion": "Libournais",
+   "appellation": "Pomerol",
+   "color": "Red",
+   "style": "Red",
+   "varietal": "Red Bordeaux Blend",
+   "location": "Cellar - BB&R",
+   "quantity": 6,
+   "price_paid_bottle": 58.33,
+   "value_bottle": 102.76,
+   "total_paid": 349.98,
+   "total_value": 616.53,
+   "avg_critic_score": 95.0,
+   "my_score": null,
+   "critic_scores": {},
+   "begin_consume": 2029,
+   "end_consume": 2047,
+   "appreciation_pct": 76.2,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -6016,89 +6043,7 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": {
-    "summary": "Syrah, also known as Shiraz, is a dark-skinned grape variety grown throughout the world and used primarily to produce red wine. In 1999, Syrah was found to be the offspring of two obscure grapes from southeastern France, Dureza and Mondeuse Blanche. Syrah should not be confused with Petite Sirah, a cross of Syrah with Peloursin dating from 1880.",
-    "url": "https://en.wikipedia.org/wiki/Syrah",
-    "title": "Syrah"
-   }
-  },
-  {
-   "iWine": "4641506",
-   "wine": "Château Clinet",
-   "vintage": "2022",
-   "producer": "Château Clinet",
-   "country": "France",
-   "region": "Bordeaux",
-   "subregion": "Libournais",
-   "appellation": "Pomerol",
-   "color": "Red",
-   "style": "Red",
-   "varietal": "Red Bordeaux Blend",
-   "location": "Cellar - BB&R",
-   "quantity": 6,
-   "price_paid_bottle": 58.33,
-   "value_bottle": 100.68,
-   "total_paid": 349.98,
-   "total_value": 604.11,
-   "avg_critic_score": 95.0,
-   "my_score": null,
-   "critic_scores": {},
-   "begin_consume": 2029,
-   "end_consume": 2047,
-   "appreciation_pct": 72.6,
-   "body": "Medium",
-   "tannin": "Medium",
-   "pairings": [
-    "red meat",
-    "hard cheese",
-    "roasted vegetables"
-   ],
-   "decant": {
-    "hours": 1.0,
-    "label": "~1–1.5 hrs (longer if young & tightly wound)"
-   },
    "wiki": null
-  },
-  {
-   "iWine": "3124782",
-   "wine": "Il Poggione (Proprietá Franceschi) Brunello di Montalcino",
-   "vintage": "2016",
-   "producer": "Il Poggione (Proprietá Franceschi)",
-   "country": "Italy",
-   "region": "Tuscany",
-   "subregion": "Montalcino",
-   "appellation": "Brunello di Montalcino",
-   "color": "Red",
-   "style": "Red",
-   "varietal": "Sangiovese",
-   "location": "Cellar - BB&R",
-   "quantity": 6,
-   "price_paid_bottle": 26.0,
-   "value_bottle": 43.88,
-   "total_paid": 156.0,
-   "total_value": 263.26,
-   "avg_critic_score": 91.8,
-   "my_score": null,
-   "critic_scores": {},
-   "begin_consume": 2024,
-   "end_consume": 2038,
-   "appreciation_pct": 68.8,
-   "body": "Medium",
-   "tannin": "Medium-high",
-   "pairings": [
-    "tomato-based pasta",
-    "pizza",
-    "grilled poultry"
-   ],
-   "decant": {
-    "hours": 0.5,
-    "label": "~30 min — a short splash-decant to open it up"
-   },
-   "wiki": {
-    "summary": "Sangiovese is a red Italian wine grape variety that derives its name from the Latin sanguis Jovis, \"blood of Jupiter\".",
-    "url": "https://en.wikipedia.org/wiki/Sangiovese",
-    "title": "Sangiovese"
-   }
   },
   {
    "iWine": "1739128",
@@ -6139,6 +6084,47 @@
     "summary": "Nebbiolo is an Italian red wine grape variety predominantly associated with its native Piedmont region, where it makes the Denominazione di Origine Controllata e Garantita (DOCG) wines of Barolo, Barbaresco, Gattinara, Ghemme, and Roero, together with numerous DOC wines. Nebbiolo is thought to derive its name from the Italian nebbia or Piedmontese nebia, meaning 'fog'. During harvest, which generally takes place late in October, a deep, intense fog sets into the Langhe…",
     "url": "https://en.wikipedia.org/wiki/Nebbiolo",
     "title": "Nebbiolo"
+   }
+  },
+  {
+   "iWine": "3124782",
+   "wine": "Il Poggione (Proprietá Franceschi) Brunello di Montalcino",
+   "vintage": "2016",
+   "producer": "Il Poggione (Proprietá Franceschi)",
+   "country": "Italy",
+   "region": "Tuscany",
+   "subregion": "Montalcino",
+   "appellation": "Brunello di Montalcino",
+   "color": "Red",
+   "style": "Red",
+   "varietal": "Sangiovese",
+   "location": "Cellar - BB&R",
+   "quantity": 6,
+   "price_paid_bottle": 26.0,
+   "value_bottle": 43.07,
+   "total_paid": 156.0,
+   "total_value": 258.42,
+   "avg_critic_score": 91.8,
+   "my_score": null,
+   "critic_scores": {},
+   "begin_consume": 2024,
+   "end_consume": 2038,
+   "appreciation_pct": 65.7,
+   "body": "Medium",
+   "tannin": "Medium-high",
+   "pairings": [
+    "tomato-based pasta",
+    "pizza",
+    "grilled poultry"
+   ],
+   "decant": {
+    "hours": 0.5,
+    "label": "~30 min — a short splash-decant to open it up"
+   },
+   "wiki": {
+    "summary": "Sangiovese is a red Italian wine grape variety that derives its name from the Latin sanguis Jovis, \"blood of Jupiter\".",
+    "url": "https://en.wikipedia.org/wiki/Sangiovese",
+    "title": "Sangiovese"
    }
   },
   {
@@ -6316,15 +6302,15 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 129.0,
-   "value_bottle": 194.46,
+   "value_bottle": 195.67,
    "total_paid": 774.0,
-   "total_value": 1166.74,
+   "total_value": 1173.99,
    "avg_critic_score": 95.6,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2027,
    "end_consume": 2057,
-   "appreciation_pct": 50.7,
+   "appreciation_pct": 51.7,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -6373,11 +6359,7 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": {
-    "summary": "Syrah, also known as Shiraz, is a dark-skinned grape variety grown throughout the world and used primarily to produce red wine. In 1999, Syrah was found to be the offspring of two obscure grapes from southeastern France, Dureza and Mondeuse Blanche. Syrah should not be confused with Petite Sirah, a cross of Syrah with Peloursin dating from 1880.",
-    "url": "https://en.wikipedia.org/wiki/Syrah",
-    "title": "Syrah"
-   }
+   "wiki": null
   },
   {
    "iWine": "4876898",
@@ -6617,11 +6599,7 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": {
-    "summary": "Syrah, also known as Shiraz, is a dark-skinned grape variety grown throughout the world and used primarily to produce red wine. In 1999, Syrah was found to be the offspring of two obscure grapes from southeastern France, Dureza and Mondeuse Blanche. Syrah should not be confused with Petite Sirah, a cross of Syrah with Peloursin dating from 1880.",
-    "url": "https://en.wikipedia.org/wiki/Syrah",
-    "title": "Syrah"
-   }
+   "wiki": null
   },
   {
    "iWine": "3645986",
@@ -6769,11 +6747,7 @@
     "hours": 1.5,
     "label": "~1.5–2 hrs (longer if young & tightly wound)"
    },
-   "wiki": {
-    "summary": "Syrah, also known as Shiraz, is a dark-skinned grape variety grown throughout the world and used primarily to produce red wine. In 1999, Syrah was found to be the offspring of two obscure grapes from southeastern France, Dureza and Mondeuse Blanche. Syrah should not be confused with Petite Sirah, a cross of Syrah with Peloursin dating from 1880.",
-    "url": "https://en.wikipedia.org/wiki/Syrah",
-    "title": "Syrah"
-   }
+   "wiki": null
   },
   {
    "iWine": "5855670",
@@ -7003,59 +6977,51 @@
     "hours": 1.5,
     "label": "~1.5–2 hrs (longer if young & tightly wound)"
    },
-   "wiki": {
-    "summary": "Syrah, also known as Shiraz, is a dark-skinned grape variety grown throughout the world and used primarily to produce red wine. In 1999, Syrah was found to be the offspring of two obscure grapes from southeastern France, Dureza and Mondeuse Blanche. Syrah should not be confused with Petite Sirah, a cross of Syrah with Peloursin dating from 1880.",
-    "url": "https://en.wikipedia.org/wiki/Syrah",
-    "title": "Syrah"
-   }
+   "wiki": null
   },
   {
-   "iWine": "4844161",
-   "wine": "Pazo de Señoráns Albariño Rías Baixas Selección de Añada",
-   "vintage": "2014",
-   "producer": "Pazo de Señoráns",
-   "country": "Spain",
-   "region": "Galicia",
-   "subregion": "Unknown",
-   "appellation": "Rías Baixas",
-   "color": "White",
-   "style": "White",
-   "varietal": "Albariño",
-   "location": "Cellar",
-   "quantity": 1,
-   "price_paid_bottle": 46.0,
-   "value_bottle": 47.34,
-   "total_paid": 46.0,
-   "total_value": 47.34,
-   "avg_critic_score": 92.4,
+   "iWine": "5456365",
+   "wine": "Porseleinberg Swartland",
+   "vintage": "2023",
+   "producer": "Porseleinberg",
+   "country": "South Africa",
+   "region": "Coastal Region",
+   "subregion": "Swartland",
+   "appellation": "Unknown",
+   "color": "Red",
+   "style": "Red",
+   "varietal": "Syrah",
+   "location": "Cellar - Wine Society",
+   "quantity": 3,
+   "price_paid_bottle": 54.0,
+   "value_bottle": 55.39,
+   "total_paid": 162.0,
+   "total_value": 166.18,
+   "avg_critic_score": 96.7,
    "my_score": null,
    "critic_scores": {},
-   "begin_consume": 2025,
-   "end_consume": 2032,
-   "appreciation_pct": 2.9,
-   "body": "Light-medium",
-   "tannin": "None",
+   "begin_consume": 2028,
+   "end_consume": 2040,
+   "appreciation_pct": 2.6,
+   "body": "Full",
+   "tannin": "High",
    "pairings": [
-    "shellfish",
-    "grilled fish",
-    "light tapas"
+    "peppered steak",
+    "game",
+    "barbecue"
    ],
    "decant": {
-    "hours": 0,
-    "label": "No decanting needed — drink straight from the bottle"
+    "hours": 1.5,
+    "label": "~1.5–2 hrs (longer if young & tightly wound)"
    },
-   "wiki": {
-    "summary": "Albariño or Alvarinho is a variety of white wine grape grown in Galicia and in Northwest Portugal where it is also used to make varietal white wines. Albariño is the name for the grape in Galician. In Portugal it is known as Alvarinho, and sometimes as Cainho Branco.",
-    "url": "https://en.wikipedia.org/wiki/Albari%C3%B1o",
-    "title": "Albariño"
-   }
+   "wiki": null
   }
  ],
  "price_distribution": [
   {
    "label": "£0-20",
-   "wines": 11,
-   "bottles": 19
+   "wines": 12,
+   "bottles": 25
   },
   {
    "label": "£20-40",
@@ -7138,8 +7104,8 @@
    "wines": 2,
    "bottles": 11,
    "paid": 980.0,
-   "value": 1519.33,
-   "appreciation_pct": 55.0,
+   "value": 1518.41,
+   "appreciation_pct": 54.9,
    "avg_score": 94.4,
    "countries": [
     "France"
@@ -7160,8 +7126,8 @@
    "wines": 1,
    "bottles": 6,
    "paid": 1164.0,
-   "value": 1361.05,
-   "appreciation_pct": 16.9,
+   "value": 1447.54,
+   "appreciation_pct": 24.4,
    "avg_score": 95.4,
    "countries": [
     "Italy"
@@ -7182,8 +7148,8 @@
    "wines": 1,
    "bottles": 6,
    "paid": 774.0,
-   "value": 1166.74,
-   "appreciation_pct": 50.7,
+   "value": 1173.99,
+   "appreciation_pct": 51.7,
    "avg_score": 95.6,
    "countries": [
     "France"
@@ -7204,8 +7170,8 @@
    "wines": 2,
    "bottles": 9,
    "paid": 856.98,
-   "value": 949.99,
-   "appreciation_pct": 10.9,
+   "value": 941.71,
+   "appreciation_pct": 9.9,
    "avg_score": 95.3,
    "countries": [
     "France"
@@ -7306,8 +7272,8 @@
    "wines": 1,
    "bottles": 6,
    "paid": 349.98,
-   "value": 604.11,
-   "appreciation_pct": 72.6,
+   "value": 616.53,
+   "appreciation_pct": 76.2,
    "avg_score": 95.0,
    "countries": [
     "France"
@@ -7398,9 +7364,9 @@
    "wines": 1,
    "bottles": 6,
    "paid": 342.0,
-   "value": 411.85,
-   "appreciation_pct": 20.4,
-   "avg_score": 96.0,
+   "value": 413.83,
+   "appreciation_pct": 21.0,
+   "avg_score": 95.5,
    "countries": [
     "Italy"
    ],
@@ -7444,6 +7410,22 @@
    ],
    "regions": [
     "Veneto"
+   ],
+   "wikidata": null
+  },
+  {
+   "name": "Château Laroque",
+   "wines": 2,
+   "bottles": 12,
+   "paid": 217.98,
+   "value": 357.51,
+   "appreciation_pct": 64.0,
+   "avg_score": 92.8,
+   "countries": [
+    "France"
+   ],
+   "regions": [
+    "Bordeaux"
    ],
    "wikidata": null
   },
@@ -7570,8 +7552,8 @@
    "wines": 1,
    "bottles": 6,
    "paid": 156.0,
-   "value": 263.26,
-   "appreciation_pct": 68.8,
+   "value": 258.42,
+   "appreciation_pct": 65.7,
    "avg_score": 91.8,
    "countries": [
     "Italy"
@@ -7589,22 +7571,6 @@
    "value": 247.68,
    "appreciation_pct": null,
    "avg_score": 94.1,
-   "countries": [
-    "France"
-   ],
-   "regions": [
-    "Bordeaux"
-   ],
-   "wikidata": null
-  },
-  {
-   "name": "Château Laroque",
-   "wines": 1,
-   "bottles": 6,
-   "paid": 109.98,
-   "value": 199.89,
-   "appreciation_pct": 81.8,
-   "avg_score": 93.8,
    "countries": [
     "France"
    ],
@@ -7704,8 +7670,8 @@
    "wines": 1,
    "bottles": 3,
    "paid": 162.0,
-   "value": 166.97,
-   "appreciation_pct": 3.1,
+   "value": 166.18,
+   "appreciation_pct": 2.6,
    "avg_score": 96.7,
    "countries": [
     "South Africa"
@@ -8205,11 +8171,7 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": {
-    "summary": "Syrah, also known as Shiraz, is a dark-skinned grape variety grown throughout the world and used primarily to produce red wine. In 1999, Syrah was found to be the offspring of two obscure grapes from southeastern France, Dureza and Mondeuse Blanche. Syrah should not be confused with Petite Sirah, a cross of Syrah with Peloursin dating from 1880.",
-    "url": "https://en.wikipedia.org/wiki/Syrah",
-    "title": "Syrah"
-   }
+   "wiki": null
   },
   "biggest_producer_by_bottles": {
    "name": "Penfolds",
@@ -8255,8 +8217,8 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/Penfolds"
    }
   },
-  "avg_bottle_price_paid": 78.94,
-  "avg_bottle_value_now": 105.94,
+  "avg_bottle_price_paid": 77.58,
+  "avg_bottle_value_now": 104.51,
   "avg_cellar_age_years": 7.2,
   "largest_single_purchase": {
    "date": "2026-03-06",
@@ -8276,9 +8238,9 @@
    "vintage": "2008"
   },
   "first_purchase_date": "2019-12-31",
-  "most_recent_purchase_date": "2026-08-19",
+  "most_recent_purchase_date": "2026-08-20",
   "most_visited_store": "Restaurant",
-  "total_orders": 414,
+  "total_orders": 415,
   "longest_held": [
    {
     "iWine": "4386234",
@@ -8286,7 +8248,7 @@
     "vintage": "2019",
     "producer": "Dunn Vineyards",
     "since": "2025-05-10",
-    "days_held": 467
+    "days_held": 468
    },
    {
     "iWine": "4386234",
@@ -8294,7 +8256,7 @@
     "vintage": "2019",
     "producer": "Dunn Vineyards",
     "since": "2025-05-10",
-    "days_held": 467
+    "days_held": 468
    },
    {
     "iWine": "4986829",
@@ -8302,7 +8264,7 @@
     "vintage": "2023",
     "producer": "Roc de Cambes",
     "since": "2025-06-07",
-    "days_held": 439
+    "days_held": 440
    },
    {
     "iWine": "4390612",
@@ -8310,7 +8272,7 @@
     "vintage": "2022",
     "producer": "Penfolds",
     "since": "2025-06-11",
-    "days_held": 435
+    "days_held": 436
    },
    {
     "iWine": "4641506",
@@ -8318,7 +8280,7 @@
     "vintage": "2022",
     "producer": "Château Clinet",
     "since": "2025-07-03",
-    "days_held": 413
+    "days_held": 414
    },
    {
     "iWine": "4638895",
@@ -8326,7 +8288,7 @@
     "vintage": "2022",
     "producer": "Château Troplong Mondot",
     "since": "2025-07-03",
-    "days_held": 413
+    "days_held": 414
    },
    {
     "iWine": "4876898",
@@ -8334,7 +8296,7 @@
     "vintage": "2019",
     "producer": "Canalicchio di Sopra",
     "since": "2025-07-12",
-    "days_held": 404
+    "days_held": 405
    },
    {
     "iWine": "4547984",
@@ -8342,7 +8304,7 @@
     "vintage": "2019",
     "producer": "Massolino",
     "since": "2025-07-12",
-    "days_held": 404
+    "days_held": 405
    },
    {
     "iWine": "3709255",
@@ -8350,7 +8312,7 @@
     "vintage": "2018",
     "producer": "Penfolds",
     "since": "2025-07-12",
-    "days_held": 404
+    "days_held": 405
    },
    {
     "iWine": "5271148",
@@ -8358,17 +8320,17 @@
     "vintage": "2019",
     "producer": "San Polino",
     "since": "2025-07-12",
-    "days_held": 404
+    "days_held": 405
    }
   ],
-  "total_appreciation_pct": 34.2
+  "total_appreciation_pct": 34.7
  },
  "map_countries": [
   {
    "name": "France",
-   "bottles": 104,
-   "value": 10310.36,
-   "wines": 23,
+   "bottles": 110,
+   "value": 10478.449999999999,
+   "wines": 24,
    "lat": 46.6,
    "lon": 2.2
   },
@@ -8383,7 +8345,7 @@
   {
    "name": "Italy",
    "bottles": 62,
-   "value": 4508.06,
+   "value": 4591.69,
    "wines": 19,
    "lat": 42.8,
    "lon": 12.6
@@ -8399,7 +8361,7 @@
   {
    "name": "South Africa",
    "bottles": 33,
-   "value": 1659.2399999999998,
+   "value": 1658.4499999999998,
    "wines": 11,
    "lat": -33.9,
    "lon": 20.0
@@ -8454,6 +8416,23 @@
   }
  ],
  "purchases": [
+  {
+   "date": "2026-08-20",
+   "year": 2026,
+   "month": "2026-08",
+   "store": "BB&R",
+   "wine": "Château Laroque Saint-Émilion Grand Cru",
+   "producer": "Château Laroque",
+   "country": "France",
+   "region": "Bordeaux",
+   "quantity": 6,
+   "price_bottle": 18.0,
+   "total": 108.0,
+   "color": "Red",
+   "varietal": "Red Bordeaux Blend",
+   "iWine": "3656215",
+   "vintage": "2019"
+  },
   {
    "date": "2026-08-19",
    "year": 2026,
@@ -12352,7 +12331,7 @@
    "year": 2024,
    "month": "2024-08",
    "store": "Restaurant",
-   "wine": "Textura Wines Dão Textura da Estrela",
+   "wine": "Textura Wines Dão Textura da Estrela Branco",
    "producer": "Textura Wines",
    "country": "Portugal",
    "region": "Beiras",
@@ -15494,8 +15473,8 @@
   }
  ],
  "diversification": {
-  "varietal_score": 84.2,
-  "country_score": 75.7,
+  "varietal_score": 83.4,
+  "country_score": 75.0,
   "varietal_label": "Highly diversified",
   "country_label": "Well diversified",
   "palate_gaps": [
@@ -15592,8 +15571,8 @@
     "wines": 5
    },
    "low": {
-    "bottles": 253,
-    "wines": 69
+    "bottles": 259,
+    "wines": 70
    },
    "unknown": {
     "bottles": 0,
@@ -15782,7 +15761,7 @@
    },
    {
     "vintage": 2019,
-    "bottles": 42
+    "bottles": 48
    },
    {
     "vintage": 2020,
@@ -15812,7 +15791,7 @@
   "median_vintage": 2019
  },
  "tasting": {
-  "total_tastings": 451,
+  "total_tastings": 453,
   "avg_personal_rating": 85.0,
   "rating_stdev": 5.5,
   "avg_delta_vs_consensus": -1.5,
@@ -15880,10 +15859,42 @@
    },
    {
     "month": "2026-08",
-    "count": 7
+    "count": 9
    }
   ],
   "recent": [
+   {
+    "iWine": "4394039",
+    "wine": "Belica Izbrano Belo",
+    "vintage": "2015",
+    "producer": "Belica",
+    "country": "Slovenia",
+    "region": "Primorska",
+    "varietal": "White Blend",
+    "color": "White",
+    "date": "2026-08-20",
+    "month": "2026-08",
+    "rating": 87.0,
+    "community_score": 86.0,
+    "delta": 1.0,
+    "notes_text": ""
+   },
+   {
+    "iWine": "4394039",
+    "wine": "Belica Izbrano Belo",
+    "vintage": "2015",
+    "producer": "Belica",
+    "country": "Slovenia",
+    "region": "Primorska",
+    "varietal": "White Blend",
+    "color": "White",
+    "date": "2026-08-20",
+    "month": "2026-08",
+    "rating": 85.0,
+    "community_score": 86.0,
+    "delta": -1.0,
+    "notes_text": ""
+   },
    {
     "iWine": "4743335",
     "wine": "Atelier Kramar Merlot Garanza Nora",
@@ -16491,41 +16502,41 @@
     "community_score": 86.5,
     "delta": 1.5,
     "notes_text": ""
-   },
-   {
-    "iWine": "5391918",
-    "wine": "Antonio de la Riva \"La Riva\" Manzanilla Fina Miraflores Baja",
-    "vintage": "2023",
-    "producer": "Antonio de la Riva",
-    "country": "Spain",
-    "region": "Andalucía",
-    "varietal": "Palomino Fino",
-    "color": "White",
-    "date": "2026-06-13",
-    "month": "2026-06",
-    "rating": 87.0,
-    "community_score": 90.3333333333333,
-    "delta": -3.3,
-    "notes_text": ""
-   },
-   {
-    "iWine": "5014082",
-    "wine": "Alessandro Viola Note di Bianco",
-    "vintage": "2023",
-    "producer": "Alessandro Viola",
-    "country": "Italy",
-    "region": "Sicily",
-    "varietal": "Grillo",
-    "color": "White",
-    "date": "2026-06-13",
-    "month": "2026-06",
-    "rating": 88.0,
-    "community_score": 88.0,
-    "delta": 0.0,
-    "notes_text": ""
    }
   ],
   "all": [
+   {
+    "iWine": "4394039",
+    "wine": "Belica Izbrano Belo",
+    "vintage": "2015",
+    "producer": "Belica",
+    "country": "Slovenia",
+    "region": "Primorska",
+    "varietal": "White Blend",
+    "color": "White",
+    "date": "2026-08-20",
+    "month": "2026-08",
+    "rating": 87.0,
+    "community_score": 86.0,
+    "delta": 1.0,
+    "notes_text": ""
+   },
+   {
+    "iWine": "4394039",
+    "wine": "Belica Izbrano Belo",
+    "vintage": "2015",
+    "producer": "Belica",
+    "country": "Slovenia",
+    "region": "Primorska",
+    "varietal": "White Blend",
+    "color": "White",
+    "date": "2026-08-20",
+    "month": "2026-08",
+    "rating": 85.0,
+    "community_score": 86.0,
+    "delta": -1.0,
+    "notes_text": ""
+   },
    {
     "iWine": "4743335",
     "wine": "Atelier Kramar Merlot Garanza Nora",
@@ -17866,7 +17877,7 @@
     "date": "2026-03-06",
     "month": "2026-03",
     "rating": 92.0,
-    "community_score": 93.4672131147541,
+    "community_score": 93.4734693877551,
     "delta": -1.5,
     "notes_text": ""
    },
@@ -22528,7 +22539,7 @@
    },
    {
     "iWine": "5035241",
-    "wine": "Textura Wines Dão Textura da Estrela",
+    "wine": "Textura Wines Dão Textura da Estrela Branco",
     "vintage": "2022",
     "producer": "Textura Wines",
     "country": "Portugal",
@@ -23766,7 +23777,7 @@
      "avg_rating": 89.7,
      "tastings": 3,
      "cellar_bottles": 13,
-     "cellar_pct": 4.9,
+     "cellar_pct": 4.8,
      "verdict": "Well matched"
     },
     {
@@ -23797,8 +23808,8 @@
      "name": "Red Bordeaux Blend",
      "avg_rating": 87.7,
      "tastings": 63,
-     "cellar_bottles": 88,
-     "cellar_pct": 33.5,
+     "cellar_bottles": 94,
+     "cellar_pct": 34.9,
      "verdict": "Neutral"
     },
     {
@@ -23806,7 +23817,7 @@
      "avg_rating": 87.6,
      "tastings": 10,
      "cellar_bottles": 10,
-     "cellar_pct": 3.8,
+     "cellar_pct": 3.7,
      "verdict": "Neutral"
     },
     {
@@ -23822,7 +23833,7 @@
      "avg_rating": 87.0,
      "tastings": 4,
      "cellar_bottles": 6,
-     "cellar_pct": 2.3,
+     "cellar_pct": 2.2,
      "verdict": "Neutral"
     },
     {
@@ -23838,7 +23849,7 @@
      "avg_rating": 86.6,
      "tastings": 42,
      "cellar_bottles": 6,
-     "cellar_pct": 2.3,
+     "cellar_pct": 2.2,
      "verdict": "Neutral"
     },
     {
@@ -23846,7 +23857,7 @@
      "avg_rating": 86.5,
      "tastings": 16,
      "cellar_bottles": 30,
-     "cellar_pct": 11.4,
+     "cellar_pct": 11.2,
      "verdict": "Neutral"
     },
     {
@@ -23870,7 +23881,7 @@
      "avg_rating": 85.7,
      "tastings": 24,
      "cellar_bottles": 34,
-     "cellar_pct": 12.9,
+     "cellar_pct": 12.6,
      "verdict": "Neutral"
     },
     {
@@ -23878,7 +23889,7 @@
      "avg_rating": 85.7,
      "tastings": 15,
      "cellar_bottles": 9,
-     "cellar_pct": 3.4,
+     "cellar_pct": 3.3,
      "verdict": "Neutral"
     },
     {
@@ -23891,8 +23902,8 @@
     },
     {
      "name": "White Blend",
-     "avg_rating": 85.1,
-     "tastings": 16,
+     "avg_rating": 85.2,
+     "tastings": 18,
      "cellar_bottles": 1,
      "cellar_pct": 0.4,
      "verdict": "Neutral"
@@ -23902,7 +23913,7 @@
      "avg_rating": 85.0,
      "tastings": 5,
      "cellar_bottles": 2,
-     "cellar_pct": 0.8,
+     "cellar_pct": 0.7,
      "verdict": "Neutral"
     },
     {
@@ -23926,7 +23937,7 @@
      "avg_rating": 83.8,
      "tastings": 30,
      "cellar_bottles": 11,
-     "cellar_pct": 4.2,
+     "cellar_pct": 4.1,
      "verdict": "Neutral"
     },
     {
@@ -23950,7 +23961,7 @@
      "avg_rating": 83.4,
      "tastings": 11,
      "cellar_bottles": 19,
-     "cellar_pct": 7.2,
+     "cellar_pct": 7.1,
      "verdict": "Neutral"
     },
     {
@@ -23990,7 +24001,7 @@
      "avg_rating": 82.4,
      "tastings": 23,
      "cellar_bottles": 11,
-     "cellar_pct": 4.2,
+     "cellar_pct": 4.1,
      "verdict": "Neutral"
     },
     {
@@ -24030,7 +24041,7 @@
      "avg_rating": 81.7,
      "tastings": 3,
      "cellar_bottles": 2,
-     "cellar_pct": 0.8,
+     "cellar_pct": 0.7,
      "verdict": "Rightly avoided"
     },
     {
@@ -24054,8 +24065,8 @@
      "avg_rating": 78.7,
      "tastings": 6,
      "cellar_bottles": 6,
-     "cellar_pct": 2.3,
-     "verdict": "Overweight"
+     "cellar_pct": 2.2,
+     "verdict": "Rightly avoided"
     },
     {
      "name": "Montepulciano",
@@ -24096,15 +24107,23 @@
      "avg_rating": 87.9,
      "tastings": 10,
      "cellar_bottles": 6,
-     "cellar_pct": 2.3,
+     "cellar_pct": 2.2,
      "verdict": "Underweight"
+    },
+    {
+     "name": "Slovenia",
+     "avg_rating": 86.7,
+     "tastings": 3,
+     "cellar_bottles": 0,
+     "cellar_pct": 0,
+     "verdict": "Neutral"
     },
     {
      "name": "France",
      "avg_rating": 86.5,
      "tastings": 159,
-     "cellar_bottles": 104,
-     "cellar_pct": 39.5,
+     "cellar_bottles": 110,
+     "cellar_pct": 40.9,
      "verdict": "Neutral"
     },
     {
@@ -24136,7 +24155,7 @@
      "avg_rating": 84.8,
      "tastings": 96,
      "cellar_bottles": 62,
-     "cellar_pct": 23.6,
+     "cellar_pct": 23.0,
      "verdict": "Neutral"
     },
     {
@@ -24160,7 +24179,7 @@
      "avg_rating": 82.5,
      "tastings": 43,
      "cellar_bottles": 13,
-     "cellar_pct": 4.9,
+     "cellar_pct": 4.8,
      "verdict": "Neutral"
     },
     {
@@ -24176,7 +24195,7 @@
      "avg_rating": 82.2,
      "tastings": 10,
      "cellar_bottles": 33,
-     "cellar_pct": 12.5,
+     "cellar_pct": 12.3,
      "verdict": "Overweight"
     },
     {
@@ -24184,7 +24203,7 @@
      "avg_rating": 81.9,
      "tastings": 15,
      "cellar_bottles": 28,
-     "cellar_pct": 10.6,
+     "cellar_pct": 10.4,
      "verdict": "Overweight"
     },
     {
@@ -24210,8 +24229,8 @@
      "avg_rating": 91.0,
      "tastings": 5,
      "cellar_bottles": 6,
-     "cellar_pct": 2.3,
-     "verdict": "Well matched"
+     "cellar_pct": 2.2,
+     "verdict": "Underweight"
     },
     {
      "name": "Oregon",
@@ -24242,15 +24261,15 @@
      "avg_rating": 87.9,
      "tastings": 31,
      "cellar_bottles": 19,
-     "cellar_pct": 7.2,
+     "cellar_pct": 7.1,
      "verdict": "Well matched"
     },
     {
      "name": "Bordeaux",
      "avg_rating": 87.5,
      "tastings": 67,
-     "cellar_bottles": 75,
-     "cellar_pct": 28.5,
+     "cellar_bottles": 81,
+     "cellar_pct": 30.1,
      "verdict": "Neutral"
     },
     {
@@ -24258,7 +24277,7 @@
      "avg_rating": 87.5,
      "tastings": 2,
      "cellar_bottles": 2,
-     "cellar_pct": 0.8,
+     "cellar_pct": 0.7,
      "verdict": "Neutral"
     },
     {
@@ -24274,7 +24293,7 @@
      "avg_rating": 87.4,
      "tastings": 7,
      "cellar_bottles": 13,
-     "cellar_pct": 4.9,
+     "cellar_pct": 4.8,
      "verdict": "Neutral"
     },
     {
@@ -24294,6 +24313,14 @@
      "verdict": "Neutral"
     },
     {
+     "name": "Primorska",
+     "avg_rating": 86.7,
+     "tastings": 3,
+     "cellar_bottles": 0,
+     "cellar_pct": 0,
+     "verdict": "Neutral"
+    },
+    {
      "name": "Alsace",
      "avg_rating": 86.7,
      "tastings": 6,
@@ -24306,7 +24333,7 @@
      "avg_rating": 86.7,
      "tastings": 6,
      "cellar_bottles": 27,
-     "cellar_pct": 10.3,
+     "cellar_pct": 10.0,
      "verdict": "Neutral"
     },
     {
@@ -24322,7 +24349,7 @@
      "avg_rating": 86.2,
      "tastings": 20,
      "cellar_bottles": 6,
-     "cellar_pct": 2.3,
+     "cellar_pct": 2.2,
      "verdict": "Neutral"
     },
     {
@@ -24354,7 +24381,7 @@
      "avg_rating": 85.7,
      "tastings": 26,
      "cellar_bottles": 36,
-     "cellar_pct": 13.7,
+     "cellar_pct": 13.4,
      "verdict": "Neutral"
     },
     {
@@ -24410,7 +24437,7 @@
      "avg_rating": 84.7,
      "tastings": 11,
      "cellar_bottles": 25,
-     "cellar_pct": 9.5,
+     "cellar_pct": 9.3,
      "verdict": "Neutral"
     },
     {
@@ -24418,7 +24445,7 @@
      "avg_rating": 84.6,
      "tastings": 5,
      "cellar_bottles": 6,
-     "cellar_pct": 2.3,
+     "cellar_pct": 2.2,
      "verdict": "Neutral"
     },
     {
@@ -24466,7 +24493,7 @@
      "avg_rating": 83.5,
      "tastings": 8,
      "cellar_bottles": 11,
-     "cellar_pct": 4.2,
+     "cellar_pct": 4.1,
      "verdict": "Neutral"
     },
     {
@@ -24522,8 +24549,8 @@
      "avg_rating": 79.3,
      "tastings": 10,
      "cellar_bottles": 6,
-     "cellar_pct": 2.3,
-     "verdict": "Overweight"
+     "cellar_pct": 2.2,
+     "verdict": "Rightly avoided"
     },
     {
      "name": "Castilla-La Mancha",
@@ -24562,8 +24589,8 @@
      "avg_rating": 75.0,
      "tastings": 2,
      "cellar_bottles": 6,
-     "cellar_pct": 2.3,
-     "verdict": "Overweight"
+     "cellar_pct": 2.2,
+     "verdict": "Rightly avoided"
     },
     {
      "name": "Murcia",
@@ -24587,16 +24614,16 @@
      "name": "Red",
      "avg_rating": 85.2,
      "tastings": 321,
-     "cellar_bottles": 240,
-     "cellar_pct": 91.3,
+     "cellar_bottles": 246,
+     "cellar_pct": 91.4,
      "verdict": "Neutral"
     },
     {
      "name": "White",
      "avg_rating": 84.7,
-     "tastings": 115,
+     "tastings": 117,
      "cellar_bottles": 23,
-     "cellar_pct": 8.7,
+     "cellar_pct": 8.6,
      "verdict": "Neutral"
     },
     {
@@ -24622,7 +24649,7 @@
      "avg_rating": 92.6,
      "tastings": 5,
      "cellar_bottles": 9,
-     "cellar_pct": 3.4,
+     "cellar_pct": 3.3,
      "verdict": "Well matched"
     },
     {
@@ -24646,7 +24673,7 @@
      "avg_rating": 90.7,
      "tastings": 3,
      "cellar_bottles": 19,
-     "cellar_pct": 7.2,
+     "cellar_pct": 7.1,
      "verdict": "Well matched"
     },
     {
@@ -24655,7 +24682,7 @@
      "tastings": 2,
      "cellar_bottles": 4,
      "cellar_pct": 1.5,
-     "verdict": "Underweight"
+     "verdict": "Well matched"
     },
     {
      "name": "Château Petit Faurie de Soutard",
@@ -24702,7 +24729,7 @@
      "avg_rating": 89.0,
      "tastings": 3,
      "cellar_bottles": 6,
-     "cellar_pct": 2.3,
+     "cellar_pct": 2.2,
      "verdict": "Well matched"
     },
     {
@@ -24804,6 +24831,14 @@
     {
      "name": "Craggy Range",
      "avg_rating": 86.5,
+     "tastings": 2,
+     "cellar_bottles": 0,
+     "cellar_pct": 0,
+     "verdict": "Neutral"
+    },
+    {
+     "name": "Belica",
+     "avg_rating": 86.0,
      "tastings": 2,
      "cellar_bottles": 0,
      "cellar_pct": 0,
@@ -25013,10 +25048,10 @@
   }
  },
  "consumption": {
-  "total_purchased_ever": 639,
-  "total_remaining_ever": 263,
+  "total_purchased_ever": 645,
+  "total_remaining_ever": 269,
   "total_consumed_ever": 376,
-  "consumed_pct": 58.8,
+  "consumed_pct": 58.3,
   "turnover_series": [
    {
     "year": 2019,
@@ -25055,8 +25090,8 @@
    },
    {
     "year": 2026,
-    "cumulative_purchased": 639,
-    "cumulative_remaining": 263
+    "cumulative_purchased": 645,
+    "cumulative_remaining": 269
    }
   ]
  },
