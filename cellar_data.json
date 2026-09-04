@@ -1,19 +1,19 @@
 {
- "generated_at": "2026-09-03T11:05:42.782241+00:00",
+ "generated_at": "2026-09-04T11:07:17.126794+00:00",
  "current_year": 2026,
  "summary": {
   "total_bottles": 271,
   "total_wines": 80,
-  "total_value": 27893.82,
+  "total_value": 27912.05,
   "total_paid": 20869.75,
   "countries": 11,
-  "avg_critic_score": 71.4
+  "avg_critic_score": 71.6
  },
  "by_country": [
   {
    "name": "France",
    "bottles": 111,
-   "value": 10559.480000000001,
+   "value": 10578.13,
    "wines": 25
   },
   {
@@ -25,13 +25,13 @@
   {
    "name": "Italy",
    "bottles": 62,
-   "value": 4634.610000000001,
+   "value": 4633.46,
    "wines": 19
   },
   {
    "name": "Spain",
    "bottles": 14,
-   "value": 2700.4100000000003,
+   "value": 2699.89,
    "wines": 8
   },
   {
@@ -73,7 +73,7 @@
   {
    "name": "Argentina",
    "bottles": 1,
-   "value": 30.69,
+   "value": 31.94,
    "wines": 1
   }
  ],
@@ -81,7 +81,7 @@
   {
    "name": "Red Bordeaux Blend",
    "bottles": 95,
-   "value": 10134.380000000001,
+   "value": 10153.029999999999,
    "wines": 25
   },
   {
@@ -99,13 +99,13 @@
   {
    "name": "Tempranillo",
    "bottles": 11,
-   "value": 2552.6200000000003,
+   "value": 2552.1,
    "wines": 5
   },
   {
    "name": "Sangiovese",
    "bottles": 30,
-   "value": 2057.03,
+   "value": 2055.88,
    "wines": 7
   },
   {
@@ -189,7 +189,7 @@
   {
    "name": "Malbec",
    "bottles": 1,
-   "value": 30.69,
+   "value": 31.94,
    "wines": 1
   },
   {
@@ -203,7 +203,7 @@
   {
    "name": "Bordeaux",
    "bottles": 82,
-   "value": 8357.84,
+   "value": 8376.49,
    "wines": 17
   },
   {
@@ -215,13 +215,13 @@
   {
    "name": "Tuscany",
    "bottles": 36,
-   "value": 3516.6700000000005,
+   "value": 3515.5200000000004,
    "wines": 8
   },
   {
    "name": "Castilla y León",
    "bottles": 11,
-   "value": 2552.6200000000003,
+   "value": 2552.1,
    "wines": 5
   },
   {
@@ -325,7 +325,7 @@
   {
    "name": "Red",
    "bottles": 248,
-   "value": 26640.810000000005
+   "value": 26659.040000000005
   },
   {
    "name": "White",
@@ -337,7 +337,7 @@
   {
    "name": "Red",
    "bottles": 248,
-   "value": 26640.810000000005
+   "value": 26659.040000000005
   },
   {
    "name": "White",
@@ -384,7 +384,7 @@
   {
    "name": "Château Troplong Mondot",
    "bottles": 9,
-   "value": 914.46,
+   "value": 913.8799999999999,
    "wines": 2
   },
   {
@@ -412,15 +412,15 @@
    "wines": 1
   },
   {
-   "name": "Château Palmer",
-   "bottles": 3,
-   "value": 649.18,
+   "name": "Château Lynch-Bages",
+   "bottles": 4,
+   "value": 658.11,
    "wines": 1
   },
   {
-   "name": "Château Lynch-Bages",
-   "bottles": 4,
-   "value": 641.99,
+   "name": "Château Palmer",
+   "bottles": 3,
+   "value": 652.29,
    "wines": 1
   },
   {
@@ -446,12 +446,12 @@
   {
    "name": "Cellar",
    "bottles": 55,
-   "value": 4455.52
+   "value": 4472.370000000001
   },
   {
    "name": "Cellar - Wine Society",
    "bottles": 90,
-   "value": 5148.82
+   "value": 5150.2
   },
   {
    "name": "Cellar - BB&R",
@@ -1228,7 +1228,11 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Syrah, also known as Shiraz, is a dark-skinned grape variety grown throughout the world and used primarily to produce red wine. In 1999, Syrah was found to be the offspring of two obscure grapes from southeastern France, Dureza and Mondeuse Blanche. Syrah should not be confused with Petite Sirah, a cross of Syrah with Peloursin dating from 1880.",
+    "url": "https://en.wikipedia.org/wiki/Syrah",
+    "title": "Syrah"
+   }
   },
   {
    "iWine": "2546394",
@@ -1281,12 +1285,12 @@
    "color": "Red",
    "style": "Red",
    "varietal": "Cabernet Sauvignon",
-   "location": "Cellar - BB&R",
-   "quantity": 6,
+   "location": "Cellar",
+   "quantity": 1,
    "price_paid_bottle": 72.0,
    "value_bottle": 83.04,
-   "total_paid": 432.0,
-   "total_value": 498.23,
+   "total_paid": 72.0,
+   "total_value": 83.04,
    "avg_critic_score": 94.4,
    "my_score": null,
    "critic_scores": {
@@ -1324,12 +1328,12 @@
    "color": "Red",
    "style": "Red",
    "varietal": "Cabernet Sauvignon",
-   "location": "Cellar",
-   "quantity": 1,
+   "location": "Cellar - BB&R",
+   "quantity": 6,
    "price_paid_bottle": 72.0,
    "value_bottle": 83.04,
-   "total_paid": 72.0,
-   "total_value": 83.04,
+   "total_paid": 432.0,
+   "total_value": 498.23,
    "avg_critic_score": 94.4,
    "my_score": null,
    "critic_scores": {
@@ -1468,44 +1472,11 @@
     "hours": 0,
     "label": "No decanting needed — drink straight from the bottle"
    },
-   "wiki": null
-  },
-  {
-   "iWine": "4773903",
-   "wine": "Hugel Riesling Schoenenbourg Grossi Laüe",
-   "vintage": "2015",
-   "producer": "Hugel",
-   "country": "France",
-   "region": "Alsace",
-   "subregion": "Unknown",
-   "appellation": "Alsace Grand Cru",
-   "color": "White",
-   "style": "White",
-   "varietal": "Riesling",
-   "location": "Cellar - Wine Society",
-   "quantity": 3,
-   "price_paid_bottle": 45.0,
-   "value_bottle": 45.52,
-   "total_paid": 135.0,
-   "total_value": 136.55,
-   "avg_critic_score": 92.5,
-   "my_score": null,
-   "critic_scores": {},
-   "begin_consume": 2024,
-   "end_consume": 2038,
-   "appreciation_pct": 1.2,
-   "body": "Light",
-   "tannin": "None",
-   "pairings": [
-    "spicy Asian food",
-    "pork",
-    "soft cheese"
-   ],
-   "decant": {
-    "hours": 0,
-    "label": "No decanting needed — drink straight from the bottle"
-   },
-   "wiki": null
+   "wiki": {
+    "summary": "Riesling is a white grape variety that is believed to have originated from the Rhine Valley region of western Germany, before later being traced to the Alsace region by 1470 and Austria by 1700. Riesling is an aromatic grape variety displaying flowery, almost perfumed aromas as well as high acidity. It is used to make dry, semi-sweet, sweet, and sparkling white wines. Riesling wines are usually varietally pure and are seldom oaked. As of 2004, Riesling was estimated to be…",
+    "url": "https://en.wikipedia.org/wiki/Riesling",
+    "title": "Riesling"
+   }
   },
   {
    "iWine": "4773903",
@@ -1542,7 +1513,52 @@
     "hours": 0,
     "label": "No decanting needed — drink straight from the bottle"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Riesling is a white grape variety that is believed to have originated from the Rhine Valley region of western Germany, before later being traced to the Alsace region by 1470 and Austria by 1700. Riesling is an aromatic grape variety displaying flowery, almost perfumed aromas as well as high acidity. It is used to make dry, semi-sweet, sweet, and sparkling white wines. Riesling wines are usually varietally pure and are seldom oaked. As of 2004, Riesling was estimated to be…",
+    "url": "https://en.wikipedia.org/wiki/Riesling",
+    "title": "Riesling"
+   }
+  },
+  {
+   "iWine": "4773903",
+   "wine": "Hugel Riesling Schoenenbourg Grossi Laüe",
+   "vintage": "2015",
+   "producer": "Hugel",
+   "country": "France",
+   "region": "Alsace",
+   "subregion": "Unknown",
+   "appellation": "Alsace Grand Cru",
+   "color": "White",
+   "style": "White",
+   "varietal": "Riesling",
+   "location": "Cellar - Wine Society",
+   "quantity": 3,
+   "price_paid_bottle": 45.0,
+   "value_bottle": 45.52,
+   "total_paid": 135.0,
+   "total_value": 136.55,
+   "avg_critic_score": 92.5,
+   "my_score": null,
+   "critic_scores": {},
+   "begin_consume": 2024,
+   "end_consume": 2038,
+   "appreciation_pct": 1.2,
+   "body": "Light",
+   "tannin": "None",
+   "pairings": [
+    "spicy Asian food",
+    "pork",
+    "soft cheese"
+   ],
+   "decant": {
+    "hours": 0,
+    "label": "No decanting needed — drink straight from the bottle"
+   },
+   "wiki": {
+    "summary": "Riesling is a white grape variety that is believed to have originated from the Rhine Valley region of western Germany, before later being traced to the Alsace region by 1470 and Austria by 1700. Riesling is an aromatic grape variety displaying flowery, almost perfumed aromas as well as high acidity. It is used to make dry, semi-sweet, sweet, and sparkling white wines. Riesling wines are usually varietally pure and are seldom oaked. As of 2004, Riesling was estimated to be…",
+    "url": "https://en.wikipedia.org/wiki/Riesling",
+    "title": "Riesling"
+   }
   },
   {
    "iWine": "1414155",
@@ -1680,15 +1696,15 @@
    "location": "Cellar",
    "quantity": 1,
    "price_paid_bottle": 23.33,
-   "value_bottle": 40.98,
+   "value_bottle": 40.46,
    "total_paid": 23.33,
-   "total_value": 40.98,
+   "total_value": 40.46,
    "avg_critic_score": 91.5,
    "my_score": 90.0,
    "critic_scores": {},
    "begin_consume": 2026,
    "end_consume": 2040,
-   "appreciation_pct": 75.7,
+   "appreciation_pct": 73.4,
    "body": "Medium-full",
    "tannin": "Medium-high",
    "pairings": [
@@ -1758,15 +1774,15 @@
    "location": "Cellar",
    "quantity": 1,
    "price_paid_bottle": 29.0,
-   "value_bottle": 30.69,
+   "value_bottle": 31.94,
    "total_paid": 29.0,
-   "total_value": 30.69,
+   "total_value": 31.94,
    "avg_critic_score": 90.0,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2024,
    "end_consume": 2031,
-   "appreciation_pct": 5.8,
+   "appreciation_pct": 10.1,
    "body": "Full",
    "tannin": "Medium-high",
    "pairings": [
@@ -2014,7 +2030,11 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Syrah, also known as Shiraz, is a dark-skinned grape variety grown throughout the world and used primarily to produce red wine. In 1999, Syrah was found to be the offspring of two obscure grapes from southeastern France, Dureza and Mondeuse Blanche. Syrah should not be confused with Petite Sirah, a cross of Syrah with Peloursin dating from 1880.",
+    "url": "https://en.wikipedia.org/wiki/Syrah",
+    "title": "Syrah"
+   }
   },
   {
    "iWine": "4316519",
@@ -2054,7 +2074,11 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Syrah, also known as Shiraz, is a dark-skinned grape variety grown throughout the world and used primarily to produce red wine. In 1999, Syrah was found to be the offspring of two obscure grapes from southeastern France, Dureza and Mondeuse Blanche. Syrah should not be confused with Petite Sirah, a cross of Syrah with Peloursin dating from 1880.",
+    "url": "https://en.wikipedia.org/wiki/Syrah",
+    "title": "Syrah"
+   }
   },
   {
    "iWine": "3485127",
@@ -2235,9 +2259,9 @@
    "location": "Cellar - Wine Society",
    "quantity": 3,
    "price_paid_bottle": 193.0,
-   "value_bottle": 216.39,
+   "value_bottle": 217.43,
    "total_paid": 579.0,
-   "total_value": 649.18,
+   "total_value": 652.29,
    "avg_critic_score": 71.2,
    "my_score": null,
    "critic_scores": {
@@ -2246,7 +2270,7 @@
    },
    "begin_consume": 2039,
    "end_consume": 2058,
-   "appreciation_pct": 12.1,
+   "appreciation_pct": 12.7,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -2380,6 +2404,47 @@
    "wiki": null
   },
   {
+   "iWine": "1123088",
+   "wine": "Château Lynch-Bages",
+   "vintage": "2010",
+   "producer": "Château Lynch-Bages",
+   "country": "France",
+   "region": "Bordeaux",
+   "subregion": "Médoc",
+   "appellation": "Pauillac",
+   "color": "Red",
+   "style": "Red",
+   "varietal": "Red Bordeaux Blend",
+   "location": "Cellar",
+   "quantity": 4,
+   "price_paid_bottle": 108.0,
+   "value_bottle": 164.53,
+   "total_paid": 432.0,
+   "total_value": 658.11,
+   "avg_critic_score": 75.6,
+   "my_score": 92.0,
+   "critic_scores": {
+    "JR": 18.0,
+    "JG": 94.0,
+    "DR": 97.0
+   },
+   "begin_consume": 2021,
+   "end_consume": 2047,
+   "appreciation_pct": 52.3,
+   "body": "Medium",
+   "tannin": "Medium",
+   "pairings": [
+    "red meat",
+    "hard cheese",
+    "roasted vegetables"
+   ],
+   "decant": {
+    "hours": 0.5,
+    "label": "~30 min — a short splash-decant to open it up"
+   },
+   "wiki": null
+  },
+  {
    "iWine": "4876898",
    "wine": "Canalicchio di Sopra Brunello di Montalcino Riserva",
    "vintage": "2019",
@@ -2416,47 +2481,6 @@
    "decant": {
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
-   },
-   "wiki": null
-  },
-  {
-   "iWine": "1123088",
-   "wine": "Château Lynch-Bages",
-   "vintage": "2010",
-   "producer": "Château Lynch-Bages",
-   "country": "France",
-   "region": "Bordeaux",
-   "subregion": "Médoc",
-   "appellation": "Pauillac",
-   "color": "Red",
-   "style": "Red",
-   "varietal": "Red Bordeaux Blend",
-   "location": "Cellar",
-   "quantity": 4,
-   "price_paid_bottle": 108.0,
-   "value_bottle": 160.5,
-   "total_paid": 432.0,
-   "total_value": 641.99,
-   "avg_critic_score": 75.6,
-   "my_score": 92.0,
-   "critic_scores": {
-    "JR": 18.0,
-    "JG": 94.0,
-    "DR": 97.0
-   },
-   "begin_consume": 2021,
-   "end_consume": 2047,
-   "appreciation_pct": 48.6,
-   "body": "Medium",
-   "tannin": "Medium",
-   "pairings": [
-    "red meat",
-    "hard cheese",
-    "roasted vegetables"
-   ],
-   "decant": {
-    "hours": 0.5,
-    "label": "~30 min — a short splash-decant to open it up"
    },
    "wiki": null
   },
@@ -2498,7 +2522,11 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Syrah, also known as Shiraz, is a dark-skinned grape variety grown throughout the world and used primarily to produce red wine. In 1999, Syrah was found to be the offspring of two obscure grapes from southeastern France, Dureza and Mondeuse Blanche. Syrah should not be confused with Petite Sirah, a cross of Syrah with Peloursin dating from 1880.",
+    "url": "https://en.wikipedia.org/wiki/Syrah",
+    "title": "Syrah"
+   }
   },
   {
    "iWine": "4495677",
@@ -3096,7 +3124,11 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Nerello mascalese is a name given to a variety of red wine grapes named after the Mascali area in Catania, that grow primarily in Sicily and Sardinia.\nIt is grown mainly on the northeastern side of Sicily and is thought to be superior in quality to the Nerello Cappuccio. There is an experimental vineyard in Agliano Terme, Piedmont, where Nerello has been planted by the winery, Vini Ragerra, and they are credited with being the first to plant and vinify Nerello in this…",
+    "url": "https://en.wikipedia.org/wiki/Nerello_mascalese",
+    "title": "Nerello mascalese"
+   }
   },
   {
    "iWine": "5743675",
@@ -3133,7 +3165,11 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Nerello mascalese is a name given to a variety of red wine grapes named after the Mascali area in Catania, that grow primarily in Sicily and Sardinia.\nIt is grown mainly on the northeastern side of Sicily and is thought to be superior in quality to the Nerello Cappuccio. There is an experimental vineyard in Agliano Terme, Piedmont, where Nerello has been planted by the winery, Vini Ragerra, and they are credited with being the first to plant and vinify Nerello in this…",
+    "url": "https://en.wikipedia.org/wiki/Nerello_mascalese",
+    "title": "Nerello mascalese"
+   }
   },
   {
    "iWine": "2667924",
@@ -3230,15 +3266,15 @@
    "location": "Cellar",
    "quantity": 1,
    "price_paid_bottle": 29.0,
-   "value_bottle": 30.69,
+   "value_bottle": 31.94,
    "total_paid": 29.0,
-   "total_value": 30.69,
+   "total_value": 31.94,
    "avg_critic_score": 90.0,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2024,
    "end_consume": 2031,
-   "appreciation_pct": 5.8,
+   "appreciation_pct": 10.1,
    "body": "Full",
    "tannin": "Medium-high",
    "pairings": [
@@ -3294,7 +3330,11 @@
     "hours": 1.5,
     "label": "~1.5–2 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Syrah, also known as Shiraz, is a dark-skinned grape variety grown throughout the world and used primarily to produce red wine. In 1999, Syrah was found to be the offspring of two obscure grapes from southeastern France, Dureza and Mondeuse Blanche. Syrah should not be confused with Petite Sirah, a cross of Syrah with Peloursin dating from 1880.",
+    "url": "https://en.wikipedia.org/wiki/Syrah",
+    "title": "Syrah"
+   }
   },
   {
    "iWine": "4312950",
@@ -3431,9 +3471,9 @@
    "location": "Cellar - Wine Society",
    "quantity": 6,
    "price_paid_bottle": 57.0,
-   "value_bottle": 74.37,
+   "value_bottle": 74.18,
    "total_paid": 342.0,
-   "total_value": 446.23,
+   "total_value": 445.08,
    "avg_critic_score": 69.5,
    "my_score": null,
    "critic_scores": {
@@ -3442,7 +3482,7 @@
    },
    "begin_consume": 2029,
    "end_consume": 2040,
-   "appreciation_pct": 30.5,
+   "appreciation_pct": 30.1,
    "body": "Medium",
    "tannin": "Medium-high",
    "pairings": [
@@ -3532,7 +3572,11 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Nerello mascalese is a name given to a variety of red wine grapes named after the Mascali area in Catania, that grow primarily in Sicily and Sardinia.\nIt is grown mainly on the northeastern side of Sicily and is thought to be superior in quality to the Nerello Cappuccio. There is an experimental vineyard in Agliano Terme, Piedmont, where Nerello has been planted by the winery, Vini Ragerra, and they are credited with being the first to plant and vinify Nerello in this…",
+    "url": "https://en.wikipedia.org/wiki/Nerello_mascalese",
+    "title": "Nerello mascalese"
+   }
   },
   {
    "iWine": "4386234",
@@ -3546,12 +3590,12 @@
    "color": "Red",
    "style": "Red",
    "varietal": "Cabernet Sauvignon",
-   "location": "Cellar - BB&R",
-   "quantity": 6,
+   "location": "Cellar",
+   "quantity": 1,
    "price_paid_bottle": 72.0,
    "value_bottle": 83.04,
-   "total_paid": 432.0,
-   "total_value": 498.23,
+   "total_paid": 72.0,
+   "total_value": 83.04,
    "avg_critic_score": 94.4,
    "my_score": null,
    "critic_scores": {
@@ -3589,12 +3633,12 @@
    "color": "Red",
    "style": "Red",
    "varietal": "Cabernet Sauvignon",
-   "location": "Cellar",
-   "quantity": 1,
+   "location": "Cellar - BB&R",
+   "quantity": 6,
    "price_paid_bottle": 72.0,
    "value_bottle": 83.04,
-   "total_paid": 72.0,
-   "total_value": 83.04,
+   "total_paid": 432.0,
+   "total_value": 498.23,
    "avg_critic_score": 94.4,
    "my_score": null,
    "critic_scores": {
@@ -3699,7 +3743,11 @@
     "hours": 1.5,
     "label": "~1.5–2 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Syrah, also known as Shiraz, is a dark-skinned grape variety grown throughout the world and used primarily to produce red wine. In 1999, Syrah was found to be the offspring of two obscure grapes from southeastern France, Dureza and Mondeuse Blanche. Syrah should not be confused with Petite Sirah, a cross of Syrah with Peloursin dating from 1880.",
+    "url": "https://en.wikipedia.org/wiki/Syrah",
+    "title": "Syrah"
+   }
   },
   {
    "iWine": "5855672",
@@ -3750,43 +3798,6 @@
    "color": "White",
    "style": "White",
    "varietal": "Riesling",
-   "location": "Cellar - Wine Society",
-   "quantity": 3,
-   "price_paid_bottle": 45.0,
-   "value_bottle": 45.52,
-   "total_paid": 135.0,
-   "total_value": 136.55,
-   "avg_critic_score": 92.5,
-   "my_score": null,
-   "critic_scores": {},
-   "begin_consume": 2024,
-   "end_consume": 2038,
-   "appreciation_pct": 1.2,
-   "body": "Light",
-   "tannin": "None",
-   "pairings": [
-    "spicy Asian food",
-    "pork",
-    "soft cheese"
-   ],
-   "decant": {
-    "hours": 0,
-    "label": "No decanting needed — drink straight from the bottle"
-   },
-   "wiki": null
-  },
-  {
-   "iWine": "4773903",
-   "wine": "Hugel Riesling Schoenenbourg Grossi Laüe",
-   "vintage": "2015",
-   "producer": "Hugel",
-   "country": "France",
-   "region": "Alsace",
-   "subregion": "Unknown",
-   "appellation": "Alsace Grand Cru",
-   "color": "White",
-   "style": "White",
-   "varietal": "Riesling",
    "location": "Cellar",
    "quantity": 1,
    "price_paid_bottle": 45.0,
@@ -3810,7 +3821,52 @@
     "hours": 0,
     "label": "No decanting needed — drink straight from the bottle"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Riesling is a white grape variety that is believed to have originated from the Rhine Valley region of western Germany, before later being traced to the Alsace region by 1470 and Austria by 1700. Riesling is an aromatic grape variety displaying flowery, almost perfumed aromas as well as high acidity. It is used to make dry, semi-sweet, sweet, and sparkling white wines. Riesling wines are usually varietally pure and are seldom oaked. As of 2004, Riesling was estimated to be…",
+    "url": "https://en.wikipedia.org/wiki/Riesling",
+    "title": "Riesling"
+   }
+  },
+  {
+   "iWine": "4773903",
+   "wine": "Hugel Riesling Schoenenbourg Grossi Laüe",
+   "vintage": "2015",
+   "producer": "Hugel",
+   "country": "France",
+   "region": "Alsace",
+   "subregion": "Unknown",
+   "appellation": "Alsace Grand Cru",
+   "color": "White",
+   "style": "White",
+   "varietal": "Riesling",
+   "location": "Cellar - Wine Society",
+   "quantity": 3,
+   "price_paid_bottle": 45.0,
+   "value_bottle": 45.52,
+   "total_paid": 135.0,
+   "total_value": 136.55,
+   "avg_critic_score": 92.5,
+   "my_score": null,
+   "critic_scores": {},
+   "begin_consume": 2024,
+   "end_consume": 2038,
+   "appreciation_pct": 1.2,
+   "body": "Light",
+   "tannin": "None",
+   "pairings": [
+    "spicy Asian food",
+    "pork",
+    "soft cheese"
+   ],
+   "decant": {
+    "hours": 0,
+    "label": "No decanting needed — drink straight from the bottle"
+   },
+   "wiki": {
+    "summary": "Riesling is a white grape variety that is believed to have originated from the Rhine Valley region of western Germany, before later being traced to the Alsace region by 1470 and Austria by 1700. Riesling is an aromatic grape variety displaying flowery, almost perfumed aromas as well as high acidity. It is used to make dry, semi-sweet, sweet, and sparkling white wines. Riesling wines are usually varietally pure and are seldom oaked. As of 2004, Riesling was estimated to be…",
+    "url": "https://en.wikipedia.org/wiki/Riesling",
+    "title": "Riesling"
+   }
   },
   {
    "iWine": "3124782",
@@ -3890,7 +3946,11 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Syrah, also known as Shiraz, is a dark-skinned grape variety grown throughout the world and used primarily to produce red wine. In 1999, Syrah was found to be the offspring of two obscure grapes from southeastern France, Dureza and Mondeuse Blanche. Syrah should not be confused with Petite Sirah, a cross of Syrah with Peloursin dating from 1880.",
+    "url": "https://en.wikipedia.org/wiki/Syrah",
+    "title": "Syrah"
+   }
   },
   {
    "iWine": "2856200",
@@ -4311,9 +4371,9 @@
    "location": "Cellar",
    "quantity": 4,
    "price_paid_bottle": 108.0,
-   "value_bottle": 160.5,
+   "value_bottle": 164.53,
    "total_paid": 432.0,
-   "total_value": 641.99,
+   "total_value": 658.11,
    "avg_critic_score": 75.6,
    "my_score": 92.0,
    "critic_scores": {
@@ -4323,7 +4383,7 @@
    },
    "begin_consume": 2021,
    "end_consume": 2047,
-   "appreciation_pct": 48.6,
+   "appreciation_pct": 52.3,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -4556,15 +4616,15 @@
    "location": "Cellar",
    "quantity": 1,
    "price_paid_bottle": 23.33,
-   "value_bottle": 40.98,
+   "value_bottle": 40.46,
    "total_paid": 23.33,
-   "total_value": 40.98,
+   "total_value": 40.46,
    "avg_critic_score": 91.5,
    "my_score": 90.0,
    "critic_scores": {},
    "begin_consume": 2026,
    "end_consume": 2040,
-   "appreciation_pct": 75.7,
+   "appreciation_pct": 73.4,
    "body": "Medium-full",
    "tannin": "Medium-high",
    "pairings": [
@@ -4593,9 +4653,9 @@
    "location": "Cellar - Wine Society",
    "quantity": 3,
    "price_paid_bottle": 193.0,
-   "value_bottle": 216.39,
+   "value_bottle": 217.43,
    "total_paid": 579.0,
-   "total_value": 649.18,
+   "total_value": 652.29,
    "avg_critic_score": 71.2,
    "my_score": null,
    "critic_scores": {
@@ -4604,7 +4664,7 @@
    },
    "begin_consume": 2039,
    "end_consume": 2058,
-   "appreciation_pct": 12.1,
+   "appreciation_pct": 12.7,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -4862,7 +4922,11 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Syrah, also known as Shiraz, is a dark-skinned grape variety grown throughout the world and used primarily to produce red wine. In 1999, Syrah was found to be the offspring of two obscure grapes from southeastern France, Dureza and Mondeuse Blanche. Syrah should not be confused with Petite Sirah, a cross of Syrah with Peloursin dating from 1880.",
+    "url": "https://en.wikipedia.org/wiki/Syrah",
+    "title": "Syrah"
+   }
   },
   {
    "iWine": "4316519",
@@ -4902,7 +4966,11 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Syrah, also known as Shiraz, is a dark-skinned grape variety grown throughout the world and used primarily to produce red wine. In 1999, Syrah was found to be the offspring of two obscure grapes from southeastern France, Dureza and Mondeuse Blanche. Syrah should not be confused with Petite Sirah, a cross of Syrah with Peloursin dating from 1880.",
+    "url": "https://en.wikipedia.org/wiki/Syrah",
+    "title": "Syrah"
+   }
   },
   {
    "iWine": "5370346",
@@ -4942,7 +5010,11 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Nerello mascalese is a name given to a variety of red wine grapes named after the Mascali area in Catania, that grow primarily in Sicily and Sardinia.\nIt is grown mainly on the northeastern side of Sicily and is thought to be superior in quality to the Nerello Cappuccio. There is an experimental vineyard in Agliano Terme, Piedmont, where Nerello has been planted by the winery, Vini Ragerra, and they are credited with being the first to plant and vinify Nerello in this…",
+    "url": "https://en.wikipedia.org/wiki/Nerello_mascalese",
+    "title": "Nerello mascalese"
+   }
   },
   {
    "iWine": "874157",
@@ -5061,7 +5133,11 @@
     "hours": 1.5,
     "label": "~1.5–2 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Syrah, also known as Shiraz, is a dark-skinned grape variety grown throughout the world and used primarily to produce red wine. In 1999, Syrah was found to be the offspring of two obscure grapes from southeastern France, Dureza and Mondeuse Blanche. Syrah should not be confused with Petite Sirah, a cross of Syrah with Peloursin dating from 1880.",
+    "url": "https://en.wikipedia.org/wiki/Syrah",
+    "title": "Syrah"
+   }
   },
   {
    "iWine": "4520343",
@@ -5135,7 +5211,11 @@
     "hours": 0,
     "label": "No decanting needed — drink straight from the bottle"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Riesling is a white grape variety that is believed to have originated from the Rhine Valley region of western Germany, before later being traced to the Alsace region by 1470 and Austria by 1700. Riesling is an aromatic grape variety displaying flowery, almost perfumed aromas as well as high acidity. It is used to make dry, semi-sweet, sweet, and sparkling white wines. Riesling wines are usually varietally pure and are seldom oaked. As of 2004, Riesling was estimated to be…",
+    "url": "https://en.wikipedia.org/wiki/Riesling",
+    "title": "Riesling"
+   }
   },
   {
    "iWine": "5386889",
@@ -5433,7 +5513,7 @@
    "value_bottle": 56.56,
    "total_paid": 288.0,
    "total_value": 339.36,
-   "avg_critic_score": 56.5,
+   "avg_critic_score": 69.0,
    "my_score": null,
    "critic_scores": {
     "JR": 18.0,
@@ -5569,7 +5649,11 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Nerello mascalese is a name given to a variety of red wine grapes named after the Mascali area in Catania, that grow primarily in Sicily and Sardinia.\nIt is grown mainly on the northeastern side of Sicily and is thought to be superior in quality to the Nerello Cappuccio. There is an experimental vineyard in Agliano Terme, Piedmont, where Nerello has been planted by the winery, Vini Ragerra, and they are credited with being the first to plant and vinify Nerello in this…",
+    "url": "https://en.wikipedia.org/wiki/Nerello_mascalese",
+    "title": "Nerello mascalese"
+   }
   },
   {
    "iWine": "5407672",
@@ -5608,7 +5692,11 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Nerello mascalese is a name given to a variety of red wine grapes named after the Mascali area in Catania, that grow primarily in Sicily and Sardinia.\nIt is grown mainly on the northeastern side of Sicily and is thought to be superior in quality to the Nerello Cappuccio. There is an experimental vineyard in Agliano Terme, Piedmont, where Nerello has been planted by the winery, Vini Ragerra, and they are credited with being the first to plant and vinify Nerello in this…",
+    "url": "https://en.wikipedia.org/wiki/Nerello_mascalese",
+    "title": "Nerello mascalese"
+   }
   },
   {
    "iWine": "5652593",
@@ -5701,9 +5789,9 @@
    "location": "Cellar - Wine Society",
    "quantity": 3,
    "price_paid_bottle": 74.0,
-   "value_bottle": 87.1,
+   "value_bottle": 86.9,
    "total_paid": 222.0,
-   "total_value": 261.29,
+   "total_value": 260.71,
    "avg_critic_score": 69.8,
    "my_score": null,
    "critic_scores": {
@@ -5712,7 +5800,7 @@
    },
    "begin_consume": 2032,
    "end_consume": 2053,
-   "appreciation_pct": 17.7,
+   "appreciation_pct": 17.4,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -5965,7 +6053,11 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Syrah, also known as Shiraz, is a dark-skinned grape variety grown throughout the world and used primarily to produce red wine. In 1999, Syrah was found to be the offspring of two obscure grapes from southeastern France, Dureza and Mondeuse Blanche. Syrah should not be confused with Petite Sirah, a cross of Syrah with Peloursin dating from 1880.",
+    "url": "https://en.wikipedia.org/wiki/Syrah",
+    "title": "Syrah"
+   }
   },
   {
    "iWine": "5855671",
@@ -6201,44 +6293,11 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": null
-  },
-  {
-   "iWine": "5458680",
-   "wine": "Pago de Carraovejas Ribera del Duero",
-   "vintage": "2023",
-   "producer": "Pago de Carraovejas",
-   "country": "Spain",
-   "region": "Castilla y León",
-   "subregion": "Unknown",
-   "appellation": "Ribera del Duero",
-   "color": "Red",
-   "style": "Red",
-   "varietal": "Tempranillo",
-   "location": "Cellar",
-   "quantity": 1,
-   "price_paid_bottle": 23.33,
-   "value_bottle": 40.98,
-   "total_paid": 23.33,
-   "total_value": 40.98,
-   "avg_critic_score": 91.5,
-   "my_score": 90.0,
-   "critic_scores": {},
-   "begin_consume": 2026,
-   "end_consume": 2040,
-   "appreciation_pct": 75.7,
-   "body": "Medium-full",
-   "tannin": "Medium-high",
-   "pairings": [
-    "roast lamb",
-    "chorizo & charcuterie",
-    "manchego cheese"
-   ],
-   "decant": {
-    "hours": 1.5,
-    "label": "~1.5–2 hrs (longer if young & tightly wound)"
-   },
-   "wiki": null
+   "wiki": {
+    "summary": "Syrah, also known as Shiraz, is a dark-skinned grape variety grown throughout the world and used primarily to produce red wine. In 1999, Syrah was found to be the offspring of two obscure grapes from southeastern France, Dureza and Mondeuse Blanche. Syrah should not be confused with Petite Sirah, a cross of Syrah with Peloursin dating from 1880.",
+    "url": "https://en.wikipedia.org/wiki/Syrah",
+    "title": "Syrah"
+   }
   },
   {
    "iWine": "3984055",
@@ -6277,6 +6336,43 @@
    "decant": {
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
+   },
+   "wiki": null
+  },
+  {
+   "iWine": "5458680",
+   "wine": "Pago de Carraovejas Ribera del Duero",
+   "vintage": "2023",
+   "producer": "Pago de Carraovejas",
+   "country": "Spain",
+   "region": "Castilla y León",
+   "subregion": "Unknown",
+   "appellation": "Ribera del Duero",
+   "color": "Red",
+   "style": "Red",
+   "varietal": "Tempranillo",
+   "location": "Cellar",
+   "quantity": 1,
+   "price_paid_bottle": 23.33,
+   "value_bottle": 40.46,
+   "total_paid": 23.33,
+   "total_value": 40.46,
+   "avg_critic_score": 91.5,
+   "my_score": 90.0,
+   "critic_scores": {},
+   "begin_consume": 2026,
+   "end_consume": 2040,
+   "appreciation_pct": 73.4,
+   "body": "Medium-full",
+   "tannin": "Medium-high",
+   "pairings": [
+    "roast lamb",
+    "chorizo & charcuterie",
+    "manchego cheese"
+   ],
+   "decant": {
+    "hours": 1.5,
+    "label": "~1.5–2 hrs (longer if young & tightly wound)"
    },
    "wiki": null
   },
@@ -6489,6 +6585,47 @@
    "wiki": null
   },
   {
+   "iWine": "1123088",
+   "wine": "Château Lynch-Bages",
+   "vintage": "2010",
+   "producer": "Château Lynch-Bages",
+   "country": "France",
+   "region": "Bordeaux",
+   "subregion": "Médoc",
+   "appellation": "Pauillac",
+   "color": "Red",
+   "style": "Red",
+   "varietal": "Red Bordeaux Blend",
+   "location": "Cellar",
+   "quantity": 4,
+   "price_paid_bottle": 108.0,
+   "value_bottle": 164.53,
+   "total_paid": 432.0,
+   "total_value": 658.11,
+   "avg_critic_score": 75.6,
+   "my_score": 92.0,
+   "critic_scores": {
+    "JR": 18.0,
+    "JG": 94.0,
+    "DR": 97.0
+   },
+   "begin_consume": 2021,
+   "end_consume": 2047,
+   "appreciation_pct": 52.3,
+   "body": "Medium",
+   "tannin": "Medium",
+   "pairings": [
+    "red meat",
+    "hard cheese",
+    "roasted vegetables"
+   ],
+   "decant": {
+    "hours": 0.5,
+    "label": "~30 min — a short splash-decant to open it up"
+   },
+   "wiki": null
+  },
+  {
    "iWine": "2628120",
    "wine": "Château Cos d'Estournel",
    "vintage": "2016",
@@ -6563,7 +6700,11 @@
     "hours": 0,
     "label": "No decanting needed — drink straight from the bottle"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Riesling is a white grape variety that is believed to have originated from the Rhine Valley region of western Germany, before later being traced to the Alsace region by 1470 and Austria by 1700. Riesling is an aromatic grape variety displaying flowery, almost perfumed aromas as well as high acidity. It is used to make dry, semi-sweet, sweet, and sparkling white wines. Riesling wines are usually varietally pure and are seldom oaked. As of 2004, Riesling was estimated to be…",
+    "url": "https://en.wikipedia.org/wiki/Riesling",
+    "title": "Riesling"
+   }
   },
   {
    "iWine": "874157",
@@ -6592,47 +6733,6 @@
    "begin_consume": 2022,
    "end_consume": 2054,
    "appreciation_pct": 49.9,
-   "body": "Medium",
-   "tannin": "Medium",
-   "pairings": [
-    "red meat",
-    "hard cheese",
-    "roasted vegetables"
-   ],
-   "decant": {
-    "hours": 0.5,
-    "label": "~30 min — a short splash-decant to open it up"
-   },
-   "wiki": null
-  },
-  {
-   "iWine": "1123088",
-   "wine": "Château Lynch-Bages",
-   "vintage": "2010",
-   "producer": "Château Lynch-Bages",
-   "country": "France",
-   "region": "Bordeaux",
-   "subregion": "Médoc",
-   "appellation": "Pauillac",
-   "color": "Red",
-   "style": "Red",
-   "varietal": "Red Bordeaux Blend",
-   "location": "Cellar",
-   "quantity": 4,
-   "price_paid_bottle": 108.0,
-   "value_bottle": 160.5,
-   "total_paid": 432.0,
-   "total_value": 641.99,
-   "avg_critic_score": 75.6,
-   "my_score": 92.0,
-   "critic_scores": {
-    "JR": 18.0,
-    "JG": 94.0,
-    "DR": 97.0
-   },
-   "begin_consume": 2021,
-   "end_consume": 2047,
-   "appreciation_pct": 48.6,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -6759,7 +6859,11 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Nerello mascalese is a name given to a variety of red wine grapes named after the Mascali area in Catania, that grow primarily in Sicily and Sardinia.\nIt is grown mainly on the northeastern side of Sicily and is thought to be superior in quality to the Nerello Cappuccio. There is an experimental vineyard in Agliano Terme, Piedmont, where Nerello has been planted by the winery, Vini Ragerra, and they are credited with being the first to plant and vinify Nerello in this…",
+    "url": "https://en.wikipedia.org/wiki/Nerello_mascalese",
+    "title": "Nerello mascalese"
+   }
   },
   {
    "iWine": "5322676",
@@ -6840,7 +6944,11 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Syrah, also known as Shiraz, is a dark-skinned grape variety grown throughout the world and used primarily to produce red wine. In 1999, Syrah was found to be the offspring of two obscure grapes from southeastern France, Dureza and Mondeuse Blanche. Syrah should not be confused with Petite Sirah, a cross of Syrah with Peloursin dating from 1880.",
+    "url": "https://en.wikipedia.org/wiki/Syrah",
+    "title": "Syrah"
+   }
   },
   {
    "iWine": "3645986",
@@ -6957,7 +7065,11 @@
     "hours": 1.5,
     "label": "~1.5–2 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Syrah, also known as Shiraz, is a dark-skinned grape variety grown throughout the world and used primarily to produce red wine. In 1999, Syrah was found to be the offspring of two obscure grapes from southeastern France, Dureza and Mondeuse Blanche. Syrah should not be confused with Petite Sirah, a cross of Syrah with Peloursin dating from 1880.",
+    "url": "https://en.wikipedia.org/wiki/Syrah",
+    "title": "Syrah"
+   }
   },
   {
    "iWine": "5855669",
@@ -7033,44 +7145,11 @@
     "hours": 1.5,
     "label": "~1.5–2 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
-  },
-  {
-   "iWine": "4773903",
-   "wine": "Hugel Riesling Schoenenbourg Grossi Laüe",
-   "vintage": "2015",
-   "producer": "Hugel",
-   "country": "France",
-   "region": "Alsace",
-   "subregion": "Unknown",
-   "appellation": "Alsace Grand Cru",
-   "color": "White",
-   "style": "White",
-   "varietal": "Riesling",
-   "location": "Cellar - Wine Society",
-   "quantity": 3,
-   "price_paid_bottle": 45.0,
-   "value_bottle": 45.52,
-   "total_paid": 135.0,
-   "total_value": 136.55,
-   "avg_critic_score": 92.5,
-   "my_score": null,
-   "critic_scores": {},
-   "begin_consume": 2024,
-   "end_consume": 2038,
-   "appreciation_pct": 1.2,
-   "body": "Light",
-   "tannin": "None",
-   "pairings": [
-    "spicy Asian food",
-    "pork",
-    "soft cheese"
-   ],
-   "decant": {
-    "hours": 0,
-    "label": "No decanting needed — drink straight from the bottle"
-   },
-   "wiki": null
+   "wiki": {
+    "summary": "Syrah, also known as Shiraz, is a dark-skinned grape variety grown throughout the world and used primarily to produce red wine. In 1999, Syrah was found to be the offspring of two obscure grapes from southeastern France, Dureza and Mondeuse Blanche. Syrah should not be confused with Petite Sirah, a cross of Syrah with Peloursin dating from 1880.",
+    "url": "https://en.wikipedia.org/wiki/Syrah",
+    "title": "Syrah"
+   }
   },
   {
    "iWine": "4773903",
@@ -7107,7 +7186,52 @@
     "hours": 0,
     "label": "No decanting needed — drink straight from the bottle"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Riesling is a white grape variety that is believed to have originated from the Rhine Valley region of western Germany, before later being traced to the Alsace region by 1470 and Austria by 1700. Riesling is an aromatic grape variety displaying flowery, almost perfumed aromas as well as high acidity. It is used to make dry, semi-sweet, sweet, and sparkling white wines. Riesling wines are usually varietally pure and are seldom oaked. As of 2004, Riesling was estimated to be…",
+    "url": "https://en.wikipedia.org/wiki/Riesling",
+    "title": "Riesling"
+   }
+  },
+  {
+   "iWine": "4773903",
+   "wine": "Hugel Riesling Schoenenbourg Grossi Laüe",
+   "vintage": "2015",
+   "producer": "Hugel",
+   "country": "France",
+   "region": "Alsace",
+   "subregion": "Unknown",
+   "appellation": "Alsace Grand Cru",
+   "color": "White",
+   "style": "White",
+   "varietal": "Riesling",
+   "location": "Cellar - Wine Society",
+   "quantity": 3,
+   "price_paid_bottle": 45.0,
+   "value_bottle": 45.52,
+   "total_paid": 135.0,
+   "total_value": 136.55,
+   "avg_critic_score": 92.5,
+   "my_score": null,
+   "critic_scores": {},
+   "begin_consume": 2024,
+   "end_consume": 2038,
+   "appreciation_pct": 1.2,
+   "body": "Light",
+   "tannin": "None",
+   "pairings": [
+    "spicy Asian food",
+    "pork",
+    "soft cheese"
+   ],
+   "decant": {
+    "hours": 0,
+    "label": "No decanting needed — drink straight from the bottle"
+   },
+   "wiki": {
+    "summary": "Riesling is a white grape variety that is believed to have originated from the Rhine Valley region of western Germany, before later being traced to the Alsace region by 1470 and Austria by 1700. Riesling is an aromatic grape variety displaying flowery, almost perfumed aromas as well as high acidity. It is used to make dry, semi-sweet, sweet, and sparkling white wines. Riesling wines are usually varietally pure and are seldom oaked. As of 2004, Riesling was estimated to be…",
+    "url": "https://en.wikipedia.org/wiki/Riesling",
+    "title": "Riesling"
+   }
   },
   {
    "iWine": "5519448",
@@ -7144,7 +7268,11 @@
     "hours": 1.5,
     "label": "~1.5–2 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Syrah, also known as Shiraz, is a dark-skinned grape variety grown throughout the world and used primarily to produce red wine. In 1999, Syrah was found to be the offspring of two obscure grapes from southeastern France, Dureza and Mondeuse Blanche. Syrah should not be confused with Petite Sirah, a cross of Syrah with Peloursin dating from 1880.",
+    "url": "https://en.wikipedia.org/wiki/Syrah",
+    "title": "Syrah"
+   }
   },
   {
    "iWine": "4844161",
@@ -7382,8 +7510,8 @@
    "wines": 2,
    "bottles": 9,
    "paid": 856.98,
-   "value": 914.46,
-   "appreciation_pct": 6.7,
+   "value": 913.88,
+   "appreciation_pct": 6.6,
    "avg_score": 62.7,
    "countries": [
     "France"
@@ -7458,34 +7586,12 @@
    "wikidata": null
   },
   {
-   "name": "Château Palmer",
-   "wines": 1,
-   "bottles": 3,
-   "paid": 579.0,
-   "value": 649.18,
-   "appreciation_pct": 12.1,
-   "avg_score": 71.2,
-   "countries": [
-    "France"
-   ],
-   "regions": [
-    "Bordeaux"
-   ],
-   "wikidata": {
-    "description": "Château",
-    "founded": null,
-    "lat": 45.0369,
-    "lon": -0.6694,
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Château_Palmer"
-   }
-  },
-  {
    "name": "Château Lynch-Bages",
    "wines": 1,
    "bottles": 4,
    "paid": 432.0,
-   "value": 641.99,
-   "appreciation_pct": 48.6,
+   "value": 658.11,
+   "appreciation_pct": 52.3,
    "avg_score": 75.6,
    "countries": [
     "France"
@@ -7499,6 +7605,28 @@
     "lat": 45.19083,
     "lon": -0.75561,
     "wikipedia_url": "https://en.wikipedia.org/wiki/Château_Lynch-Bages"
+   }
+  },
+  {
+   "name": "Château Palmer",
+   "wines": 1,
+   "bottles": 3,
+   "paid": 579.0,
+   "value": 652.29,
+   "appreciation_pct": 12.7,
+   "avg_score": 71.2,
+   "countries": [
+    "France"
+   ],
+   "regions": [
+    "Bordeaux"
+   ],
+   "wikidata": {
+    "description": "Château",
+    "founded": null,
+    "lat": 45.0369,
+    "lon": -0.6694,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Château_Palmer"
    }
   },
   {
@@ -7562,7 +7690,7 @@
    "paid": 422.0,
    "value": 487.11,
    "appreciation_pct": 15.4,
-   "avg_score": 62.9,
+   "avg_score": 69.1,
    "countries": [
     "Italy"
    ],
@@ -7576,8 +7704,8 @@
    "wines": 1,
    "bottles": 6,
    "paid": 342.0,
-   "value": 446.23,
-   "appreciation_pct": 30.5,
+   "value": 445.08,
+   "appreciation_pct": 30.1,
    "avg_score": 69.5,
    "countries": [
     "Italy"
@@ -8090,8 +8218,8 @@
    "wines": 1,
    "bottles": 1,
    "paid": 23.33,
-   "value": 40.98,
-   "appreciation_pct": 75.7,
+   "value": 40.46,
+   "appreciation_pct": 73.4,
    "avg_score": 91.5,
    "countries": [
     "Spain"
@@ -8170,8 +8298,8 @@
    "wines": 1,
    "bottles": 1,
    "paid": 29.0,
-   "value": 30.69,
-   "appreciation_pct": 5.8,
+   "value": 31.94,
+   "appreciation_pct": 10.1,
    "avg_score": 90.0,
    "countries": [
     "Argentina"
@@ -8420,7 +8548,11 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Syrah, also known as Shiraz, is a dark-skinned grape variety grown throughout the world and used primarily to produce red wine. In 1999, Syrah was found to be the offspring of two obscure grapes from southeastern France, Dureza and Mondeuse Blanche. Syrah should not be confused with Petite Sirah, a cross of Syrah with Peloursin dating from 1880.",
+    "url": "https://en.wikipedia.org/wiki/Syrah",
+    "title": "Syrah"
+   }
   },
   "biggest_producer_by_bottles": {
    "name": "Penfolds",
@@ -8467,7 +8599,7 @@
    }
   },
   "avg_bottle_price_paid": 77.01,
-  "avg_bottle_value_now": 102.93,
+  "avg_bottle_value_now": 103.0,
   "avg_cellar_age_years": 7.2,
   "largest_single_purchase": {
    "date": "2026-03-06",
@@ -8497,7 +8629,7 @@
     "vintage": "2019",
     "producer": "Dunn Vineyards",
     "since": "2025-05-10",
-    "days_held": 481
+    "days_held": 482
    },
    {
     "iWine": "4386234",
@@ -8505,7 +8637,7 @@
     "vintage": "2019",
     "producer": "Dunn Vineyards",
     "since": "2025-05-10",
-    "days_held": 481
+    "days_held": 482
    },
    {
     "iWine": "4986829",
@@ -8513,7 +8645,7 @@
     "vintage": "2023",
     "producer": "Roc de Cambes",
     "since": "2025-06-07",
-    "days_held": 453
+    "days_held": 454
    },
    {
     "iWine": "4390612",
@@ -8521,7 +8653,7 @@
     "vintage": "2022",
     "producer": "Penfolds",
     "since": "2025-06-11",
-    "days_held": 449
+    "days_held": 450
    },
    {
     "iWine": "4641506",
@@ -8529,7 +8661,7 @@
     "vintage": "2022",
     "producer": "Château Clinet",
     "since": "2025-07-03",
-    "days_held": 427
+    "days_held": 428
    },
    {
     "iWine": "4638895",
@@ -8537,7 +8669,7 @@
     "vintage": "2022",
     "producer": "Château Troplong Mondot",
     "since": "2025-07-03",
-    "days_held": 427
+    "days_held": 428
    },
    {
     "iWine": "4876898",
@@ -8545,7 +8677,7 @@
     "vintage": "2019",
     "producer": "Canalicchio di Sopra",
     "since": "2025-07-12",
-    "days_held": 418
+    "days_held": 419
    },
    {
     "iWine": "4547984",
@@ -8553,7 +8685,7 @@
     "vintage": "2019",
     "producer": "Massolino",
     "since": "2025-07-12",
-    "days_held": 418
+    "days_held": 419
    },
    {
     "iWine": "3709255",
@@ -8561,7 +8693,7 @@
     "vintage": "2018",
     "producer": "Penfolds",
     "since": "2025-07-12",
-    "days_held": 418
+    "days_held": 419
    },
    {
     "iWine": "5271148",
@@ -8569,7 +8701,7 @@
     "vintage": "2019",
     "producer": "San Polino",
     "since": "2025-07-12",
-    "days_held": 418
+    "days_held": 419
    }
   ],
   "total_appreciation_pct": 33.7
@@ -8578,7 +8710,7 @@
   {
    "name": "France",
    "bottles": 111,
-   "value": 10559.480000000001,
+   "value": 10578.13,
    "wines": 25,
    "lat": 46.6,
    "lon": 2.2
@@ -8594,7 +8726,7 @@
   {
    "name": "Italy",
    "bottles": 62,
-   "value": 4634.610000000001,
+   "value": 4633.46,
    "wines": 19,
    "lat": 42.8,
    "lon": 12.6
@@ -8602,7 +8734,7 @@
   {
    "name": "Spain",
    "bottles": 14,
-   "value": 2700.4100000000003,
+   "value": 2699.89,
    "wines": 8,
    "lat": 40.3,
    "lon": -3.7
@@ -8658,7 +8790,7 @@
   {
    "name": "Argentina",
    "bottles": 1,
-   "value": 30.69,
+   "value": 31.94,
    "wines": 1,
    "lat": -34.6,
    "lon": -68.5
@@ -17518,8 +17650,8 @@
     "date": "2026-07-23",
     "month": "2026-07",
     "rating": 84.0,
-    "community_score": 88.3333333333333,
-    "delta": -4.3,
+    "community_score": 87.5,
+    "delta": -3.5,
     "notes_text": ""
    },
    {
@@ -17550,7 +17682,7 @@
     "date": "2026-07-17",
     "month": "2026-07",
     "rating": 87.0,
-    "community_score": 93.4148936170213,
+    "community_score": 93.4,
     "delta": -6.4,
     "notes_text": ""
    },
@@ -18974,8 +19106,8 @@
     "date": "2026-01-03",
     "month": "2026-01",
     "rating": 89.0,
-    "community_score": 90.0,
-    "delta": -1.0,
+    "community_score": 90.125,
+    "delta": -1.1,
     "notes_text": ""
    },
    {
