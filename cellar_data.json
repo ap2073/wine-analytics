@@ -1,19 +1,19 @@
 {
- "generated_at": "2026-09-04T11:07:17.126794+00:00",
+ "generated_at": "2026-09-05T10:28:45.443667+00:00",
  "current_year": 2026,
  "summary": {
-  "total_bottles": 271,
-  "total_wines": 80,
-  "total_value": 27912.05,
-  "total_paid": 20869.75,
+  "total_bottles": 270,
+  "total_wines": 79,
+  "total_value": 27830.06,
+  "total_paid": 20797.75,
   "countries": 11,
-  "avg_critic_score": 71.6
+  "avg_critic_score": 71.2
  },
  "by_country": [
   {
    "name": "France",
    "bottles": 111,
-   "value": 10578.13,
+   "value": 10610.64,
    "wines": 25
   },
   {
@@ -25,7 +25,7 @@
   {
    "name": "Italy",
    "bottles": 62,
-   "value": 4633.46,
+   "value": 4593.54,
    "wines": 19
   },
   {
@@ -42,9 +42,9 @@
   },
   {
    "name": "USA",
-   "bottles": 8,
-   "value": 762.73,
-   "wines": 3
+   "bottles": 7,
+   "value": 684.86,
+   "wines": 2
   },
   {
    "name": "Germany",
@@ -55,7 +55,7 @@
   {
    "name": "New Zealand",
    "bottles": 3,
-   "value": 194.48,
+   "value": 197.77,
    "wines": 1
   },
   {
@@ -81,7 +81,7 @@
   {
    "name": "Red Bordeaux Blend",
    "bottles": 95,
-   "value": 10153.029999999999,
+   "value": 10153.720000000001,
    "wines": 25
   },
   {
@@ -91,21 +91,21 @@
    "wines": 7
   },
   {
-   "name": "Cabernet Sauvignon",
-   "bottles": 19,
-   "value": 2592.97,
-   "wines": 4
-  },
-  {
    "name": "Tempranillo",
    "bottles": 11,
    "value": 2552.1,
    "wines": 5
   },
   {
+   "name": "Cabernet Sauvignon",
+   "bottles": 18,
+   "value": 2509.93,
+   "wines": 3
+  },
+  {
    "name": "Sangiovese",
    "bottles": 30,
-   "value": 2055.88,
+   "value": 2056.61,
    "wines": 7
   },
   {
@@ -159,7 +159,7 @@
   {
    "name": "Nerello Mascalese",
    "bottles": 6,
-   "value": 203.87,
+   "value": 203.5,
    "wines": 6
   },
   {
@@ -203,7 +203,7 @@
   {
    "name": "Bordeaux",
    "bottles": 82,
-   "value": 8376.49,
+   "value": 8409.0,
    "wines": 17
   },
   {
@@ -215,7 +215,7 @@
   {
    "name": "Tuscany",
    "bottles": 36,
-   "value": 3515.5200000000004,
+   "value": 3475.9700000000003,
    "wines": 8
   },
   {
@@ -238,9 +238,9 @@
   },
   {
    "name": "California",
-   "bottles": 8,
-   "value": 762.73,
-   "wines": 3
+   "bottles": 7,
+   "value": 684.86,
+   "wines": 2
   },
   {
    "name": "Piedmont",
@@ -269,13 +269,13 @@
   {
    "name": "Sicily",
    "bottles": 6,
-   "value": 203.87,
+   "value": 203.5,
    "wines": 6
   },
   {
    "name": "North Island",
    "bottles": 3,
-   "value": 194.48,
+   "value": 197.77,
    "wines": 1
   },
   {
@@ -324,8 +324,8 @@
  "by_color": [
   {
    "name": "Red",
-   "bottles": 248,
-   "value": 26659.040000000005
+   "bottles": 247,
+   "value": 26577.050000000007
   },
   {
    "name": "White",
@@ -336,8 +336,8 @@
  "by_style": [
   {
    "name": "Red",
-   "bottles": 248,
-   "value": 26659.040000000005
+   "bottles": 247,
+   "value": 26577.050000000007
   },
   {
    "name": "White",
@@ -366,13 +366,13 @@
   {
    "name": "Château Pontet-Canet",
    "bottles": 11,
-   "value": 1570.03,
+   "value": 1598.31,
    "wines": 2
   },
   {
    "name": "Tenuta San Guido",
    "bottles": 6,
-   "value": 1459.64,
+   "value": 1419.36,
    "wines": 1
   },
   {
@@ -408,13 +408,13 @@
   {
    "name": "Château Les Carmes Haut-Brion",
    "bottles": 6,
-   "value": 754.59,
+   "value": 745.74,
    "wines": 1
   },
   {
    "name": "Château Lynch-Bages",
    "bottles": 4,
-   "value": 658.11,
+   "value": 671.19,
    "wines": 1
   },
   {
@@ -437,26 +437,26 @@
   },
   {
    "name": "Dunn Vineyards",
-   "bottles": 7,
-   "value": 581.27,
-   "wines": 2
+   "bottles": 6,
+   "value": 498.23,
+   "wines": 1
   }
  ],
  "by_location": [
   {
    "name": "Cellar",
-   "bottles": 55,
-   "value": 4472.370000000001
+   "bottles": 54,
+   "value": 4435.860000000001
   },
   {
    "name": "Cellar - Wine Society",
    "bottles": 90,
-   "value": 5150.2
+   "value": 5153.12
   },
   {
    "name": "Cellar - BB&R",
    "bottles": 126,
-   "value": 18289.480000000003
+   "value": 18241.08
   }
  ],
  "drinking_window": {
@@ -694,15 +694,6 @@
     "quantity": 1,
     "begin": 2025,
     "end": 2029
-   },
-   {
-    "iWine": "4386234",
-    "wine": "Dunn Vineyards Cabernet Sauvignon Napa Valley",
-    "vintage": "2019",
-    "producer": "Dunn Vineyards",
-    "quantity": 1,
-    "begin": 2025,
-    "end": 2038
    },
    {
     "iWine": "4773903",
@@ -1249,9 +1240,9 @@
    "location": "Cellar",
    "quantity": 1,
    "price_paid_bottle": 0.0,
-   "value_bottle": 181.46,
+   "value_bottle": 186.63,
    "total_paid": 0.0,
-   "total_value": 181.46,
+   "total_value": 186.63,
    "avg_critic_score": 94.6,
    "my_score": 92.0,
    "critic_scores": {
@@ -1285,57 +1276,14 @@
    "color": "Red",
    "style": "Red",
    "varietal": "Cabernet Sauvignon",
-   "location": "Cellar",
-   "quantity": 1,
-   "price_paid_bottle": 72.0,
-   "value_bottle": 83.04,
-   "total_paid": 72.0,
-   "total_value": 83.04,
-   "avg_critic_score": 94.4,
-   "my_score": null,
-   "critic_scores": {
-    "DR": 95.0
-   },
-   "begin_consume": 2025,
-   "end_consume": 2038,
-   "appreciation_pct": 15.3,
-   "body": "Full",
-   "tannin": "High",
-   "pairings": [
-    "grilled or roast red meat",
-    "hard aged cheese (cheddar, gouda)",
-    "lamb"
-   ],
-   "decant": {
-    "hours": 2.0,
-    "label": "~2–2.5 hrs (longer if young & tightly wound)"
-   },
-   "wiki": {
-    "summary": "Cabernet Sauvignon is one of the world's most widely recognized red wine grape varieties. It is grown in nearly every major wine producing country among a diverse spectrum of climates from Australia and British Columbia, Canada to Lebanon's Beqaa Valley.",
-    "url": "https://en.wikipedia.org/wiki/Cabernet_Sauvignon",
-    "title": "Cabernet Sauvignon"
-   }
-  },
-  {
-   "iWine": "4386234",
-   "wine": "Dunn Vineyards Cabernet Sauvignon Napa Valley",
-   "vintage": "2019",
-   "producer": "Dunn Vineyards",
-   "country": "USA",
-   "region": "California",
-   "subregion": "Napa Valley",
-   "appellation": "Napa Valley",
-   "color": "Red",
-   "style": "Red",
-   "varietal": "Cabernet Sauvignon",
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 72.0,
    "value_bottle": 83.04,
    "total_paid": 432.0,
    "total_value": 498.23,
-   "avg_critic_score": 94.4,
-   "my_score": null,
+   "avg_critic_score": 94.3,
+   "my_score": 91.0,
    "critic_scores": {
     "DR": 95.0
    },
@@ -1374,15 +1322,15 @@
    "location": "Cellar - Wine Society",
    "quantity": 3,
    "price_paid_bottle": 48.0,
-   "value_bottle": 64.83,
+   "value_bottle": 65.92,
    "total_paid": 144.0,
-   "total_value": 194.48,
+   "total_value": 197.77,
    "avg_critic_score": 94.0,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2030,
    "end_consume": 2043,
-   "appreciation_pct": 35.1,
+   "appreciation_pct": 37.3,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -1835,7 +1783,11 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Sangiovese is a red Italian wine grape variety that derives its name from the Latin sanguis Jovis, \"blood of Jupiter\".",
+    "url": "https://en.wikipedia.org/wiki/Sangiovese",
+    "title": "Sangiovese"
+   }
   },
   {
    "iWine": "4520343",
@@ -1911,7 +1863,11 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Pinot noir, also known as Pinot nero, and Spätburgunder is a red-wine grape variety of the species Vitis vinifera. The name also refers to wines created predominantly from Pinot noir grapes. The name is derived from the French words for pine and black. The word pine alludes to the grape variety having tightly clustered, pinecone-shaped bunches of fruit.",
+    "url": "https://en.wikipedia.org/wiki/Pinot_noir",
+    "title": "Pinot noir"
+   }
   },
   {
    "iWine": "5522783",
@@ -1988,6 +1944,47 @@
    "decant": {
     "hours": 0,
     "label": "No decanting needed — drink straight from the bottle"
+   },
+   "wiki": null
+  },
+  {
+   "iWine": "1123088",
+   "wine": "Château Lynch-Bages",
+   "vintage": "2010",
+   "producer": "Château Lynch-Bages",
+   "country": "France",
+   "region": "Bordeaux",
+   "subregion": "Médoc",
+   "appellation": "Pauillac",
+   "color": "Red",
+   "style": "Red",
+   "varietal": "Red Bordeaux Blend",
+   "location": "Cellar",
+   "quantity": 4,
+   "price_paid_bottle": 108.0,
+   "value_bottle": 167.8,
+   "total_paid": 432.0,
+   "total_value": 671.19,
+   "avg_critic_score": 75.6,
+   "my_score": 92.0,
+   "critic_scores": {
+    "JR": 18.0,
+    "JG": 94.0,
+    "DR": 97.0
+   },
+   "begin_consume": 2021,
+   "end_consume": 2047,
+   "appreciation_pct": 55.4,
+   "body": "Medium",
+   "tannin": "Medium",
+   "pairings": [
+    "red meat",
+    "hard cheese",
+    "roasted vegetables"
+   ],
+   "decant": {
+    "hours": 0.5,
+    "label": "~30 min — a short splash-decant to open it up"
    },
    "wiki": null
   }
@@ -2219,9 +2216,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 194.0,
-   "value_bottle": 243.27,
+   "value_bottle": 236.56,
    "total_paid": 1164.0,
-   "total_value": 1459.64,
+   "total_value": 1419.36,
    "avg_critic_score": 70.6,
    "my_score": null,
    "critic_scores": {
@@ -2230,7 +2227,7 @@
    },
    "begin_consume": 2030,
    "end_consume": 2052,
-   "appreciation_pct": 25.4,
+   "appreciation_pct": 21.9,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -2299,9 +2296,9 @@
    "location": "Cellar",
    "quantity": 5,
    "price_paid_bottle": 136.0,
-   "value_bottle": 203.92,
+   "value_bottle": 209.58,
    "total_paid": 680.0,
-   "total_value": 1019.62,
+   "total_value": 1047.9,
    "avg_critic_score": 69.1,
    "my_score": 93.0,
    "critic_scores": {
@@ -2310,7 +2307,7 @@
    },
    "begin_consume": 2022,
    "end_consume": 2054,
-   "appreciation_pct": 49.9,
+   "appreciation_pct": 54.1,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -2379,9 +2376,9 @@
    "location": "Cellar",
    "quantity": 1,
    "price_paid_bottle": 0.0,
-   "value_bottle": 181.46,
+   "value_bottle": 186.63,
    "total_paid": 0.0,
-   "total_value": 181.46,
+   "total_value": 186.63,
    "avg_critic_score": 94.6,
    "my_score": 92.0,
    "critic_scores": {
@@ -2418,9 +2415,9 @@
    "location": "Cellar",
    "quantity": 4,
    "price_paid_bottle": 108.0,
-   "value_bottle": 164.53,
+   "value_bottle": 167.8,
    "total_paid": 432.0,
-   "total_value": 658.11,
+   "total_value": 671.19,
    "avg_critic_score": 75.6,
    "my_score": 92.0,
    "critic_scores": {
@@ -2430,7 +2427,7 @@
    },
    "begin_consume": 2021,
    "end_consume": 2047,
-   "appreciation_pct": 52.3,
+   "appreciation_pct": 55.4,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -2482,7 +2479,11 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Sangiovese is a red Italian wine grape variety that derives its name from the Latin sanguis Jovis, \"blood of Jupiter\".",
+    "url": "https://en.wikipedia.org/wiki/Sangiovese",
+    "title": "Sangiovese"
+   }
   },
   {
    "iWine": "2925612",
@@ -2582,9 +2583,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 71.67,
-   "value_bottle": 125.77,
+   "value_bottle": 124.29,
    "total_paid": 430.02,
-   "total_value": 754.59,
+   "total_value": 745.74,
    "avg_critic_score": 70.7,
    "my_score": null,
    "critic_scores": {
@@ -2593,7 +2594,7 @@
    },
    "begin_consume": 2030,
    "end_consume": 2053,
-   "appreciation_pct": 75.5,
+   "appreciation_pct": 73.4,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -3048,7 +3049,11 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Pinot noir, also known as Pinot nero, and Spätburgunder is a red-wine grape variety of the species Vitis vinifera. The name also refers to wines created predominantly from Pinot noir grapes. The name is derived from the French words for pine and black. The word pine alludes to the grape variety having tightly clustered, pinecone-shaped bunches of fruit.",
+    "url": "https://en.wikipedia.org/wiki/Pinot_noir",
+    "title": "Pinot noir"
+   }
   },
   {
    "iWine": "4561939",
@@ -3087,7 +3092,11 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Pinot noir, also known as Pinot nero, and Spätburgunder is a red-wine grape variety of the species Vitis vinifera. The name also refers to wines created predominantly from Pinot noir grapes. The name is derived from the French words for pine and black. The word pine alludes to the grape variety having tightly clustered, pinecone-shaped bunches of fruit.",
+    "url": "https://en.wikipedia.org/wiki/Pinot_noir",
+    "title": "Pinot noir"
+   }
   },
   {
    "iWine": "5743674",
@@ -3209,7 +3218,11 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Sangiovese is a red Italian wine grape variety that derives its name from the Latin sanguis Jovis, \"blood of Jupiter\".",
+    "url": "https://en.wikipedia.org/wiki/Sangiovese",
+    "title": "Sangiovese"
+   }
   },
   {
    "iWine": "4876898",
@@ -3249,7 +3262,11 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Sangiovese is a red Italian wine grape variety that derives its name from the Latin sanguis Jovis, \"blood of Jupiter\".",
+    "url": "https://en.wikipedia.org/wiki/Sangiovese",
+    "title": "Sangiovese"
+   }
   },
   {
    "iWine": "4820684",
@@ -3494,7 +3511,11 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Sangiovese is a red Italian wine grape variety that derives its name from the Latin sanguis Jovis, \"blood of Jupiter\".",
+    "url": "https://en.wikipedia.org/wiki/Sangiovese",
+    "title": "Sangiovese"
+   }
   },
   {
    "iWine": "2546394",
@@ -3511,9 +3532,9 @@
    "location": "Cellar",
    "quantity": 1,
    "price_paid_bottle": 0.0,
-   "value_bottle": 181.46,
+   "value_bottle": 186.63,
    "total_paid": 0.0,
-   "total_value": 181.46,
+   "total_value": 186.63,
    "avg_critic_score": 94.6,
    "my_score": 92.0,
    "critic_scores": {
@@ -3550,9 +3571,9 @@
    "location": "Cellar - Wine Society",
    "quantity": 1,
    "price_paid_bottle": 30.0,
-   "value_bottle": 24.41,
+   "value_bottle": 24.04,
    "total_paid": 30.0,
-   "total_value": 24.41,
+   "total_value": 24.04,
    "avg_critic_score": 53.0,
    "my_score": null,
    "critic_scores": {
@@ -3560,7 +3581,7 @@
    },
    "begin_consume": 2025,
    "end_consume": 2029,
-   "appreciation_pct": -18.6,
+   "appreciation_pct": -19.9,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -3590,57 +3611,14 @@
    "color": "Red",
    "style": "Red",
    "varietal": "Cabernet Sauvignon",
-   "location": "Cellar",
-   "quantity": 1,
-   "price_paid_bottle": 72.0,
-   "value_bottle": 83.04,
-   "total_paid": 72.0,
-   "total_value": 83.04,
-   "avg_critic_score": 94.4,
-   "my_score": null,
-   "critic_scores": {
-    "DR": 95.0
-   },
-   "begin_consume": 2025,
-   "end_consume": 2038,
-   "appreciation_pct": 15.3,
-   "body": "Full",
-   "tannin": "High",
-   "pairings": [
-    "grilled or roast red meat",
-    "hard aged cheese (cheddar, gouda)",
-    "lamb"
-   ],
-   "decant": {
-    "hours": 2.0,
-    "label": "~2–2.5 hrs (longer if young & tightly wound)"
-   },
-   "wiki": {
-    "summary": "Cabernet Sauvignon is one of the world's most widely recognized red wine grape varieties. It is grown in nearly every major wine producing country among a diverse spectrum of climates from Australia and British Columbia, Canada to Lebanon's Beqaa Valley.",
-    "url": "https://en.wikipedia.org/wiki/Cabernet_Sauvignon",
-    "title": "Cabernet Sauvignon"
-   }
-  },
-  {
-   "iWine": "4386234",
-   "wine": "Dunn Vineyards Cabernet Sauvignon Napa Valley",
-   "vintage": "2019",
-   "producer": "Dunn Vineyards",
-   "country": "USA",
-   "region": "California",
-   "subregion": "Napa Valley",
-   "appellation": "Napa Valley",
-   "color": "Red",
-   "style": "Red",
-   "varietal": "Cabernet Sauvignon",
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 72.0,
    "value_bottle": 83.04,
    "total_paid": 432.0,
    "total_value": 498.23,
-   "avg_critic_score": 94.4,
-   "my_score": null,
+   "avg_critic_score": 94.3,
+   "my_score": 91.0,
    "critic_scores": {
     "DR": 95.0
    },
@@ -3883,9 +3861,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 26.0,
-   "value_bottle": 42.07,
+   "value_bottle": 42.19,
    "total_paid": 156.0,
-   "total_value": 252.4,
+   "total_value": 253.13,
    "avg_critic_score": 68.3,
    "my_score": null,
    "critic_scores": {
@@ -3894,7 +3872,7 @@
    },
    "begin_consume": 2024,
    "end_consume": 2038,
-   "appreciation_pct": 61.8,
+   "appreciation_pct": 62.3,
    "body": "Medium",
    "tannin": "Medium-high",
    "pairings": [
@@ -3906,7 +3884,11 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Sangiovese is a red Italian wine grape variety that derives its name from the Latin sanguis Jovis, \"blood of Jupiter\".",
+    "url": "https://en.wikipedia.org/wiki/Sangiovese",
+    "title": "Sangiovese"
+   }
   },
   {
    "iWine": "2925612",
@@ -4331,9 +4313,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 71.67,
-   "value_bottle": 125.77,
+   "value_bottle": 124.29,
    "total_paid": 430.02,
-   "total_value": 754.59,
+   "total_value": 745.74,
    "avg_critic_score": 70.7,
    "my_score": null,
    "critic_scores": {
@@ -4342,7 +4324,7 @@
    },
    "begin_consume": 2030,
    "end_consume": 2053,
-   "appreciation_pct": 75.5,
+   "appreciation_pct": 73.4,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -4371,9 +4353,9 @@
    "location": "Cellar",
    "quantity": 4,
    "price_paid_bottle": 108.0,
-   "value_bottle": 164.53,
+   "value_bottle": 167.8,
    "total_paid": 432.0,
-   "total_value": 658.11,
+   "total_value": 671.19,
    "avg_critic_score": 75.6,
    "my_score": 92.0,
    "critic_scores": {
@@ -4383,7 +4365,7 @@
    },
    "begin_consume": 2021,
    "end_consume": 2047,
-   "appreciation_pct": 52.3,
+   "appreciation_pct": 55.4,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -4713,7 +4695,11 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Sangiovese is a red Italian wine grape variety that derives its name from the Latin sanguis Jovis, \"blood of Jupiter\".",
+    "url": "https://en.wikipedia.org/wiki/Sangiovese",
+    "title": "Sangiovese"
+   }
   },
   {
    "iWine": "4844161",
@@ -5031,9 +5017,9 @@
    "location": "Cellar",
    "quantity": 5,
    "price_paid_bottle": 136.0,
-   "value_bottle": 203.92,
+   "value_bottle": 209.58,
    "total_paid": 680.0,
-   "total_value": 1019.62,
+   "total_value": 1047.9,
    "avg_critic_score": 69.1,
    "my_score": 93.0,
    "critic_scores": {
@@ -5042,7 +5028,7 @@
    },
    "begin_consume": 2022,
    "end_consume": 2054,
-   "appreciation_pct": 49.9,
+   "appreciation_pct": 54.1,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -5470,9 +5456,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 194.0,
-   "value_bottle": 243.27,
+   "value_bottle": 236.56,
    "total_paid": 1164.0,
-   "total_value": 1459.64,
+   "total_value": 1419.36,
    "avg_critic_score": 70.6,
    "my_score": null,
    "critic_scores": {
@@ -5481,7 +5467,7 @@
    },
    "begin_consume": 2030,
    "end_consume": 2052,
-   "appreciation_pct": 25.4,
+   "appreciation_pct": 21.9,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -5533,7 +5519,11 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Sangiovese is a red Italian wine grape variety that derives its name from the Latin sanguis Jovis, \"blood of Jupiter\".",
+    "url": "https://en.wikipedia.org/wiki/Sangiovese",
+    "title": "Sangiovese"
+   }
   },
   {
    "iWine": "5271148",
@@ -5573,7 +5563,11 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Sangiovese is a red Italian wine grape variety that derives its name from the Latin sanguis Jovis, \"blood of Jupiter\".",
+    "url": "https://en.wikipedia.org/wiki/Sangiovese",
+    "title": "Sangiovese"
+   }
   },
   {
    "iWine": "5855674",
@@ -5713,15 +5707,15 @@
    "location": "Cellar - Wine Society",
    "quantity": 3,
    "price_paid_bottle": 48.0,
-   "value_bottle": 64.83,
+   "value_bottle": 65.92,
    "total_paid": 144.0,
-   "total_value": 194.48,
+   "total_value": 197.77,
    "avg_critic_score": 94.0,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2030,
    "end_consume": 2043,
-   "appreciation_pct": 35.1,
+   "appreciation_pct": 37.3,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -6314,9 +6308,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 71.67,
-   "value_bottle": 125.77,
+   "value_bottle": 124.29,
    "total_paid": 430.02,
-   "total_value": 754.59,
+   "total_value": 745.74,
    "avg_critic_score": 70.7,
    "my_score": null,
    "critic_scores": {
@@ -6325,7 +6319,7 @@
    },
    "begin_consume": 2030,
    "end_consume": 2053,
-   "appreciation_pct": 75.5,
+   "appreciation_pct": 73.4,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -6435,9 +6429,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 26.0,
-   "value_bottle": 42.07,
+   "value_bottle": 42.19,
    "total_paid": 156.0,
-   "total_value": 252.4,
+   "total_value": 253.13,
    "avg_critic_score": 68.3,
    "my_score": null,
    "critic_scores": {
@@ -6446,7 +6440,7 @@
    },
    "begin_consume": 2024,
    "end_consume": 2038,
-   "appreciation_pct": 61.8,
+   "appreciation_pct": 62.3,
    "body": "Medium",
    "tannin": "Medium-high",
    "pairings": [
@@ -6458,7 +6452,11 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Sangiovese is a red Italian wine grape variety that derives its name from the Latin sanguis Jovis, \"blood of Jupiter\".",
+    "url": "https://en.wikipedia.org/wiki/Sangiovese",
+    "title": "Sangiovese"
+   }
   },
   {
    "iWine": "5855677",
@@ -6545,6 +6543,47 @@
    }
   },
   {
+   "iWine": "1123088",
+   "wine": "Château Lynch-Bages",
+   "vintage": "2010",
+   "producer": "Château Lynch-Bages",
+   "country": "France",
+   "region": "Bordeaux",
+   "subregion": "Médoc",
+   "appellation": "Pauillac",
+   "color": "Red",
+   "style": "Red",
+   "varietal": "Red Bordeaux Blend",
+   "location": "Cellar",
+   "quantity": 4,
+   "price_paid_bottle": 108.0,
+   "value_bottle": 167.8,
+   "total_paid": 432.0,
+   "total_value": 671.19,
+   "avg_critic_score": 75.6,
+   "my_score": 92.0,
+   "critic_scores": {
+    "JR": 18.0,
+    "JG": 94.0,
+    "DR": 97.0
+   },
+   "begin_consume": 2021,
+   "end_consume": 2047,
+   "appreciation_pct": 55.4,
+   "body": "Medium",
+   "tannin": "Medium",
+   "pairings": [
+    "red meat",
+    "hard cheese",
+    "roasted vegetables"
+   ],
+   "decant": {
+    "hours": 0.5,
+    "label": "~30 min — a short splash-decant to open it up"
+   },
+   "wiki": null
+  },
+  {
    "iWine": "2656322",
    "wine": "Château Léoville Barton",
    "vintage": "2016",
@@ -6585,10 +6624,10 @@
    "wiki": null
   },
   {
-   "iWine": "1123088",
-   "wine": "Château Lynch-Bages",
-   "vintage": "2010",
-   "producer": "Château Lynch-Bages",
+   "iWine": "874157",
+   "wine": "Château Pontet-Canet",
+   "vintage": "2009",
+   "producer": "Château Pontet-Canet",
    "country": "France",
    "region": "Bordeaux",
    "subregion": "Médoc",
@@ -6597,21 +6636,20 @@
    "style": "Red",
    "varietal": "Red Bordeaux Blend",
    "location": "Cellar",
-   "quantity": 4,
-   "price_paid_bottle": 108.0,
-   "value_bottle": 164.53,
-   "total_paid": 432.0,
-   "total_value": 658.11,
-   "avg_critic_score": 75.6,
-   "my_score": 92.0,
+   "quantity": 5,
+   "price_paid_bottle": 136.0,
+   "value_bottle": 209.58,
+   "total_paid": 680.0,
+   "total_value": 1047.9,
+   "avg_critic_score": 69.1,
+   "my_score": 93.0,
    "critic_scores": {
-    "JR": 18.0,
-    "JG": 94.0,
-    "DR": 97.0
+    "JR": 16.0,
+    "DR": 96.0
    },
-   "begin_consume": 2021,
-   "end_consume": 2047,
-   "appreciation_pct": 52.3,
+   "begin_consume": 2022,
+   "end_consume": 2054,
+   "appreciation_pct": 54.1,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -6705,46 +6743,6 @@
     "url": "https://en.wikipedia.org/wiki/Riesling",
     "title": "Riesling"
    }
-  },
-  {
-   "iWine": "874157",
-   "wine": "Château Pontet-Canet",
-   "vintage": "2009",
-   "producer": "Château Pontet-Canet",
-   "country": "France",
-   "region": "Bordeaux",
-   "subregion": "Médoc",
-   "appellation": "Pauillac",
-   "color": "Red",
-   "style": "Red",
-   "varietal": "Red Bordeaux Blend",
-   "location": "Cellar",
-   "quantity": 5,
-   "price_paid_bottle": 136.0,
-   "value_bottle": 203.92,
-   "total_paid": 680.0,
-   "total_value": 1019.62,
-   "avg_critic_score": 69.1,
-   "my_score": 93.0,
-   "critic_scores": {
-    "JR": 16.0,
-    "DR": 96.0
-   },
-   "begin_consume": 2022,
-   "end_consume": 2054,
-   "appreciation_pct": 49.9,
-   "body": "Medium",
-   "tannin": "Medium",
-   "pairings": [
-    "red meat",
-    "hard cheese",
-    "roasted vegetables"
-   ],
-   "decant": {
-    "hours": 0.5,
-    "label": "~30 min — a short splash-decant to open it up"
-   },
-   "wiki": null
   }
  ],
  "top_losers": [
@@ -6837,9 +6835,9 @@
    "location": "Cellar - Wine Society",
    "quantity": 1,
    "price_paid_bottle": 30.0,
-   "value_bottle": 24.41,
+   "value_bottle": 24.04,
    "total_paid": 30.0,
-   "total_value": 24.41,
+   "total_value": 24.04,
    "avg_critic_score": 53.0,
    "my_score": null,
    "critic_scores": {
@@ -6847,7 +6845,7 @@
    },
    "begin_consume": 2025,
    "end_consume": 2029,
-   "appreciation_pct": -18.6,
+   "appreciation_pct": -19.9,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -7375,8 +7373,8 @@
   },
   {
    "label": "£60-100",
-   "wines": 11,
-   "bottles": 51
+   "wines": 10,
+   "bottles": 50
   },
   {
    "label": "£100-150",
@@ -7444,8 +7442,8 @@
    "wines": 2,
    "bottles": 11,
    "paid": 980.0,
-   "value": 1570.03,
-   "appreciation_pct": 60.2,
+   "value": 1598.31,
+   "appreciation_pct": 63.1,
    "avg_score": 69.2,
    "countries": [
     "France"
@@ -7466,8 +7464,8 @@
    "wines": 1,
    "bottles": 6,
    "paid": 1164.0,
-   "value": 1459.64,
-   "appreciation_pct": 25.4,
+   "value": 1419.36,
+   "appreciation_pct": 21.9,
    "avg_score": 70.6,
    "countries": [
     "Italy"
@@ -7574,8 +7572,8 @@
    "wines": 1,
    "bottles": 6,
    "paid": 430.02,
-   "value": 754.59,
-   "appreciation_pct": 75.5,
+   "value": 745.74,
+   "appreciation_pct": 73.4,
    "avg_score": 70.7,
    "countries": [
     "France"
@@ -7590,8 +7588,8 @@
    "wines": 1,
    "bottles": 4,
    "paid": 432.0,
-   "value": 658.11,
-   "appreciation_pct": 52.3,
+   "value": 671.19,
+   "appreciation_pct": 55.4,
    "avg_score": 75.6,
    "countries": [
     "France"
@@ -7669,12 +7667,12 @@
   },
   {
    "name": "Dunn Vineyards",
-   "wines": 2,
-   "bottles": 7,
-   "paid": 504.0,
-   "value": 581.27,
+   "wines": 1,
+   "bottles": 6,
+   "paid": 432.0,
+   "value": 498.23,
    "appreciation_pct": 15.3,
-   "avg_score": 94.4,
+   "avg_score": 94.3,
    "countries": [
     "USA"
    ],
@@ -7892,8 +7890,8 @@
    "wines": 1,
    "bottles": 6,
    "paid": 156.0,
-   "value": 252.4,
-   "appreciation_pct": 61.8,
+   "value": 253.13,
+   "appreciation_pct": 62.3,
    "avg_score": 68.3,
    "countries": [
     "Italy"
@@ -7940,8 +7938,8 @@
    "wines": 1,
    "bottles": 3,
    "paid": 144.0,
-   "value": 194.48,
-   "appreciation_pct": 35.1,
+   "value": 197.77,
+   "appreciation_pct": 37.3,
    "avg_score": 94.0,
    "countries": [
     "New Zealand"
@@ -7974,6 +7972,22 @@
    "wikidata": null
   },
   {
+   "name": "Dominus",
+   "wines": 1,
+   "bottles": 1,
+   "paid": 0.0,
+   "value": 186.63,
+   "appreciation_pct": null,
+   "avg_score": 94.6,
+   "countries": [
+    "USA"
+   ],
+   "regions": [
+    "California"
+   ],
+   "wikidata": null
+  },
+  {
    "name": "Hugel",
    "wines": 2,
    "bottles": 4,
@@ -7986,22 +8000,6 @@
    ],
    "regions": [
     "Alsace"
-   ],
-   "wikidata": null
-  },
-  {
-   "name": "Dominus",
-   "wines": 1,
-   "bottles": 1,
-   "paid": 0.0,
-   "value": 181.46,
-   "appreciation_pct": null,
-   "avg_score": 94.6,
-   "countries": [
-    "USA"
-   ],
-   "regions": [
-    "California"
    ],
    "wikidata": null
   },
@@ -8374,8 +8372,8 @@
    "wines": 1,
    "bottles": 1,
    "paid": 30.0,
-   "value": 24.41,
-   "appreciation_pct": -18.6,
+   "value": 24.04,
+   "appreciation_pct": -19.9,
    "avg_score": 53.0,
    "countries": [
     "Italy"
@@ -8598,8 +8596,8 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/Penfolds"
    }
   },
-  "avg_bottle_price_paid": 77.01,
-  "avg_bottle_value_now": 103.0,
+  "avg_bottle_price_paid": 77.03,
+  "avg_bottle_value_now": 103.07,
   "avg_cellar_age_years": 7.2,
   "largest_single_purchase": {
    "date": "2026-03-06",
@@ -8629,15 +8627,7 @@
     "vintage": "2019",
     "producer": "Dunn Vineyards",
     "since": "2025-05-10",
-    "days_held": 482
-   },
-   {
-    "iWine": "4386234",
-    "wine": "Dunn Vineyards Cabernet Sauvignon Napa Valley",
-    "vintage": "2019",
-    "producer": "Dunn Vineyards",
-    "since": "2025-05-10",
-    "days_held": 482
+    "days_held": 483
    },
    {
     "iWine": "4986829",
@@ -8645,7 +8635,7 @@
     "vintage": "2023",
     "producer": "Roc de Cambes",
     "since": "2025-06-07",
-    "days_held": 454
+    "days_held": 455
    },
    {
     "iWine": "4390612",
@@ -8653,7 +8643,7 @@
     "vintage": "2022",
     "producer": "Penfolds",
     "since": "2025-06-11",
-    "days_held": 450
+    "days_held": 451
    },
    {
     "iWine": "4641506",
@@ -8661,7 +8651,7 @@
     "vintage": "2022",
     "producer": "Château Clinet",
     "since": "2025-07-03",
-    "days_held": 428
+    "days_held": 429
    },
    {
     "iWine": "4638895",
@@ -8669,7 +8659,7 @@
     "vintage": "2022",
     "producer": "Château Troplong Mondot",
     "since": "2025-07-03",
-    "days_held": 428
+    "days_held": 429
    },
    {
     "iWine": "4876898",
@@ -8677,7 +8667,7 @@
     "vintage": "2019",
     "producer": "Canalicchio di Sopra",
     "since": "2025-07-12",
-    "days_held": 419
+    "days_held": 420
    },
    {
     "iWine": "4547984",
@@ -8685,7 +8675,7 @@
     "vintage": "2019",
     "producer": "Massolino",
     "since": "2025-07-12",
-    "days_held": 419
+    "days_held": 420
    },
    {
     "iWine": "3709255",
@@ -8693,7 +8683,7 @@
     "vintage": "2018",
     "producer": "Penfolds",
     "since": "2025-07-12",
-    "days_held": 419
+    "days_held": 420
    },
    {
     "iWine": "5271148",
@@ -8701,16 +8691,24 @@
     "vintage": "2019",
     "producer": "San Polino",
     "since": "2025-07-12",
+    "days_held": 420
+   },
+   {
+    "iWine": "4638813",
+    "wine": "Château Laroque Saint-Émilion Grand Cru",
+    "vintage": "2022",
+    "producer": "Château Laroque",
+    "since": "2025-07-13",
     "days_held": 419
    }
   ],
-  "total_appreciation_pct": 33.7
+  "total_appreciation_pct": 33.8
  },
  "map_countries": [
   {
    "name": "France",
    "bottles": 111,
-   "value": 10578.13,
+   "value": 10610.64,
    "wines": 25,
    "lat": 46.6,
    "lon": 2.2
@@ -8726,7 +8724,7 @@
   {
    "name": "Italy",
    "bottles": 62,
-   "value": 4633.46,
+   "value": 4593.54,
    "wines": 19,
    "lat": 42.8,
    "lon": 12.6
@@ -8749,9 +8747,9 @@
   },
   {
    "name": "USA",
-   "bottles": 8,
-   "value": 762.73,
-   "wines": 3,
+   "bottles": 7,
+   "value": 684.86,
+   "wines": 2,
    "lat": 38.0,
    "lon": -119.4
   },
@@ -8766,7 +8764,7 @@
   {
    "name": "New Zealand",
    "bottles": 3,
-   "value": 194.48,
+   "value": 197.77,
    "wines": 1,
    "lat": -41.5,
    "lon": 173.5
@@ -15922,8 +15920,8 @@
   }
  ],
  "diversification": {
-  "varietal_score": 83.4,
-  "country_score": 75.0,
+  "varietal_score": 83.3,
+  "country_score": 74.8,
   "varietal_label": "Highly diversified",
   "country_label": "Well diversified",
   "palate_gaps": [
@@ -16020,8 +16018,8 @@
     "wines": 5
    },
    "low": {
-    "bottles": 260,
-    "wines": 71
+    "bottles": 259,
+    "wines": 70
    },
    "unknown": {
     "bottles": 0,
@@ -16206,7 +16204,7 @@
    },
    {
     "vintage": 2019,
-    "bottles": 48
+    "bottles": 47
    },
    {
     "vintage": 2020,
@@ -16236,7 +16234,7 @@
   "median_vintage": 2019
  },
  "tasting": {
-  "total_tastings": 476,
+  "total_tastings": 477,
   "avg_personal_rating": 85.2,
   "rating_stdev": 5.4,
   "avg_delta_vs_consensus": -1.5,
@@ -16305,9 +16303,29 @@
    {
     "month": "2026-08",
     "count": 32
+   },
+   {
+    "month": "2026-09",
+    "count": 1
    }
   ],
   "recent": [
+   {
+    "iWine": "4386234",
+    "wine": "Dunn Vineyards Cabernet Sauvignon Napa Valley",
+    "vintage": "2019",
+    "producer": "Dunn Vineyards",
+    "country": "USA",
+    "region": "California",
+    "varietal": "Cabernet Sauvignon",
+    "color": "Red",
+    "date": "2026-09-04",
+    "month": "2026-09",
+    "rating": 91.0,
+    "community_score": 93.6363636363636,
+    "delta": -2.6,
+    "notes_text": ""
+   },
    {
     "iWine": "4419381",
     "wine": "Bodegas Vega-Sicilia Ribera del Duero Único",
@@ -16931,25 +16949,25 @@
     "community_score": 90.0,
     "delta": -2.0,
     "notes_text": ""
-   },
-   {
-    "iWine": "4095637",
-    "wine": "Domaine de Montvac Vacqueyras Variation",
-    "vintage": "2019",
-    "producer": "Domaine de Montvac",
-    "country": "France",
-    "region": "Rhône",
-    "varietal": "Red Rhone Blend",
-    "color": "Red",
-    "date": "2026-07-24",
-    "month": "2026-07",
-    "rating": 85.0,
-    "community_score": 86.25,
-    "delta": -1.2,
-    "notes_text": ""
    }
   ],
   "all": [
+   {
+    "iWine": "4386234",
+    "wine": "Dunn Vineyards Cabernet Sauvignon Napa Valley",
+    "vintage": "2019",
+    "producer": "Dunn Vineyards",
+    "country": "USA",
+    "region": "California",
+    "varietal": "Cabernet Sauvignon",
+    "color": "Red",
+    "date": "2026-09-04",
+    "month": "2026-09",
+    "rating": 91.0,
+    "community_score": 93.6363636363636,
+    "delta": -2.6,
+    "notes_text": ""
+   },
    {
     "iWine": "4419381",
     "wine": "Bodegas Vega-Sicilia Ribera del Duero Único",
@@ -17618,8 +17636,8 @@
     "date": "2026-07-24",
     "month": "2026-07",
     "rating": 87.0,
-    "community_score": 89.0,
-    "delta": -2.0,
+    "community_score": 89.1111111111111,
+    "delta": -2.1,
     "notes_text": ""
    },
    {
@@ -17634,8 +17652,8 @@
     "date": "2026-07-23",
     "month": "2026-07",
     "rating": 84.0,
-    "community_score": 85.5,
-    "delta": -1.5,
+    "community_score": 85.6666666666667,
+    "delta": -1.7,
     "notes_text": ""
    },
    {
@@ -18210,7 +18228,7 @@
     "date": "2026-05-16",
     "month": "2026-05",
     "rating": 89.0,
-    "community_score": 92.290780141844,
+    "community_score": 92.2957746478873,
     "delta": -3.3,
     "notes_text": ""
    },
@@ -18818,7 +18836,7 @@
     "date": "2026-02-14",
     "month": "2026-02",
     "rating": 91.0,
-    "community_score": 93.1160220994475,
+    "community_score": 93.1098901098901,
     "delta": -2.1,
     "notes_text": ""
    },
@@ -24482,8 +24500,8 @@
     "date": "2025-05-29",
     "month": "2025-05",
     "rating": 85.0,
-    "community_score": 91.1875,
-    "delta": -6.2,
+    "community_score": 91.0666666666667,
+    "delta": -6.1,
     "notes_text": ""
    },
    {
@@ -24638,7 +24656,7 @@
      "avg_rating": 87.8,
      "tastings": 66,
      "cellar_bottles": 95,
-     "cellar_pct": 35.1,
+     "cellar_pct": 35.2,
      "verdict": "Neutral"
     },
     {
@@ -24710,7 +24728,7 @@
      "avg_rating": 85.7,
      "tastings": 24,
      "cellar_bottles": 34,
-     "cellar_pct": 12.5,
+     "cellar_pct": 12.6,
      "verdict": "Neutral"
     },
     {
@@ -24754,6 +24772,14 @@
      "verdict": "Neutral"
     },
     {
+     "name": "Cabernet Sauvignon",
+     "avg_rating": 84.2,
+     "tastings": 13,
+     "cellar_bottles": 18,
+     "cellar_pct": 6.7,
+     "verdict": "Neutral"
+    },
+    {
      "name": "Sauvignon Blanc",
      "avg_rating": 84.2,
      "tastings": 5,
@@ -24775,14 +24801,6 @@
      "tastings": 31,
      "cellar_bottles": 11,
      "cellar_pct": 4.1,
-     "verdict": "Neutral"
-    },
-    {
-     "name": "Cabernet Sauvignon",
-     "avg_rating": 83.6,
-     "tastings": 12,
-     "cellar_bottles": 19,
-     "cellar_pct": 7.0,
      "verdict": "Neutral"
     },
     {
@@ -24952,7 +24970,7 @@
      "avg_rating": 86.5,
      "tastings": 160,
      "cellar_bottles": 111,
-     "cellar_pct": 41.0,
+     "cellar_pct": 41.1,
      "verdict": "Neutral"
     },
     {
@@ -24965,10 +24983,10 @@
     },
     {
      "name": "USA",
-     "avg_rating": 85.9,
-     "tastings": 25,
-     "cellar_bottles": 8,
-     "cellar_pct": 3.0,
+     "avg_rating": 86.1,
+     "tastings": 26,
+     "cellar_bottles": 7,
+     "cellar_pct": 2.6,
      "verdict": "Neutral"
     },
     {
@@ -24984,7 +25002,7 @@
      "avg_rating": 84.8,
      "tastings": 96,
      "cellar_bottles": 62,
-     "cellar_pct": 22.9,
+     "cellar_pct": 23.0,
      "verdict": "Neutral"
     },
     {
@@ -25032,7 +25050,7 @@
      "avg_rating": 81.9,
      "tastings": 15,
      "cellar_bottles": 28,
-     "cellar_pct": 10.3,
+     "cellar_pct": 10.4,
      "verdict": "Overweight"
     },
     {
@@ -25114,7 +25132,7 @@
      "avg_rating": 87.5,
      "tastings": 67,
      "cellar_bottles": 82,
-     "cellar_pct": 30.3,
+     "cellar_pct": 30.4,
      "verdict": "Neutral"
     },
     {
@@ -25214,19 +25232,19 @@
      "verdict": "Neutral"
     },
     {
+     "name": "California",
+     "avg_rating": 85.8,
+     "tastings": 24,
+     "cellar_bottles": 7,
+     "cellar_pct": 2.6,
+     "verdict": "Neutral"
+    },
+    {
      "name": "Tuscany",
      "avg_rating": 85.7,
      "tastings": 26,
      "cellar_bottles": 36,
      "cellar_pct": 13.3,
-     "verdict": "Neutral"
-    },
-    {
-     "name": "California",
-     "avg_rating": 85.6,
-     "tastings": 23,
-     "cellar_bottles": 8,
-     "cellar_pct": 3.0,
      "verdict": "Neutral"
     },
     {
@@ -25282,7 +25300,7 @@
      "avg_rating": 84.7,
      "tastings": 11,
      "cellar_bottles": 25,
-     "cellar_pct": 9.2,
+     "cellar_pct": 9.3,
      "verdict": "Neutral"
     },
     {
@@ -25450,8 +25468,8 @@
     {
      "name": "Red",
      "avg_rating": 85.3,
-     "tastings": 331,
-     "cellar_bottles": 248,
+     "tastings": 332,
+     "cellar_bottles": 247,
      "cellar_pct": 91.5,
      "verdict": "Neutral"
     },
@@ -25902,9 +25920,9 @@
  },
  "consumption": {
   "total_purchased_ever": 649,
-  "total_remaining_ever": 271,
-  "total_consumed_ever": 378,
-  "consumed_pct": 58.2,
+  "total_remaining_ever": 270,
+  "total_consumed_ever": 379,
+  "consumed_pct": 58.4,
   "turnover_series": [
    {
     "year": 2019,
@@ -25939,12 +25957,12 @@
    {
     "year": 2025,
     "cumulative_purchased": 436,
-    "cumulative_remaining": 91
+    "cumulative_remaining": 90
    },
    {
     "year": 2026,
     "cumulative_purchased": 649,
-    "cumulative_remaining": 271
+    "cumulative_remaining": 270
    }
   ]
  },
@@ -25985,12 +26003,12 @@
   {
    "code": "DR",
    "name": "Decanter",
-   "n": 6,
-   "avg_your_score": 92.2,
-   "avg_critic_score": 95.2,
-   "avg_diff": 3.0,
-   "avg_abs_diff": 3.0,
-   "correlation": 0.49,
+   "n": 7,
+   "avg_your_score": 92.0,
+   "avg_critic_score": 95.1,
+   "avg_diff": 3.14,
+   "avg_abs_diff": 3.14,
+   "correlation": 0.48,
    "match_label": "Some alignment with your scores",
    "bias_label": "Scores you higher, on average"
   },
