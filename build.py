@@ -40,6 +40,33 @@ list_csv = fetch("List", {"Location": "1"})
 wines = list(csv.DictReader(io.StringIO(list_csv)))
 print(f"  {len(wines)} rows")
 
+# ---- Critic score scale detection ----
+# Most critics publish on a 0-100 scale, but a handful (notably Jancis Robinson) publish on a
+# 0-20 scale. Blending the two without normalizing would silently corrupt every average that
+# combines critic scores. We detect the scale empirically per critic -- any critic whose highest
+# observed score across the whole List export is <=20 is treated as a 20-point scale -- rather
+# than hand-maintaining a table, since real critics never publish scores below ~50 on a 100-point
+# scale, so this threshold can't misfire in practice.
+CRITIC_SCALE = {}
+for _c in CRITICS:
+    _vals = []
+    for _w in wines:
+        _sc = _w.get(_c, "")
+        if _sc:
+            _m = re.search(r"[\d.]+", _sc)
+            if _m:
+                _vals.append(float(_m.group()))
+    CRITIC_SCALE[_c] = 20 if _vals and max(_vals) <= 20 else 100
+
+def normalize_critic_score(code, value):
+    return round(value * 100 / CRITIC_SCALE.get(code, 100), 2)
+
+_rescaled = [c for c in CRITICS if CRITIC_SCALE[c] != 100]
+if _rescaled:
+    print("Critic scale check: normalizing " + ", ".join(f"{c} (/{CRITIC_SCALE[c]})" for c in _rescaled))
+else:
+    print("Critic scale check: all critics on /100, no normalization needed")
+
 print("Fetching Purchase table...")
 purchase_csv = fetch("Purchase")
 purchases = list(csv.DictReader(io.StringIO(purchase_csv)))
@@ -75,7 +102,7 @@ for w in wines:
         if sc:
             m = re.search(r"[\d.]+", sc)
             if m:
-                v = float(m.group())
+                v = normalize_critic_score(c, float(m.group()))
                 critic_scores.append(v)
                 critic_scores_by_source[c] = v
     ct = fnum(w.get("CT",""), None) if w.get("CT") else None
@@ -726,8 +753,11 @@ for code in CRITICS:
     avg_diff = round(sum(c - m for m, c in pairs) / n, 2)
     avg_abs_diff = round(sum(abs(c - m) for m, c in pairs) / n, 2)
     corr = pearson(pairs)
+    _name = CRITIC_NAMES.get(code, code)
+    if CRITIC_SCALE.get(code, 100) != 100:
+        _name += f" (normalized from /{CRITIC_SCALE[code]})"
     critic_match.append({
-        "code": code, "name": CRITIC_NAMES.get(code, code), "n": n,
+        "code": code, "name": _name, "n": n,
         "avg_your_score": round(sum(m for m, c in pairs) / n, 1),
         "avg_critic_score": round(sum(c for m, c in pairs) / n, 1),
         "avg_diff": avg_diff, "avg_abs_diff": avg_abs_diff,
