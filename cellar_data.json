@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-09-20T11:11:18.452569+00:00",
+ "generated_at": "2026-09-21T12:39:43.525786+00:00",
  "current_year": 2026,
  "summary": {
   "total_bottles": 282,
   "total_wines": 83,
-  "total_value": 28523.83,
+  "total_value": 28529.57,
   "total_paid": 21371.75,
   "countries": 11,
   "avg_critic_score": 91.1
@@ -13,7 +13,7 @@
   {
    "name": "France",
    "bottles": 123,
-   "value": 11124.650000000001,
+   "value": 11125.750000000002,
    "wines": 29
   },
   {
@@ -25,7 +25,7 @@
   {
    "name": "Italy",
    "bottles": 62,
-   "value": 4611.89,
+   "value": 4615.490000000001,
    "wines": 19
   },
   {
@@ -37,7 +37,7 @@
   {
    "name": "South Africa",
    "bottles": 33,
-   "value": 1681.7099999999998,
+   "value": 1682.7499999999998,
    "wines": 11
   },
   {
@@ -81,13 +81,13 @@
   {
    "name": "Red Bordeaux Blend",
    "bottles": 102,
-   "value": 10367.140000000001,
+   "value": 10372.990000000002,
    "wines": 27
   },
   {
    "name": "Syrah",
    "bottles": 34,
-   "value": 6477.830000000001,
+   "value": 6478.870000000001,
    "wines": 7
   },
   {
@@ -105,13 +105,13 @@
   {
    "name": "Sangiovese",
    "bottles": 30,
-   "value": 2062.9300000000003,
+   "value": 2063.04,
    "wines": 7
   },
   {
    "name": "Pinot Noir",
    "bottles": 12,
-   "value": 815.39,
+   "value": 814.13,
    "wines": 3
   },
   {
@@ -203,7 +203,7 @@
   {
    "name": "Bordeaux",
    "bottles": 89,
-   "value": 8611.25,
+   "value": 8613.61,
    "wines": 19
   },
   {
@@ -215,7 +215,7 @@
   {
    "name": "Tuscany",
    "bottles": 36,
-   "value": 3498.64,
+   "value": 3502.2400000000002,
    "wines": 8
   },
   {
@@ -227,7 +227,7 @@
   {
    "name": "Coastal Region",
    "bottles": 27,
-   "value": 1507.38,
+   "value": 1508.42,
    "wines": 10
   },
   {
@@ -239,7 +239,7 @@
   {
    "name": "Burgundy",
    "bottles": 12,
-   "value": 815.39,
+   "value": 814.13,
    "wines": 3
   },
   {
@@ -325,7 +325,7 @@
   {
    "name": "Red",
    "bottles": 258,
-   "value": 27252.35
+   "value": 27258.09
   },
   {
    "name": "White",
@@ -337,7 +337,7 @@
   {
    "name": "Red",
    "bottles": 258,
-   "value": 27252.35
+   "value": 27258.09
   },
   {
    "name": "White",
@@ -366,13 +366,13 @@
   {
    "name": "Château Pontet-Canet",
    "bottles": 11,
-   "value": 1555.69,
+   "value": 1556.7599999999998,
    "wines": 2
   },
   {
    "name": "Tenuta San Guido",
    "bottles": 6,
-   "value": 1435.71,
+   "value": 1439.2,
    "wines": 1
   },
   {
@@ -390,7 +390,7 @@
   {
    "name": "Canalicchio di Sopra",
    "bottles": 9,
-   "value": 854.38,
+   "value": 851.0999999999999,
    "wines": 2
   },
   {
@@ -408,7 +408,7 @@
   {
    "name": "Château Les Carmes Haut-Brion",
    "bottles": 6,
-   "value": 734.68,
+   "value": 734.88,
    "wines": 1
   },
   {
@@ -446,17 +446,17 @@
   {
    "name": "Cellar",
    "bottles": 54,
-   "value": 4422.070000000001
+   "value": 4423.140000000001
   },
   {
    "name": "Cellar - Wine Society",
    "bottles": 102,
-   "value": 5766.08
+   "value": 5763.879999999999
   },
   {
    "name": "Cellar - BB&R",
    "bottles": 126,
-   "value": 18335.680000000004
+   "value": 18342.550000000003
   }
  ],
  "drinking_window": {
@@ -1551,9 +1551,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 194.0,
-   "value_bottle": 239.29,
+   "value_bottle": 239.87,
    "total_paid": 1164.0,
-   "total_value": 1435.71,
+   "total_value": 1439.2,
    "avg_critic_score": 93.9,
    "my_score": null,
    "critic_scores": {
@@ -1562,7 +1562,7 @@
    },
    "begin_consume": 2030,
    "end_consume": 2052,
-   "appreciation_pct": 23.3,
+   "appreciation_pct": 23.6,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -1632,9 +1632,9 @@
    "location": "Cellar - Wine Society",
    "quantity": 6,
    "price_paid_bottle": 57.0,
-   "value_bottle": 77.42,
+   "value_bottle": 77.99,
    "total_paid": 342.0,
-   "total_value": 464.55,
+   "total_value": 467.94,
    "avg_critic_score": 93.5,
    "my_score": null,
    "critic_scores": {
@@ -1643,7 +1643,7 @@
    },
    "begin_consume": 2029,
    "end_consume": 2040,
-   "appreciation_pct": 35.8,
+   "appreciation_pct": 36.8,
    "body": "Medium",
    "tannin": "Medium-high",
    "pairings": [
@@ -1753,9 +1753,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 71.67,
-   "value_bottle": 122.45,
+   "value_bottle": 122.48,
    "total_paid": 430.02,
-   "total_value": 734.68,
+   "total_value": 734.88,
    "avg_critic_score": 93.4,
    "my_score": null,
    "critic_scores": {
@@ -2021,7 +2021,11 @@
     "hours": 0,
     "label": "No decanting needed — drink straight from the bottle"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Riesling is a white grape variety that is believed to have originated from the Rhine Valley region of western Germany, before later being traced to the Alsace region by 1470 and Austria by 1700. Riesling is an aromatic grape variety displaying flowery, almost perfumed aromas as well as high acidity. It is used to make dry, semi-sweet, sweet, and sparkling white wines. Riesling wines are usually varietally pure and are seldom oaked. As of 2004, Riesling was estimated to be…",
+    "url": "https://en.wikipedia.org/wiki/Riesling",
+    "title": "Riesling"
+   }
   }
  ],
  "top_value_bottles": [
@@ -2243,9 +2247,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 194.0,
-   "value_bottle": 239.29,
+   "value_bottle": 239.87,
    "total_paid": 1164.0,
-   "total_value": 1435.71,
+   "total_value": 1439.2,
    "avg_critic_score": 93.9,
    "my_score": null,
    "critic_scores": {
@@ -2254,7 +2258,7 @@
    },
    "begin_consume": 2030,
    "end_consume": 2052,
-   "appreciation_pct": 23.3,
+   "appreciation_pct": 23.6,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -2323,9 +2327,9 @@
    "location": "Cellar",
    "quantity": 5,
    "price_paid_bottle": 136.0,
-   "value_bottle": 207.61,
+   "value_bottle": 207.82,
    "total_paid": 680.0,
-   "total_value": 1038.03,
+   "total_value": 1039.1,
    "avg_critic_score": 90.5,
    "my_score": 93.0,
    "critic_scores": {
@@ -2334,7 +2338,7 @@
    },
    "begin_consume": 2022,
    "end_consume": 2054,
-   "appreciation_pct": 52.7,
+   "appreciation_pct": 52.8,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -2602,9 +2606,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 71.67,
-   "value_bottle": 122.45,
+   "value_bottle": 122.48,
    "total_paid": 430.02,
-   "total_value": 734.68,
+   "total_value": 734.88,
    "avg_critic_score": 93.4,
    "my_score": null,
    "critic_scores": {
@@ -2951,7 +2955,11 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Nebbiolo is an Italian red wine grape variety predominantly associated with its native Piedmont region, where it makes the Denominazione di Origine Controllata e Garantita (DOCG) wines of Barolo, Barbaresco, Gattinara, Ghemme, and Roero, together with numerous DOC wines. Nebbiolo is thought to derive its name from the Italian nebbia or Piedmontese nebia, meaning 'fog'. During harvest, which generally takes place late in October, a deep, intense fog sets into the Langhe…",
+    "url": "https://en.wikipedia.org/wiki/Nebbiolo",
+    "title": "Nebbiolo"
+   }
   },
   {
    "iWine": "5384841",
@@ -3140,7 +3148,11 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Nerello mascalese is a name given to a variety of red wine grapes named after the Mascali area in Catania, that grow primarily in Sicily and Sardinia.\nIt is grown mainly on the northeastern side of Sicily and is thought to be superior in quality to the Nerello Cappuccio. There is an experimental vineyard in Agliano Terme, Piedmont, where Nerello has been planted by the winery, Vini Ragerra, and they are credited with being the first to plant and vinify Nerello in this…",
+    "url": "https://en.wikipedia.org/wiki/Nerello_mascalese",
+    "title": "Nerello mascalese"
+   }
   },
   {
    "iWine": "5743675",
@@ -3177,7 +3189,11 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Nerello mascalese is a name given to a variety of red wine grapes named after the Mascali area in Catania, that grow primarily in Sicily and Sardinia.\nIt is grown mainly on the northeastern side of Sicily and is thought to be superior in quality to the Nerello Cappuccio. There is an experimental vineyard in Agliano Terme, Piedmont, where Nerello has been planted by the winery, Vini Ragerra, and they are credited with being the first to plant and vinify Nerello in this…",
+    "url": "https://en.wikipedia.org/wiki/Nerello_mascalese",
+    "title": "Nerello mascalese"
+   }
   },
   {
    "iWine": "2667924",
@@ -3194,9 +3210,9 @@
    "location": "Cellar - Wine Society",
    "quantity": 6,
    "price_paid_bottle": 57.0,
-   "value_bottle": 61.34,
+   "value_bottle": 60.8,
    "total_paid": 342.0,
-   "total_value": 368.05,
+   "total_value": 364.77,
    "avg_critic_score": 92.5,
    "my_score": null,
    "critic_scores": {
@@ -3205,7 +3221,7 @@
    },
    "begin_consume": 2024,
    "end_consume": 2038,
-   "appreciation_pct": 7.6,
+   "appreciation_pct": 6.7,
    "body": "Medium",
    "tannin": "Medium-high",
    "pairings": [
@@ -3274,9 +3290,9 @@
    "location": "Cellar - Wine Society",
    "quantity": 6,
    "price_paid_bottle": 51.0,
-   "value_bottle": 42.63,
+   "value_bottle": 42.28,
    "total_paid": 306.0,
-   "total_value": 255.79,
+   "total_value": 253.7,
    "avg_critic_score": 87.9,
    "my_score": null,
    "critic_scores": {
@@ -3285,7 +3301,7 @@
    },
    "begin_consume": 2026,
    "end_consume": 2045,
-   "appreciation_pct": -16.4,
+   "appreciation_pct": -17.1,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -3558,9 +3574,9 @@
    "location": "Cellar - Wine Society",
    "quantity": 6,
    "price_paid_bottle": 57.0,
-   "value_bottle": 77.42,
+   "value_bottle": 77.99,
    "total_paid": 342.0,
-   "total_value": 464.55,
+   "total_value": 467.94,
    "avg_critic_score": 93.5,
    "my_score": null,
    "critic_scores": {
@@ -3569,7 +3585,7 @@
    },
    "begin_consume": 2029,
    "end_consume": 2040,
-   "appreciation_pct": 35.8,
+   "appreciation_pct": 36.8,
    "body": "Medium",
    "tannin": "Medium-high",
    "pairings": [
@@ -3659,7 +3675,11 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Nerello mascalese is a name given to a variety of red wine grapes named after the Mascali area in Catania, that grow primarily in Sicily and Sardinia.\nIt is grown mainly on the northeastern side of Sicily and is thought to be superior in quality to the Nerello Cappuccio. There is an experimental vineyard in Agliano Terme, Piedmont, where Nerello has been planted by the winery, Vini Ragerra, and they are credited with being the first to plant and vinify Nerello in this…",
+    "url": "https://en.wikipedia.org/wiki/Nerello_mascalese",
+    "title": "Nerello mascalese"
+   }
   },
   {
    "iWine": "6765",
@@ -3781,7 +3801,11 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Nebbiolo is an Italian red wine grape variety predominantly associated with its native Piedmont region, where it makes the Denominazione di Origine Controllata e Garantita (DOCG) wines of Barolo, Barbaresco, Gattinara, Ghemme, and Roero, together with numerous DOC wines. Nebbiolo is thought to derive its name from the Italian nebbia or Piedmontese nebia, meaning 'fog'. During harvest, which generally takes place late in October, a deep, intense fog sets into the Langhe…",
+    "url": "https://en.wikipedia.org/wiki/Nebbiolo",
+    "title": "Nebbiolo"
+   }
   },
   {
    "iWine": "5519448",
@@ -3835,15 +3859,15 @@
    "location": "Cellar - Wine Society",
    "quantity": 6,
    "price_paid_bottle": 57.0,
-   "value_bottle": 67.32,
+   "value_bottle": 67.11,
    "total_paid": 342.0,
-   "total_value": 403.92,
+   "total_value": 402.66,
    "avg_critic_score": 92.4,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2025,
    "end_consume": 2034,
-   "appreciation_pct": 18.1,
+   "appreciation_pct": 17.7,
    "body": "Light-medium",
    "tannin": "Low-medium",
    "pairings": [
@@ -3929,7 +3953,11 @@
     "hours": 0,
     "label": "No decanting needed — drink straight from the bottle"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Riesling is a white grape variety that is believed to have originated from the Rhine Valley region of western Germany, before later being traced to the Alsace region by 1470 and Austria by 1700. Riesling is an aromatic grape variety displaying flowery, almost perfumed aromas as well as high acidity. It is used to make dry, semi-sweet, sweet, and sparkling white wines. Riesling wines are usually varietally pure and are seldom oaked. As of 2004, Riesling was estimated to be…",
+    "url": "https://en.wikipedia.org/wiki/Riesling",
+    "title": "Riesling"
+   }
   },
   {
    "iWine": "4773903",
@@ -3966,7 +3994,11 @@
     "hours": 0,
     "label": "No decanting needed — drink straight from the bottle"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Riesling is a white grape variety that is believed to have originated from the Rhine Valley region of western Germany, before later being traced to the Alsace region by 1470 and Austria by 1700. Riesling is an aromatic grape variety displaying flowery, almost perfumed aromas as well as high acidity. It is used to make dry, semi-sweet, sweet, and sparkling white wines. Riesling wines are usually varietally pure and are seldom oaked. As of 2004, Riesling was estimated to be…",
+    "url": "https://en.wikipedia.org/wiki/Riesling",
+    "title": "Riesling"
+   }
   },
   {
    "iWine": "3124782",
@@ -4307,9 +4339,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 18.33,
-   "value_bottle": 32.84,
+   "value_bottle": 33.37,
    "total_paid": 109.98,
-   "total_value": 197.05,
+   "total_value": 200.23,
    "avg_critic_score": 87.7,
    "my_score": null,
    "critic_scores": {
@@ -4318,7 +4350,7 @@
    },
    "begin_consume": 2028,
    "end_consume": 2044,
-   "appreciation_pct": 79.2,
+   "appreciation_pct": 82.1,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -4427,9 +4459,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 71.67,
-   "value_bottle": 122.45,
+   "value_bottle": 122.48,
    "total_paid": 430.02,
-   "total_value": 734.68,
+   "total_value": 734.88,
    "avg_critic_score": 93.4,
    "my_score": null,
    "critic_scores": {
@@ -4613,7 +4645,11 @@
     "hours": 3.0,
     "label": "~3–3.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Nebbiolo is an Italian red wine grape variety predominantly associated with its native Piedmont region, where it makes the Denominazione di Origine Controllata e Garantita (DOCG) wines of Barolo, Barbaresco, Gattinara, Ghemme, and Roero, together with numerous DOC wines. Nebbiolo is thought to derive its name from the Italian nebbia or Piedmontese nebia, meaning 'fog'. During harvest, which generally takes place late in October, a deep, intense fog sets into the Langhe…",
+    "url": "https://en.wikipedia.org/wiki/Nebbiolo",
+    "title": "Nebbiolo"
+   }
   },
   {
    "iWine": "5855669",
@@ -5094,7 +5130,11 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Nerello mascalese is a name given to a variety of red wine grapes named after the Mascali area in Catania, that grow primarily in Sicily and Sardinia.\nIt is grown mainly on the northeastern side of Sicily and is thought to be superior in quality to the Nerello Cappuccio. There is an experimental vineyard in Agliano Terme, Piedmont, where Nerello has been planted by the winery, Vini Ragerra, and they are credited with being the first to plant and vinify Nerello in this…",
+    "url": "https://en.wikipedia.org/wiki/Nerello_mascalese",
+    "title": "Nerello mascalese"
+   }
   },
   {
    "iWine": "874157",
@@ -5111,9 +5151,9 @@
    "location": "Cellar",
    "quantity": 5,
    "price_paid_bottle": 136.0,
-   "value_bottle": 207.61,
+   "value_bottle": 207.82,
    "total_paid": 680.0,
-   "total_value": 1038.03,
+   "total_value": 1039.1,
    "avg_critic_score": 90.5,
    "my_score": 93.0,
    "critic_scores": {
@@ -5122,7 +5162,7 @@
    },
    "begin_consume": 2022,
    "end_consume": 2054,
-   "appreciation_pct": 52.7,
+   "appreciation_pct": 52.8,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -5191,9 +5231,9 @@
    "location": "Cellar - Wine Society",
    "quantity": 3,
    "price_paid_bottle": 54.0,
-   "value_bottle": 53.02,
+   "value_bottle": 53.36,
    "total_paid": 162.0,
-   "total_value": 159.05,
+   "total_value": 160.09,
    "avg_critic_score": 91.9,
    "my_score": null,
    "critic_scores": {
@@ -5201,7 +5241,7 @@
    },
    "begin_consume": 2028,
    "end_consume": 2040,
-   "appreciation_pct": -1.8,
+   "appreciation_pct": -1.2,
    "body": "Full",
    "tannin": "High",
    "pairings": [
@@ -5287,7 +5327,11 @@
     "hours": 0,
     "label": "No decanting needed — drink straight from the bottle"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Riesling is a white grape variety that is believed to have originated from the Rhine Valley region of western Germany, before later being traced to the Alsace region by 1470 and Austria by 1700. Riesling is an aromatic grape variety displaying flowery, almost perfumed aromas as well as high acidity. It is used to make dry, semi-sweet, sweet, and sparkling white wines. Riesling wines are usually varietally pure and are seldom oaked. As of 2004, Riesling was estimated to be…",
+    "url": "https://en.wikipedia.org/wiki/Riesling",
+    "title": "Riesling"
+   }
   },
   {
    "iWine": "5386889",
@@ -5542,9 +5586,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 194.0,
-   "value_bottle": 239.29,
+   "value_bottle": 239.87,
    "total_paid": 1164.0,
-   "total_value": 1435.71,
+   "total_value": 1439.2,
    "avg_critic_score": 93.9,
    "my_score": null,
    "critic_scores": {
@@ -5553,7 +5597,7 @@
    },
    "begin_consume": 2030,
    "end_consume": 2052,
-   "appreciation_pct": 23.3,
+   "appreciation_pct": 23.6,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -5721,7 +5765,11 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Nerello mascalese is a name given to a variety of red wine grapes named after the Mascali area in Catania, that grow primarily in Sicily and Sardinia.\nIt is grown mainly on the northeastern side of Sicily and is thought to be superior in quality to the Nerello Cappuccio. There is an experimental vineyard in Agliano Terme, Piedmont, where Nerello has been planted by the winery, Vini Ragerra, and they are credited with being the first to plant and vinify Nerello in this…",
+    "url": "https://en.wikipedia.org/wiki/Nerello_mascalese",
+    "title": "Nerello mascalese"
+   }
   },
   {
    "iWine": "5407672",
@@ -5760,7 +5808,11 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Nerello mascalese is a name given to a variety of red wine grapes named after the Mascali area in Catania, that grow primarily in Sicily and Sardinia.\nIt is grown mainly on the northeastern side of Sicily and is thought to be superior in quality to the Nerello Cappuccio. There is an experimental vineyard in Agliano Terme, Piedmont, where Nerello has been planted by the winery, Vini Ragerra, and they are credited with being the first to plant and vinify Nerello in this…",
+    "url": "https://en.wikipedia.org/wiki/Nerello_mascalese",
+    "title": "Nerello mascalese"
+   }
   },
   {
    "iWine": "5652593",
@@ -6196,6 +6248,46 @@
  ],
  "top_gainers": [
   {
+   "iWine": "4638813",
+   "wine": "Château Laroque Saint-Émilion Grand Cru",
+   "vintage": "2022",
+   "producer": "Château Laroque",
+   "country": "France",
+   "region": "Bordeaux",
+   "subregion": "Libournais",
+   "appellation": "Saint-Émilion Grand Cru",
+   "color": "Red",
+   "style": "Red",
+   "varietal": "Red Bordeaux Blend",
+   "location": "Cellar - BB&R",
+   "quantity": 6,
+   "price_paid_bottle": 18.33,
+   "value_bottle": 33.37,
+   "total_paid": 109.98,
+   "total_value": 200.23,
+   "avg_critic_score": 87.7,
+   "my_score": null,
+   "critic_scores": {
+    "JR": 72.5,
+    "DR": 97.0
+   },
+   "begin_consume": 2028,
+   "end_consume": 2044,
+   "appreciation_pct": 82.1,
+   "body": "Medium",
+   "tannin": "Medium",
+   "pairings": [
+    "red meat",
+    "hard cheese",
+    "roasted vegetables"
+   ],
+   "decant": {
+    "hours": 1.0,
+    "label": "~1–1.5 hrs (longer if young & tightly wound)"
+   },
+   "wiki": null
+  },
+  {
    "iWine": "2925612",
    "wine": "Paul Jaboulet Aîné Hermitage La Chapelle",
    "vintage": "2016",
@@ -6262,46 +6354,6 @@
    "begin_consume": 2029,
    "end_consume": 2048,
    "appreciation_pct": 79.7,
-   "body": "Medium",
-   "tannin": "Medium",
-   "pairings": [
-    "red meat",
-    "hard cheese",
-    "roasted vegetables"
-   ],
-   "decant": {
-    "hours": 1.0,
-    "label": "~1–1.5 hrs (longer if young & tightly wound)"
-   },
-   "wiki": null
-  },
-  {
-   "iWine": "4638813",
-   "wine": "Château Laroque Saint-Émilion Grand Cru",
-   "vintage": "2022",
-   "producer": "Château Laroque",
-   "country": "France",
-   "region": "Bordeaux",
-   "subregion": "Libournais",
-   "appellation": "Saint-Émilion Grand Cru",
-   "color": "Red",
-   "style": "Red",
-   "varietal": "Red Bordeaux Blend",
-   "location": "Cellar - BB&R",
-   "quantity": 6,
-   "price_paid_bottle": 18.33,
-   "value_bottle": 32.84,
-   "total_paid": 109.98,
-   "total_value": 197.05,
-   "avg_critic_score": 87.7,
-   "my_score": null,
-   "critic_scores": {
-    "JR": 72.5,
-    "DR": 97.0
-   },
-   "begin_consume": 2028,
-   "end_consume": 2044,
-   "appreciation_pct": 79.2,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -6407,9 +6459,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 71.67,
-   "value_bottle": 122.45,
+   "value_bottle": 122.48,
    "total_paid": 430.02,
-   "total_value": 734.68,
+   "total_value": 734.88,
    "avg_critic_score": 93.4,
    "my_score": null,
    "critic_scores": {
@@ -6470,7 +6522,11 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Nebbiolo is an Italian red wine grape variety predominantly associated with its native Piedmont region, where it makes the Denominazione di Origine Controllata e Garantita (DOCG) wines of Barolo, Barbaresco, Gattinara, Ghemme, and Roero, together with numerous DOC wines. Nebbiolo is thought to derive its name from the Italian nebbia or Piedmontese nebia, meaning 'fog'. During harvest, which generally takes place late in October, a deep, intense fog sets into the Langhe…",
+    "url": "https://en.wikipedia.org/wiki/Nebbiolo",
+    "title": "Nebbiolo"
+   }
   },
   {
    "iWine": "2856200",
@@ -6550,6 +6606,50 @@
     "hours": 0,
     "label": "No decanting needed — drink straight from the bottle"
    },
+   "wiki": {
+    "summary": "Riesling is a white grape variety that is believed to have originated from the Rhine Valley region of western Germany, before later being traced to the Alsace region by 1470 and Austria by 1700. Riesling is an aromatic grape variety displaying flowery, almost perfumed aromas as well as high acidity. It is used to make dry, semi-sweet, sweet, and sparkling white wines. Riesling wines are usually varietally pure and are seldom oaked. As of 2004, Riesling was estimated to be…",
+    "url": "https://en.wikipedia.org/wiki/Riesling",
+    "title": "Riesling"
+   }
+  },
+  {
+   "iWine": "874157",
+   "wine": "Château Pontet-Canet",
+   "vintage": "2009",
+   "producer": "Château Pontet-Canet",
+   "country": "France",
+   "region": "Bordeaux",
+   "subregion": "Médoc",
+   "appellation": "Pauillac",
+   "color": "Red",
+   "style": "Red",
+   "varietal": "Red Bordeaux Blend",
+   "location": "Cellar",
+   "quantity": 5,
+   "price_paid_bottle": 136.0,
+   "value_bottle": 207.82,
+   "total_paid": 680.0,
+   "total_value": 1039.1,
+   "avg_critic_score": 90.5,
+   "my_score": 93.0,
+   "critic_scores": {
+    "JR": 80.0,
+    "DR": 96.0
+   },
+   "begin_consume": 2022,
+   "end_consume": 2054,
+   "appreciation_pct": 52.8,
+   "body": "Medium",
+   "tannin": "Medium",
+   "pairings": [
+    "red meat",
+    "hard cheese",
+    "roasted vegetables"
+   ],
+   "decant": {
+    "hours": 0.5,
+    "label": "~30 min — a short splash-decant to open it up"
+   },
    "wiki": null
   },
   {
@@ -6579,46 +6679,6 @@
    },
    "begin_consume": 2021,
    "end_consume": 2047,
-   "appreciation_pct": 52.7,
-   "body": "Medium",
-   "tannin": "Medium",
-   "pairings": [
-    "red meat",
-    "hard cheese",
-    "roasted vegetables"
-   ],
-   "decant": {
-    "hours": 0.5,
-    "label": "~30 min — a short splash-decant to open it up"
-   },
-   "wiki": null
-  },
-  {
-   "iWine": "874157",
-   "wine": "Château Pontet-Canet",
-   "vintage": "2009",
-   "producer": "Château Pontet-Canet",
-   "country": "France",
-   "region": "Bordeaux",
-   "subregion": "Médoc",
-   "appellation": "Pauillac",
-   "color": "Red",
-   "style": "Red",
-   "varietal": "Red Bordeaux Blend",
-   "location": "Cellar",
-   "quantity": 5,
-   "price_paid_bottle": 136.0,
-   "value_bottle": 207.61,
-   "total_paid": 680.0,
-   "total_value": 1038.03,
-   "avg_critic_score": 90.5,
-   "my_score": 93.0,
-   "critic_scores": {
-    "JR": 80.0,
-    "DR": 96.0
-   },
-   "begin_consume": 2022,
-   "end_consume": 2054,
    "appreciation_pct": 52.7,
    "body": "Medium",
    "tannin": "Medium",
@@ -6907,7 +6967,11 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Nerello mascalese is a name given to a variety of red wine grapes named after the Mascali area in Catania, that grow primarily in Sicily and Sardinia.\nIt is grown mainly on the northeastern side of Sicily and is thought to be superior in quality to the Nerello Cappuccio. There is an experimental vineyard in Agliano Terme, Piedmont, where Nerello has been planted by the winery, Vini Ragerra, and they are credited with being the first to plant and vinify Nerello in this…",
+    "url": "https://en.wikipedia.org/wiki/Nerello_mascalese",
+    "title": "Nerello mascalese"
+   }
   },
   {
    "iWine": "5322676",
@@ -6965,9 +7029,9 @@
    "location": "Cellar - Wine Society",
    "quantity": 6,
    "price_paid_bottle": 51.0,
-   "value_bottle": 42.63,
+   "value_bottle": 42.28,
    "total_paid": 306.0,
-   "total_value": 255.79,
+   "total_value": 253.7,
    "avg_critic_score": 87.9,
    "my_score": null,
    "critic_scores": {
@@ -6976,7 +7040,7 @@
    },
    "begin_consume": 2026,
    "end_consume": 2045,
-   "appreciation_pct": -16.4,
+   "appreciation_pct": -17.1,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -7199,9 +7263,9 @@
    "location": "Cellar - Wine Society",
    "quantity": 3,
    "price_paid_bottle": 54.0,
-   "value_bottle": 53.02,
+   "value_bottle": 53.36,
    "total_paid": 162.0,
-   "total_value": 159.05,
+   "total_value": 160.09,
    "avg_critic_score": 91.9,
    "my_score": null,
    "critic_scores": {
@@ -7209,7 +7273,7 @@
    },
    "begin_consume": 2028,
    "end_consume": 2040,
-   "appreciation_pct": -1.8,
+   "appreciation_pct": -1.2,
    "body": "Full",
    "tannin": "High",
    "pairings": [
@@ -7295,7 +7359,11 @@
     "hours": 0,
     "label": "No decanting needed — drink straight from the bottle"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Riesling is a white grape variety that is believed to have originated from the Rhine Valley region of western Germany, before later being traced to the Alsace region by 1470 and Austria by 1700. Riesling is an aromatic grape variety displaying flowery, almost perfumed aromas as well as high acidity. It is used to make dry, semi-sweet, sweet, and sparkling white wines. Riesling wines are usually varietally pure and are seldom oaked. As of 2004, Riesling was estimated to be…",
+    "url": "https://en.wikipedia.org/wiki/Riesling",
+    "title": "Riesling"
+   }
   },
   {
    "iWine": "4773903",
@@ -7332,7 +7400,11 @@
     "hours": 0,
     "label": "No decanting needed — drink straight from the bottle"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Riesling is a white grape variety that is believed to have originated from the Rhine Valley region of western Germany, before later being traced to the Alsace region by 1470 and Austria by 1700. Riesling is an aromatic grape variety displaying flowery, almost perfumed aromas as well as high acidity. It is used to make dry, semi-sweet, sweet, and sparkling white wines. Riesling wines are usually varietally pure and are seldom oaked. As of 2004, Riesling was estimated to be…",
+    "url": "https://en.wikipedia.org/wiki/Riesling",
+    "title": "Riesling"
+   }
   },
   {
    "iWine": "1399146",
@@ -7466,8 +7538,8 @@
    "wines": 2,
    "bottles": 11,
    "paid": 980.0,
-   "value": 1555.69,
-   "appreciation_pct": 58.7,
+   "value": 1556.76,
+   "appreciation_pct": 58.9,
    "avg_score": 90.9,
    "countries": [
     "France"
@@ -7488,8 +7560,8 @@
    "wines": 1,
    "bottles": 6,
    "paid": 1164.0,
-   "value": 1435.71,
-   "appreciation_pct": 23.3,
+   "value": 1439.2,
+   "appreciation_pct": 23.6,
    "avg_score": 93.9,
    "countries": [
     "Italy"
@@ -7548,8 +7620,8 @@
    "wines": 2,
    "bottles": 9,
    "paid": 672.0,
-   "value": 854.38,
-   "appreciation_pct": 27.1,
+   "value": 851.1,
+   "appreciation_pct": 26.7,
    "avg_score": 92.3,
    "countries": [
     "Italy"
@@ -7596,8 +7668,8 @@
    "wines": 1,
    "bottles": 6,
    "paid": 430.02,
-   "value": 734.68,
-   "appreciation_pct": 70.8,
+   "value": 734.88,
+   "appreciation_pct": 70.9,
    "avg_score": 93.4,
    "countries": [
     "France"
@@ -7726,8 +7798,8 @@
    "wines": 1,
    "bottles": 6,
    "paid": 342.0,
-   "value": 464.55,
-   "appreciation_pct": 35.8,
+   "value": 467.94,
+   "appreciation_pct": 36.8,
    "avg_score": 93.5,
    "countries": [
     "Italy"
@@ -7742,8 +7814,8 @@
    "wines": 1,
    "bottles": 6,
    "paid": 342.0,
-   "value": 403.92,
-   "appreciation_pct": 18.1,
+   "value": 402.66,
+   "appreciation_pct": 17.7,
    "avg_score": 92.4,
    "countries": [
     "France"
@@ -7758,8 +7830,8 @@
    "wines": 3,
    "bottles": 13,
    "paid": 217.98,
-   "value": 393.55,
-   "appreciation_pct": 80.5,
+   "value": 396.73,
+   "appreciation_pct": 82.0,
    "avg_score": 89.0,
    "countries": [
     "France"
@@ -7930,8 +8002,8 @@
    "wines": 1,
    "bottles": 6,
    "paid": 306.0,
-   "value": 255.79,
-   "appreciation_pct": -16.4,
+   "value": 253.7,
+   "appreciation_pct": -17.1,
    "avg_score": 87.9,
    "countries": [
     "France"
@@ -8102,8 +8174,8 @@
    "wines": 1,
    "bottles": 3,
    "paid": 162.0,
-   "value": 159.05,
-   "appreciation_pct": -1.8,
+   "value": 160.09,
+   "appreciation_pct": -1.2,
    "avg_score": 91.9,
    "countries": [
     "South Africa"
@@ -8688,7 +8760,7 @@
    }
   },
   "avg_bottle_price_paid": 75.79,
-  "avg_bottle_value_now": 101.15,
+  "avg_bottle_value_now": 101.17,
   "avg_cellar_age_years": 7.3,
   "largest_single_purchase": {
    "date": "2026-03-06",
@@ -8718,7 +8790,7 @@
     "vintage": "2019",
     "producer": "Dunn Vineyards",
     "since": "2025-05-10",
-    "days_held": 498
+    "days_held": 499
    },
    {
     "iWine": "4986829",
@@ -8726,7 +8798,7 @@
     "vintage": "2023",
     "producer": "Roc de Cambes",
     "since": "2025-06-07",
-    "days_held": 470
+    "days_held": 471
    },
    {
     "iWine": "4390612",
@@ -8734,7 +8806,7 @@
     "vintage": "2022",
     "producer": "Penfolds",
     "since": "2025-06-11",
-    "days_held": 466
+    "days_held": 467
    },
    {
     "iWine": "4641506",
@@ -8742,7 +8814,7 @@
     "vintage": "2022",
     "producer": "Château Clinet",
     "since": "2025-07-03",
-    "days_held": 444
+    "days_held": 445
    },
    {
     "iWine": "4638895",
@@ -8750,7 +8822,7 @@
     "vintage": "2022",
     "producer": "Château Troplong Mondot",
     "since": "2025-07-03",
-    "days_held": 444
+    "days_held": 445
    },
    {
     "iWine": "4876898",
@@ -8758,7 +8830,7 @@
     "vintage": "2019",
     "producer": "Canalicchio di Sopra",
     "since": "2025-07-12",
-    "days_held": 435
+    "days_held": 436
    },
    {
     "iWine": "4547984",
@@ -8766,7 +8838,7 @@
     "vintage": "2019",
     "producer": "Massolino",
     "since": "2025-07-12",
-    "days_held": 435
+    "days_held": 436
    },
    {
     "iWine": "3709255",
@@ -8774,7 +8846,7 @@
     "vintage": "2018",
     "producer": "Penfolds",
     "since": "2025-07-12",
-    "days_held": 435
+    "days_held": 436
    },
    {
     "iWine": "5271148",
@@ -8782,7 +8854,7 @@
     "vintage": "2019",
     "producer": "San Polino",
     "since": "2025-07-12",
-    "days_held": 435
+    "days_held": 436
    },
    {
     "iWine": "4638813",
@@ -8790,7 +8862,7 @@
     "vintage": "2022",
     "producer": "Château Laroque",
     "since": "2025-07-13",
-    "days_held": 434
+    "days_held": 435
    }
   ],
   "total_appreciation_pct": 33.5
@@ -8799,7 +8871,7 @@
   {
    "name": "France",
    "bottles": 123,
-   "value": 11124.650000000001,
+   "value": 11125.750000000002,
    "wines": 29,
    "lat": 46.6,
    "lon": 2.2
@@ -8815,7 +8887,7 @@
   {
    "name": "Italy",
    "bottles": 62,
-   "value": 4611.89,
+   "value": 4615.490000000001,
    "wines": 19,
    "lat": 42.8,
    "lon": 12.6
@@ -8831,7 +8903,7 @@
   {
    "name": "South Africa",
    "bottles": 33,
-   "value": 1681.7099999999998,
+   "value": 1682.7499999999998,
    "wines": 11,
    "lat": -33.9,
    "lon": 20.0
@@ -18583,8 +18655,8 @@
     "date": "2026-05-10",
     "month": "2026-05",
     "rating": 93.0,
-    "community_score": 95.4509803921569,
-    "delta": -2.5,
+    "community_score": 95.4487951807229,
+    "delta": -2.4,
     "notes_text": ""
    },
    {
@@ -18695,8 +18767,8 @@
     "date": "2026-04-24",
     "month": "2026-04",
     "rating": 90.0,
-    "community_score": 90.8333333333333,
-    "delta": -0.8,
+    "community_score": 90.2857142857143,
+    "delta": -0.3,
     "notes_text": ""
    },
    {
