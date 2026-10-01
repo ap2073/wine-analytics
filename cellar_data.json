@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-09-30T12:26:02.424043+00:00",
+ "generated_at": "2026-10-01T13:01:13.414976+00:00",
  "current_year": 2026,
  "summary": {
   "total_bottles": 286,
   "total_wines": 83,
-  "total_value": 28724.64,
+  "total_value": 28696.3,
   "total_paid": 21604.75,
   "countries": 11,
   "avg_critic_score": 91.2
@@ -13,7 +13,7 @@
   {
    "name": "France",
    "bottles": 121,
-   "value": 10913.3,
+   "value": 10884.729999999998,
    "wines": 27
   },
   {
@@ -37,7 +37,7 @@
   {
    "name": "South Africa",
    "bottles": 33,
-   "value": 1674.71,
+   "value": 1674.94,
    "wines": 11
   },
   {
@@ -81,13 +81,13 @@
   {
    "name": "Red Bordeaux Blend",
    "bottles": 101,
-   "value": 10214.18,
+   "value": 10185.61,
    "wines": 26
   },
   {
    "name": "Syrah",
    "bottles": 33,
-   "value": 6451.86,
+   "value": 6452.09,
    "wines": 6
   },
   {
@@ -203,7 +203,7 @@
   {
    "name": "Bordeaux",
    "bottles": 88,
-   "value": 8508.9,
+   "value": 8480.33,
    "wines": 18
   },
   {
@@ -227,7 +227,7 @@
   {
    "name": "Coastal Region",
    "bottles": 27,
-   "value": 1500.38,
+   "value": 1500.6100000000001,
    "wines": 10
   },
   {
@@ -325,7 +325,7 @@
   {
    "name": "Red",
    "bottles": 262,
-   "value": 27450.850000000002
+   "value": 27422.510000000002
   },
   {
    "name": "White",
@@ -337,7 +337,7 @@
   {
    "name": "Red",
    "bottles": 256,
-   "value": 27019.650000000005
+   "value": 26991.310000000005
   },
   {
    "name": "White",
@@ -413,13 +413,13 @@
   {
    "name": "Château Les Carmes Haut-Brion",
    "bottles": 6,
-   "value": 732.84,
+   "value": 729.63,
    "wines": 1
   },
   {
    "name": "Château Lynch-Bages",
    "bottles": 4,
-   "value": 679.13,
+   "value": 653.77,
    "wines": 1
   },
   {
@@ -451,17 +451,17 @@
   {
    "name": "Cellar",
    "bottles": 52,
-   "value": 4212.240000000001
+   "value": 4186.880000000001
   },
   {
    "name": "Cellar - Wine Society",
    "bottles": 108,
-   "value": 6172.42
+   "value": 6172.650000000001
   },
   {
    "name": "Cellar - BB&R",
    "bottles": 126,
-   "value": 18339.980000000003
+   "value": 18336.77
   }
  ],
  "drinking_window": {
@@ -1715,9 +1715,9 @@
    "location": "Cellar",
    "quantity": 4,
    "price_paid_bottle": 108.0,
-   "value_bottle": 169.78,
+   "value_bottle": 163.44,
    "total_paid": 432.0,
-   "total_value": 679.13,
+   "total_value": 653.77,
    "avg_critic_score": 93.6,
    "my_score": 92.0,
    "critic_scores": {
@@ -1727,7 +1727,7 @@
    },
    "begin_consume": 2021,
    "end_consume": 2047,
-   "appreciation_pct": 57.2,
+   "appreciation_pct": 51.3,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -1836,9 +1836,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 71.67,
-   "value_bottle": 122.14,
+   "value_bottle": 121.61,
    "total_paid": 430.02,
-   "total_value": 732.84,
+   "total_value": 729.63,
    "avg_critic_score": 93.4,
    "my_score": null,
    "critic_scores": {
@@ -1847,7 +1847,7 @@
    },
    "begin_consume": 2030,
    "end_consume": 2054,
-   "appreciation_pct": 70.4,
+   "appreciation_pct": 69.7,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -2448,9 +2448,9 @@
    "location": "Cellar",
    "quantity": 4,
    "price_paid_bottle": 108.0,
-   "value_bottle": 169.78,
+   "value_bottle": 163.44,
    "total_paid": 432.0,
-   "total_value": 679.13,
+   "total_value": 653.77,
    "avg_critic_score": 93.6,
    "my_score": 92.0,
    "critic_scores": {
@@ -2460,7 +2460,7 @@
    },
    "begin_consume": 2021,
    "end_consume": 2047,
-   "appreciation_pct": 57.2,
+   "appreciation_pct": 51.3,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -2608,9 +2608,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 71.67,
-   "value_bottle": 122.14,
+   "value_bottle": 121.61,
    "total_paid": 430.02,
-   "total_value": 732.84,
+   "total_value": 729.63,
    "avg_critic_score": 93.4,
    "my_score": null,
    "critic_scores": {
@@ -2619,7 +2619,7 @@
    },
    "begin_consume": 2030,
    "end_consume": 2054,
-   "appreciation_pct": 70.4,
+   "appreciation_pct": 69.7,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -2957,7 +2957,11 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Nebbiolo is an Italian red wine grape variety predominantly associated with its native Piedmont region, where it makes the Denominazione di Origine Controllata e Garantita (DOCG) wines of Barolo, Barbaresco, Gattinara, Ghemme, and Roero, together with numerous DOC wines. Nebbiolo is thought to derive its name from the Italian nebbia or Piedmontese nebia, meaning 'fog'. During harvest, which generally takes place late in October, a deep, intense fog sets into the Langhe…",
+    "url": "https://en.wikipedia.org/wiki/Nebbiolo",
+    "title": "Nebbiolo"
+   }
   },
   {
    "iWine": "5384841",
@@ -3748,7 +3752,11 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Nebbiolo is an Italian red wine grape variety predominantly associated with its native Piedmont region, where it makes the Denominazione di Origine Controllata e Garantita (DOCG) wines of Barolo, Barbaresco, Gattinara, Ghemme, and Roero, together with numerous DOC wines. Nebbiolo is thought to derive its name from the Italian nebbia or Piedmontese nebia, meaning 'fog'. During harvest, which generally takes place late in October, a deep, intense fog sets into the Langhe…",
+    "url": "https://en.wikipedia.org/wiki/Nebbiolo",
+    "title": "Nebbiolo"
+   }
   },
   {
    "iWine": "5519448",
@@ -4434,9 +4442,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 71.67,
-   "value_bottle": 122.14,
+   "value_bottle": 121.61,
    "total_paid": 430.02,
-   "total_value": 732.84,
+   "total_value": 729.63,
    "avg_critic_score": 93.4,
    "my_score": null,
    "critic_scores": {
@@ -4445,7 +4453,7 @@
    },
    "begin_consume": 2030,
    "end_consume": 2054,
-   "appreciation_pct": 70.4,
+   "appreciation_pct": 69.7,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -4474,9 +4482,9 @@
    "location": "Cellar",
    "quantity": 4,
    "price_paid_bottle": 108.0,
-   "value_bottle": 169.78,
+   "value_bottle": 163.44,
    "total_paid": 432.0,
-   "total_value": 679.13,
+   "total_value": 653.77,
    "avg_critic_score": 93.6,
    "my_score": 92.0,
    "critic_scores": {
@@ -4486,7 +4494,7 @@
    },
    "begin_consume": 2021,
    "end_consume": 2047,
-   "appreciation_pct": 57.2,
+   "appreciation_pct": 51.3,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -4620,7 +4628,11 @@
     "hours": 3.0,
     "label": "~3–3.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Nebbiolo is an Italian red wine grape variety predominantly associated with its native Piedmont region, where it makes the Denominazione di Origine Controllata e Garantita (DOCG) wines of Barolo, Barbaresco, Gattinara, Ghemme, and Roero, together with numerous DOC wines. Nebbiolo is thought to derive its name from the Italian nebbia or Piedmontese nebia, meaning 'fog'. During harvest, which generally takes place late in October, a deep, intense fog sets into the Langhe…",
+    "url": "https://en.wikipedia.org/wiki/Nebbiolo",
+    "title": "Nebbiolo"
+   }
   },
   {
    "iWine": "5855669",
@@ -5198,9 +5210,9 @@
    "location": "Cellar - Wine Society",
    "quantity": 3,
    "price_paid_bottle": 54.0,
-   "value_bottle": 52.51,
+   "value_bottle": 52.59,
    "total_paid": 162.0,
-   "total_value": 157.54,
+   "total_value": 157.77,
    "avg_critic_score": 91.8,
    "my_score": null,
    "critic_scores": {
@@ -5208,7 +5220,7 @@
    },
    "begin_consume": 2028,
    "end_consume": 2040,
-   "appreciation_pct": -2.8,
+   "appreciation_pct": -2.6,
    "body": "Full",
    "tannin": "High",
    "pairings": [
@@ -6413,9 +6425,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 71.67,
-   "value_bottle": 122.14,
+   "value_bottle": 121.61,
    "total_paid": 430.02,
-   "total_value": 732.84,
+   "total_value": 729.63,
    "avg_critic_score": 93.4,
    "my_score": null,
    "critic_scores": {
@@ -6424,7 +6436,7 @@
    },
    "begin_consume": 2030,
    "end_consume": 2054,
-   "appreciation_pct": 70.4,
+   "appreciation_pct": 69.7,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -6476,7 +6488,11 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Nebbiolo is an Italian red wine grape variety predominantly associated with its native Piedmont region, where it makes the Denominazione di Origine Controllata e Garantita (DOCG) wines of Barolo, Barbaresco, Gattinara, Ghemme, and Roero, together with numerous DOC wines. Nebbiolo is thought to derive its name from the Italian nebbia or Piedmontese nebia, meaning 'fog'. During harvest, which generally takes place late in October, a deep, intense fog sets into the Langhe…",
+    "url": "https://en.wikipedia.org/wiki/Nebbiolo",
+    "title": "Nebbiolo"
+   }
   },
   {
    "iWine": "2656322",
@@ -6563,47 +6579,6 @@
    }
   },
   {
-   "iWine": "1123088",
-   "wine": "Château Lynch-Bages",
-   "vintage": "2010",
-   "producer": "Château Lynch-Bages",
-   "country": "France",
-   "region": "Bordeaux",
-   "subregion": "Médoc",
-   "appellation": "Pauillac",
-   "color": "Red",
-   "style": "Red",
-   "varietal": "Red Bordeaux Blend",
-   "location": "Cellar",
-   "quantity": 4,
-   "price_paid_bottle": 108.0,
-   "value_bottle": 169.78,
-   "total_paid": 432.0,
-   "total_value": 679.13,
-   "avg_critic_score": 93.6,
-   "my_score": 92.0,
-   "critic_scores": {
-    "JR": 90.0,
-    "JG": 94.0,
-    "DR": 97.0
-   },
-   "begin_consume": 2021,
-   "end_consume": 2047,
-   "appreciation_pct": 57.2,
-   "body": "Medium",
-   "tannin": "Medium",
-   "pairings": [
-    "red meat",
-    "hard cheese",
-    "roasted vegetables"
-   ],
-   "decant": {
-    "hours": 0.5,
-    "label": "~30 min — a short splash-decant to open it up"
-   },
-   "wiki": null
-  },
-  {
    "iWine": "3377461",
    "wine": "Joh. Jos. Prüm Wehlener Sonnenuhr Riesling Auslese",
    "vintage": "2018",
@@ -6673,6 +6648,47 @@
     "peppered steak",
     "game",
     "barbecue"
+   ],
+   "decant": {
+    "hours": 0.5,
+    "label": "~30 min — a short splash-decant to open it up"
+   },
+   "wiki": null
+  },
+  {
+   "iWine": "1123088",
+   "wine": "Château Lynch-Bages",
+   "vintage": "2010",
+   "producer": "Château Lynch-Bages",
+   "country": "France",
+   "region": "Bordeaux",
+   "subregion": "Médoc",
+   "appellation": "Pauillac",
+   "color": "Red",
+   "style": "Red",
+   "varietal": "Red Bordeaux Blend",
+   "location": "Cellar",
+   "quantity": 4,
+   "price_paid_bottle": 108.0,
+   "value_bottle": 163.44,
+   "total_paid": 432.0,
+   "total_value": 653.77,
+   "avg_critic_score": 93.6,
+   "my_score": 92.0,
+   "critic_scores": {
+    "JR": 90.0,
+    "JG": 94.0,
+    "DR": 97.0
+   },
+   "begin_consume": 2021,
+   "end_consume": 2047,
+   "appreciation_pct": 51.3,
+   "body": "Medium",
+   "tannin": "Medium",
+   "pairings": [
+    "red meat",
+    "hard cheese",
+    "roasted vegetables"
    ],
    "decant": {
     "hours": 0.5,
@@ -7166,9 +7182,9 @@
    "location": "Cellar - Wine Society",
    "quantity": 3,
    "price_paid_bottle": 54.0,
-   "value_bottle": 52.51,
+   "value_bottle": 52.59,
    "total_paid": 162.0,
-   "total_value": 157.54,
+   "total_value": 157.77,
    "avg_critic_score": 91.8,
    "my_score": null,
    "critic_scores": {
@@ -7176,7 +7192,7 @@
    },
    "begin_consume": 2028,
    "end_consume": 2040,
-   "appreciation_pct": -2.8,
+   "appreciation_pct": -2.6,
    "body": "Full",
    "tannin": "High",
    "pairings": [
@@ -7602,8 +7618,8 @@
    "wines": 1,
    "bottles": 6,
    "paid": 430.02,
-   "value": 732.84,
-   "appreciation_pct": 70.4,
+   "value": 729.63,
+   "appreciation_pct": 69.7,
    "avg_score": 93.4,
    "countries": [
     "France"
@@ -7618,8 +7634,8 @@
    "wines": 1,
    "bottles": 4,
    "paid": 432.0,
-   "value": 679.13,
-   "appreciation_pct": 57.2,
+   "value": 653.77,
+   "appreciation_pct": 51.3,
    "avg_score": 93.6,
    "countries": [
     "France"
@@ -8140,8 +8156,8 @@
    "wines": 1,
    "bottles": 3,
    "paid": 162.0,
-   "value": 157.54,
-   "appreciation_pct": -2.8,
+   "value": 157.77,
+   "appreciation_pct": -2.6,
    "avg_score": 91.8,
    "countries": [
     "South Africa"
@@ -8694,7 +8710,7 @@
    }
   },
   "avg_bottle_price_paid": 75.54,
-  "avg_bottle_value_now": 100.44,
+  "avg_bottle_value_now": 100.34,
   "avg_cellar_age_years": 7.1,
   "largest_single_purchase": {
    "date": "2026-03-06",
@@ -8724,7 +8740,7 @@
     "vintage": "2019",
     "producer": "Dunn Vineyards",
     "since": "2025-05-10",
-    "days_held": 508
+    "days_held": 509
    },
    {
     "iWine": "4986829",
@@ -8732,7 +8748,7 @@
     "vintage": "2023",
     "producer": "Roc de Cambes",
     "since": "2025-06-07",
-    "days_held": 480
+    "days_held": 481
    },
    {
     "iWine": "4390612",
@@ -8740,7 +8756,7 @@
     "vintage": "2022",
     "producer": "Penfolds",
     "since": "2025-06-11",
-    "days_held": 476
+    "days_held": 477
    },
    {
     "iWine": "4641506",
@@ -8748,7 +8764,7 @@
     "vintage": "2022",
     "producer": "Château Clinet",
     "since": "2025-07-03",
-    "days_held": 454
+    "days_held": 455
    },
    {
     "iWine": "4638895",
@@ -8756,7 +8772,7 @@
     "vintage": "2022",
     "producer": "Château Troplong Mondot",
     "since": "2025-07-03",
-    "days_held": 454
+    "days_held": 455
    },
    {
     "iWine": "4876898",
@@ -8764,7 +8780,7 @@
     "vintage": "2019",
     "producer": "Canalicchio di Sopra",
     "since": "2025-07-12",
-    "days_held": 445
+    "days_held": 446
    },
    {
     "iWine": "4547984",
@@ -8772,7 +8788,7 @@
     "vintage": "2019",
     "producer": "Massolino",
     "since": "2025-07-12",
-    "days_held": 445
+    "days_held": 446
    },
    {
     "iWine": "3709255",
@@ -8780,7 +8796,7 @@
     "vintage": "2018",
     "producer": "Penfolds",
     "since": "2025-07-12",
-    "days_held": 445
+    "days_held": 446
    },
    {
     "iWine": "5271148",
@@ -8788,7 +8804,7 @@
     "vintage": "2019",
     "producer": "San Polino",
     "since": "2025-07-12",
-    "days_held": 445
+    "days_held": 446
    },
    {
     "iWine": "4638813",
@@ -8796,16 +8812,16 @@
     "vintage": "2022",
     "producer": "Château Laroque",
     "since": "2025-07-13",
-    "days_held": 444
+    "days_held": 445
    }
   ],
-  "total_appreciation_pct": 33.0
+  "total_appreciation_pct": 32.8
  },
  "map_countries": [
   {
    "name": "France",
    "bottles": 121,
-   "value": 10913.3,
+   "value": 10884.729999999998,
    "wines": 27,
    "lat": 46.6,
    "lon": 2.2
@@ -8837,7 +8853,7 @@
   {
    "name": "South Africa",
    "bottles": 33,
-   "value": 1674.71,
+   "value": 1674.94,
    "wines": 11,
    "lat": -33.9,
    "lon": 20.0
@@ -18683,8 +18699,8 @@
     "date": "2026-05-03",
     "month": "2026-05",
     "rating": 82.0,
-    "community_score": 84.0,
-    "delta": -2.0,
+    "community_score": 84.5,
+    "delta": -2.5,
     "notes_text": ""
    },
    {
@@ -20571,8 +20587,8 @@
     "date": "2025-06-06",
     "month": "2025-06",
     "rating": 87.0,
-    "community_score": 85.6666666666667,
-    "delta": 1.3,
+    "community_score": 85.5714285714286,
+    "delta": 1.4,
     "notes_text": ""
    },
    {
@@ -21323,8 +21339,8 @@
     "date": "2025-06-02",
     "month": "2025-06",
     "rating": 83.0,
-    "community_score": 85.3333333333333,
-    "delta": -2.3,
+    "community_score": 87.5,
+    "delta": -4.5,
     "notes_text": ""
    },
    {
