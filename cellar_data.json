@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-01T13:01:13.414976+00:00",
+ "generated_at": "2026-10-02T12:22:25.046709+00:00",
  "current_year": 2026,
  "summary": {
   "total_bottles": 286,
   "total_wines": 83,
-  "total_value": 28696.3,
+  "total_value": 28714.42,
   "total_paid": 21604.75,
   "countries": 11,
   "avg_critic_score": 91.2
@@ -13,7 +13,7 @@
   {
    "name": "France",
    "bottles": 121,
-   "value": 10884.729999999998,
+   "value": 10895.4,
    "wines": 27
   },
   {
@@ -25,13 +25,13 @@
   {
    "name": "Italy",
    "bottles": 62,
-   "value": 4538.31,
+   "value": 4543.81,
    "wines": 19
   },
   {
    "name": "Spain",
    "bottles": 14,
-   "value": 2709.89,
+   "value": 2711.84,
    "wines": 8
   },
   {
@@ -81,7 +81,7 @@
   {
    "name": "Red Bordeaux Blend",
    "bottles": 101,
-   "value": 10185.61,
+   "value": 10197.679999999998,
    "wines": 26
   },
   {
@@ -93,7 +93,7 @@
   {
    "name": "Tempranillo",
    "bottles": 11,
-   "value": 2565.23,
+   "value": 2567.18,
    "wines": 5
   },
   {
@@ -105,7 +105,7 @@
   {
    "name": "Sangiovese",
    "bottles": 30,
-   "value": 2037.84,
+   "value": 2043.34,
    "wines": 7
   },
   {
@@ -159,7 +159,7 @@
   {
    "name": "Sémillon-Sauvignon Blanc Blend",
    "bottles": 3,
-   "value": 258.01,
+   "value": 256.61,
    "wines": 1
   },
   {
@@ -203,7 +203,7 @@
   {
    "name": "Bordeaux",
    "bottles": 88,
-   "value": 8480.33,
+   "value": 8490.999999999998,
    "wines": 18
   },
   {
@@ -215,13 +215,13 @@
   {
    "name": "Tuscany",
    "bottles": 36,
-   "value": 3429.4599999999996,
+   "value": 3434.9599999999996,
    "wines": 8
   },
   {
    "name": "Castilla y León",
    "bottles": 11,
-   "value": 2565.23,
+   "value": 2567.18,
    "wines": 5
   },
   {
@@ -325,24 +325,24 @@
   {
    "name": "Red",
    "bottles": 262,
-   "value": 27422.510000000002
+   "value": 27442.03
   },
   {
    "name": "White",
    "bottles": 24,
-   "value": 1273.79
+   "value": 1272.3899999999999
   }
  ],
  "by_style": [
   {
    "name": "Red",
    "bottles": 256,
-   "value": 26991.310000000005
+   "value": 27010.83
   },
   {
    "name": "White",
    "bottles": 17,
-   "value": 866.32
+   "value": 864.9200000000001
   },
   {
    "name": "Fortified",
@@ -365,13 +365,13 @@
   {
    "name": "Bodegas Vega-Sicilia",
    "bottles": 9,
-   "value": 2487.11,
+   "value": 2488.81,
    "wines": 3
   },
   {
    "name": "Château Pontet-Canet",
    "bottles": 11,
-   "value": 1567.13,
+   "value": 1568.5700000000002,
    "wines": 2
   },
   {
@@ -431,7 +431,7 @@
   {
    "name": "Château Clinet",
    "bottles": 6,
-   "value": 613.12,
+   "value": 623.75,
    "wines": 1
   },
   {
@@ -451,17 +451,17 @@
   {
    "name": "Cellar",
    "bottles": 52,
-   "value": 4186.880000000001
+   "value": 4188.570000000001
   },
   {
    "name": "Cellar - Wine Society",
    "bottles": 108,
-   "value": 6172.650000000001
+   "value": 6178.150000000001
   },
   {
    "name": "Cellar - BB&R",
    "bottles": 126,
-   "value": 18336.77
+   "value": 18347.7
   }
  ],
  "drinking_window": {
@@ -652,8 +652,8 @@
     "vintage": "2015",
     "producer": "Hugel",
     "quantity": 3,
-    "begin": 2024,
-    "end": 2038
+    "begin": 2023,
+    "end": 2039
    },
    {
     "iWine": "3485127",
@@ -733,8 +733,8 @@
     "vintage": "2015",
     "producer": "Hugel",
     "quantity": 1,
-    "begin": 2024,
-    "end": 2038
+    "begin": 2023,
+    "end": 2039
    },
    {
     "iWine": "2658458",
@@ -1318,9 +1318,9 @@
    "location": "Cellar - BB&R",
    "quantity": 3,
    "price_paid_bottle": 288.0,
-   "value_bottle": 358.32,
+   "value_bottle": 358.89,
    "total_paid": 864.0,
-   "total_value": 1074.97,
+   "total_value": 1076.67,
    "avg_critic_score": 95.1,
    "my_score": null,
    "critic_scores": {
@@ -1329,7 +1329,7 @@
    },
    "begin_consume": 2025,
    "end_consume": 2043,
-   "appreciation_pct": 24.4,
+   "appreciation_pct": 24.6,
    "body": "Medium-full",
    "tannin": "Medium-high",
    "pairings": [
@@ -1341,7 +1341,11 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Tempranillo is a black grape variety widely grown to make full-bodied red wines in its native Spain. Its name is the diminutive of the Spanish temprano (\"early\"), a reference to the fact that it ripens several weeks earlier than most Spanish red grapes. Tempranillo has been grown on the Iberian Peninsula since the time of Phoenician settlements. It is the main grape used in Rioja, and is often referred to as Spain's noble grape. The grape has been planted throughout the…",
+    "url": "https://en.wikipedia.org/wiki/Tempranillo",
+    "title": "Tempranillo"
+   }
   },
   {
    "iWine": "5764519",
@@ -1899,7 +1903,11 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Tempranillo is a black grape variety widely grown to make full-bodied red wines in its native Spain. Its name is the diminutive of the Spanish temprano (\"early\"), a reference to the fact that it ripens several weeks earlier than most Spanish red grapes. Tempranillo has been grown on the Iberian Peninsula since the time of Phoenician settlements. It is the main grape used in Rioja, and is often referred to as Spain's noble grape. The grape has been planted throughout the…",
+    "url": "https://en.wikipedia.org/wiki/Tempranillo",
+    "title": "Tempranillo"
+   }
   },
   {
    "iWine": "1399146",
@@ -2125,9 +2133,9 @@
    "location": "Cellar - BB&R",
    "quantity": 3,
    "price_paid_bottle": 288.0,
-   "value_bottle": 358.32,
+   "value_bottle": 358.89,
    "total_paid": 864.0,
-   "total_value": 1074.97,
+   "total_value": 1076.67,
    "avg_critic_score": 95.1,
    "my_score": null,
    "critic_scores": {
@@ -2136,7 +2144,7 @@
    },
    "begin_consume": 2025,
    "end_consume": 2043,
-   "appreciation_pct": 24.4,
+   "appreciation_pct": 24.6,
    "body": "Medium-full",
    "tannin": "Medium-high",
    "pairings": [
@@ -2148,7 +2156,11 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Tempranillo is a black grape variety widely grown to make full-bodied red wines in its native Spain. Its name is the diminutive of the Spanish temprano (\"early\"), a reference to the fact that it ripens several weeks earlier than most Spanish red grapes. Tempranillo has been grown on the Iberian Peninsula since the time of Phoenician settlements. It is the main grape used in Rioja, and is often referred to as Spain's noble grape. The grape has been planted throughout the…",
+    "url": "https://en.wikipedia.org/wiki/Tempranillo",
+    "title": "Tempranillo"
+   }
   },
   {
    "iWine": "3778984",
@@ -2188,7 +2200,11 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Tempranillo is a black grape variety widely grown to make full-bodied red wines in its native Spain. Its name is the diminutive of the Spanish temprano (\"early\"), a reference to the fact that it ripens several weeks earlier than most Spanish red grapes. Tempranillo has been grown on the Iberian Peninsula since the time of Phoenician settlements. It is the main grape used in Rioja, and is often referred to as Spain's noble grape. The grape has been planted throughout the…",
+    "url": "https://en.wikipedia.org/wiki/Tempranillo",
+    "title": "Tempranillo"
+   }
   },
   {
    "iWine": "3709255",
@@ -2329,9 +2345,9 @@
    "location": "Cellar",
    "quantity": 5,
    "price_paid_bottle": 136.0,
-   "value_bottle": 204.59,
+   "value_bottle": 204.88,
    "total_paid": 680.0,
-   "total_value": 1022.97,
+   "total_value": 1024.41,
    "avg_critic_score": 90.5,
    "my_score": 93.0,
    "critic_scores": {
@@ -2340,7 +2356,7 @@
    },
    "begin_consume": 2022,
    "end_consume": 2054,
-   "appreciation_pct": 50.4,
+   "appreciation_pct": 50.6,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -2591,7 +2607,11 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Tempranillo is a black grape variety widely grown to make full-bodied red wines in its native Spain. Its name is the diminutive of the Spanish temprano (\"early\"), a reference to the fact that it ripens several weeks earlier than most Spanish red grapes. Tempranillo has been grown on the Iberian Peninsula since the time of Phoenician settlements. It is the main grape used in Rioja, and is often referred to as Spain's noble grape. The grape has been planted throughout the…",
+    "url": "https://en.wikipedia.org/wiki/Tempranillo",
+    "title": "Tempranillo"
+   }
   },
   {
    "iWine": "3984055",
@@ -2978,9 +2998,9 @@
    "location": "Cellar",
    "quantity": 1,
    "price_paid_bottle": 0.0,
-   "value_bottle": 36.79,
+   "value_bottle": 37.04,
    "total_paid": 0.0,
-   "total_value": 36.79,
+   "total_value": 37.04,
    "avg_critic_score": 91.9,
    "my_score": null,
    "critic_scores": {},
@@ -2998,7 +3018,11 @@
     "hours": 1.5,
     "label": "~1.5–2 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Tempranillo is a black grape variety widely grown to make full-bodied red wines in its native Spain. Its name is the diminutive of the Spanish temprano (\"early\"), a reference to the fact that it ripens several weeks earlier than most Spanish red grapes. Tempranillo has been grown on the Iberian Peninsula since the time of Phoenician settlements. It is the main grape used in Rioja, and is often referred to as Spain's noble grape. The grape has been planted throughout the…",
+    "url": "https://en.wikipedia.org/wiki/Tempranillo",
+    "title": "Tempranillo"
+   }
   },
   {
    "iWine": "5159319",
@@ -3150,7 +3174,11 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Nerello mascalese is a name given to a variety of red wine grapes named after the Mascali area in Catania, that grow primarily in Sicily and Sardinia.\nIt is grown mainly on the northeastern side of Sicily and is thought to be superior in quality to the Nerello Cappuccio. There is an experimental vineyard in Agliano Terme, Piedmont, where Nerello has been planted by the winery, Vini Ragerra, and they are credited with being the first to plant and vinify Nerello in this…",
+    "url": "https://en.wikipedia.org/wiki/Nerello_mascalese",
+    "title": "Nerello mascalese"
+   }
   },
   {
    "iWine": "5743675",
@@ -3187,7 +3215,11 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Nerello mascalese is a name given to a variety of red wine grapes named after the Mascali area in Catania, that grow primarily in Sicily and Sardinia.\nIt is grown mainly on the northeastern side of Sicily and is thought to be superior in quality to the Nerello Cappuccio. There is an experimental vineyard in Agliano Terme, Piedmont, where Nerello has been planted by the winery, Vini Ragerra, and they are credited with being the first to plant and vinify Nerello in this…",
+    "url": "https://en.wikipedia.org/wiki/Nerello_mascalese",
+    "title": "Nerello mascalese"
+   }
   },
   {
    "iWine": "2667924",
@@ -3448,9 +3480,9 @@
    "location": "Cellar - BB&R",
    "quantity": 3,
    "price_paid_bottle": 0.0,
-   "value_bottle": 86.0,
+   "value_bottle": 85.54,
    "total_paid": 0.0,
-   "total_value": 258.01,
+   "total_value": 256.61,
    "avg_critic_score": 92.2,
    "my_score": null,
    "critic_scores": {
@@ -3488,9 +3520,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 58.33,
-   "value_bottle": 102.19,
+   "value_bottle": 103.96,
    "total_paid": 349.98,
-   "total_value": 613.12,
+   "total_value": 623.75,
    "avg_critic_score": 91.2,
    "my_score": null,
    "critic_scores": {
@@ -3499,7 +3531,7 @@
    },
    "begin_consume": 2029,
    "end_consume": 2048,
-   "appreciation_pct": 75.2,
+   "appreciation_pct": 78.2,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -3669,7 +3701,11 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Nerello mascalese is a name given to a variety of red wine grapes named after the Mascali area in Catania, that grow primarily in Sicily and Sardinia.\nIt is grown mainly on the northeastern side of Sicily and is thought to be superior in quality to the Nerello Cappuccio. There is an experimental vineyard in Agliano Terme, Piedmont, where Nerello has been planted by the winery, Vini Ragerra, and they are credited with being the first to plant and vinify Nerello in this…",
+    "url": "https://en.wikipedia.org/wiki/Nerello_mascalese",
+    "title": "Nerello mascalese"
+   }
   },
   {
    "iWine": "4386234",
@@ -3929,8 +3965,8 @@
    "avg_critic_score": 92.5,
    "my_score": null,
    "critic_scores": {},
-   "begin_consume": 2024,
-   "end_consume": 2038,
+   "begin_consume": 2023,
+   "end_consume": 2039,
    "appreciation_pct": 1.2,
    "body": "Light",
    "tannin": "None",
@@ -3966,8 +4002,8 @@
    "avg_critic_score": 92.5,
    "my_score": null,
    "critic_scores": {},
-   "begin_consume": 2024,
-   "end_consume": 2038,
+   "begin_consume": 2023,
+   "end_consume": 2039,
    "appreciation_pct": 1.2,
    "body": "Light",
    "tannin": "None",
@@ -4747,7 +4783,11 @@
     "hours": 1.5,
     "label": "~1.5–2 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Tempranillo is a black grape variety widely grown to make full-bodied red wines in its native Spain. Its name is the diminutive of the Spanish temprano (\"early\"), a reference to the fact that it ripens several weeks earlier than most Spanish red grapes. Tempranillo has been grown on the Iberian Peninsula since the time of Phoenician settlements. It is the main grape used in Rioja, and is often referred to as Spain's noble grape. The grape has been planted throughout the…",
+    "url": "https://en.wikipedia.org/wiki/Tempranillo",
+    "title": "Tempranillo"
+   }
   },
   {
    "iWine": "5749116",
@@ -5113,7 +5153,11 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Nerello mascalese is a name given to a variety of red wine grapes named after the Mascali area in Catania, that grow primarily in Sicily and Sardinia.\nIt is grown mainly on the northeastern side of Sicily and is thought to be superior in quality to the Nerello Cappuccio. There is an experimental vineyard in Agliano Terme, Piedmont, where Nerello has been planted by the winery, Vini Ragerra, and they are credited with being the first to plant and vinify Nerello in this…",
+    "url": "https://en.wikipedia.org/wiki/Nerello_mascalese",
+    "title": "Nerello mascalese"
+   }
   },
   {
    "iWine": "874157",
@@ -5130,9 +5174,9 @@
    "location": "Cellar",
    "quantity": 5,
    "price_paid_bottle": 136.0,
-   "value_bottle": 204.59,
+   "value_bottle": 204.88,
    "total_paid": 680.0,
-   "total_value": 1022.97,
+   "total_value": 1024.41,
    "avg_critic_score": 90.5,
    "my_score": 93.0,
    "critic_scores": {
@@ -5141,7 +5185,7 @@
    },
    "begin_consume": 2022,
    "end_consume": 2054,
-   "appreciation_pct": 50.4,
+   "appreciation_pct": 50.6,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -5601,9 +5645,9 @@
    "location": "Cellar - Wine Society",
    "quantity": 6,
    "price_paid_bottle": 48.0,
-   "value_bottle": 57.88,
+   "value_bottle": 58.79,
    "total_paid": 288.0,
-   "total_value": 347.25,
+   "total_value": 352.75,
    "avg_critic_score": 93.0,
    "my_score": null,
    "critic_scores": {
@@ -5612,7 +5656,7 @@
    },
    "begin_consume": 2029,
    "end_consume": 2042,
-   "appreciation_pct": 20.6,
+   "appreciation_pct": 22.5,
    "body": "Medium",
    "tannin": "Medium-high",
    "pairings": [
@@ -5740,7 +5784,11 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Nerello mascalese is a name given to a variety of red wine grapes named after the Mascali area in Catania, that grow primarily in Sicily and Sardinia.\nIt is grown mainly on the northeastern side of Sicily and is thought to be superior in quality to the Nerello Cappuccio. There is an experimental vineyard in Agliano Terme, Piedmont, where Nerello has been planted by the winery, Vini Ragerra, and they are credited with being the first to plant and vinify Nerello in this…",
+    "url": "https://en.wikipedia.org/wiki/Nerello_mascalese",
+    "title": "Nerello mascalese"
+   }
   },
   {
    "iWine": "5407672",
@@ -5779,7 +5827,11 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Nerello mascalese is a name given to a variety of red wine grapes named after the Mascali area in Catania, that grow primarily in Sicily and Sardinia.\nIt is grown mainly on the northeastern side of Sicily and is thought to be superior in quality to the Nerello Cappuccio. There is an experimental vineyard in Agliano Terme, Piedmont, where Nerello has been planted by the winery, Vini Ragerra, and they are credited with being the first to plant and vinify Nerello in this…",
+    "url": "https://en.wikipedia.org/wiki/Nerello_mascalese",
+    "title": "Nerello mascalese"
+   }
   },
   {
    "iWine": "5764519",
@@ -6033,9 +6085,9 @@
    "location": "Cellar - BB&R",
    "quantity": 3,
    "price_paid_bottle": 288.0,
-   "value_bottle": 358.32,
+   "value_bottle": 358.89,
    "total_paid": 864.0,
-   "total_value": 1074.97,
+   "total_value": 1076.67,
    "avg_critic_score": 95.1,
    "my_score": null,
    "critic_scores": {
@@ -6044,7 +6096,7 @@
    },
    "begin_consume": 2025,
    "end_consume": 2043,
-   "appreciation_pct": 24.4,
+   "appreciation_pct": 24.6,
    "body": "Medium-full",
    "tannin": "Medium-high",
    "pairings": [
@@ -6056,7 +6108,11 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Tempranillo is a black grape variety widely grown to make full-bodied red wines in its native Spain. Its name is the diminutive of the Spanish temprano (\"early\"), a reference to the fact that it ripens several weeks earlier than most Spanish red grapes. Tempranillo has been grown on the Iberian Peninsula since the time of Phoenician settlements. It is the main grape used in Rioja, and is often referred to as Spain's noble grape. The grape has been planted throughout the…",
+    "url": "https://en.wikipedia.org/wiki/Tempranillo",
+    "title": "Tempranillo"
+   }
   },
   {
    "iWine": "3778984",
@@ -6096,7 +6152,11 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Tempranillo is a black grape variety widely grown to make full-bodied red wines in its native Spain. Its name is the diminutive of the Spanish temprano (\"early\"), a reference to the fact that it ripens several weeks earlier than most Spanish red grapes. Tempranillo has been grown on the Iberian Peninsula since the time of Phoenician settlements. It is the main grape used in Rioja, and is often referred to as Spain's noble grape. The grape has been planted throughout the…",
+    "url": "https://en.wikipedia.org/wiki/Tempranillo",
+    "title": "Tempranillo"
+   }
   },
   {
    "iWine": "4495677",
@@ -6135,7 +6195,11 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Tempranillo is a black grape variety widely grown to make full-bodied red wines in its native Spain. Its name is the diminutive of the Spanish temprano (\"early\"), a reference to the fact that it ripens several weeks earlier than most Spanish red grapes. Tempranillo has been grown on the Iberian Peninsula since the time of Phoenician settlements. It is the main grape used in Rioja, and is often referred to as Spain's noble grape. The grape has been planted throughout the…",
+    "url": "https://en.wikipedia.org/wiki/Tempranillo",
+    "title": "Tempranillo"
+   }
   },
   {
    "iWine": "5855671",
@@ -6294,6 +6358,46 @@
    "wiki": null
   },
   {
+   "iWine": "4641506",
+   "wine": "Château Clinet",
+   "vintage": "2022",
+   "producer": "Château Clinet",
+   "country": "France",
+   "region": "Bordeaux",
+   "subregion": "Libournais",
+   "appellation": "Pomerol",
+   "color": "Red",
+   "style": "Red",
+   "varietal": "Red Bordeaux Blend",
+   "location": "Cellar - BB&R",
+   "quantity": 6,
+   "price_paid_bottle": 58.33,
+   "value_bottle": 103.96,
+   "total_paid": 349.98,
+   "total_value": 623.75,
+   "avg_critic_score": 91.2,
+   "my_score": null,
+   "critic_scores": {
+    "JR": 82.5,
+    "DR": 96.0
+   },
+   "begin_consume": 2029,
+   "end_consume": 2048,
+   "appreciation_pct": 78.2,
+   "body": "Medium",
+   "tannin": "Medium",
+   "pairings": [
+    "red meat",
+    "hard cheese",
+    "roasted vegetables"
+   ],
+   "decant": {
+    "hours": 1.0,
+    "label": "~1–1.5 hrs (longer if young & tightly wound)"
+   },
+   "wiki": null
+  },
+  {
    "iWine": "2925612",
    "wine": "Paul Jaboulet Aîné Hermitage La Chapelle",
    "vintage": "2016",
@@ -6368,47 +6472,11 @@
     "hours": 1.5,
     "label": "~1.5–2 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
-  },
-  {
-   "iWine": "4641506",
-   "wine": "Château Clinet",
-   "vintage": "2022",
-   "producer": "Château Clinet",
-   "country": "France",
-   "region": "Bordeaux",
-   "subregion": "Libournais",
-   "appellation": "Pomerol",
-   "color": "Red",
-   "style": "Red",
-   "varietal": "Red Bordeaux Blend",
-   "location": "Cellar - BB&R",
-   "quantity": 6,
-   "price_paid_bottle": 58.33,
-   "value_bottle": 102.19,
-   "total_paid": 349.98,
-   "total_value": 613.12,
-   "avg_critic_score": 91.2,
-   "my_score": null,
-   "critic_scores": {
-    "JR": 82.5,
-    "DR": 96.0
-   },
-   "begin_consume": 2029,
-   "end_consume": 2048,
-   "appreciation_pct": 75.2,
-   "body": "Medium",
-   "tannin": "Medium",
-   "pairings": [
-    "red meat",
-    "hard cheese",
-    "roasted vegetables"
-   ],
-   "decant": {
-    "hours": 1.0,
-    "label": "~1–1.5 hrs (longer if young & tightly wound)"
-   },
-   "wiki": null
+   "wiki": {
+    "summary": "Tempranillo is a black grape variety widely grown to make full-bodied red wines in its native Spain. Its name is the diminutive of the Spanish temprano (\"early\"), a reference to the fact that it ripens several weeks earlier than most Spanish red grapes. Tempranillo has been grown on the Iberian Peninsula since the time of Phoenician settlements. It is the main grape used in Rioja, and is often referred to as Spain's noble grape. The grape has been planted throughout the…",
+    "url": "https://en.wikipedia.org/wiki/Tempranillo",
+    "title": "Tempranillo"
+   }
   },
   {
    "iWine": "3984055",
@@ -6734,7 +6802,11 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Tempranillo is a black grape variety widely grown to make full-bodied red wines in its native Spain. Its name is the diminutive of the Spanish temprano (\"early\"), a reference to the fact that it ripens several weeks earlier than most Spanish red grapes. Tempranillo has been grown on the Iberian Peninsula since the time of Phoenician settlements. It is the main grape used in Rioja, and is often referred to as Spain's noble grape. The grape has been planted throughout the…",
+    "url": "https://en.wikipedia.org/wiki/Tempranillo",
+    "title": "Tempranillo"
+   }
   },
   {
    "iWine": "874157",
@@ -6751,9 +6823,9 @@
    "location": "Cellar",
    "quantity": 5,
    "price_paid_bottle": 136.0,
-   "value_bottle": 204.59,
+   "value_bottle": 204.88,
    "total_paid": 680.0,
-   "total_value": 1022.97,
+   "total_value": 1024.41,
    "avg_critic_score": 90.5,
    "my_score": 93.0,
    "critic_scores": {
@@ -6762,7 +6834,7 @@
    },
    "begin_consume": 2022,
    "end_consume": 2054,
-   "appreciation_pct": 50.4,
+   "appreciation_pct": 50.6,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -6930,7 +7002,11 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Nerello mascalese is a name given to a variety of red wine grapes named after the Mascali area in Catania, that grow primarily in Sicily and Sardinia.\nIt is grown mainly on the northeastern side of Sicily and is thought to be superior in quality to the Nerello Cappuccio. There is an experimental vineyard in Agliano Terme, Piedmont, where Nerello has been planted by the winery, Vini Ragerra, and they are credited with being the first to plant and vinify Nerello in this…",
+    "url": "https://en.wikipedia.org/wiki/Nerello_mascalese",
+    "title": "Nerello mascalese"
+   }
   },
   {
    "iWine": "5322676",
@@ -7303,8 +7379,8 @@
    "avg_critic_score": 92.5,
    "my_score": null,
    "critic_scores": {},
-   "begin_consume": 2024,
-   "end_consume": 2038,
+   "begin_consume": 2023,
+   "end_consume": 2039,
    "appreciation_pct": 1.2,
    "body": "Light",
    "tannin": "None",
@@ -7340,8 +7416,8 @@
    "avg_critic_score": 92.5,
    "my_score": null,
    "critic_scores": {},
-   "begin_consume": 2024,
-   "end_consume": 2038,
+   "begin_consume": 2023,
+   "end_consume": 2039,
    "appreciation_pct": 1.2,
    "body": "Light",
    "tannin": "None",
@@ -7466,8 +7542,8 @@
    "wines": 3,
    "bottles": 9,
    "paid": 1899.0,
-   "value": 2487.11,
-   "appreciation_pct": 31.0,
+   "value": 2488.81,
+   "appreciation_pct": 31.1,
    "avg_score": 93.5,
    "countries": [
     "Spain"
@@ -7488,8 +7564,8 @@
    "wines": 2,
    "bottles": 11,
    "paid": 980.0,
-   "value": 1567.13,
-   "appreciation_pct": 59.9,
+   "value": 1568.57,
+   "appreciation_pct": 60.1,
    "avg_score": 90.9,
    "countries": [
     "France"
@@ -7678,8 +7754,8 @@
    "wines": 1,
    "bottles": 6,
    "paid": 349.98,
-   "value": 613.12,
-   "appreciation_pct": 75.2,
+   "value": 623.75,
+   "appreciation_pct": 78.2,
    "avg_score": 91.2,
    "countries": [
     "France"
@@ -7732,8 +7808,8 @@
    "wines": 2,
    "bottles": 8,
    "paid": 422.0,
-   "value": 496.35,
-   "appreciation_pct": 17.6,
+   "value": 501.85,
+   "appreciation_pct": 18.9,
    "avg_score": 93.1,
    "countries": [
     "Italy"
@@ -7936,7 +8012,7 @@
    "wines": 1,
    "bottles": 3,
    "paid": 0.0,
-   "value": 258.01,
+   "value": 256.61,
    "appreciation_pct": null,
    "avg_score": 92.2,
    "countries": [
@@ -8332,7 +8408,7 @@
    "wines": 1,
    "bottles": 1,
    "paid": 0.0,
-   "value": 36.79,
+   "value": 37.04,
    "appreciation_pct": null,
    "avg_score": 91.9,
    "countries": [
@@ -8710,7 +8786,7 @@
    }
   },
   "avg_bottle_price_paid": 75.54,
-  "avg_bottle_value_now": 100.34,
+  "avg_bottle_value_now": 100.4,
   "avg_cellar_age_years": 7.1,
   "largest_single_purchase": {
    "date": "2026-03-06",
@@ -8740,7 +8816,7 @@
     "vintage": "2019",
     "producer": "Dunn Vineyards",
     "since": "2025-05-10",
-    "days_held": 509
+    "days_held": 510
    },
    {
     "iWine": "4986829",
@@ -8748,7 +8824,7 @@
     "vintage": "2023",
     "producer": "Roc de Cambes",
     "since": "2025-06-07",
-    "days_held": 481
+    "days_held": 482
    },
    {
     "iWine": "4390612",
@@ -8756,7 +8832,7 @@
     "vintage": "2022",
     "producer": "Penfolds",
     "since": "2025-06-11",
-    "days_held": 477
+    "days_held": 478
    },
    {
     "iWine": "4641506",
@@ -8764,7 +8840,7 @@
     "vintage": "2022",
     "producer": "Château Clinet",
     "since": "2025-07-03",
-    "days_held": 455
+    "days_held": 456
    },
    {
     "iWine": "4638895",
@@ -8772,7 +8848,7 @@
     "vintage": "2022",
     "producer": "Château Troplong Mondot",
     "since": "2025-07-03",
-    "days_held": 455
+    "days_held": 456
    },
    {
     "iWine": "4876898",
@@ -8780,7 +8856,7 @@
     "vintage": "2019",
     "producer": "Canalicchio di Sopra",
     "since": "2025-07-12",
-    "days_held": 446
+    "days_held": 447
    },
    {
     "iWine": "4547984",
@@ -8788,7 +8864,7 @@
     "vintage": "2019",
     "producer": "Massolino",
     "since": "2025-07-12",
-    "days_held": 446
+    "days_held": 447
    },
    {
     "iWine": "3709255",
@@ -8796,7 +8872,7 @@
     "vintage": "2018",
     "producer": "Penfolds",
     "since": "2025-07-12",
-    "days_held": 446
+    "days_held": 447
    },
    {
     "iWine": "5271148",
@@ -8804,7 +8880,7 @@
     "vintage": "2019",
     "producer": "San Polino",
     "since": "2025-07-12",
-    "days_held": 446
+    "days_held": 447
    },
    {
     "iWine": "4638813",
@@ -8812,16 +8888,16 @@
     "vintage": "2022",
     "producer": "Château Laroque",
     "since": "2025-07-13",
-    "days_held": 445
+    "days_held": 446
    }
   ],
-  "total_appreciation_pct": 32.8
+  "total_appreciation_pct": 32.9
  },
  "map_countries": [
   {
    "name": "France",
    "bottles": 121,
-   "value": 10884.729999999998,
+   "value": 10895.4,
    "wines": 27,
    "lat": 46.6,
    "lon": 2.2
@@ -8837,7 +8913,7 @@
   {
    "name": "Italy",
    "bottles": 62,
-   "value": 4538.31,
+   "value": 4543.81,
    "wines": 19,
    "lat": 42.8,
    "lon": 12.6
@@ -8845,7 +8921,7 @@
   {
    "name": "Spain",
    "bottles": 14,
-   "value": 2709.89,
+   "value": 2711.84,
    "wines": 8,
    "lat": 40.3,
    "lon": -3.7
@@ -18539,7 +18615,7 @@
     "date": "2026-05-16",
     "month": "2026-05",
     "rating": 88.0,
-    "community_score": 92.2689655172414,
+    "community_score": 92.2602739726027,
     "delta": -4.3,
     "notes_text": ""
    },
@@ -19099,7 +19175,7 @@
     "date": "2026-02-14",
     "month": "2026-02",
     "rating": 91.0,
-    "community_score": 93.1098901098901,
+    "community_score": 93.1147540983606,
     "delta": -2.1,
     "notes_text": ""
    },
@@ -20267,8 +20343,8 @@
     "date": "2025-07-18",
     "month": "2025-07",
     "rating": 84.0,
-    "community_score": 88.2222222222222,
-    "delta": -4.2,
+    "community_score": 89.0,
+    "delta": -5.0,
     "notes_text": "Stone fruits, light oak"
    },
    {
