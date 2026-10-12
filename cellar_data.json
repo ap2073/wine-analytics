@@ -1,25 +1,25 @@
 {
- "generated_at": "2026-10-11T12:38:10.690399+00:00",
+ "generated_at": "2026-10-12T15:11:48.967643+00:00",
  "current_year": 2026,
  "summary": {
-  "total_bottles": 286,
-  "total_wines": 83,
-  "total_value": 28777.82,
-  "total_paid": 21604.75,
+  "total_bottles": 292,
+  "total_wines": 84,
+  "total_value": 29031.85,
+  "total_paid": 21826.75,
   "countries": 11,
-  "avg_critic_score": 91.3
+  "avg_critic_score": 91.2
  },
  "by_country": [
   {
    "name": "France",
    "bottles": 121,
-   "value": 10930.78,
+   "value": 10929.61,
    "wines": 27
   },
   {
    "name": "Australia",
    "bottles": 28,
-   "value": 7114.799999999998,
+   "value": 7149.329999999999,
    "wines": 7
   },
   {
@@ -31,13 +31,13 @@
   {
    "name": "Spain",
    "bottles": 14,
-   "value": 2735.0600000000004,
+   "value": 2734.24,
    "wines": 8
   },
   {
    "name": "South Africa",
    "bottles": 33,
-   "value": 1666.75,
+   "value": 1667.1299999999999,
    "wines": 11
   },
   {
@@ -49,19 +49,19 @@
   {
    "name": "Portugal",
    "bottles": 10,
-   "value": 574.25,
+   "value": 573.24,
    "wines": 5
+  },
+  {
+   "name": "New Zealand",
+   "bottles": 9,
+   "value": 419.97,
+   "wines": 2
   },
   {
    "name": "Germany",
    "bottles": 6,
    "value": 303.24,
-   "wines": 1
-  },
-  {
-   "name": "New Zealand",
-   "bottles": 3,
-   "value": 197.85,
    "wines": 1
   },
   {
@@ -81,19 +81,19 @@
   {
    "name": "Red Bordeaux Blend",
    "bottles": 101,
-   "value": 10189.939999999999,
+   "value": 10189.149999999998,
    "wines": 26
   },
   {
    "name": "Syrah",
    "bottles": 33,
-   "value": 6512.040000000001,
+   "value": 6546.57,
    "wines": 6
   },
   {
    "name": "Tempranillo",
    "bottles": 11,
-   "value": 2590.5299999999997,
+   "value": 2589.5200000000004,
    "wines": 5
   },
   {
@@ -121,21 +121,21 @@
    "wines": 4
   },
   {
+   "name": "Riesling",
+   "bottles": 16,
+   "value": 707.4300000000001,
+   "wines": 4
+  },
+  {
    "name": "Port Blend",
    "bottles": 8,
-   "value": 541.09,
+   "value": 540.08,
    "wines": 3
   },
   {
    "name": "Nebbiolo",
    "bottles": 13,
    "value": 513.28,
-   "wines": 3
-  },
-  {
-   "name": "Riesling",
-   "bottles": 10,
-   "value": 485.31000000000006,
    "wines": 3
   },
   {
@@ -171,7 +171,7 @@
   {
    "name": "Albariño",
    "bottles": 2,
-   "value": 93.77000000000001,
+   "value": 93.96000000000001,
    "wines": 2
   },
   {
@@ -203,13 +203,13 @@
   {
    "name": "Bordeaux",
    "bottles": 88,
-   "value": 8491.669999999998,
+   "value": 8490.499999999998,
    "wines": 18
   },
   {
    "name": "South Australia",
    "bottles": 25,
-   "value": 7039.089999999998,
+   "value": 7073.619999999999,
    "wines": 6
   },
   {
@@ -221,13 +221,13 @@
   {
    "name": "Castilla y León",
    "bottles": 11,
-   "value": 2590.5299999999997,
+   "value": 2589.5200000000004,
    "wines": 5
   },
   {
    "name": "Coastal Region",
    "bottles": 27,
-   "value": 1491.33,
+   "value": 1491.71,
    "wines": 10
   },
   {
@@ -251,7 +251,7 @@
   {
    "name": "Douro",
    "bottles": 9,
-   "value": 561.4300000000001,
+   "value": 560.4200000000001,
    "wines": 4
   },
   {
@@ -259,6 +259,12 @@
    "bottles": 13,
    "value": 513.28,
    "wines": 3
+  },
+  {
+   "name": "North Island",
+   "bottles": 9,
+   "value": 419.97,
+   "wines": 2
   },
   {
    "name": "Veneto",
@@ -270,12 +276,6 @@
    "name": "Mosel Saar Ruwer",
    "bottles": 6,
    "value": 303.24,
-   "wines": 1
-  },
-  {
-   "name": "North Island",
-   "bottles": 3,
-   "value": 197.85,
    "wines": 1
   },
   {
@@ -299,7 +299,7 @@
   {
    "name": "Galicia",
    "bottles": 2,
-   "value": 93.77000000000001,
+   "value": 93.96000000000001,
    "wines": 2
   },
   {
@@ -325,29 +325,29 @@
   {
    "name": "Red",
    "bottles": 262,
-   "value": 27504.810000000005
+   "value": 27536.530000000002
   },
   {
    "name": "White",
-   "bottles": 24,
-   "value": 1273.01
+   "bottles": 30,
+   "value": 1495.32
   }
  ],
  "by_style": [
   {
    "name": "Red",
    "bottles": 256,
-   "value": 27067.560000000005
+   "value": 27100.29
   },
   {
    "name": "White",
-   "bottles": 17,
-   "value": 865.5400000000001
+   "bottles": 23,
+   "value": 1087.85
   },
   {
    "name": "Fortified",
    "bottles": 6,
-   "value": 437.25
+   "value": 436.24
   },
   {
    "name": "Dessert / Sweet",
@@ -359,7 +359,7 @@
   {
    "name": "Penfolds",
    "bottles": 19,
-   "value": 6871.539999999999,
+   "value": 6906.07,
    "wines": 4
   },
   {
@@ -371,7 +371,7 @@
   {
    "name": "Château Pontet-Canet",
    "bottles": 11,
-   "value": 1559.31,
+   "value": 1560.41,
    "wines": 2
   },
   {
@@ -383,13 +383,13 @@
   {
    "name": "Château Cos d'Estournel",
    "bottles": 6,
-   "value": 1092.55,
+   "value": 1086.6,
    "wines": 1
   },
   {
    "name": "Château Troplong Mondot",
    "bottles": 9,
-   "value": 877.53,
+   "value": 875.25,
    "wines": 2
   },
   {
@@ -413,7 +413,7 @@
   {
    "name": "Château Les Carmes Haut-Brion",
    "bottles": 6,
-   "value": 734.14,
+   "value": 739.67,
    "wines": 1
   },
   {
@@ -451,17 +451,17 @@
   {
    "name": "Cellar",
    "bottles": 52,
-   "value": 4188.75
+   "value": 4189.030000000001
   },
   {
    "name": "Cellar - Wine Society",
    "bottles": 108,
-   "value": 6183.44
+   "value": 6180.53
   },
   {
    "name": "Cellar - BB&R",
-   "bottles": 126,
-   "value": 18405.63
+   "bottles": 132,
+   "value": 18662.290000000005
   }
  ],
  "drinking_window": {
@@ -537,6 +537,15 @@
     "quantity": 6,
     "begin": 2016,
     "end": 2037
+   },
+   {
+    "iWine": "4800037",
+    "wine": "Kusuda Riesling",
+    "vintage": "2022",
+    "producer": "Kusuda",
+    "quantity": 6,
+    "begin": 2025,
+    "end": 2033
    },
    {
     "iWine": "3656215",
@@ -1341,11 +1350,7 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": {
-    "summary": "Tempranillo is a black grape variety widely grown to make full-bodied red wines in its native Spain. Its name is the diminutive of the Spanish temprano (\"early\"), a reference to the fact that it ripens several weeks earlier than most Spanish red grapes. Tempranillo has been grown on the Iberian Peninsula since the time of Phoenician settlements. It is the main grape used in Rioja, and is often referred to as Spain's noble grape. The grape has been planted throughout the…",
-    "url": "https://en.wikipedia.org/wiki/Tempranillo",
-    "title": "Tempranillo"
-   }
+   "wiki": null
   },
   {
    "iWine": "5764519",
@@ -1481,9 +1486,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 268.0,
-   "value_bottle": 422.01,
+   "value_bottle": 427.77,
    "total_paid": 1608.0,
-   "total_value": 2532.07,
+   "total_value": 2566.6,
    "avg_critic_score": 94.6,
    "my_score": null,
    "critic_scores": {
@@ -1492,7 +1497,7 @@
    },
    "begin_consume": 2030,
    "end_consume": 2057,
-   "appreciation_pct": 57.5,
+   "appreciation_pct": 59.6,
    "body": "Full",
    "tannin": "High",
    "pairings": [
@@ -1603,9 +1608,9 @@
    "location": "Cellar - Wine Society",
    "quantity": 3,
    "price_paid_bottle": 56.0,
-   "value_bottle": 73.5,
+   "value_bottle": 73.17,
    "total_paid": 168.0,
-   "total_value": 220.51,
+   "total_value": 219.5,
    "avg_critic_score": 94.0,
    "my_score": null,
    "critic_scores": {
@@ -1613,7 +1618,7 @@
    },
    "begin_consume": 2042,
    "end_consume": 2065,
-   "appreciation_pct": 31.2,
+   "appreciation_pct": 30.7,
    "body": "Rich",
    "tannin": "Low",
    "pairings": [
@@ -1840,9 +1845,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 71.67,
-   "value_bottle": 122.36,
+   "value_bottle": 123.28,
    "total_paid": 430.02,
-   "total_value": 734.14,
+   "total_value": 739.67,
    "avg_critic_score": 93.4,
    "my_score": null,
    "critic_scores": {
@@ -1851,7 +1856,7 @@
    },
    "begin_consume": 2030,
    "end_consume": 2053,
-   "appreciation_pct": 70.7,
+   "appreciation_pct": 72.0,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -1903,11 +1908,7 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": {
-    "summary": "Tempranillo is a black grape variety widely grown to make full-bodied red wines in its native Spain. Its name is the diminutive of the Spanish temprano (\"early\"), a reference to the fact that it ripens several weeks earlier than most Spanish red grapes. Tempranillo has been grown on the Iberian Peninsula since the time of Phoenician settlements. It is the main grape used in Rioja, and is often referred to as Spain's noble grape. The grape has been planted throughout the…",
-    "url": "https://en.wikipedia.org/wiki/Tempranillo",
-    "title": "Tempranillo"
-   }
+   "wiki": null
   },
   {
    "iWine": "1399146",
@@ -2054,9 +2055,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 268.0,
-   "value_bottle": 422.01,
+   "value_bottle": 427.77,
    "total_paid": 1608.0,
-   "total_value": 2532.07,
+   "total_value": 2566.6,
    "avg_critic_score": 94.6,
    "my_score": null,
    "critic_scores": {
@@ -2065,7 +2066,7 @@
    },
    "begin_consume": 2030,
    "end_consume": 2057,
-   "appreciation_pct": 57.5,
+   "appreciation_pct": 59.6,
    "body": "Full",
    "tannin": "High",
    "pairings": [
@@ -2156,11 +2157,7 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": {
-    "summary": "Tempranillo is a black grape variety widely grown to make full-bodied red wines in its native Spain. Its name is the diminutive of the Spanish temprano (\"early\"), a reference to the fact that it ripens several weeks earlier than most Spanish red grapes. Tempranillo has been grown on the Iberian Peninsula since the time of Phoenician settlements. It is the main grape used in Rioja, and is often referred to as Spain's noble grape. The grape has been planted throughout the…",
-    "url": "https://en.wikipedia.org/wiki/Tempranillo",
-    "title": "Tempranillo"
-   }
+   "wiki": null
   },
   {
    "iWine": "3778984",
@@ -2200,11 +2197,7 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": {
-    "summary": "Tempranillo is a black grape variety widely grown to make full-bodied red wines in its native Spain. Its name is the diminutive of the Spanish temprano (\"early\"), a reference to the fact that it ripens several weeks earlier than most Spanish red grapes. Tempranillo has been grown on the Iberian Peninsula since the time of Phoenician settlements. It is the main grape used in Rioja, and is often referred to as Spain's noble grape. The grape has been planted throughout the…",
-    "url": "https://en.wikipedia.org/wiki/Tempranillo",
-    "title": "Tempranillo"
-   }
+   "wiki": null
   },
   {
    "iWine": "3709255",
@@ -2345,9 +2338,9 @@
    "location": "Cellar",
    "quantity": 5,
    "price_paid_bottle": 136.0,
-   "value_bottle": 206.17,
+   "value_bottle": 206.39,
    "total_paid": 680.0,
-   "total_value": 1030.86,
+   "total_value": 1031.96,
    "avg_critic_score": 90.5,
    "my_score": 93.0,
    "critic_scores": {
@@ -2356,7 +2349,7 @@
    },
    "begin_consume": 2022,
    "end_consume": 2054,
-   "appreciation_pct": 51.6,
+   "appreciation_pct": 51.8,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -2424,9 +2417,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 129.0,
-   "value_bottle": 182.09,
+   "value_bottle": 181.1,
    "total_paid": 774.0,
-   "total_value": 1092.55,
+   "total_value": 1086.6,
    "avg_critic_score": 90.2,
    "my_score": null,
    "critic_scores": {
@@ -2435,7 +2428,7 @@
    },
    "begin_consume": 2027,
    "end_consume": 2057,
-   "appreciation_pct": 41.2,
+   "appreciation_pct": 40.4,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -2607,11 +2600,7 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": {
-    "summary": "Tempranillo is a black grape variety widely grown to make full-bodied red wines in its native Spain. Its name is the diminutive of the Spanish temprano (\"early\"), a reference to the fact that it ripens several weeks earlier than most Spanish red grapes. Tempranillo has been grown on the Iberian Peninsula since the time of Phoenician settlements. It is the main grape used in Rioja, and is often referred to as Spain's noble grape. The grape has been planted throughout the…",
-    "url": "https://en.wikipedia.org/wiki/Tempranillo",
-    "title": "Tempranillo"
-   }
+   "wiki": null
   },
   {
    "iWine": "3984055",
@@ -2628,9 +2617,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 71.67,
-   "value_bottle": 122.36,
+   "value_bottle": 123.28,
    "total_paid": 430.02,
-   "total_value": 734.14,
+   "total_value": 739.67,
    "avg_critic_score": 93.4,
    "my_score": null,
    "critic_scores": {
@@ -2639,7 +2628,7 @@
    },
    "begin_consume": 2030,
    "end_consume": 2053,
-   "appreciation_pct": 70.7,
+   "appreciation_pct": 72.0,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -2909,15 +2898,15 @@
   },
   {
    "month": "2026-10",
-   "total": 0.0
+   "total": 222.0
   }
  ],
  "spend_by_store": [
   {
    "name": "BB&R",
-   "total": 15742.919999999998,
-   "bottles": 165,
-   "orders": 29
+   "total": 15964.919999999998,
+   "bottles": 171,
+   "orders": 30
   },
   {
    "name": "Wine Society",
@@ -2944,7 +2933,7 @@
    "orders": 264
   }
  ],
- "total_purchases": 427,
+ "total_purchases": 428,
  "wines": [
   {
    "iWine": "5522783",
@@ -2981,7 +2970,11 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Nebbiolo is an Italian red wine grape variety predominantly associated with its native Piedmont region. It is used to produce the Denominazione di Origine Controllata e Garantita (DOCG) wines of Barolo, Barbaresco, Gattinara, Ghemme, and Roero, together with numerous DOC wines. Nebbiolo is thought to derive its name from the Italian nebbia or Piedmontese nebia, meaning 'fog'. During harvest, which generally takes place late in October, a deep, intense fog sets into the…",
+    "url": "https://en.wikipedia.org/wiki/Nebbiolo",
+    "title": "Nebbiolo"
+   }
   },
   {
    "iWine": "5384841",
@@ -3018,11 +3011,7 @@
     "hours": 1.5,
     "label": "~1.5–2 hrs (longer if young & tightly wound)"
    },
-   "wiki": {
-    "summary": "Tempranillo is a black grape variety widely grown to make full-bodied red wines in its native Spain. Its name is the diminutive of the Spanish temprano (\"early\"), a reference to the fact that it ripens several weeks earlier than most Spanish red grapes. Tempranillo has been grown on the Iberian Peninsula since the time of Phoenician settlements. It is the main grape used in Rioja, and is often referred to as Spain's noble grape. The grape has been planted throughout the…",
-    "url": "https://en.wikipedia.org/wiki/Tempranillo",
-    "title": "Tempranillo"
-   }
+   "wiki": null
   },
   {
    "iWine": "5159319",
@@ -3552,9 +3541,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 129.0,
-   "value_bottle": 182.09,
+   "value_bottle": 181.1,
    "total_paid": 774.0,
-   "total_value": 1092.55,
+   "total_value": 1086.6,
    "avg_critic_score": 90.2,
    "my_score": null,
    "critic_scores": {
@@ -3563,7 +3552,7 @@
    },
    "begin_consume": 2027,
    "end_consume": 2057,
-   "appreciation_pct": 41.2,
+   "appreciation_pct": 40.4,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -3776,7 +3765,11 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Nebbiolo is an Italian red wine grape variety predominantly associated with its native Piedmont region. It is used to produce the Denominazione di Origine Controllata e Garantita (DOCG) wines of Barolo, Barbaresco, Gattinara, Ghemme, and Roero, together with numerous DOC wines. Nebbiolo is thought to derive its name from the Italian nebbia or Piedmontese nebia, meaning 'fog'. During harvest, which generally takes place late in October, a deep, intense fog sets into the…",
+    "url": "https://en.wikipedia.org/wiki/Nebbiolo",
+    "title": "Nebbiolo"
+   }
   },
   {
    "iWine": "5519448",
@@ -3904,9 +3897,9 @@
    "location": "Cellar - Wine Society",
    "quantity": 3,
    "price_paid_bottle": 56.0,
-   "value_bottle": 73.5,
+   "value_bottle": 73.17,
    "total_paid": 168.0,
-   "total_value": 220.51,
+   "total_value": 219.5,
    "avg_critic_score": 94.0,
    "my_score": null,
    "critic_scores": {
@@ -3914,7 +3907,7 @@
    },
    "begin_consume": 2042,
    "end_consume": 2065,
-   "appreciation_pct": 31.2,
+   "appreciation_pct": 30.7,
    "body": "Rich",
    "tannin": "Low",
    "pairings": [
@@ -4208,6 +4201,45 @@
    }
   },
   {
+   "iWine": "4800037",
+   "wine": "Kusuda Riesling",
+   "vintage": "2022",
+   "producer": "Kusuda",
+   "country": "New Zealand",
+   "region": "North Island",
+   "subregion": "Wairarapa",
+   "appellation": "Martinborough",
+   "color": "White",
+   "style": "White",
+   "varietal": "Riesling",
+   "location": "Cellar - BB&R",
+   "quantity": 6,
+   "price_paid_bottle": 37.0,
+   "value_bottle": 37.02,
+   "total_paid": 222.0,
+   "total_value": 222.12,
+   "avg_critic_score": 90.0,
+   "my_score": null,
+   "critic_scores": {
+    "JR": 90.0
+   },
+   "begin_consume": 2025,
+   "end_consume": 2033,
+   "appreciation_pct": 0.1,
+   "body": "Light",
+   "tannin": "None",
+   "pairings": [
+    "spicy Asian food",
+    "pork",
+    "soft cheese"
+   ],
+   "decant": {
+    "hours": 0,
+    "label": "No decanting needed — drink straight from the bottle"
+   },
+   "wiki": null
+  },
+  {
    "iWine": "3645986",
    "wine": "Château Lagrange (St. Julien)",
    "vintage": "2019",
@@ -4302,9 +4334,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 18.0,
-   "value_bottle": 26.97,
+   "value_bottle": 27.04,
    "total_paid": 108.0,
-   "total_value": 161.84,
+   "total_value": 162.27,
    "avg_critic_score": 90.1,
    "my_score": null,
    "critic_scores": {
@@ -4313,7 +4345,7 @@
    },
    "begin_consume": 2025,
    "end_consume": 2041,
-   "appreciation_pct": 49.8,
+   "appreciation_pct": 50.2,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -4462,9 +4494,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 71.67,
-   "value_bottle": 122.36,
+   "value_bottle": 123.28,
    "total_paid": 430.02,
-   "total_value": 734.14,
+   "total_value": 739.67,
    "avg_critic_score": 93.4,
    "my_score": null,
    "critic_scores": {
@@ -4473,7 +4505,7 @@
    },
    "begin_consume": 2030,
    "end_consume": 2053,
-   "appreciation_pct": 70.7,
+   "appreciation_pct": 72.0,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -4648,7 +4680,11 @@
     "hours": 3.0,
     "label": "~3–3.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Nebbiolo is an Italian red wine grape variety predominantly associated with its native Piedmont region. It is used to produce the Denominazione di Origine Controllata e Garantita (DOCG) wines of Barolo, Barbaresco, Gattinara, Ghemme, and Roero, together with numerous DOC wines. Nebbiolo is thought to derive its name from the Italian nebbia or Piedmontese nebia, meaning 'fog'. During harvest, which generally takes place late in October, a deep, intense fog sets into the…",
+    "url": "https://en.wikipedia.org/wiki/Nebbiolo",
+    "title": "Nebbiolo"
+   }
   },
   {
    "iWine": "5855669",
@@ -4665,15 +4701,15 @@
    "location": "Cellar - Wine Society",
    "quantity": 1,
    "price_paid_bottle": 31.0,
-   "value_bottle": 27.18,
+   "value_bottle": 27.36,
    "total_paid": 31.0,
-   "total_value": 27.18,
+   "total_value": 27.36,
    "avg_critic_score": null,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2031,
    "end_consume": 2044,
-   "appreciation_pct": -12.3,
+   "appreciation_pct": -11.7,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -4743,15 +4779,15 @@
    "location": "Cellar",
    "quantity": 1,
    "price_paid_bottle": 23.33,
-   "value_bottle": 40.91,
+   "value_bottle": 39.9,
    "total_paid": 23.33,
-   "total_value": 40.91,
+   "total_value": 39.9,
    "avg_critic_score": 91.3,
    "my_score": 90.0,
    "critic_scores": {},
    "begin_consume": 2025,
    "end_consume": 2038,
-   "appreciation_pct": 75.4,
+   "appreciation_pct": 71.0,
    "body": "Medium-full",
    "tannin": "Medium-high",
    "pairings": [
@@ -4763,11 +4799,7 @@
     "hours": 1.5,
     "label": "~1.5–2 hrs (longer if young & tightly wound)"
    },
-   "wiki": {
-    "summary": "Tempranillo is a black grape variety widely grown to make full-bodied red wines in its native Spain. Its name is the diminutive of the Spanish temprano (\"early\"), a reference to the fact that it ripens several weeks earlier than most Spanish red grapes. Tempranillo has been grown on the Iberian Peninsula since the time of Phoenician settlements. It is the main grape used in Rioja, and is often referred to as Spain's noble grape. The grape has been planted throughout the…",
-    "url": "https://en.wikipedia.org/wiki/Tempranillo",
-    "title": "Tempranillo"
-   }
+   "wiki": null
   },
   {
    "iWine": "5749116",
@@ -4904,9 +4936,9 @@
    "location": "Cellar",
    "quantity": 1,
    "price_paid_bottle": 46.0,
-   "value_bottle": 47.09,
+   "value_bottle": 47.28,
    "total_paid": 46.0,
-   "total_value": 47.09,
+   "total_value": 47.28,
    "avg_critic_score": 87.2,
    "my_score": null,
    "critic_scores": {
@@ -4914,7 +4946,7 @@
    },
    "begin_consume": 2024,
    "end_consume": 2031,
-   "appreciation_pct": 2.4,
+   "appreciation_pct": 2.8,
    "body": "Light-medium",
    "tannin": "None",
    "pairings": [
@@ -5070,9 +5102,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 268.0,
-   "value_bottle": 422.01,
+   "value_bottle": 427.77,
    "total_paid": 1608.0,
-   "total_value": 2532.07,
+   "total_value": 2566.6,
    "avg_critic_score": 94.6,
    "my_score": null,
    "critic_scores": {
@@ -5081,7 +5113,7 @@
    },
    "begin_consume": 2030,
    "end_consume": 2057,
-   "appreciation_pct": 57.5,
+   "appreciation_pct": 59.6,
    "body": "Full",
    "tannin": "High",
    "pairings": [
@@ -5150,9 +5182,9 @@
    "location": "Cellar",
    "quantity": 5,
    "price_paid_bottle": 136.0,
-   "value_bottle": 206.17,
+   "value_bottle": 206.39,
    "total_paid": 680.0,
-   "total_value": 1030.86,
+   "total_value": 1031.96,
    "avg_critic_score": 90.5,
    "my_score": 93.0,
    "critic_scores": {
@@ -5161,7 +5193,7 @@
    },
    "begin_consume": 2022,
    "end_consume": 2054,
-   "appreciation_pct": 51.6,
+   "appreciation_pct": 51.8,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -5233,7 +5265,7 @@
    "value_bottle": 52.51,
    "total_paid": 162.0,
    "total_value": 157.52,
-   "avg_critic_score": 91.7,
+   "avg_critic_score": 91.6,
    "my_score": null,
    "critic_scores": {
     "JR": 87.5
@@ -5701,15 +5733,15 @@
    "location": "Cellar - Wine Society",
    "quantity": 1,
    "price_paid_bottle": 31.0,
-   "value_bottle": 22.79,
+   "value_bottle": 22.99,
    "total_paid": 31.0,
-   "total_value": 22.79,
+   "total_value": 22.99,
    "avg_critic_score": null,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2031,
    "end_consume": 2043,
-   "appreciation_pct": -26.5,
+   "appreciation_pct": -25.8,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -5931,9 +5963,9 @@
    "location": "Cellar - Wine Society",
    "quantity": 3,
    "price_paid_bottle": 74.0,
-   "value_bottle": 79.46,
+   "value_bottle": 78.7,
    "total_paid": 222.0,
-   "total_value": 238.38,
+   "total_value": 236.1,
    "avg_critic_score": 92.5,
    "my_score": null,
    "critic_scores": {
@@ -5942,7 +5974,7 @@
    },
    "begin_consume": 2032,
    "end_consume": 2053,
-   "appreciation_pct": 7.4,
+   "appreciation_pct": 6.4,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -6076,11 +6108,7 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": {
-    "summary": "Tempranillo is a black grape variety widely grown to make full-bodied red wines in its native Spain. Its name is the diminutive of the Spanish temprano (\"early\"), a reference to the fact that it ripens several weeks earlier than most Spanish red grapes. Tempranillo has been grown on the Iberian Peninsula since the time of Phoenician settlements. It is the main grape used in Rioja, and is often referred to as Spain's noble grape. The grape has been planted throughout the…",
-    "url": "https://en.wikipedia.org/wiki/Tempranillo",
-    "title": "Tempranillo"
-   }
+   "wiki": null
   },
   {
    "iWine": "3778984",
@@ -6120,11 +6148,7 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": {
-    "summary": "Tempranillo is a black grape variety widely grown to make full-bodied red wines in its native Spain. Its name is the diminutive of the Spanish temprano (\"early\"), a reference to the fact that it ripens several weeks earlier than most Spanish red grapes. Tempranillo has been grown on the Iberian Peninsula since the time of Phoenician settlements. It is the main grape used in Rioja, and is often referred to as Spain's noble grape. The grape has been planted throughout the…",
-    "url": "https://en.wikipedia.org/wiki/Tempranillo",
-    "title": "Tempranillo"
-   }
+   "wiki": null
   },
   {
    "iWine": "4495677",
@@ -6163,11 +6187,7 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": {
-    "summary": "Tempranillo is a black grape variety widely grown to make full-bodied red wines in its native Spain. Its name is the diminutive of the Spanish temprano (\"early\"), a reference to the fact that it ripens several weeks earlier than most Spanish red grapes. Tempranillo has been grown on the Iberian Peninsula since the time of Phoenician settlements. It is the main grape used in Rioja, and is often referred to as Spain's noble grape. The grape has been planted throughout the…",
-    "url": "https://en.wikipedia.org/wiki/Tempranillo",
-    "title": "Tempranillo"
-   }
+   "wiki": null
   },
   {
    "iWine": "5855671",
@@ -6406,47 +6426,6 @@
    "wiki": null
   },
   {
-   "iWine": "5458680",
-   "wine": "Pago de Carraovejas Ribera del Duero",
-   "vintage": "2023",
-   "producer": "Pago de Carraovejas",
-   "country": "Spain",
-   "region": "Castilla y León",
-   "subregion": "Unknown",
-   "appellation": "Ribera del Duero",
-   "color": "Red",
-   "style": "Red",
-   "varietal": "Tempranillo",
-   "location": "Cellar",
-   "quantity": 1,
-   "price_paid_bottle": 23.33,
-   "value_bottle": 40.91,
-   "total_paid": 23.33,
-   "total_value": 40.91,
-   "avg_critic_score": 91.3,
-   "my_score": 90.0,
-   "critic_scores": {},
-   "begin_consume": 2025,
-   "end_consume": 2038,
-   "appreciation_pct": 75.4,
-   "body": "Medium-full",
-   "tannin": "Medium-high",
-   "pairings": [
-    "roast lamb",
-    "chorizo & charcuterie",
-    "manchego cheese"
-   ],
-   "decant": {
-    "hours": 1.5,
-    "label": "~1.5–2 hrs (longer if young & tightly wound)"
-   },
-   "wiki": {
-    "summary": "Tempranillo is a black grape variety widely grown to make full-bodied red wines in its native Spain. Its name is the diminutive of the Spanish temprano (\"early\"), a reference to the fact that it ripens several weeks earlier than most Spanish red grapes. Tempranillo has been grown on the Iberian Peninsula since the time of Phoenician settlements. It is the main grape used in Rioja, and is often referred to as Spain's noble grape. The grape has been planted throughout the…",
-    "url": "https://en.wikipedia.org/wiki/Tempranillo",
-    "title": "Tempranillo"
-   }
-  },
-  {
    "iWine": "3984055",
    "wine": "Château Les Carmes Haut-Brion",
    "vintage": "2020",
@@ -6461,9 +6440,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 71.67,
-   "value_bottle": 122.36,
+   "value_bottle": 123.28,
    "total_paid": 430.02,
-   "total_value": 734.14,
+   "total_value": 739.67,
    "avg_critic_score": 93.4,
    "my_score": null,
    "critic_scores": {
@@ -6472,7 +6451,7 @@
    },
    "begin_consume": 2030,
    "end_consume": 2053,
-   "appreciation_pct": 70.7,
+   "appreciation_pct": 72.0,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -6483,6 +6462,43 @@
    "decant": {
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
+   },
+   "wiki": null
+  },
+  {
+   "iWine": "5458680",
+   "wine": "Pago de Carraovejas Ribera del Duero",
+   "vintage": "2023",
+   "producer": "Pago de Carraovejas",
+   "country": "Spain",
+   "region": "Castilla y León",
+   "subregion": "Unknown",
+   "appellation": "Ribera del Duero",
+   "color": "Red",
+   "style": "Red",
+   "varietal": "Tempranillo",
+   "location": "Cellar",
+   "quantity": 1,
+   "price_paid_bottle": 23.33,
+   "value_bottle": 39.9,
+   "total_paid": 23.33,
+   "total_value": 39.9,
+   "avg_critic_score": 91.3,
+   "my_score": 90.0,
+   "critic_scores": {},
+   "begin_consume": 2025,
+   "end_consume": 2038,
+   "appreciation_pct": 71.0,
+   "body": "Medium-full",
+   "tannin": "Medium-high",
+   "pairings": [
+    "roast lamb",
+    "chorizo & charcuterie",
+    "manchego cheese"
+   ],
+   "decant": {
+    "hours": 1.5,
+    "label": "~1.5–2 hrs (longer if young & tightly wound)"
    },
    "wiki": null
   },
@@ -6523,6 +6539,50 @@
    "decant": {
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
+   },
+   "wiki": {
+    "summary": "Nebbiolo is an Italian red wine grape variety predominantly associated with its native Piedmont region. It is used to produce the Denominazione di Origine Controllata e Garantita (DOCG) wines of Barolo, Barbaresco, Gattinara, Ghemme, and Roero, together with numerous DOC wines. Nebbiolo is thought to derive its name from the Italian nebbia or Piedmontese nebia, meaning 'fog'. During harvest, which generally takes place late in October, a deep, intense fog sets into the…",
+    "url": "https://en.wikipedia.org/wiki/Nebbiolo",
+    "title": "Nebbiolo"
+   }
+  },
+  {
+   "iWine": "4316519",
+   "wine": "Penfolds Grange",
+   "vintage": "2018",
+   "producer": "Penfolds",
+   "country": "Australia",
+   "region": "South Australia",
+   "subregion": "Unknown",
+   "appellation": "Unknown",
+   "color": "Red",
+   "style": "Red",
+   "varietal": "Syrah",
+   "location": "Cellar - BB&R",
+   "quantity": 6,
+   "price_paid_bottle": 268.0,
+   "value_bottle": 427.77,
+   "total_paid": 1608.0,
+   "total_value": 2566.6,
+   "avg_critic_score": 94.6,
+   "my_score": null,
+   "critic_scores": {
+    "JR": 92.5,
+    "DR": 95.0
+   },
+   "begin_consume": 2030,
+   "end_consume": 2057,
+   "appreciation_pct": 59.6,
+   "body": "Full",
+   "tannin": "High",
+   "pairings": [
+    "peppered steak",
+    "game",
+    "barbecue"
+   ],
+   "decant": {
+    "hours": 0.5,
+    "label": "~30 min — a short splash-decant to open it up"
    },
    "wiki": null
   },
@@ -6611,46 +6671,6 @@
    }
   },
   {
-   "iWine": "4316519",
-   "wine": "Penfolds Grange",
-   "vintage": "2018",
-   "producer": "Penfolds",
-   "country": "Australia",
-   "region": "South Australia",
-   "subregion": "Unknown",
-   "appellation": "Unknown",
-   "color": "Red",
-   "style": "Red",
-   "varietal": "Syrah",
-   "location": "Cellar - BB&R",
-   "quantity": 6,
-   "price_paid_bottle": 268.0,
-   "value_bottle": 422.01,
-   "total_paid": 1608.0,
-   "total_value": 2532.07,
-   "avg_critic_score": 94.6,
-   "my_score": null,
-   "critic_scores": {
-    "JR": 92.5,
-    "DR": 95.0
-   },
-   "begin_consume": 2030,
-   "end_consume": 2057,
-   "appreciation_pct": 57.5,
-   "body": "Full",
-   "tannin": "High",
-   "pairings": [
-    "peppered steak",
-    "game",
-    "barbecue"
-   ],
-   "decant": {
-    "hours": 0.5,
-    "label": "~30 min — a short splash-decant to open it up"
-   },
-   "wiki": null
-  },
-  {
    "iWine": "3377461",
    "wine": "Joh. Jos. Prüm Wehlener Sonnenuhr Riesling Auslese",
    "vintage": "2018",
@@ -6702,9 +6722,9 @@
    "location": "Cellar",
    "quantity": 5,
    "price_paid_bottle": 136.0,
-   "value_bottle": 206.17,
+   "value_bottle": 206.39,
    "total_paid": 680.0,
-   "total_value": 1030.86,
+   "total_value": 1031.96,
    "avg_critic_score": 90.5,
    "my_score": 93.0,
    "critic_scores": {
@@ -6713,7 +6733,7 @@
    },
    "begin_consume": 2022,
    "end_consume": 2054,
-   "appreciation_pct": 51.6,
+   "appreciation_pct": 51.8,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -6765,11 +6785,7 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": {
-    "summary": "Tempranillo is a black grape variety widely grown to make full-bodied red wines in its native Spain. Its name is the diminutive of the Spanish temprano (\"early\"), a reference to the fact that it ripens several weeks earlier than most Spanish red grapes. Tempranillo has been grown on the Iberian Peninsula since the time of Phoenician settlements. It is the main grape used in Rioja, and is often referred to as Spain's noble grape. The grape has been planted throughout the…",
-    "url": "https://en.wikipedia.org/wiki/Tempranillo",
-    "title": "Tempranillo"
-   }
+   "wiki": null
   },
   {
    "iWine": "1123088",
@@ -6827,9 +6843,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 18.0,
-   "value_bottle": 26.97,
+   "value_bottle": 27.04,
    "total_paid": 108.0,
-   "total_value": 161.84,
+   "total_value": 162.27,
    "avg_critic_score": 90.1,
    "my_score": null,
    "critic_scores": {
@@ -6838,7 +6854,7 @@
    },
    "begin_consume": 2025,
    "end_consume": 2041,
-   "appreciation_pct": 49.8,
+   "appreciation_pct": 50.2,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -6869,15 +6885,15 @@
    "location": "Cellar - Wine Society",
    "quantity": 1,
    "price_paid_bottle": 31.0,
-   "value_bottle": 22.79,
+   "value_bottle": 22.99,
    "total_paid": 31.0,
-   "total_value": 22.79,
+   "total_value": 22.99,
    "avg_critic_score": null,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2031,
    "end_consume": 2043,
-   "appreciation_pct": -26.5,
+   "appreciation_pct": -25.8,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -7103,15 +7119,15 @@
    "location": "Cellar - Wine Society",
    "quantity": 1,
    "price_paid_bottle": 31.0,
-   "value_bottle": 27.18,
+   "value_bottle": 27.36,
    "total_paid": 31.0,
-   "total_value": 27.18,
+   "total_value": 27.36,
    "avg_critic_score": null,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2031,
    "end_consume": 2044,
-   "appreciation_pct": -12.3,
+   "appreciation_pct": -11.7,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -7220,7 +7236,7 @@
    "value_bottle": 52.51,
    "total_paid": 162.0,
    "total_value": 157.52,
-   "avg_critic_score": 91.7,
+   "avg_critic_score": 91.6,
    "my_score": null,
    "critic_scores": {
     "JR": 87.5
@@ -7238,6 +7254,45 @@
    "decant": {
     "hours": 1.5,
     "label": "~1.5–2 hrs (longer if young & tightly wound)"
+   },
+   "wiki": null
+  },
+  {
+   "iWine": "4800037",
+   "wine": "Kusuda Riesling",
+   "vintage": "2022",
+   "producer": "Kusuda",
+   "country": "New Zealand",
+   "region": "North Island",
+   "subregion": "Wairarapa",
+   "appellation": "Martinborough",
+   "color": "White",
+   "style": "White",
+   "varietal": "Riesling",
+   "location": "Cellar - BB&R",
+   "quantity": 6,
+   "price_paid_bottle": 37.0,
+   "value_bottle": 37.02,
+   "total_paid": 222.0,
+   "total_value": 222.12,
+   "avg_critic_score": 90.0,
+   "my_score": null,
+   "critic_scores": {
+    "JR": 90.0
+   },
+   "begin_consume": 2025,
+   "end_consume": 2033,
+   "appreciation_pct": 0.1,
+   "body": "Light",
+   "tannin": "None",
+   "pairings": [
+    "spicy Asian food",
+    "pork",
+    "soft cheese"
+   ],
+   "decant": {
+    "hours": 0,
+    "label": "No decanting needed — drink straight from the bottle"
    },
    "wiki": null
   },
@@ -7390,50 +7445,6 @@
     "label": "No decanting needed — drink straight from the bottle"
    },
    "wiki": null
-  },
-  {
-   "iWine": "1399146",
-   "wine": "Klein Constantia Vin de Constance",
-   "vintage": "2007",
-   "producer": "Klein Constantia",
-   "country": "South Africa",
-   "region": "Coastal Region",
-   "subregion": "Cape Peninsula",
-   "appellation": "Constantia",
-   "color": "White",
-   "style": "Dessert / Sweet",
-   "varietal": "Muscat",
-   "location": "Cellar - BB&R",
-   "quantity": 6,
-   "price_paid_bottle": 61.0,
-   "value_bottle": 61.78,
-   "total_paid": 366.0,
-   "total_value": 370.7,
-   "avg_critic_score": 93.3,
-   "my_score": null,
-   "critic_scores": {
-    "JR": 90.0,
-    "DR": 96.0
-   },
-   "begin_consume": 2016,
-   "end_consume": 2037,
-   "appreciation_pct": 1.3,
-   "body": "Light",
-   "tannin": "None",
-   "pairings": [
-    "fruit desserts",
-    "soft cheese",
-    "spiced cake"
-   ],
-   "decant": {
-    "hours": 0,
-    "label": "No decanting needed — drink straight from the bottle"
-   },
-   "wiki": {
-    "summary": "Muscat is the capital and most populous city of Oman. It is the seat of the Governorate of Muscat. According to the National Centre for Statistics and Information (NCSI), the population of the Muscat Governorate in 2022 was 1.72 million. The metropolitan area includes six provinces, called wilayat, and spans approximately 6,500 km2 (2,500 sq mi). The Hajar Mountains dominate the view from Muscat. The city lies on the Gulf of Oman, near the strategically important Strait of…",
-    "url": "https://en.wikipedia.org/wiki/Muscat",
-    "title": "Muscat"
-   }
   }
  ],
  "price_distribution": [
@@ -7444,8 +7455,8 @@
   },
   {
    "label": "£20-40",
-   "wines": 25,
-   "bottles": 65
+   "wines": 26,
+   "bottles": 71
   },
   {
    "label": "£40-60",
@@ -7479,8 +7490,8 @@
    "wines": 4,
    "bottles": 19,
    "paid": 5056.02,
-   "value": 6871.54,
-   "appreciation_pct": 35.9,
+   "value": 6906.07,
+   "appreciation_pct": 36.6,
    "avg_score": 93.5,
    "countries": [
     "Australia"
@@ -7523,8 +7534,8 @@
    "wines": 2,
    "bottles": 11,
    "paid": 980.0,
-   "value": 1559.31,
-   "appreciation_pct": 59.1,
+   "value": 1560.41,
+   "appreciation_pct": 59.2,
    "avg_score": 90.9,
    "countries": [
     "France"
@@ -7567,8 +7578,8 @@
    "wines": 1,
    "bottles": 6,
    "paid": 774.0,
-   "value": 1092.55,
-   "appreciation_pct": 41.2,
+   "value": 1086.6,
+   "appreciation_pct": 40.4,
    "avg_score": 90.2,
    "countries": [
     "France"
@@ -7589,8 +7600,8 @@
    "wines": 2,
    "bottles": 9,
    "paid": 856.98,
-   "value": 877.53,
-   "appreciation_pct": 2.4,
+   "value": 875.25,
+   "appreciation_pct": 2.1,
    "avg_score": 91.0,
    "countries": [
     "France"
@@ -7653,8 +7664,8 @@
    "wines": 1,
    "bottles": 6,
    "paid": 430.02,
-   "value": 734.14,
-   "appreciation_pct": 70.7,
+   "value": 739.67,
+   "appreciation_pct": 72.0,
    "avg_score": 93.4,
    "countries": [
     "France"
@@ -7815,8 +7826,8 @@
    "wines": 3,
    "bottles": 13,
    "paid": 217.98,
-   "value": 398.5,
-   "appreciation_pct": 82.8,
+   "value": 398.93,
+   "appreciation_pct": 83.0,
    "avg_score": 89.0,
    "countries": [
     "France"
@@ -8037,12 +8048,28 @@
    "wikidata": null
   },
   {
+   "name": "Kusuda",
+   "wines": 1,
+   "bottles": 6,
+   "paid": 222.0,
+   "value": 222.12,
+   "appreciation_pct": 0.1,
+   "avg_score": 90.0,
+   "countries": [
+    "New Zealand"
+   ],
+   "regions": [
+    "North Island"
+   ],
+   "wikidata": null
+  },
+  {
    "name": "Graham",
    "wines": 1,
    "bottles": 3,
    "paid": 168.0,
-   "value": 220.51,
-   "appreciation_pct": 31.3,
+   "value": 219.5,
+   "appreciation_pct": 30.7,
    "avg_score": 94.0,
    "countries": [
     "Portugal"
@@ -8193,7 +8220,7 @@
    "paid": 162.0,
    "value": 157.52,
    "appreciation_pct": -2.8,
-   "avg_score": 91.7,
+   "avg_score": 91.6,
    "countries": [
     "South Africa"
    ],
@@ -8239,8 +8266,8 @@
    "wines": 2,
    "bottles": 2,
    "paid": 92.0,
-   "value": 93.77,
-   "appreciation_pct": 1.9,
+   "value": 93.96,
+   "appreciation_pct": 2.1,
    "avg_score": 88.6,
    "countries": [
     "Spain"
@@ -8351,8 +8378,8 @@
    "wines": 1,
    "bottles": 1,
    "paid": 23.33,
-   "value": 40.91,
-   "appreciation_pct": 75.4,
+   "value": 39.9,
+   "appreciation_pct": 71.0,
    "avg_score": 91.3,
    "countries": [
     "Spain"
@@ -8469,8 +8496,8 @@
    "wines": 1,
    "bottles": 1,
    "paid": 31.0,
-   "value": 27.18,
-   "appreciation_pct": -12.3,
+   "value": 27.36,
+   "appreciation_pct": -11.7,
    "avg_score": null,
    "countries": [
     "South Africa"
@@ -8523,8 +8550,8 @@
    "wines": 1,
    "bottles": 1,
    "paid": 31.0,
-   "value": 22.79,
-   "appreciation_pct": -26.5,
+   "value": 22.99,
+   "appreciation_pct": -25.8,
    "avg_score": null,
    "countries": [
     "South Africa"
@@ -8675,9 +8702,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 268.0,
-   "value_bottle": 422.01,
+   "value_bottle": 427.77,
    "total_paid": 1608.0,
-   "total_value": 2532.07,
+   "total_value": 2566.6,
    "avg_critic_score": 94.6,
    "my_score": null,
    "critic_scores": {
@@ -8686,7 +8713,7 @@
    },
    "begin_consume": 2030,
    "end_consume": 2057,
-   "appreciation_pct": 57.5,
+   "appreciation_pct": 59.6,
    "body": "Full",
    "tannin": "High",
    "pairings": [
@@ -8705,8 +8732,8 @@
    "wines": 4,
    "bottles": 19,
    "paid": 5056.02,
-   "value": 6871.54,
-   "appreciation_pct": 35.9,
+   "value": 6906.07,
+   "appreciation_pct": 36.6,
    "avg_score": 93.5,
    "countries": [
     "Australia"
@@ -8727,8 +8754,8 @@
    "wines": 4,
    "bottles": 19,
    "paid": 5056.02,
-   "value": 6871.54,
-   "appreciation_pct": 35.9,
+   "value": 6906.07,
+   "appreciation_pct": 36.6,
    "avg_score": 93.5,
    "countries": [
     "Australia"
@@ -8744,8 +8771,8 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/Penfolds"
    }
   },
-  "avg_bottle_price_paid": 75.54,
-  "avg_bottle_value_now": 100.62,
+  "avg_bottle_price_paid": 74.75,
+  "avg_bottle_value_now": 99.42,
   "avg_cellar_age_years": 7.1,
   "largest_single_purchase": {
    "date": "2026-03-06",
@@ -8765,9 +8792,9 @@
    "vintage": "2008"
   },
   "first_purchase_date": "2019-12-31",
-  "most_recent_purchase_date": "2026-10-10",
+  "most_recent_purchase_date": "2026-10-12",
   "most_visited_store": "Restaurant",
-  "total_orders": 427,
+  "total_orders": 428,
   "longest_held": [
    {
     "iWine": "4386234",
@@ -8775,7 +8802,7 @@
     "vintage": "2019",
     "producer": "Dunn Vineyards",
     "since": "2025-05-10",
-    "days_held": 519
+    "days_held": 520
    },
    {
     "iWine": "4986829",
@@ -8783,7 +8810,7 @@
     "vintage": "2023",
     "producer": "Roc de Cambes",
     "since": "2025-06-07",
-    "days_held": 491
+    "days_held": 492
    },
    {
     "iWine": "4390612",
@@ -8791,7 +8818,7 @@
     "vintage": "2022",
     "producer": "Penfolds",
     "since": "2025-06-11",
-    "days_held": 487
+    "days_held": 488
    },
    {
     "iWine": "4641506",
@@ -8799,7 +8826,7 @@
     "vintage": "2022",
     "producer": "Château Clinet",
     "since": "2025-07-03",
-    "days_held": 465
+    "days_held": 466
    },
    {
     "iWine": "4638895",
@@ -8807,7 +8834,7 @@
     "vintage": "2022",
     "producer": "Château Troplong Mondot",
     "since": "2025-07-03",
-    "days_held": 465
+    "days_held": 466
    },
    {
     "iWine": "4876898",
@@ -8815,7 +8842,7 @@
     "vintage": "2019",
     "producer": "Canalicchio di Sopra",
     "since": "2025-07-12",
-    "days_held": 456
+    "days_held": 457
    },
    {
     "iWine": "4547984",
@@ -8823,7 +8850,7 @@
     "vintage": "2019",
     "producer": "Massolino",
     "since": "2025-07-12",
-    "days_held": 456
+    "days_held": 457
    },
    {
     "iWine": "3709255",
@@ -8831,7 +8858,7 @@
     "vintage": "2018",
     "producer": "Penfolds",
     "since": "2025-07-12",
-    "days_held": 456
+    "days_held": 457
    },
    {
     "iWine": "5271148",
@@ -8839,7 +8866,7 @@
     "vintage": "2019",
     "producer": "San Polino",
     "since": "2025-07-12",
-    "days_held": 456
+    "days_held": 457
    },
    {
     "iWine": "4638813",
@@ -8847,16 +8874,16 @@
     "vintage": "2022",
     "producer": "Château Laroque",
     "since": "2025-07-13",
-    "days_held": 455
+    "days_held": 456
    }
   ],
-  "total_appreciation_pct": 33.2
+  "total_appreciation_pct": 33.0
  },
  "map_countries": [
   {
    "name": "France",
    "bottles": 121,
-   "value": 10930.78,
+   "value": 10929.61,
    "wines": 27,
    "lat": 46.6,
    "lon": 2.2
@@ -8864,7 +8891,7 @@
   {
    "name": "Australia",
    "bottles": 28,
-   "value": 7114.799999999998,
+   "value": 7149.329999999999,
    "wines": 7,
    "lat": -33.9,
    "lon": 143.9
@@ -8880,7 +8907,7 @@
   {
    "name": "Spain",
    "bottles": 14,
-   "value": 2735.0600000000004,
+   "value": 2734.24,
    "wines": 8,
    "lat": 40.3,
    "lon": -3.7
@@ -8888,7 +8915,7 @@
   {
    "name": "South Africa",
    "bottles": 33,
-   "value": 1666.75,
+   "value": 1667.1299999999999,
    "wines": 11,
    "lat": -33.9,
    "lon": 20.0
@@ -8904,10 +8931,18 @@
   {
    "name": "Portugal",
    "bottles": 10,
-   "value": 574.25,
+   "value": 573.24,
    "wines": 5,
    "lat": 39.6,
    "lon": -8.0
+  },
+  {
+   "name": "New Zealand",
+   "bottles": 9,
+   "value": 419.97,
+   "wines": 2,
+   "lat": -41.5,
+   "lon": 173.5
   },
   {
    "name": "Germany",
@@ -8916,14 +8951,6 @@
    "wines": 1,
    "lat": 50.1,
    "lon": 8.0
-  },
-  {
-   "name": "New Zealand",
-   "bottles": 3,
-   "value": 197.85,
-   "wines": 1,
-   "lat": -41.5,
-   "lon": 173.5
   },
   {
    "name": "Hungary",
@@ -8943,6 +8970,23 @@
   }
  ],
  "purchases": [
+  {
+   "date": "2026-10-12",
+   "year": 2026,
+   "month": "2026-10",
+   "store": "BB&R",
+   "wine": "Kusuda Riesling",
+   "producer": "Kusuda",
+   "country": "New Zealand",
+   "region": "North Island",
+   "quantity": 6,
+   "price_bottle": 37.0,
+   "total": 222.0,
+   "color": "White",
+   "varietal": "Riesling",
+   "iWine": "4800037",
+   "vintage": "2022"
+  },
   {
    "date": "2026-10-10",
    "year": 2026,
@@ -16204,8 +16248,8 @@
   }
  ],
  "diversification": {
-  "varietal_score": 83.6,
-  "country_score": 74.6,
+  "varietal_score": 84.1,
+  "country_score": 75.6,
   "varietal_label": "Highly diversified",
   "country_label": "Well diversified",
   "palate_gaps": [
@@ -16302,8 +16346,8 @@
     "wines": 5
    },
    "low": {
-    "bottles": 274,
-    "wines": 73
+    "bottles": 280,
+    "wines": 74
    },
    "unknown": {
     "bottles": 0,
@@ -16402,6 +16446,15 @@
     "tier": "moderate"
    },
    {
+    "iWine": "4800037",
+    "wine": "Kusuda Riesling",
+    "vintage": "2022",
+    "quantity": 6,
+    "end_consume": 2033,
+    "years_left": 7,
+    "tier": "low"
+   },
+   {
     "iWine": "5700916",
     "wine": "Masciarelli Montepulciano d'Abruzzo Marina Cveti&#263;",
     "vintage": "2021",
@@ -16433,15 +16486,6 @@
     "wine": "Benanti Etna Rosso Contrada Dafara Galluzzo",
     "vintage": "2024",
     "quantity": 1,
-    "end_consume": 2034,
-    "years_left": 8,
-    "tier": "low"
-   },
-   {
-    "iWine": "1739128",
-    "wine": "Giacomo Fenocchio Barolo Villero",
-    "vintage": "2010",
-    "quantity": 5,
     "end_consume": 2034,
     "years_left": 8,
     "tier": "low"
@@ -16500,7 +16544,7 @@
    },
    {
     "vintage": 2022,
-    "bottles": 28
+    "bottles": 34
    },
    {
     "vintage": 2023,
@@ -17202,7 +17246,7 @@
     "date": "2026-08-08",
     "month": "2026-08",
     "rating": 92.0,
-    "community_score": 94.2441860465116,
+    "community_score": 94.2413793103448,
     "delta": -2.2,
     "notes_text": ""
    },
@@ -17218,8 +17262,8 @@
     "date": "2026-08-08",
     "month": "2026-08",
     "rating": 85.0,
-    "community_score": 85.0,
-    "delta": 0.0,
+    "community_score": 86.5,
+    "delta": -1.5,
     "notes_text": "Red fruit, balanced acidity, slightly metallic finish, high tannins"
    },
    {
@@ -17844,7 +17888,7 @@
     "date": "2026-08-08",
     "month": "2026-08",
     "rating": 92.0,
-    "community_score": 94.2441860465116,
+    "community_score": 94.2413793103448,
     "delta": -2.2,
     "notes_text": ""
    },
@@ -17860,8 +17904,8 @@
     "date": "2026-08-08",
     "month": "2026-08",
     "rating": 85.0,
-    "community_score": 85.0,
-    "delta": 0.0,
+    "community_score": 86.5,
+    "delta": -1.5,
     "notes_text": "Red fruit, balanced acidity, slightly metallic finish, high tannins"
    },
    {
@@ -18660,7 +18704,7 @@
     "date": "2026-05-16",
     "month": "2026-05",
     "rating": 89.0,
-    "community_score": 92.2857142857143,
+    "community_score": 92.2905405405405,
     "delta": -3.3,
     "notes_text": ""
    },
@@ -18708,7 +18752,7 @@
     "date": "2026-05-16",
     "month": "2026-05",
     "rating": 88.0,
-    "community_score": 92.277027027027,
+    "community_score": 92.2818791946309,
     "delta": -4.3,
     "notes_text": ""
    },
@@ -18820,7 +18864,7 @@
     "date": "2026-05-10",
     "month": "2026-05",
     "rating": 93.0,
-    "community_score": 95.4504504504504,
+    "community_score": 95.4550898203593,
     "delta": -2.5,
     "notes_text": ""
    },
@@ -21540,7 +21584,7 @@
     "date": "2025-06-02",
     "month": "2025-06",
     "rating": 92.0,
-    "community_score": 93.0602409638554,
+    "community_score": 93.065868263473,
     "delta": -1.1,
     "notes_text": ""
    },
@@ -25088,15 +25132,15 @@
      "avg_rating": 87.8,
      "tastings": 68,
      "cellar_bottles": 101,
-     "cellar_pct": 35.3,
+     "cellar_pct": 34.6,
      "verdict": "Neutral"
     },
     {
      "name": "Riesling",
      "avg_rating": 87.6,
      "tastings": 10,
-     "cellar_bottles": 10,
-     "cellar_pct": 3.5,
+     "cellar_bottles": 16,
+     "cellar_pct": 5.5,
      "verdict": "Neutral"
     },
     {
@@ -25128,7 +25172,7 @@
      "avg_rating": 86.7,
      "tastings": 44,
      "cellar_bottles": 12,
-     "cellar_pct": 4.2,
+     "cellar_pct": 4.1,
      "verdict": "Neutral"
     },
     {
@@ -25136,7 +25180,7 @@
      "avg_rating": 86.5,
      "tastings": 16,
      "cellar_bottles": 30,
-     "cellar_pct": 10.5,
+     "cellar_pct": 10.3,
      "verdict": "Neutral"
     },
     {
@@ -25152,7 +25196,7 @@
      "avg_rating": 86.2,
      "tastings": 16,
      "cellar_bottles": 8,
-     "cellar_pct": 2.8,
+     "cellar_pct": 2.7,
      "verdict": "Neutral"
     },
     {
@@ -25168,7 +25212,7 @@
      "avg_rating": 85.8,
      "tastings": 26,
      "cellar_bottles": 33,
-     "cellar_pct": 11.5,
+     "cellar_pct": 11.3,
      "verdict": "Neutral"
     },
     {
@@ -25176,7 +25220,7 @@
      "avg_rating": 85.5,
      "tastings": 6,
      "cellar_bottles": 8,
-     "cellar_pct": 2.8,
+     "cellar_pct": 2.7,
      "verdict": "Neutral"
     },
     {
@@ -25208,7 +25252,7 @@
      "avg_rating": 84.2,
      "tastings": 13,
      "cellar_bottles": 18,
-     "cellar_pct": 6.3,
+     "cellar_pct": 6.2,
      "verdict": "Neutral"
     },
     {
@@ -25402,7 +25446,7 @@
      "avg_rating": 86.6,
      "tastings": 163,
      "cellar_bottles": 121,
-     "cellar_pct": 42.3,
+     "cellar_pct": 41.4,
      "verdict": "Neutral"
     },
     {
@@ -25426,15 +25470,15 @@
      "avg_rating": 85.7,
      "tastings": 26,
      "cellar_bottles": 10,
-     "cellar_pct": 3.5,
+     "cellar_pct": 3.4,
      "verdict": "Neutral"
     },
     {
      "name": "New Zealand",
      "avg_rating": 85.0,
      "tastings": 32,
-     "cellar_bottles": 3,
-     "cellar_pct": 1.0,
+     "cellar_bottles": 9,
+     "cellar_pct": 3.1,
      "verdict": "Neutral"
     },
     {
@@ -25442,7 +25486,7 @@
      "avg_rating": 84.8,
      "tastings": 96,
      "cellar_bottles": 62,
-     "cellar_pct": 21.7,
+     "cellar_pct": 21.2,
      "verdict": "Neutral"
     },
     {
@@ -25458,7 +25502,7 @@
      "avg_rating": 82.8,
      "tastings": 44,
      "cellar_bottles": 14,
-     "cellar_pct": 4.9,
+     "cellar_pct": 4.8,
      "verdict": "Neutral"
     },
     {
@@ -25474,7 +25518,7 @@
      "avg_rating": 82.2,
      "tastings": 10,
      "cellar_bottles": 33,
-     "cellar_pct": 11.5,
+     "cellar_pct": 11.3,
      "verdict": "Overweight"
     },
     {
@@ -25482,7 +25526,7 @@
      "avg_rating": 81.9,
      "tastings": 15,
      "cellar_bottles": 28,
-     "cellar_pct": 9.8,
+     "cellar_pct": 9.6,
      "verdict": "Overweight"
     },
     {
@@ -25548,7 +25592,7 @@
      "avg_rating": 88.1,
      "tastings": 33,
      "cellar_bottles": 16,
-     "cellar_pct": 5.6,
+     "cellar_pct": 5.5,
      "verdict": "Well matched"
     },
     {
@@ -25564,7 +25608,7 @@
      "avg_rating": 87.5,
      "tastings": 68,
      "cellar_bottles": 88,
-     "cellar_pct": 30.8,
+     "cellar_pct": 30.1,
      "verdict": "Neutral"
     },
     {
@@ -25620,7 +25664,7 @@
      "avg_rating": 86.7,
      "tastings": 6,
      "cellar_bottles": 27,
-     "cellar_pct": 9.4,
+     "cellar_pct": 9.2,
      "verdict": "Neutral"
     },
     {
@@ -25636,7 +25680,7 @@
      "avg_rating": 86.4,
      "tastings": 21,
      "cellar_bottles": 12,
-     "cellar_pct": 4.2,
+     "cellar_pct": 4.1,
      "verdict": "Neutral"
     },
     {
@@ -25676,7 +25720,7 @@
      "avg_rating": 85.7,
      "tastings": 26,
      "cellar_bottles": 36,
-     "cellar_pct": 12.6,
+     "cellar_pct": 12.3,
      "verdict": "Neutral"
     },
     {
@@ -25707,8 +25751,8 @@
      "name": "North Island",
      "avg_rating": 85.1,
      "tastings": 11,
-     "cellar_bottles": 3,
-     "cellar_pct": 1.0,
+     "cellar_bottles": 9,
+     "cellar_pct": 3.1,
      "verdict": "Neutral"
     },
     {
@@ -25740,7 +25784,7 @@
      "avg_rating": 84.7,
      "tastings": 11,
      "cellar_bottles": 25,
-     "cellar_pct": 8.7,
+     "cellar_pct": 8.6,
      "verdict": "Neutral"
     },
     {
@@ -25902,15 +25946,15 @@
      "avg_rating": 85.4,
      "tastings": 339,
      "cellar_bottles": 262,
-     "cellar_pct": 91.6,
+     "cellar_pct": 89.7,
      "verdict": "Neutral"
     },
     {
      "name": "White",
      "avg_rating": 85.0,
      "tastings": 130,
-     "cellar_bottles": 24,
-     "cellar_pct": 8.4,
+     "cellar_bottles": 30,
+     "cellar_pct": 10.3,
      "verdict": "Neutral"
     },
     {
@@ -25968,7 +26012,7 @@
      "avg_rating": 90.7,
      "tastings": 3,
      "cellar_bottles": 19,
-     "cellar_pct": 6.6,
+     "cellar_pct": 6.5,
      "verdict": "Well matched"
     },
     {
@@ -26367,10 +26411,10 @@
   }
  },
  "consumption": {
-  "total_purchased_ever": 671,
-  "total_remaining_ever": 286,
+  "total_purchased_ever": 677,
+  "total_remaining_ever": 292,
   "total_consumed_ever": 385,
-  "consumed_pct": 57.4,
+  "consumed_pct": 56.9,
   "turnover_series": [
    {
     "year": 2019,
@@ -26409,8 +26453,8 @@
    },
    {
     "year": 2026,
-    "cumulative_purchased": 671,
-    "cumulative_remaining": 286
+    "cumulative_purchased": 677,
+    "cumulative_remaining": 292
    }
   ]
  },
