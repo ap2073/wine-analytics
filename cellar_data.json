@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-12T15:11:48.967643+00:00",
+ "generated_at": "2026-10-13T14:03:26.296162+00:00",
  "current_year": 2026,
  "summary": {
   "total_bottles": 292,
   "total_wines": 84,
-  "total_value": 29031.85,
+  "total_value": 29008.64,
   "total_paid": 21826.75,
   "countries": 11,
   "avg_critic_score": 91.2
@@ -13,7 +13,7 @@
   {
    "name": "France",
    "bottles": 121,
-   "value": 10929.61,
+   "value": 10935.910000000002,
    "wines": 27
   },
   {
@@ -25,7 +25,7 @@
   {
    "name": "Italy",
    "bottles": 62,
-   "value": 4509.06,
+   "value": 4499.620000000001,
    "wines": 19
   },
   {
@@ -49,7 +49,7 @@
   {
    "name": "Portugal",
    "bottles": 10,
-   "value": 573.24,
+   "value": 553.1700000000001,
    "wines": 5
   },
   {
@@ -81,7 +81,7 @@
   {
    "name": "Red Bordeaux Blend",
    "bottles": 101,
-   "value": 10189.149999999998,
+   "value": 10195.449999999999,
    "wines": 26
   },
   {
@@ -105,7 +105,7 @@
   {
    "name": "Sangiovese",
    "bottles": 30,
-   "value": 2017.95,
+   "value": 2008.51,
    "wines": 7
   },
   {
@@ -129,7 +129,7 @@
   {
    "name": "Port Blend",
    "bottles": 8,
-   "value": 540.08,
+   "value": 520.01,
    "wines": 3
   },
   {
@@ -203,7 +203,7 @@
   {
    "name": "Bordeaux",
    "bottles": 88,
-   "value": 8490.499999999998,
+   "value": 8496.8,
    "wines": 18
   },
   {
@@ -215,7 +215,7 @@
   {
    "name": "Tuscany",
    "bottles": 36,
-   "value": 3406.9500000000003,
+   "value": 3397.51,
    "wines": 8
   },
   {
@@ -251,7 +251,7 @@
   {
    "name": "Douro",
    "bottles": 9,
-   "value": 560.4200000000001,
+   "value": 540.35,
    "wines": 4
   },
   {
@@ -325,7 +325,7 @@
   {
    "name": "Red",
    "bottles": 262,
-   "value": 27536.530000000002
+   "value": 27513.320000000007
   },
   {
    "name": "White",
@@ -337,7 +337,7 @@
   {
    "name": "Red",
    "bottles": 256,
-   "value": 27100.29
+   "value": 27097.150000000005
   },
   {
    "name": "White",
@@ -347,7 +347,7 @@
   {
    "name": "Fortified",
    "bottles": 6,
-   "value": 436.24
+   "value": 416.17
   },
   {
    "name": "Dessert / Sweet",
@@ -389,7 +389,7 @@
   {
    "name": "Château Troplong Mondot",
    "bottles": 9,
-   "value": 875.25,
+   "value": 882.8499999999999,
    "wines": 2
   },
   {
@@ -443,7 +443,7 @@
   {
    "name": "San Polino",
    "bottles": 8,
-   "value": 501.85,
+   "value": 492.40999999999997,
    "wines": 2
   }
  ],
@@ -456,12 +456,12 @@
   {
    "name": "Cellar - Wine Society",
    "bottles": 108,
-   "value": 6180.53
+   "value": 6158.62
   },
   {
    "name": "Cellar - BB&R",
    "bottles": 132,
-   "value": 18662.290000000005
+   "value": 18660.990000000005
   }
  ],
  "drinking_window": {
@@ -1367,9 +1367,9 @@
    "location": "Cellar - Wine Society",
    "quantity": 3,
    "price_paid_bottle": 61.0,
-   "value_bottle": 72.25,
+   "value_bottle": 68.86,
    "total_paid": 183.0,
-   "total_value": 216.74,
+   "total_value": 206.59,
    "avg_critic_score": 95.0,
    "my_score": null,
    "critic_scores": {
@@ -1377,7 +1377,7 @@
    },
    "begin_consume": 2042,
    "end_consume": 2069,
-   "appreciation_pct": 18.4,
+   "appreciation_pct": 12.9,
    "body": "Rich",
    "tannin": "Low",
    "pairings": [
@@ -1608,9 +1608,9 @@
    "location": "Cellar - Wine Society",
    "quantity": 3,
    "price_paid_bottle": 56.0,
-   "value_bottle": 73.17,
+   "value_bottle": 69.86,
    "total_paid": 168.0,
-   "total_value": 219.5,
+   "total_value": 209.58,
    "avg_critic_score": 94.0,
    "my_score": null,
    "critic_scores": {
@@ -1618,7 +1618,7 @@
    },
    "begin_consume": 2042,
    "end_consume": 2065,
-   "appreciation_pct": 30.7,
+   "appreciation_pct": 24.8,
    "body": "Rich",
    "tannin": "Low",
    "pairings": [
@@ -2970,11 +2970,7 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": {
-    "summary": "Nebbiolo is an Italian red wine grape variety predominantly associated with its native Piedmont region. It is used to produce the Denominazione di Origine Controllata e Garantita (DOCG) wines of Barolo, Barbaresco, Gattinara, Ghemme, and Roero, together with numerous DOC wines. Nebbiolo is thought to derive its name from the Italian nebbia or Piedmontese nebia, meaning 'fog'. During harvest, which generally takes place late in October, a deep, intense fog sets into the…",
-    "url": "https://en.wikipedia.org/wiki/Nebbiolo",
-    "title": "Nebbiolo"
-   }
+   "wiki": null
   },
   {
    "iWine": "5384841",
@@ -3765,11 +3761,7 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": {
-    "summary": "Nebbiolo is an Italian red wine grape variety predominantly associated with its native Piedmont region. It is used to produce the Denominazione di Origine Controllata e Garantita (DOCG) wines of Barolo, Barbaresco, Gattinara, Ghemme, and Roero, together with numerous DOC wines. Nebbiolo is thought to derive its name from the Italian nebbia or Piedmontese nebia, meaning 'fog'. During harvest, which generally takes place late in October, a deep, intense fog sets into the…",
-    "url": "https://en.wikipedia.org/wiki/Nebbiolo",
-    "title": "Nebbiolo"
-   }
+   "wiki": null
   },
   {
    "iWine": "5519448",
@@ -3897,9 +3889,9 @@
    "location": "Cellar - Wine Society",
    "quantity": 3,
    "price_paid_bottle": 56.0,
-   "value_bottle": 73.17,
+   "value_bottle": 69.86,
    "total_paid": 168.0,
-   "total_value": 219.5,
+   "total_value": 209.58,
    "avg_critic_score": 94.0,
    "my_score": null,
    "critic_scores": {
@@ -3907,7 +3899,7 @@
    },
    "begin_consume": 2042,
    "end_consume": 2065,
-   "appreciation_pct": 30.7,
+   "appreciation_pct": 24.8,
    "body": "Rich",
    "tannin": "Low",
    "pairings": [
@@ -4374,9 +4366,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 18.33,
-   "value_bottle": 33.92,
+   "value_bottle": 33.71,
    "total_paid": 109.98,
-   "total_value": 203.54,
+   "total_value": 202.24,
    "avg_critic_score": 87.7,
    "my_score": null,
    "critic_scores": {
@@ -4385,7 +4377,7 @@
    },
    "begin_consume": 2028,
    "end_consume": 2044,
-   "appreciation_pct": 85.1,
+   "appreciation_pct": 83.9,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -4680,11 +4672,7 @@
     "hours": 3.0,
     "label": "~3–3.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": {
-    "summary": "Nebbiolo is an Italian red wine grape variety predominantly associated with its native Piedmont region. It is used to produce the Denominazione di Origine Controllata e Garantita (DOCG) wines of Barolo, Barbaresco, Gattinara, Ghemme, and Roero, together with numerous DOC wines. Nebbiolo is thought to derive its name from the Italian nebbia or Piedmontese nebia, meaning 'fog'. During harvest, which generally takes place late in October, a deep, intense fog sets into the…",
-    "url": "https://en.wikipedia.org/wiki/Nebbiolo",
-    "title": "Nebbiolo"
-   }
+   "wiki": null
   },
   {
    "iWine": "5855669",
@@ -5653,9 +5641,9 @@
    "location": "Cellar - Wine Society",
    "quantity": 6,
    "price_paid_bottle": 48.0,
-   "value_bottle": 58.79,
+   "value_bottle": 57.22,
    "total_paid": 288.0,
-   "total_value": 352.75,
+   "total_value": 343.31,
    "avg_critic_score": 93.0,
    "my_score": null,
    "critic_scores": {
@@ -5664,7 +5652,7 @@
    },
    "begin_consume": 2029,
    "end_consume": 2042,
-   "appreciation_pct": 22.5,
+   "appreciation_pct": 19.2,
    "body": "Medium",
    "tannin": "Medium-high",
    "pairings": [
@@ -5848,9 +5836,9 @@
    "location": "Cellar - Wine Society",
    "quantity": 3,
    "price_paid_bottle": 61.0,
-   "value_bottle": 72.25,
+   "value_bottle": 68.86,
    "total_paid": 183.0,
-   "total_value": 216.74,
+   "total_value": 206.59,
    "avg_critic_score": 95.0,
    "my_score": null,
    "critic_scores": {
@@ -5858,7 +5846,7 @@
    },
    "begin_consume": 2042,
    "end_consume": 2069,
-   "appreciation_pct": 18.4,
+   "appreciation_pct": 12.9,
    "body": "Rich",
    "tannin": "Low",
    "pairings": [
@@ -5963,9 +5951,9 @@
    "location": "Cellar - Wine Society",
    "quantity": 3,
    "price_paid_bottle": 74.0,
-   "value_bottle": 78.7,
+   "value_bottle": 81.23,
    "total_paid": 222.0,
-   "total_value": 236.1,
+   "total_value": 243.7,
    "avg_critic_score": 92.5,
    "my_score": null,
    "critic_scores": {
@@ -5974,7 +5962,7 @@
    },
    "begin_consume": 2032,
    "end_consume": 2053,
-   "appreciation_pct": 6.4,
+   "appreciation_pct": 9.8,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -6280,9 +6268,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 18.33,
-   "value_bottle": 33.92,
+   "value_bottle": 33.71,
    "total_paid": 109.98,
-   "total_value": 203.54,
+   "total_value": 202.24,
    "avg_critic_score": 87.7,
    "my_score": null,
    "critic_scores": {
@@ -6291,7 +6279,7 @@
    },
    "begin_consume": 2028,
    "end_consume": 2044,
-   "appreciation_pct": 85.1,
+   "appreciation_pct": 83.9,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -6540,11 +6528,7 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": {
-    "summary": "Nebbiolo is an Italian red wine grape variety predominantly associated with its native Piedmont region. It is used to produce the Denominazione di Origine Controllata e Garantita (DOCG) wines of Barolo, Barbaresco, Gattinara, Ghemme, and Roero, together with numerous DOC wines. Nebbiolo is thought to derive its name from the Italian nebbia or Piedmontese nebia, meaning 'fog'. During harvest, which generally takes place late in October, a deep, intense fog sets into the…",
-    "url": "https://en.wikipedia.org/wiki/Nebbiolo",
-    "title": "Nebbiolo"
-   }
+   "wiki": null
   },
   {
    "iWine": "4316519",
@@ -7600,8 +7584,8 @@
    "wines": 2,
    "bottles": 9,
    "paid": 856.98,
-   "value": 875.25,
-   "appreciation_pct": 2.1,
+   "value": 882.85,
+   "appreciation_pct": 3.0,
    "avg_score": 91.0,
    "countries": [
     "France"
@@ -7762,8 +7746,8 @@
    "wines": 2,
    "bottles": 8,
    "paid": 422.0,
-   "value": 501.85,
-   "appreciation_pct": 18.9,
+   "value": 492.41,
+   "appreciation_pct": 16.7,
    "avg_score": 93.1,
    "countries": [
     "Italy"
@@ -7826,8 +7810,8 @@
    "wines": 3,
    "bottles": 13,
    "paid": 217.98,
-   "value": 398.93,
-   "appreciation_pct": 83.0,
+   "value": 397.63,
+   "appreciation_pct": 82.4,
    "avg_score": 89.0,
    "countries": [
     "France"
@@ -8068,8 +8052,8 @@
    "wines": 1,
    "bottles": 3,
    "paid": 168.0,
-   "value": 219.5,
-   "appreciation_pct": 30.7,
+   "value": 209.58,
+   "appreciation_pct": 24.8,
    "avg_score": 94.0,
    "countries": [
     "Portugal"
@@ -8084,8 +8068,8 @@
    "wines": 1,
    "bottles": 3,
    "paid": 183.0,
-   "value": 216.74,
-   "appreciation_pct": 18.4,
+   "value": 206.59,
+   "appreciation_pct": 12.9,
    "avg_score": 95.0,
    "countries": [
     "Portugal"
@@ -8772,7 +8756,7 @@
    }
   },
   "avg_bottle_price_paid": 74.75,
-  "avg_bottle_value_now": 99.42,
+  "avg_bottle_value_now": 99.34,
   "avg_cellar_age_years": 7.1,
   "largest_single_purchase": {
    "date": "2026-03-06",
@@ -8802,7 +8786,7 @@
     "vintage": "2019",
     "producer": "Dunn Vineyards",
     "since": "2025-05-10",
-    "days_held": 520
+    "days_held": 521
    },
    {
     "iWine": "4986829",
@@ -8810,7 +8794,7 @@
     "vintage": "2023",
     "producer": "Roc de Cambes",
     "since": "2025-06-07",
-    "days_held": 492
+    "days_held": 493
    },
    {
     "iWine": "4390612",
@@ -8818,7 +8802,7 @@
     "vintage": "2022",
     "producer": "Penfolds",
     "since": "2025-06-11",
-    "days_held": 488
+    "days_held": 489
    },
    {
     "iWine": "4641506",
@@ -8826,7 +8810,7 @@
     "vintage": "2022",
     "producer": "Château Clinet",
     "since": "2025-07-03",
-    "days_held": 466
+    "days_held": 467
    },
    {
     "iWine": "4638895",
@@ -8834,7 +8818,7 @@
     "vintage": "2022",
     "producer": "Château Troplong Mondot",
     "since": "2025-07-03",
-    "days_held": 466
+    "days_held": 467
    },
    {
     "iWine": "4876898",
@@ -8842,7 +8826,7 @@
     "vintage": "2019",
     "producer": "Canalicchio di Sopra",
     "since": "2025-07-12",
-    "days_held": 457
+    "days_held": 458
    },
    {
     "iWine": "4547984",
@@ -8850,7 +8834,7 @@
     "vintage": "2019",
     "producer": "Massolino",
     "since": "2025-07-12",
-    "days_held": 457
+    "days_held": 458
    },
    {
     "iWine": "3709255",
@@ -8858,7 +8842,7 @@
     "vintage": "2018",
     "producer": "Penfolds",
     "since": "2025-07-12",
-    "days_held": 457
+    "days_held": 458
    },
    {
     "iWine": "5271148",
@@ -8866,7 +8850,7 @@
     "vintage": "2019",
     "producer": "San Polino",
     "since": "2025-07-12",
-    "days_held": 457
+    "days_held": 458
    },
    {
     "iWine": "4638813",
@@ -8874,16 +8858,16 @@
     "vintage": "2022",
     "producer": "Château Laroque",
     "since": "2025-07-13",
-    "days_held": 456
+    "days_held": 457
    }
   ],
-  "total_appreciation_pct": 33.0
+  "total_appreciation_pct": 32.9
  },
  "map_countries": [
   {
    "name": "France",
    "bottles": 121,
-   "value": 10929.61,
+   "value": 10935.910000000002,
    "wines": 27,
    "lat": 46.6,
    "lon": 2.2
@@ -8899,7 +8883,7 @@
   {
    "name": "Italy",
    "bottles": 62,
-   "value": 4509.06,
+   "value": 4499.620000000001,
    "wines": 19,
    "lat": 42.8,
    "lon": 12.6
@@ -8931,7 +8915,7 @@
   {
    "name": "Portugal",
    "bottles": 10,
-   "value": 573.24,
+   "value": 553.1700000000001,
    "wines": 5,
    "lat": 39.6,
    "lon": -8.0
@@ -18224,8 +18208,8 @@
     "date": "2026-07-17",
     "month": "2026-07",
     "rating": 90.0,
-    "community_score": 89.0,
-    "delta": 1.0,
+    "community_score": 89.1666666666667,
+    "delta": 0.8,
     "notes_text": ""
    },
    {
