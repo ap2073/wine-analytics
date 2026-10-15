@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-14T11:40:46.505170+00:00",
+ "generated_at": "2026-10-15T11:18:27.454074+00:00",
  "current_year": 2026,
  "summary": {
   "total_bottles": 292,
   "total_wines": 84,
-  "total_value": 28977.88,
+  "total_value": 28933.19,
   "total_paid": 21826.75,
   "countries": 11,
   "avg_critic_score": 91.2
@@ -13,25 +13,25 @@
   {
    "name": "France",
    "bottles": 121,
-   "value": 10928.320000000002,
+   "value": 10920.570000000002,
    "wines": 27
   },
   {
    "name": "Australia",
    "bottles": 28,
-   "value": 7149.009999999999,
+   "value": 7150.159999999999,
    "wines": 7
   },
   {
    "name": "Italy",
    "bottles": 62,
-   "value": 4499.780000000001,
+   "value": 4456.77,
    "wines": 19
   },
   {
    "name": "Spain",
    "bottles": 14,
-   "value": 2734.24,
+   "value": 2739.16,
    "wines": 8
   },
   {
@@ -81,7 +81,7 @@
   {
    "name": "Red Bordeaux Blend",
    "bottles": 101,
-   "value": 10179.26,
+   "value": 10171.51,
    "wines": 26
   },
   {
@@ -93,7 +93,7 @@
   {
    "name": "Tempranillo",
    "bottles": 11,
-   "value": 2589.5200000000004,
+   "value": 2594.4399999999996,
    "wines": 5
   },
   {
@@ -105,7 +105,7 @@
   {
    "name": "Sangiovese",
    "bottles": 30,
-   "value": 2008.51,
+   "value": 1965.5000000000002,
    "wines": 7
   },
   {
@@ -117,7 +117,7 @@
   {
    "name": "Red Blend",
    "bottles": 11,
-   "value": 734.4000000000001,
+   "value": 735.5500000000001,
    "wines": 4
   },
   {
@@ -203,25 +203,25 @@
   {
    "name": "Bordeaux",
    "bottles": 88,
-   "value": 8489.210000000001,
+   "value": 8481.460000000001,
    "wines": 18
   },
   {
    "name": "South Australia",
    "bottles": 25,
-   "value": 7073.299999999999,
+   "value": 7074.449999999999,
    "wines": 6
   },
   {
    "name": "Tuscany",
    "bottles": 36,
-   "value": 3397.51,
+   "value": 3354.5,
    "wines": 8
   },
   {
    "name": "Castilla y León",
    "bottles": 11,
-   "value": 2589.5200000000004,
+   "value": 2594.4399999999996,
    "wines": 5
   },
   {
@@ -325,7 +325,7 @@
   {
    "name": "Red",
    "bottles": 262,
-   "value": 27482.56
+   "value": 27437.870000000003
   },
   {
    "name": "White",
@@ -337,7 +337,7 @@
   {
    "name": "Red",
    "bottles": 256,
-   "value": 27080.800000000003
+   "value": 27036.110000000004
   },
   {
    "name": "White",
@@ -359,13 +359,13 @@
   {
    "name": "Penfolds",
    "bottles": 19,
-   "value": 6905.75,
+   "value": 6906.9,
    "wines": 4
   },
   {
    "name": "Bodegas Vega-Sicilia",
    "bottles": 9,
-   "value": 2511.8199999999997,
+   "value": 2516.6400000000003,
    "wines": 3
   },
   {
@@ -383,7 +383,7 @@
   {
    "name": "Château Cos d'Estournel",
    "bottles": 6,
-   "value": 1093.03,
+   "value": 1083.76,
    "wines": 1
   },
   {
@@ -393,15 +393,15 @@
    "wines": 2
   },
   {
-   "name": "Canalicchio di Sopra",
+   "name": "Château Léoville Barton",
    "bottles": 9,
-   "value": 846.95,
+   "value": 850.11,
    "wines": 2
   },
   {
-   "name": "Château Léoville Barton",
+   "name": "Canalicchio di Sopra",
    "bottles": 9,
-   "value": 844.9399999999999,
+   "value": 846.95,
    "wines": 2
   },
   {
@@ -451,17 +451,17 @@
   {
    "name": "Cellar",
    "bottles": 52,
-   "value": 4165.220000000001
+   "value": 4166.47
   },
   {
    "name": "Cellar - Wine Society",
    "bottles": 108,
-   "value": 6142.150000000001
+   "value": 6099.14
   },
   {
    "name": "Cellar - BB&R",
    "bottles": 132,
-   "value": 18670.510000000006
+   "value": 18667.580000000005
   }
  ],
  "drinking_window": {
@@ -990,7 +990,7 @@
     "producer": "Domaine de Bellene",
     "quantity": 3,
     "begin": 2029,
-    "end": 2039
+    "end": 2038
    },
    {
     "iWine": "4876898",
@@ -1350,7 +1350,11 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Tempranillo is a black grape variety widely grown to make full-bodied red wines in its native Spain. Its name is the diminutive of the Spanish temprano (\"early\"), a reference to the fact that it ripens several weeks earlier than most Spanish red grapes. Tempranillo has been grown on the Iberian Peninsula since the time of Phoenician settlements. It is the main grape used in Rioja, and is often referred to as Spain's noble grape. The grape has been planted throughout the…",
+    "url": "https://en.wikipedia.org/wiki/Tempranillo",
+    "title": "Tempranillo"
+   }
   },
   {
    "iWine": "5764519",
@@ -1765,9 +1769,9 @@
    "location": "Cellar - Wine Society",
    "quantity": 6,
    "price_paid_bottle": 57.0,
-   "value_bottle": 71.27,
+   "value_bottle": 64.1,
    "total_paid": 342.0,
-   "total_value": 427.61,
+   "total_value": 384.6,
    "avg_critic_score": 93.5,
    "my_score": null,
    "critic_scores": {
@@ -1776,7 +1780,7 @@
    },
    "begin_consume": 2029,
    "end_consume": 2040,
-   "appreciation_pct": 25.0,
+   "appreciation_pct": 12.5,
    "body": "Medium",
    "tannin": "Medium-high",
    "pairings": [
@@ -1805,9 +1809,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 68.33,
-   "value_bottle": 110.34,
+   "value_bottle": 111.2,
    "total_paid": 409.98,
-   "total_value": 662.05,
+   "total_value": 667.22,
    "avg_critic_score": 93.5,
    "my_score": null,
    "critic_scores": {
@@ -1816,7 +1820,7 @@
    },
    "begin_consume": 2026,
    "end_consume": 2047,
-   "appreciation_pct": 61.5,
+   "appreciation_pct": 62.7,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -1885,9 +1889,9 @@
    "location": "Cellar - BB&R",
    "quantity": 3,
    "price_paid_bottle": 225.0,
-   "value_bottle": 340.44,
+   "value_bottle": 342.05,
    "total_paid": 675.0,
-   "total_value": 1021.33,
+   "total_value": 1026.15,
    "avg_critic_score": 93.4,
    "my_score": null,
    "critic_scores": {
@@ -1896,7 +1900,7 @@
    },
    "begin_consume": 2024,
    "end_consume": 2041,
-   "appreciation_pct": 51.3,
+   "appreciation_pct": 52.0,
    "body": "Medium-full",
    "tannin": "Medium-high",
    "pairings": [
@@ -1908,7 +1912,11 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Tempranillo is a black grape variety widely grown to make full-bodied red wines in its native Spain. Its name is the diminutive of the Spanish temprano (\"early\"), a reference to the fact that it ripens several weeks earlier than most Spanish red grapes. Tempranillo has been grown on the Iberian Peninsula since the time of Phoenician settlements. It is the main grape used in Rioja, and is often referred to as Spain's noble grape. The grape has been planted throughout the…",
+    "url": "https://en.wikipedia.org/wiki/Tempranillo",
+    "title": "Tempranillo"
+   }
   },
   {
    "iWine": "1399146",
@@ -2157,7 +2165,11 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Tempranillo is a black grape variety widely grown to make full-bodied red wines in its native Spain. Its name is the diminutive of the Spanish temprano (\"early\"), a reference to the fact that it ripens several weeks earlier than most Spanish red grapes. Tempranillo has been grown on the Iberian Peninsula since the time of Phoenician settlements. It is the main grape used in Rioja, and is often referred to as Spain's noble grape. The grape has been planted throughout the…",
+    "url": "https://en.wikipedia.org/wiki/Tempranillo",
+    "title": "Tempranillo"
+   }
   },
   {
    "iWine": "3778984",
@@ -2174,9 +2186,9 @@
    "location": "Cellar - BB&R",
    "quantity": 3,
    "price_paid_bottle": 225.0,
-   "value_bottle": 340.44,
+   "value_bottle": 342.05,
    "total_paid": 675.0,
-   "total_value": 1021.33,
+   "total_value": 1026.15,
    "avg_critic_score": 93.4,
    "my_score": null,
    "critic_scores": {
@@ -2185,7 +2197,7 @@
    },
    "begin_consume": 2024,
    "end_consume": 2041,
-   "appreciation_pct": 51.3,
+   "appreciation_pct": 52.0,
    "body": "Medium-full",
    "tannin": "Medium-high",
    "pairings": [
@@ -2197,7 +2209,11 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Tempranillo is a black grape variety widely grown to make full-bodied red wines in its native Spain. Its name is the diminutive of the Spanish temprano (\"early\"), a reference to the fact that it ripens several weeks earlier than most Spanish red grapes. Tempranillo has been grown on the Iberian Peninsula since the time of Phoenician settlements. It is the main grape used in Rioja, and is often referred to as Spain's noble grape. The grape has been planted throughout the…",
+    "url": "https://en.wikipedia.org/wiki/Tempranillo",
+    "title": "Tempranillo"
+   }
   },
   {
    "iWine": "3709255",
@@ -2378,9 +2394,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 129.0,
-   "value_bottle": 182.17,
+   "value_bottle": 180.63,
    "total_paid": 774.0,
-   "total_value": 1093.03,
+   "total_value": 1083.76,
    "avg_critic_score": 90.2,
    "my_score": null,
    "critic_scores": {
@@ -2389,7 +2405,7 @@
    },
    "begin_consume": 2027,
    "end_consume": 2057,
-   "appreciation_pct": 41.2,
+   "appreciation_pct": 40.0,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -2600,7 +2616,11 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Tempranillo is a black grape variety widely grown to make full-bodied red wines in its native Spain. Its name is the diminutive of the Spanish temprano (\"early\"), a reference to the fact that it ripens several weeks earlier than most Spanish red grapes. Tempranillo has been grown on the Iberian Peninsula since the time of Phoenician settlements. It is the main grape used in Rioja, and is often referred to as Spain's noble grape. The grape has been planted throughout the…",
+    "url": "https://en.wikipedia.org/wiki/Tempranillo",
+    "title": "Tempranillo"
+   }
   },
   {
    "iWine": "3984055",
@@ -2970,7 +2990,11 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Nebbiolo is an Italian red wine grape variety predominantly associated with its native Piedmont region. It is used to produce the Denominazione di Origine Controllata e Garantita (DOCG) wines of Barolo, Barbaresco, Gattinara, Ghemme, and Roero, together with numerous DOC wines. Nebbiolo is thought to derive its name from the Italian nebbia or Piedmontese nebia, meaning 'fog'. During harvest, which generally takes place late in October, a deep, intense fog sets into the…",
+    "url": "https://en.wikipedia.org/wiki/Nebbiolo",
+    "title": "Nebbiolo"
+   }
   },
   {
    "iWine": "5384841",
@@ -2987,9 +3011,9 @@
    "location": "Cellar",
    "quantity": 1,
    "price_paid_bottle": 0.0,
-   "value_bottle": 37.8,
+   "value_bottle": 37.9,
    "total_paid": 0.0,
-   "total_value": 37.8,
+   "total_value": 37.9,
    "avg_critic_score": 91.9,
    "my_score": null,
    "critic_scores": {},
@@ -3007,7 +3031,11 @@
     "hours": 1.5,
     "label": "~1.5–2 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Tempranillo is a black grape variety widely grown to make full-bodied red wines in its native Spain. Its name is the diminutive of the Spanish temprano (\"early\"), a reference to the fact that it ripens several weeks earlier than most Spanish red grapes. Tempranillo has been grown on the Iberian Peninsula since the time of Phoenician settlements. It is the main grape used in Rioja, and is often referred to as Spain's noble grape. The grape has been planted throughout the…",
+    "url": "https://en.wikipedia.org/wiki/Tempranillo",
+    "title": "Tempranillo"
+   }
   },
   {
    "iWine": "5159319",
@@ -3109,7 +3137,7 @@
     "JR": 82.5
    },
    "begin_consume": 2029,
-   "end_consume": 2039,
+   "end_consume": 2038,
    "appreciation_pct": 14.5,
    "body": "Light-medium",
    "tannin": "Low-medium",
@@ -3537,9 +3565,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 129.0,
-   "value_bottle": 182.17,
+   "value_bottle": 180.63,
    "total_paid": 774.0,
-   "total_value": 1093.03,
+   "total_value": 1083.76,
    "avg_critic_score": 90.2,
    "my_score": null,
    "critic_scores": {
@@ -3548,7 +3576,7 @@
    },
    "begin_consume": 2027,
    "end_consume": 2057,
-   "appreciation_pct": 41.2,
+   "appreciation_pct": 40.0,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -3577,9 +3605,9 @@
    "location": "Cellar - Wine Society",
    "quantity": 6,
    "price_paid_bottle": 57.0,
-   "value_bottle": 71.27,
+   "value_bottle": 64.1,
    "total_paid": 342.0,
-   "total_value": 427.61,
+   "total_value": 384.6,
    "avg_critic_score": 93.5,
    "my_score": null,
    "critic_scores": {
@@ -3588,7 +3616,7 @@
    },
    "begin_consume": 2029,
    "end_consume": 2040,
-   "appreciation_pct": 25.0,
+   "appreciation_pct": 12.5,
    "body": "Medium",
    "tannin": "Medium-high",
    "pairings": [
@@ -3761,7 +3789,11 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Nebbiolo is an Italian red wine grape variety predominantly associated with its native Piedmont region. It is used to produce the Denominazione di Origine Controllata e Garantita (DOCG) wines of Barolo, Barbaresco, Gattinara, Ghemme, and Roero, together with numerous DOC wines. Nebbiolo is thought to derive its name from the Italian nebbia or Piedmontese nebia, meaning 'fog'. During harvest, which generally takes place late in October, a deep, intense fog sets into the…",
+    "url": "https://en.wikipedia.org/wiki/Nebbiolo",
+    "title": "Nebbiolo"
+   }
   },
   {
    "iWine": "5519448",
@@ -4366,9 +4398,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 18.33,
-   "value_bottle": 33.74,
+   "value_bottle": 33.13,
    "total_paid": 109.98,
-   "total_value": 202.45,
+   "total_value": 198.8,
    "avg_critic_score": 87.7,
    "my_score": null,
    "critic_scores": {
@@ -4377,7 +4409,7 @@
    },
    "begin_consume": 2028,
    "end_consume": 2044,
-   "appreciation_pct": 84.1,
+   "appreciation_pct": 80.7,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -4406,9 +4438,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 68.33,
-   "value_bottle": 110.34,
+   "value_bottle": 111.2,
    "total_paid": 409.98,
-   "total_value": 662.05,
+   "total_value": 667.22,
    "avg_critic_score": 93.5,
    "my_score": null,
    "critic_scores": {
@@ -4417,7 +4449,7 @@
    },
    "begin_consume": 2026,
    "end_consume": 2047,
-   "appreciation_pct": 61.5,
+   "appreciation_pct": 62.7,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -4672,7 +4704,11 @@
     "hours": 3.0,
     "label": "~3–3.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Nebbiolo is an Italian red wine grape variety predominantly associated with its native Piedmont region. It is used to produce the Denominazione di Origine Controllata e Garantita (DOCG) wines of Barolo, Barbaresco, Gattinara, Ghemme, and Roero, together with numerous DOC wines. Nebbiolo is thought to derive its name from the Italian nebbia or Piedmontese nebia, meaning 'fog'. During harvest, which generally takes place late in October, a deep, intense fog sets into the…",
+    "url": "https://en.wikipedia.org/wiki/Nebbiolo",
+    "title": "Nebbiolo"
+   }
   },
   {
    "iWine": "5855669",
@@ -4787,7 +4823,11 @@
     "hours": 1.5,
     "label": "~1.5–2 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Tempranillo is a black grape variety widely grown to make full-bodied red wines in its native Spain. Its name is the diminutive of the Spanish temprano (\"early\"), a reference to the fact that it ripens several weeks earlier than most Spanish red grapes. Tempranillo has been grown on the Iberian Peninsula since the time of Phoenician settlements. It is the main grape used in Rioja, and is often referred to as Spain's noble grape. The grape has been planted throughout the…",
+    "url": "https://en.wikipedia.org/wiki/Tempranillo",
+    "title": "Tempranillo"
+   }
   },
   {
    "iWine": "5749116",
@@ -4967,9 +5007,9 @@
    "location": "Cellar",
    "quantity": 1,
    "price_paid_bottle": 0.0,
-   "value_bottle": 47.78,
+   "value_bottle": 48.93,
    "total_paid": 0.0,
-   "total_value": 47.78,
+   "total_value": 48.93,
    "avg_critic_score": 92.2,
    "my_score": null,
    "critic_scores": {
@@ -6096,7 +6136,11 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Tempranillo is a black grape variety widely grown to make full-bodied red wines in its native Spain. Its name is the diminutive of the Spanish temprano (\"early\"), a reference to the fact that it ripens several weeks earlier than most Spanish red grapes. Tempranillo has been grown on the Iberian Peninsula since the time of Phoenician settlements. It is the main grape used in Rioja, and is often referred to as Spain's noble grape. The grape has been planted throughout the…",
+    "url": "https://en.wikipedia.org/wiki/Tempranillo",
+    "title": "Tempranillo"
+   }
   },
   {
    "iWine": "3778984",
@@ -6113,9 +6157,9 @@
    "location": "Cellar - BB&R",
    "quantity": 3,
    "price_paid_bottle": 225.0,
-   "value_bottle": 340.44,
+   "value_bottle": 342.05,
    "total_paid": 675.0,
-   "total_value": 1021.33,
+   "total_value": 1026.15,
    "avg_critic_score": 93.4,
    "my_score": null,
    "critic_scores": {
@@ -6124,7 +6168,7 @@
    },
    "begin_consume": 2024,
    "end_consume": 2041,
-   "appreciation_pct": 51.3,
+   "appreciation_pct": 52.0,
    "body": "Medium-full",
    "tannin": "Medium-high",
    "pairings": [
@@ -6136,7 +6180,11 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Tempranillo is a black grape variety widely grown to make full-bodied red wines in its native Spain. Its name is the diminutive of the Spanish temprano (\"early\"), a reference to the fact that it ripens several weeks earlier than most Spanish red grapes. Tempranillo has been grown on the Iberian Peninsula since the time of Phoenician settlements. It is the main grape used in Rioja, and is often referred to as Spain's noble grape. The grape has been planted throughout the…",
+    "url": "https://en.wikipedia.org/wiki/Tempranillo",
+    "title": "Tempranillo"
+   }
   },
   {
    "iWine": "4495677",
@@ -6175,7 +6223,11 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Tempranillo is a black grape variety widely grown to make full-bodied red wines in its native Spain. Its name is the diminutive of the Spanish temprano (\"early\"), a reference to the fact that it ripens several weeks earlier than most Spanish red grapes. Tempranillo has been grown on the Iberian Peninsula since the time of Phoenician settlements. It is the main grape used in Rioja, and is often referred to as Spain's noble grape. The grape has been planted throughout the…",
+    "url": "https://en.wikipedia.org/wiki/Tempranillo",
+    "title": "Tempranillo"
+   }
   },
   {
    "iWine": "5855671",
@@ -6268,9 +6320,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 18.33,
-   "value_bottle": 33.74,
+   "value_bottle": 33.13,
    "total_paid": 109.98,
-   "total_value": 202.45,
+   "total_value": 198.8,
    "avg_critic_score": 87.7,
    "my_score": null,
    "critic_scores": {
@@ -6279,7 +6331,7 @@
    },
    "begin_consume": 2028,
    "end_consume": 2044,
-   "appreciation_pct": 84.1,
+   "appreciation_pct": 80.7,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -6448,7 +6500,11 @@
     "hours": 1.5,
     "label": "~1.5–2 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Tempranillo is a black grape variety widely grown to make full-bodied red wines in its native Spain. Its name is the diminutive of the Spanish temprano (\"early\"), a reference to the fact that it ripens several weeks earlier than most Spanish red grapes. Tempranillo has been grown on the Iberian Peninsula since the time of Phoenician settlements. It is the main grape used in Rioja, and is often referred to as Spain's noble grape. The grape has been planted throughout the…",
+    "url": "https://en.wikipedia.org/wiki/Tempranillo",
+    "title": "Tempranillo"
+   }
   },
   {
    "iWine": "3984055",
@@ -6528,7 +6584,11 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Nebbiolo is an Italian red wine grape variety predominantly associated with its native Piedmont region. It is used to produce the Denominazione di Origine Controllata e Garantita (DOCG) wines of Barolo, Barbaresco, Gattinara, Ghemme, and Roero, together with numerous DOC wines. Nebbiolo is thought to derive its name from the Italian nebbia or Piedmontese nebia, meaning 'fog'. During harvest, which generally takes place late in October, a deep, intense fog sets into the…",
+    "url": "https://en.wikipedia.org/wiki/Nebbiolo",
+    "title": "Nebbiolo"
+   }
   },
   {
    "iWine": "2656322",
@@ -6545,9 +6605,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 68.33,
-   "value_bottle": 110.34,
+   "value_bottle": 111.2,
    "total_paid": 409.98,
-   "total_value": 662.05,
+   "total_value": 667.22,
    "avg_critic_score": 93.5,
    "my_score": null,
    "critic_scores": {
@@ -6556,7 +6616,7 @@
    },
    "begin_consume": 2026,
    "end_consume": 2047,
-   "appreciation_pct": 61.5,
+   "appreciation_pct": 62.7,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -6706,9 +6766,9 @@
    "location": "Cellar - BB&R",
    "quantity": 3,
    "price_paid_bottle": 225.0,
-   "value_bottle": 340.44,
+   "value_bottle": 342.05,
    "total_paid": 675.0,
-   "total_value": 1021.33,
+   "total_value": 1026.15,
    "avg_critic_score": 93.4,
    "my_score": null,
    "critic_scores": {
@@ -6717,7 +6777,7 @@
    },
    "begin_consume": 2024,
    "end_consume": 2041,
-   "appreciation_pct": 51.3,
+   "appreciation_pct": 52.0,
    "body": "Medium-full",
    "tannin": "Medium-high",
    "pairings": [
@@ -6729,7 +6789,11 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Tempranillo is a black grape variety widely grown to make full-bodied red wines in its native Spain. Its name is the diminutive of the Spanish temprano (\"early\"), a reference to the fact that it ripens several weeks earlier than most Spanish red grapes. Tempranillo has been grown on the Iberian Peninsula since the time of Phoenician settlements. It is the main grape used in Rioja, and is often referred to as Spain's noble grape. The grape has been planted throughout the…",
+    "url": "https://en.wikipedia.org/wiki/Tempranillo",
+    "title": "Tempranillo"
+   }
   },
   {
    "iWine": "1123088",
@@ -7474,7 +7538,7 @@
    "wines": 4,
    "bottles": 19,
    "paid": 5056.02,
-   "value": 6905.75,
+   "value": 6906.9,
    "appreciation_pct": 36.6,
    "avg_score": 93.5,
    "countries": [
@@ -7496,8 +7560,8 @@
    "wines": 3,
    "bottles": 9,
    "paid": 1899.0,
-   "value": 2511.82,
-   "appreciation_pct": 32.3,
+   "value": 2516.64,
+   "appreciation_pct": 32.5,
    "avg_score": 93.5,
    "countries": [
     "Spain"
@@ -7562,8 +7626,8 @@
    "wines": 1,
    "bottles": 6,
    "paid": 774.0,
-   "value": 1093.03,
-   "appreciation_pct": 41.2,
+   "value": 1083.76,
+   "appreciation_pct": 40.0,
    "avg_score": 90.2,
    "countries": [
     "France"
@@ -7596,6 +7660,22 @@
    "wikidata": null
   },
   {
+   "name": "Château Léoville Barton",
+   "wines": 2,
+   "bottles": 9,
+   "paid": 568.98,
+   "value": 850.11,
+   "appreciation_pct": 49.4,
+   "avg_score": 92.8,
+   "countries": [
+    "France"
+   ],
+   "regions": [
+    "Bordeaux"
+   ],
+   "wikidata": null
+  },
+  {
    "name": "Canalicchio di Sopra",
    "wines": 2,
    "bottles": 9,
@@ -7608,22 +7688,6 @@
    ],
    "regions": [
     "Tuscany"
-   ],
-   "wikidata": null
-  },
-  {
-   "name": "Château Léoville Barton",
-   "wines": 2,
-   "bottles": 9,
-   "paid": 568.98,
-   "value": 844.94,
-   "appreciation_pct": 48.5,
-   "avg_score": 92.8,
-   "countries": [
-    "France"
-   ],
-   "regions": [
-    "Bordeaux"
    ],
    "wikidata": null
   },
@@ -7790,34 +7854,34 @@
    "wikidata": null
   },
   {
-   "name": "Conti Costanti",
-   "wines": 1,
-   "bottles": 6,
-   "paid": 342.0,
-   "value": 427.61,
-   "appreciation_pct": 25.0,
-   "avg_score": 93.5,
-   "countries": [
-    "Italy"
-   ],
-   "regions": [
-    "Tuscany"
-   ],
-   "wikidata": null
-  },
-  {
    "name": "Château Laroque",
    "wines": 3,
    "bottles": 13,
    "paid": 217.98,
-   "value": 397.84,
-   "appreciation_pct": 82.5,
+   "value": 394.19,
+   "appreciation_pct": 80.8,
    "avg_score": 89.0,
    "countries": [
     "France"
    ],
    "regions": [
     "Bordeaux"
+   ],
+   "wikidata": null
+  },
+  {
+   "name": "Conti Costanti",
+   "wines": 1,
+   "bottles": 6,
+   "paid": 342.0,
+   "value": 384.6,
+   "appreciation_pct": 12.5,
+   "avg_score": 93.5,
+   "countries": [
+    "Italy"
+   ],
+   "regions": [
+    "Tuscany"
    ],
    "wikidata": null
   },
@@ -8378,7 +8442,7 @@
    "wines": 1,
    "bottles": 1,
    "paid": 0.0,
-   "value": 37.8,
+   "value": 37.9,
    "appreciation_pct": null,
    "avg_score": 91.9,
    "countries": [
@@ -8716,7 +8780,7 @@
    "wines": 4,
    "bottles": 19,
    "paid": 5056.02,
-   "value": 6905.75,
+   "value": 6906.9,
    "appreciation_pct": 36.6,
    "avg_score": 93.5,
    "countries": [
@@ -8738,7 +8802,7 @@
    "wines": 4,
    "bottles": 19,
    "paid": 5056.02,
-   "value": 6905.75,
+   "value": 6906.9,
    "appreciation_pct": 36.6,
    "avg_score": 93.5,
    "countries": [
@@ -8756,7 +8820,7 @@
    }
   },
   "avg_bottle_price_paid": 74.75,
-  "avg_bottle_value_now": 99.24,
+  "avg_bottle_value_now": 99.09,
   "avg_cellar_age_years": 7.1,
   "largest_single_purchase": {
    "date": "2026-03-06",
@@ -8786,7 +8850,7 @@
     "vintage": "2019",
     "producer": "Dunn Vineyards",
     "since": "2025-05-10",
-    "days_held": 522
+    "days_held": 523
    },
    {
     "iWine": "4986829",
@@ -8794,7 +8858,7 @@
     "vintage": "2023",
     "producer": "Roc de Cambes",
     "since": "2025-06-07",
-    "days_held": 494
+    "days_held": 495
    },
    {
     "iWine": "4390612",
@@ -8802,7 +8866,7 @@
     "vintage": "2022",
     "producer": "Penfolds",
     "since": "2025-06-11",
-    "days_held": 490
+    "days_held": 491
    },
    {
     "iWine": "4641506",
@@ -8810,7 +8874,7 @@
     "vintage": "2022",
     "producer": "Château Clinet",
     "since": "2025-07-03",
-    "days_held": 468
+    "days_held": 469
    },
    {
     "iWine": "4638895",
@@ -8818,7 +8882,7 @@
     "vintage": "2022",
     "producer": "Château Troplong Mondot",
     "since": "2025-07-03",
-    "days_held": 468
+    "days_held": 469
    },
    {
     "iWine": "4876898",
@@ -8826,7 +8890,7 @@
     "vintage": "2019",
     "producer": "Canalicchio di Sopra",
     "since": "2025-07-12",
-    "days_held": 459
+    "days_held": 460
    },
    {
     "iWine": "4547984",
@@ -8834,7 +8898,7 @@
     "vintage": "2019",
     "producer": "Massolino",
     "since": "2025-07-12",
-    "days_held": 459
+    "days_held": 460
    },
    {
     "iWine": "3709255",
@@ -8842,7 +8906,7 @@
     "vintage": "2018",
     "producer": "Penfolds",
     "since": "2025-07-12",
-    "days_held": 459
+    "days_held": 460
    },
    {
     "iWine": "5271148",
@@ -8850,7 +8914,7 @@
     "vintage": "2019",
     "producer": "San Polino",
     "since": "2025-07-12",
-    "days_held": 459
+    "days_held": 460
    },
    {
     "iWine": "4638813",
@@ -8858,16 +8922,16 @@
     "vintage": "2022",
     "producer": "Château Laroque",
     "since": "2025-07-13",
-    "days_held": 458
+    "days_held": 459
    }
   ],
-  "total_appreciation_pct": 32.8
+  "total_appreciation_pct": 32.6
  },
  "map_countries": [
   {
    "name": "France",
    "bottles": 121,
-   "value": 10928.320000000002,
+   "value": 10920.570000000002,
    "wines": 27,
    "lat": 46.6,
    "lon": 2.2
@@ -8875,7 +8939,7 @@
   {
    "name": "Australia",
    "bottles": 28,
-   "value": 7149.009999999999,
+   "value": 7150.159999999999,
    "wines": 7,
    "lat": -33.9,
    "lon": 143.9
@@ -8883,7 +8947,7 @@
   {
    "name": "Italy",
    "bottles": 62,
-   "value": 4499.780000000001,
+   "value": 4456.77,
    "wines": 19,
    "lat": 42.8,
    "lon": 12.6
@@ -8891,7 +8955,7 @@
   {
    "name": "Spain",
    "bottles": 14,
-   "value": 2734.24,
+   "value": 2739.16,
    "wines": 8,
    "lat": 40.3,
    "lon": -3.7
@@ -18672,7 +18736,7 @@
     "date": "2026-05-16",
     "month": "2026-05",
     "rating": 90.0,
-    "community_score": 92.1549295774648,
+    "community_score": 92.1527777777778,
     "delta": -2.2,
     "notes_text": ""
    },
@@ -19360,7 +19424,7 @@
     "date": "2026-02-14",
     "month": "2026-02",
     "rating": 85.0,
-    "community_score": 92.1549295774648,
+    "community_score": 92.1527777777778,
     "delta": -7.2,
     "notes_text": ""
    },
@@ -24896,8 +24960,8 @@
     "date": "2025-05-29",
     "month": "2025-05",
     "rating": 87.0,
-    "community_score": 91.15,
-    "delta": -4.2,
+    "community_score": 91.1428571428571,
+    "delta": -4.1,
     "notes_text": ""
    },
    {
