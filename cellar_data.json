@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-17T10:32:12.284028+00:00",
+ "generated_at": "2026-10-18T10:53:14.871493+00:00",
  "current_year": 2026,
  "summary": {
   "total_bottles": 291,
   "total_wines": 83,
-  "total_value": 28891.9,
+  "total_value": 28933.47,
   "total_paid": 21826.75,
   "countries": 11,
   "avg_critic_score": 91.3
@@ -13,19 +13,19 @@
   {
    "name": "France",
    "bottles": 120,
-   "value": 10891.64,
+   "value": 10917.71,
    "wines": 26
   },
   {
    "name": "Australia",
    "bottles": 28,
-   "value": 7128.879999999999,
+   "value": 7130.299999999999,
    "wines": 7
   },
   {
    "name": "Italy",
    "bottles": 62,
-   "value": 4462.200000000001,
+   "value": 4481.340000000001,
    "wines": 19
   },
   {
@@ -49,7 +49,7 @@
   {
    "name": "Portugal",
    "bottles": 10,
-   "value": 534.6899999999999,
+   "value": 529.91,
    "wines": 5
   },
   {
@@ -73,7 +73,7 @@
   {
    "name": "Argentina",
    "bottles": 1,
-   "value": 32.51,
+   "value": 32.23,
    "wines": 1
   }
  ],
@@ -81,7 +81,7 @@
   {
    "name": "Red Bordeaux Blend",
    "bottles": 100,
-   "value": 10148.010000000002,
+   "value": 10174.080000000002,
    "wines": 25
   },
   {
@@ -105,7 +105,7 @@
   {
    "name": "Sangiovese",
    "bottles": 30,
-   "value": 1965.5000000000002,
+   "value": 1980.6399999999999,
    "wines": 7
   },
   {
@@ -129,19 +129,19 @@
   {
    "name": "Nebbiolo",
    "bottles": 13,
-   "value": 513.28,
+   "value": 517.28,
    "wines": 3
   },
   {
    "name": "Port Blend",
    "bottles": 8,
-   "value": 501.53,
+   "value": 496.75,
    "wines": 3
   },
   {
    "name": "Grenache",
    "bottles": 8,
-   "value": 371.38,
+   "value": 372.8,
    "wines": 3
   },
   {
@@ -189,7 +189,7 @@
   {
    "name": "Malbec",
    "bottles": 1,
-   "value": 32.51,
+   "value": 32.23,
    "wines": 1
   },
   {
@@ -203,19 +203,19 @@
   {
    "name": "Bordeaux",
    "bottles": 87,
-   "value": 8452.530000000002,
+   "value": 8478.6,
    "wines": 17
   },
   {
    "name": "South Australia",
    "bottles": 25,
-   "value": 7053.169999999999,
+   "value": 7054.589999999999,
    "wines": 6
   },
   {
    "name": "Tuscany",
    "bottles": 36,
-   "value": 3359.9300000000003,
+   "value": 3375.0699999999997,
    "wines": 8
   },
   {
@@ -249,16 +249,16 @@
    "wines": 2
   },
   {
-   "name": "Douro",
-   "bottles": 9,
-   "value": 521.87,
-   "wines": 4
-  },
-  {
    "name": "Piedmont",
    "bottles": 13,
-   "value": 513.28,
+   "value": 517.28,
    "wines": 3
+  },
+  {
+   "name": "Douro",
+   "bottles": 9,
+   "value": 517.09,
+   "wines": 4
   },
   {
    "name": "North Island",
@@ -325,7 +325,7 @@
   {
    "name": "Red",
    "bottles": 261,
-   "value": 27395.930000000004
+   "value": 27437.500000000004
   },
   {
    "name": "White",
@@ -337,7 +337,7 @@
   {
    "name": "Red",
    "bottles": 255,
-   "value": 26998.240000000005
+   "value": 27044.590000000004
   },
   {
    "name": "White",
@@ -347,7 +347,7 @@
   {
    "name": "Fortified",
    "bottles": 6,
-   "value": 397.69
+   "value": 392.90999999999997
   },
   {
    "name": "Dessert / Sweet",
@@ -371,7 +371,7 @@
   {
    "name": "Château Pontet-Canet",
    "bottles": 11,
-   "value": 1533.6799999999998,
+   "value": 1550.3600000000001,
    "wines": 2
   },
   {
@@ -425,7 +425,7 @@
   {
    "name": "Château Lynch-Bages",
    "bottles": 4,
-   "value": 637.38,
+   "value": 646.77,
    "wines": 1
   },
   {
@@ -451,17 +451,17 @@
   {
    "name": "Cellar",
    "bottles": 51,
-   "value": 4120.8
+   "value": 4146.59
   },
   {
    "name": "Cellar - Wine Society",
    "bottles": 108,
-   "value": 6096.4800000000005
+   "value": 6097.56
   },
   {
    "name": "Cellar - BB&R",
    "bottles": 132,
-   "value": 18674.620000000006
+   "value": 18689.320000000003
   }
  ],
  "drinking_window": {
@@ -1358,9 +1358,9 @@
    "location": "Cellar - Wine Society",
    "quantity": 3,
    "price_paid_bottle": 61.0,
-   "value_bottle": 68.22,
+   "value_bottle": 66.63,
    "total_paid": 183.0,
-   "total_value": 204.66,
+   "total_value": 199.88,
    "avg_critic_score": 95.0,
    "my_score": null,
    "critic_scores": {
@@ -1368,7 +1368,7 @@
    },
    "begin_consume": 2042,
    "end_consume": 2069,
-   "appreciation_pct": 11.8,
+   "appreciation_pct": 9.2,
    "body": "Rich",
    "tannin": "Low",
    "pairings": [
@@ -1715,9 +1715,9 @@
    "location": "Cellar",
    "quantity": 4,
    "price_paid_bottle": 108.0,
-   "value_bottle": 159.34,
+   "value_bottle": 161.69,
    "total_paid": 432.0,
-   "total_value": 637.38,
+   "total_value": 646.77,
    "avg_critic_score": 93.6,
    "my_score": 92.0,
    "critic_scores": {
@@ -1727,7 +1727,7 @@
    },
    "begin_consume": 2021,
    "end_consume": 2047,
-   "appreciation_pct": 47.5,
+   "appreciation_pct": 49.7,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -1876,9 +1876,9 @@
    "location": "Cellar - Wine Society",
    "quantity": 6,
    "price_paid_bottle": 57.0,
-   "value_bottle": 64.1,
+   "value_bottle": 64.46,
    "total_paid": 342.0,
-   "total_value": 384.6,
+   "total_value": 386.75,
    "avg_critic_score": 93.3,
    "my_score": null,
    "critic_scores": {
@@ -1887,7 +1887,7 @@
    },
    "begin_consume": 2029,
    "end_consume": 2040,
-   "appreciation_pct": 12.5,
+   "appreciation_pct": 13.1,
    "body": "Medium",
    "tannin": "Medium-high",
    "pairings": [
@@ -2329,9 +2329,9 @@
    "location": "Cellar",
    "quantity": 5,
    "price_paid_bottle": 136.0,
-   "value_bottle": 203.51,
+   "value_bottle": 206.85,
    "total_paid": 680.0,
-   "total_value": 1017.55,
+   "total_value": 1034.23,
    "avg_critic_score": 90.5,
    "my_score": 93.0,
    "critic_scores": {
@@ -2340,7 +2340,7 @@
    },
    "begin_consume": 2022,
    "end_consume": 2054,
-   "appreciation_pct": 49.6,
+   "appreciation_pct": 52.1,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -2488,9 +2488,9 @@
    "location": "Cellar",
    "quantity": 4,
    "price_paid_bottle": 108.0,
-   "value_bottle": 159.34,
+   "value_bottle": 161.69,
    "total_paid": 432.0,
-   "total_value": 637.38,
+   "total_value": 646.77,
    "avg_critic_score": 93.6,
    "my_score": 92.0,
    "critic_scores": {
@@ -2500,7 +2500,7 @@
    },
    "begin_consume": 2021,
    "end_consume": 2047,
-   "appreciation_pct": 47.5,
+   "appreciation_pct": 49.7,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -2920,11 +2920,11 @@
   {
    "name": "Restaurant",
    "total": 94.7,
-   "bottles": 264,
-   "orders": 264
+   "bottles": 265,
+   "orders": 265
   }
  ],
- "total_purchases": 428,
+ "total_purchases": 429,
  "wines": [
   {
    "iWine": "5522783",
@@ -3078,11 +3078,7 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": {
-    "summary": "Pinot noir, also known as Pinot nero, and Spätburgunder is a red-wine grape variety of the species Vitis vinifera. The name also refers to wines created predominantly from Pinot noir grapes. The name is derived from the French words for pine and black. The word pine alludes to the grape variety having tightly clustered, pinecone-shaped bunches of fruit.",
-    "url": "https://en.wikipedia.org/wiki/Pinot_noir",
-    "title": "Pinot noir"
-   }
+   "wiki": null
   },
   {
    "iWine": "4561939",
@@ -3121,11 +3117,7 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": {
-    "summary": "Pinot noir, also known as Pinot nero, and Spätburgunder is a red-wine grape variety of the species Vitis vinifera. The name also refers to wines created predominantly from Pinot noir grapes. The name is derived from the French words for pine and black. The word pine alludes to the grape variety having tightly clustered, pinecone-shaped bunches of fruit.",
-    "url": "https://en.wikipedia.org/wiki/Pinot_noir",
-    "title": "Pinot noir"
-   }
+   "wiki": null
   },
   {
    "iWine": "5743674",
@@ -3162,11 +3154,7 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": {
-    "summary": "Nerello mascalese is a name given to a variety of red wine grapes named after the Mascali area in Catania, that grow primarily in Sicily and Sardinia.\nIt is grown mainly on the northeastern side of Sicily and is thought to be superior in quality to the Nerello Cappuccio. There is an experimental vineyard in Agliano Terme, Piedmont, where Nerello has been planted by the winery, Vini Ragerra, and they are credited with being the first to plant and vinify Nerello in this…",
-    "url": "https://en.wikipedia.org/wiki/Nerello_mascalese",
-    "title": "Nerello mascalese"
-   }
+   "wiki": null
   },
   {
    "iWine": "5743675",
@@ -3203,11 +3191,7 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": {
-    "summary": "Nerello mascalese is a name given to a variety of red wine grapes named after the Mascali area in Catania, that grow primarily in Sicily and Sardinia.\nIt is grown mainly on the northeastern side of Sicily and is thought to be superior in quality to the Nerello Cappuccio. There is an experimental vineyard in Agliano Terme, Piedmont, where Nerello has been planted by the winery, Vini Ragerra, and they are credited with being the first to plant and vinify Nerello in this…",
-    "url": "https://en.wikipedia.org/wiki/Nerello_mascalese",
-    "title": "Nerello mascalese"
-   }
+   "wiki": null
   },
   {
    "iWine": "2667924",
@@ -3344,15 +3328,15 @@
    "location": "Cellar",
    "quantity": 1,
    "price_paid_bottle": 29.0,
-   "value_bottle": 32.51,
+   "value_bottle": 32.23,
    "total_paid": 29.0,
-   "total_value": 32.51,
+   "total_value": 32.23,
    "avg_critic_score": 90.0,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2024,
    "end_consume": 2031,
-   "appreciation_pct": 12.1,
+   "appreciation_pct": 11.1,
    "body": "Full",
    "tannin": "Medium-high",
    "pairings": [
@@ -3428,7 +3412,7 @@
    "value_bottle": 17.03,
    "total_paid": 0.0,
    "total_value": 17.03,
-   "avg_critic_score": 87.8,
+   "avg_critic_score": 88.5,
    "my_score": null,
    "critic_scores": {
     "JR": 87.5
@@ -3588,9 +3572,9 @@
    "location": "Cellar - Wine Society",
    "quantity": 6,
    "price_paid_bottle": 57.0,
-   "value_bottle": 64.1,
+   "value_bottle": 64.46,
    "total_paid": 342.0,
-   "total_value": 384.6,
+   "total_value": 386.75,
    "avg_critic_score": 93.3,
    "my_score": null,
    "critic_scores": {
@@ -3599,7 +3583,7 @@
    },
    "begin_consume": 2029,
    "end_consume": 2040,
-   "appreciation_pct": 12.5,
+   "appreciation_pct": 13.1,
    "body": "Medium",
    "tannin": "Medium-high",
    "pairings": [
@@ -3689,11 +3673,7 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": {
-    "summary": "Nerello mascalese is a name given to a variety of red wine grapes named after the Mascali area in Catania, that grow primarily in Sicily and Sardinia.\nIt is grown mainly on the northeastern side of Sicily and is thought to be superior in quality to the Nerello Cappuccio. There is an experimental vineyard in Agliano Terme, Piedmont, where Nerello has been planted by the winery, Vini Ragerra, and they are credited with being the first to plant and vinify Nerello in this…",
-    "url": "https://en.wikipedia.org/wiki/Nerello_mascalese",
-    "title": "Nerello mascalese"
-   }
+   "wiki": null
   },
   {
    "iWine": "4386234",
@@ -3854,11 +3834,7 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": {
-    "summary": "Pinot noir, also known as Pinot nero, and Spätburgunder is a red-wine grape variety of the species Vitis vinifera. The name also refers to wines created predominantly from Pinot noir grapes. The name is derived from the French words for pine and black. The word pine alludes to the grape variety having tightly clustered, pinecone-shaped bunches of fruit.",
-    "url": "https://en.wikipedia.org/wiki/Pinot_noir",
-    "title": "Pinot noir"
-   }
+   "wiki": null
   },
   {
    "iWine": "5855672",
@@ -3948,12 +3924,12 @@
    "color": "White",
    "style": "White",
    "varietal": "Riesling",
-   "location": "Cellar - Wine Society",
-   "quantity": 3,
+   "location": "Cellar",
+   "quantity": 1,
    "price_paid_bottle": 45.0,
    "value_bottle": 45.52,
-   "total_paid": 135.0,
-   "total_value": 136.55,
+   "total_paid": 45.0,
+   "total_value": 45.52,
    "avg_critic_score": 92.5,
    "my_score": null,
    "critic_scores": {},
@@ -3985,12 +3961,12 @@
    "color": "White",
    "style": "White",
    "varietal": "Riesling",
-   "location": "Cellar",
-   "quantity": 1,
+   "location": "Cellar - Wine Society",
+   "quantity": 3,
    "price_paid_bottle": 45.0,
    "value_bottle": 45.52,
-   "total_paid": 45.0,
-   "total_value": 45.52,
+   "total_paid": 135.0,
+   "total_value": 136.55,
    "avg_critic_score": 92.5,
    "my_score": null,
    "critic_scores": {},
@@ -4025,9 +4001,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 26.0,
-   "value_bottle": 37.44,
+   "value_bottle": 39.22,
    "total_paid": 156.0,
-   "total_value": 224.63,
+   "total_value": 235.33,
    "avg_critic_score": 91.4,
    "my_score": null,
    "critic_scores": {
@@ -4036,7 +4012,7 @@
    },
    "begin_consume": 2024,
    "end_consume": 2038,
-   "appreciation_pct": 44.0,
+   "appreciation_pct": 50.8,
    "body": "Medium",
    "tannin": "Medium-high",
    "pairings": [
@@ -4509,9 +4485,9 @@
    "location": "Cellar",
    "quantity": 4,
    "price_paid_bottle": 108.0,
-   "value_bottle": 159.34,
+   "value_bottle": 161.69,
    "total_paid": 432.0,
-   "total_value": 637.38,
+   "total_value": 646.77,
    "avg_critic_score": 93.6,
    "my_score": 92.0,
    "critic_scores": {
@@ -4521,7 +4497,7 @@
    },
    "begin_consume": 2021,
    "end_consume": 2047,
-   "appreciation_pct": 47.5,
+   "appreciation_pct": 49.7,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -4632,9 +4608,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 25.0,
-   "value_bottle": 31.63,
+   "value_bottle": 32.29,
    "total_paid": 150.0,
-   "total_value": 189.77,
+   "total_value": 193.77,
    "avg_critic_score": 88.8,
    "my_score": null,
    "critic_scores": {
@@ -4643,7 +4619,7 @@
    },
    "begin_consume": 2025,
    "end_consume": 2036,
-   "appreciation_pct": 26.5,
+   "appreciation_pct": 29.2,
    "body": "Full",
    "tannin": "Very high",
    "pairings": [
@@ -5140,11 +5116,7 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": {
-    "summary": "Nerello mascalese is a name given to a variety of red wine grapes named after the Mascali area in Catania, that grow primarily in Sicily and Sardinia.\nIt is grown mainly on the northeastern side of Sicily and is thought to be superior in quality to the Nerello Cappuccio. There is an experimental vineyard in Agliano Terme, Piedmont, where Nerello has been planted by the winery, Vini Ragerra, and they are credited with being the first to plant and vinify Nerello in this…",
-    "url": "https://en.wikipedia.org/wiki/Nerello_mascalese",
-    "title": "Nerello mascalese"
-   }
+   "wiki": null
   },
   {
    "iWine": "874157",
@@ -5161,9 +5133,9 @@
    "location": "Cellar",
    "quantity": 5,
    "price_paid_bottle": 136.0,
-   "value_bottle": 203.51,
+   "value_bottle": 206.85,
    "total_paid": 680.0,
-   "total_value": 1017.55,
+   "total_value": 1034.23,
    "avg_critic_score": 90.5,
    "my_score": 93.0,
    "critic_scores": {
@@ -5172,7 +5144,7 @@
    },
    "begin_consume": 2022,
    "end_consume": 2054,
-   "appreciation_pct": 49.6,
+   "appreciation_pct": 52.1,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -5632,9 +5604,9 @@
    "location": "Cellar - Wine Society",
    "quantity": 6,
    "price_paid_bottle": 48.0,
-   "value_bottle": 57.22,
+   "value_bottle": 57.6,
    "total_paid": 288.0,
-   "total_value": 343.31,
+   "total_value": 345.6,
    "avg_critic_score": 93.0,
    "my_score": null,
    "critic_scores": {
@@ -5643,7 +5615,7 @@
    },
    "begin_consume": 2029,
    "end_consume": 2042,
-   "appreciation_pct": 19.2,
+   "appreciation_pct": 20.0,
    "body": "Medium",
    "tannin": "Medium-high",
    "pairings": [
@@ -5771,11 +5743,7 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": {
-    "summary": "Nerello mascalese is a name given to a variety of red wine grapes named after the Mascali area in Catania, that grow primarily in Sicily and Sardinia.\nIt is grown mainly on the northeastern side of Sicily and is thought to be superior in quality to the Nerello Cappuccio. There is an experimental vineyard in Agliano Terme, Piedmont, where Nerello has been planted by the winery, Vini Ragerra, and they are credited with being the first to plant and vinify Nerello in this…",
-    "url": "https://en.wikipedia.org/wiki/Nerello_mascalese",
-    "title": "Nerello mascalese"
-   }
+   "wiki": null
   },
   {
    "iWine": "5407672",
@@ -5814,11 +5782,7 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": {
-    "summary": "Nerello mascalese is a name given to a variety of red wine grapes named after the Mascali area in Catania, that grow primarily in Sicily and Sardinia.\nIt is grown mainly on the northeastern side of Sicily and is thought to be superior in quality to the Nerello Cappuccio. There is an experimental vineyard in Agliano Terme, Piedmont, where Nerello has been planted by the winery, Vini Ragerra, and they are credited with being the first to plant and vinify Nerello in this…",
-    "url": "https://en.wikipedia.org/wiki/Nerello_mascalese",
-    "title": "Nerello mascalese"
-   }
+   "wiki": null
   },
   {
    "iWine": "5764519",
@@ -5835,9 +5799,9 @@
    "location": "Cellar - Wine Society",
    "quantity": 3,
    "price_paid_bottle": 61.0,
-   "value_bottle": 68.22,
+   "value_bottle": 66.63,
    "total_paid": 183.0,
-   "total_value": 204.66,
+   "total_value": 199.88,
    "avg_critic_score": 95.0,
    "my_score": null,
    "critic_scores": {
@@ -5845,7 +5809,7 @@
    },
    "begin_consume": 2042,
    "end_consume": 2069,
-   "appreciation_pct": 11.8,
+   "appreciation_pct": 9.2,
    "body": "Rich",
    "tannin": "Low",
    "pairings": [
@@ -5990,15 +5954,15 @@
    "location": "Cellar - Wine Society",
    "quantity": 3,
    "price_paid_bottle": 20.0,
-   "value_bottle": 28.8,
+   "value_bottle": 29.27,
    "total_paid": 60.0,
-   "total_value": 86.4,
+   "total_value": 87.82,
    "avg_critic_score": 91.5,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2027,
    "end_consume": 2036,
-   "appreciation_pct": 44.0,
+   "appreciation_pct": 46.3,
    "body": "Medium-full",
    "tannin": "Medium",
    "pairings": [
@@ -6695,6 +6659,46 @@
    "wiki": null
   },
   {
+   "iWine": "874157",
+   "wine": "Château Pontet-Canet",
+   "vintage": "2009",
+   "producer": "Château Pontet-Canet",
+   "country": "France",
+   "region": "Bordeaux",
+   "subregion": "Médoc",
+   "appellation": "Pauillac",
+   "color": "Red",
+   "style": "Red",
+   "varietal": "Red Bordeaux Blend",
+   "location": "Cellar",
+   "quantity": 5,
+   "price_paid_bottle": 136.0,
+   "value_bottle": 206.85,
+   "total_paid": 680.0,
+   "total_value": 1034.23,
+   "avg_critic_score": 90.5,
+   "my_score": 93.0,
+   "critic_scores": {
+    "JR": 80.0,
+    "DR": 96.0
+   },
+   "begin_consume": 2022,
+   "end_consume": 2054,
+   "appreciation_pct": 52.1,
+   "body": "Medium",
+   "tannin": "Medium",
+   "pairings": [
+    "red meat",
+    "hard cheese",
+    "roasted vegetables"
+   ],
+   "decant": {
+    "hours": 0.5,
+    "label": "~30 min — a short splash-decant to open it up"
+   },
+   "wiki": null
+  },
+  {
    "iWine": "3778984",
    "wine": "Bodegas Vega-Sicilia Ribera del Duero Único",
    "vintage": "2011",
@@ -6727,6 +6731,46 @@
     "roast lamb",
     "chorizo & charcuterie",
     "manchego cheese"
+   ],
+   "decant": {
+    "hours": 0.5,
+    "label": "~30 min — a short splash-decant to open it up"
+   },
+   "wiki": null
+  },
+  {
+   "iWine": "3124782",
+   "wine": "Il Poggione (Proprietá Franceschi) Brunello di Montalcino",
+   "vintage": "2016",
+   "producer": "Il Poggione (Proprietá Franceschi)",
+   "country": "Italy",
+   "region": "Tuscany",
+   "subregion": "Montalcino",
+   "appellation": "Brunello di Montalcino",
+   "color": "Red",
+   "style": "Red",
+   "varietal": "Sangiovese",
+   "location": "Cellar - BB&R",
+   "quantity": 6,
+   "price_paid_bottle": 26.0,
+   "value_bottle": 39.22,
+   "total_paid": 156.0,
+   "total_value": 235.33,
+   "avg_critic_score": 91.4,
+   "my_score": null,
+   "critic_scores": {
+    "JR": 87.5,
+    "DR": 95.0
+   },
+   "begin_consume": 2024,
+   "end_consume": 2038,
+   "appreciation_pct": 50.8,
+   "body": "Medium",
+   "tannin": "Medium-high",
+   "pairings": [
+    "tomato-based pasta",
+    "pizza",
+    "grilled poultry"
    ],
    "decant": {
     "hours": 0.5,
@@ -6771,87 +6815,6 @@
    "decant": {
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
-   },
-   "wiki": null
-  },
-  {
-   "iWine": "874157",
-   "wine": "Château Pontet-Canet",
-   "vintage": "2009",
-   "producer": "Château Pontet-Canet",
-   "country": "France",
-   "region": "Bordeaux",
-   "subregion": "Médoc",
-   "appellation": "Pauillac",
-   "color": "Red",
-   "style": "Red",
-   "varietal": "Red Bordeaux Blend",
-   "location": "Cellar",
-   "quantity": 5,
-   "price_paid_bottle": 136.0,
-   "value_bottle": 203.51,
-   "total_paid": 680.0,
-   "total_value": 1017.55,
-   "avg_critic_score": 90.5,
-   "my_score": 93.0,
-   "critic_scores": {
-    "JR": 80.0,
-    "DR": 96.0
-   },
-   "begin_consume": 2022,
-   "end_consume": 2054,
-   "appreciation_pct": 49.6,
-   "body": "Medium",
-   "tannin": "Medium",
-   "pairings": [
-    "red meat",
-    "hard cheese",
-    "roasted vegetables"
-   ],
-   "decant": {
-    "hours": 0.5,
-    "label": "~30 min — a short splash-decant to open it up"
-   },
-   "wiki": null
-  },
-  {
-   "iWine": "1123088",
-   "wine": "Château Lynch-Bages",
-   "vintage": "2010",
-   "producer": "Château Lynch-Bages",
-   "country": "France",
-   "region": "Bordeaux",
-   "subregion": "Médoc",
-   "appellation": "Pauillac",
-   "color": "Red",
-   "style": "Red",
-   "varietal": "Red Bordeaux Blend",
-   "location": "Cellar",
-   "quantity": 4,
-   "price_paid_bottle": 108.0,
-   "value_bottle": 159.34,
-   "total_paid": 432.0,
-   "total_value": 637.38,
-   "avg_critic_score": 93.6,
-   "my_score": 92.0,
-   "critic_scores": {
-    "JR": 90.0,
-    "JG": 94.0,
-    "DR": 97.0
-   },
-   "begin_consume": 2021,
-   "end_consume": 2047,
-   "appreciation_pct": 47.5,
-   "body": "Medium",
-   "tannin": "Medium",
-   "pairings": [
-    "red meat",
-    "hard cheese",
-    "roasted vegetables"
-   ],
-   "decant": {
-    "hours": 0.5,
-    "label": "~30 min — a short splash-decant to open it up"
    },
    "wiki": null
   }
@@ -6968,11 +6931,7 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": {
-    "summary": "Nerello mascalese is a name given to a variety of red wine grapes named after the Mascali area in Catania, that grow primarily in Sicily and Sardinia.\nIt is grown mainly on the northeastern side of Sicily and is thought to be superior in quality to the Nerello Cappuccio. There is an experimental vineyard in Agliano Terme, Piedmont, where Nerello has been planted by the winery, Vini Ragerra, and they are credited with being the first to plant and vinify Nerello in this…",
-    "url": "https://en.wikipedia.org/wiki/Nerello_mascalese",
-    "title": "Nerello mascalese"
-   }
+   "wiki": null
   },
   {
    "iWine": "5322676",
@@ -7375,12 +7334,12 @@
    "color": "White",
    "style": "White",
    "varietal": "Riesling",
-   "location": "Cellar - Wine Society",
-   "quantity": 3,
+   "location": "Cellar",
+   "quantity": 1,
    "price_paid_bottle": 45.0,
    "value_bottle": 45.52,
-   "total_paid": 135.0,
-   "total_value": 136.55,
+   "total_paid": 45.0,
+   "total_value": 45.52,
    "avg_critic_score": 92.5,
    "my_score": null,
    "critic_scores": {},
@@ -7412,12 +7371,12 @@
    "color": "White",
    "style": "White",
    "varietal": "Riesling",
-   "location": "Cellar",
-   "quantity": 1,
+   "location": "Cellar - Wine Society",
+   "quantity": 3,
    "price_paid_bottle": 45.0,
    "value_bottle": 45.52,
-   "total_paid": 45.0,
-   "total_value": 45.52,
+   "total_paid": 135.0,
+   "total_value": 136.55,
    "avg_critic_score": 92.5,
    "my_score": null,
    "critic_scores": {},
@@ -7525,8 +7484,8 @@
    "wines": 2,
    "bottles": 11,
    "paid": 980.0,
-   "value": 1533.68,
-   "appreciation_pct": 56.5,
+   "value": 1550.36,
+   "appreciation_pct": 58.2,
    "avg_score": 90.9,
    "countries": [
     "France"
@@ -7693,8 +7652,8 @@
    "wines": 1,
    "bottles": 4,
    "paid": 432.0,
-   "value": 637.38,
-   "appreciation_pct": 47.5,
+   "value": 646.77,
+   "appreciation_pct": 49.7,
    "avg_score": 93.6,
    "countries": [
     "France"
@@ -7769,8 +7728,8 @@
    "wines": 2,
    "bottles": 8,
    "paid": 422.0,
-   "value": 492.41,
-   "appreciation_pct": 16.7,
+   "value": 494.7,
+   "appreciation_pct": 17.2,
    "avg_score": 93.1,
    "countries": [
     "Italy"
@@ -7801,8 +7760,8 @@
    "wines": 1,
    "bottles": 6,
    "paid": 342.0,
-   "value": 384.6,
-   "appreciation_pct": 12.5,
+   "value": 386.75,
+   "appreciation_pct": 13.1,
    "avg_score": 93.3,
    "countries": [
     "Italy"
@@ -8007,6 +7966,22 @@
    }
   },
   {
+   "name": "Il Poggione (Proprietá Franceschi)",
+   "wines": 1,
+   "bottles": 6,
+   "paid": 156.0,
+   "value": 235.33,
+   "appreciation_pct": 50.9,
+   "avg_score": 91.4,
+   "countries": [
+    "Italy"
+   ],
+   "regions": [
+    "Tuscany"
+   ],
+   "wikidata": null
+  },
+  {
    "name": "Domaine de la Janasse",
    "wines": 1,
    "bottles": 4,
@@ -8019,22 +7994,6 @@
    ],
    "regions": [
     "Rhône"
-   ],
-   "wikidata": null
-  },
-  {
-   "name": "Il Poggione (Proprietá Franceschi)",
-   "wines": 1,
-   "bottles": 6,
-   "paid": 156.0,
-   "value": 224.63,
-   "appreciation_pct": 44.0,
-   "avg_score": 91.4,
-   "countries": [
-    "Italy"
-   ],
-   "regions": [
-    "Tuscany"
    ],
    "wikidata": null
   },
@@ -8059,8 +8018,8 @@
    "wines": 1,
    "bottles": 3,
    "paid": 183.0,
-   "value": 204.66,
-   "appreciation_pct": 11.8,
+   "value": 199.88,
+   "appreciation_pct": 9.2,
    "avg_score": 95.0,
    "countries": [
     "Portugal"
@@ -8093,6 +8052,22 @@
    }
   },
   {
+   "name": "Massolino",
+   "wines": 1,
+   "bottles": 6,
+   "paid": 150.0,
+   "value": 193.77,
+   "appreciation_pct": 29.2,
+   "avg_score": 88.8,
+   "countries": [
+    "Italy"
+   ],
+   "regions": [
+    "Piedmont"
+   ],
+   "wikidata": null
+  },
+  {
    "name": "Graham",
    "wines": 1,
    "bottles": 3,
@@ -8105,22 +8080,6 @@
    ],
    "regions": [
     "Douro"
-   ],
-   "wikidata": null
-  },
-  {
-   "name": "Massolino",
-   "wines": 1,
-   "bottles": 6,
-   "paid": 150.0,
-   "value": 189.77,
-   "appreciation_pct": 26.5,
-   "avg_score": 88.8,
-   "countries": [
-    "Italy"
-   ],
-   "regions": [
-    "Piedmont"
    ],
    "wikidata": null
   },
@@ -8193,8 +8152,8 @@
    "wines": 2,
    "bottles": 6,
    "paid": 120.0,
-   "value": 167.55,
-   "appreciation_pct": 39.6,
+   "value": 168.97,
+   "appreciation_pct": 40.8,
    "avg_score": 91.5,
    "countries": [
     "Australia"
@@ -8449,8 +8408,8 @@
    "wines": 1,
    "bottles": 1,
    "paid": 29.0,
-   "value": 32.51,
-   "appreciation_pct": 12.1,
+   "value": 32.23,
+   "appreciation_pct": 11.1,
    "avg_score": 90.0,
    "countries": [
     "Argentina"
@@ -8591,7 +8550,7 @@
    "paid": 0.0,
    "value": 17.03,
    "appreciation_pct": null,
-   "avg_score": 87.8,
+   "avg_score": 88.5,
    "countries": [
     "France"
    ],
@@ -8763,7 +8722,7 @@
    }
   },
   "avg_bottle_price_paid": 75.01,
-  "avg_bottle_value_now": 99.28,
+  "avg_bottle_value_now": 99.43,
   "avg_cellar_age_years": 7.0,
   "largest_single_purchase": {
    "date": "2026-03-06",
@@ -8783,9 +8742,9 @@
    "vintage": "2008"
   },
   "first_purchase_date": "2019-12-31",
-  "most_recent_purchase_date": "2026-10-12",
+  "most_recent_purchase_date": "2026-10-17",
   "most_visited_store": "Restaurant",
-  "total_orders": 428,
+  "total_orders": 429,
   "longest_held": [
    {
     "iWine": "4386234",
@@ -8793,7 +8752,7 @@
     "vintage": "2019",
     "producer": "Dunn Vineyards",
     "since": "2025-05-10",
-    "days_held": 525
+    "days_held": 526
    },
    {
     "iWine": "4986829",
@@ -8801,7 +8760,7 @@
     "vintage": "2023",
     "producer": "Roc de Cambes",
     "since": "2025-06-07",
-    "days_held": 497
+    "days_held": 498
    },
    {
     "iWine": "4390612",
@@ -8809,7 +8768,7 @@
     "vintage": "2022",
     "producer": "Penfolds",
     "since": "2025-06-11",
-    "days_held": 493
+    "days_held": 494
    },
    {
     "iWine": "4641506",
@@ -8817,7 +8776,7 @@
     "vintage": "2022",
     "producer": "Château Clinet",
     "since": "2025-07-03",
-    "days_held": 471
+    "days_held": 472
    },
    {
     "iWine": "4638895",
@@ -8825,7 +8784,7 @@
     "vintage": "2022",
     "producer": "Château Troplong Mondot",
     "since": "2025-07-03",
-    "days_held": 471
+    "days_held": 472
    },
    {
     "iWine": "4876898",
@@ -8833,7 +8792,7 @@
     "vintage": "2019",
     "producer": "Canalicchio di Sopra",
     "since": "2025-07-12",
-    "days_held": 462
+    "days_held": 463
    },
    {
     "iWine": "4547984",
@@ -8841,7 +8800,7 @@
     "vintage": "2019",
     "producer": "Massolino",
     "since": "2025-07-12",
-    "days_held": 462
+    "days_held": 463
    },
    {
     "iWine": "3709255",
@@ -8849,7 +8808,7 @@
     "vintage": "2018",
     "producer": "Penfolds",
     "since": "2025-07-12",
-    "days_held": 462
+    "days_held": 463
    },
    {
     "iWine": "5271148",
@@ -8857,7 +8816,7 @@
     "vintage": "2019",
     "producer": "San Polino",
     "since": "2025-07-12",
-    "days_held": 462
+    "days_held": 463
    },
    {
     "iWine": "4638813",
@@ -8865,16 +8824,16 @@
     "vintage": "2022",
     "producer": "Château Laroque",
     "since": "2025-07-13",
-    "days_held": 461
+    "days_held": 462
    }
   ],
-  "total_appreciation_pct": 32.4
+  "total_appreciation_pct": 32.6
  },
  "map_countries": [
   {
    "name": "France",
    "bottles": 120,
-   "value": 10891.64,
+   "value": 10917.71,
    "wines": 26,
    "lat": 46.6,
    "lon": 2.2
@@ -8882,7 +8841,7 @@
   {
    "name": "Australia",
    "bottles": 28,
-   "value": 7128.879999999999,
+   "value": 7130.299999999999,
    "wines": 7,
    "lat": -33.9,
    "lon": 143.9
@@ -8890,7 +8849,7 @@
   {
    "name": "Italy",
    "bottles": 62,
-   "value": 4462.200000000001,
+   "value": 4481.340000000001,
    "wines": 19,
    "lat": 42.8,
    "lon": 12.6
@@ -8922,7 +8881,7 @@
   {
    "name": "Portugal",
    "bottles": 10,
-   "value": 534.6899999999999,
+   "value": 529.91,
    "wines": 5,
    "lat": 39.6,
    "lon": -8.0
@@ -8954,13 +8913,30 @@
   {
    "name": "Argentina",
    "bottles": 1,
-   "value": 32.51,
+   "value": 32.23,
    "wines": 1,
    "lat": -34.6,
    "lon": -68.5
   }
  ],
  "purchases": [
+  {
+   "date": "2026-10-17",
+   "year": 2026,
+   "month": "2026-10",
+   "store": "Restaurant",
+   "wine": "Crystallum Pinot Noir Peter Max",
+   "producer": "Crystallum",
+   "country": "South Africa",
+   "region": "Western Cape",
+   "quantity": 1,
+   "price_bottle": 0.0,
+   "total": 0.0,
+   "color": "Red",
+   "varietal": "Pinot Noir",
+   "iWine": "4645838",
+   "vintage": "2022"
+  },
   {
    "date": "2026-10-12",
    "year": 2026,
@@ -16553,8 +16529,8 @@
   "median_vintage": 2019
  },
  "tasting": {
-  "total_tastings": 487,
-  "avg_personal_rating": 85.2,
+  "total_tastings": 489,
+  "avg_personal_rating": 85.3,
   "rating_stdev": 5.4,
   "avg_delta_vs_consensus": -1.5,
   "calibration_label": "Your ratings track closely with community consensus",
@@ -16629,10 +16605,42 @@
    },
    {
     "month": "2026-10",
-    "count": 7
+    "count": 9
    }
   ],
   "recent": [
+   {
+    "iWine": "3740718",
+    "wine": "Zena Crown Vineyard Pinot Noir",
+    "vintage": "2017",
+    "producer": "Zena Crown Vineyard",
+    "country": "USA",
+    "region": "Oregon",
+    "varietal": "Pinot Noir",
+    "color": "Red",
+    "date": "2026-10-17",
+    "month": "2026-10",
+    "rating": 89.0,
+    "community_score": 90.6666666666667,
+    "delta": -1.7,
+    "notes_text": ""
+   },
+   {
+    "iWine": "4645838",
+    "wine": "Crystallum Pinot Noir Peter Max",
+    "vintage": "2022",
+    "producer": "Crystallum",
+    "country": "South Africa",
+    "region": "Western Cape",
+    "varietal": "Pinot Noir",
+    "color": "Red",
+    "date": "2026-10-17",
+    "month": "2026-10",
+    "rating": 90.0,
+    "community_score": 90.0526315789474,
+    "delta": -0.1,
+    "notes_text": ""
+   },
    {
     "iWine": "2658458",
     "wine": "Château Laroque Saint-Émilion Grand Cru",
@@ -17240,41 +17248,41 @@
     "community_score": 91.3357142857143,
     "delta": 1.7,
     "notes_text": ""
-   },
-   {
-    "iWine": "2546394",
-    "wine": "Dominus Estate",
-    "vintage": "2014",
-    "producer": "Dominus",
-    "country": "USA",
-    "region": "California",
-    "varietal": "Red Bordeaux Blend",
-    "color": "Red",
-    "date": "2026-08-08",
-    "month": "2026-08",
-    "rating": 92.0,
-    "community_score": 94.2413793103448,
-    "delta": -2.2,
-    "notes_text": ""
-   },
-   {
-    "iWine": "5736051",
-    "wine": "Luna Beberide Mencía Bierzo \"MM\"",
-    "vintage": "2025",
-    "producer": "Luna Beberide",
-    "country": "Spain",
-    "region": "Castilla y León",
-    "varietal": "Mencía",
-    "color": "Red",
-    "date": "2026-08-08",
-    "month": "2026-08",
-    "rating": 85.0,
-    "community_score": 86.5,
-    "delta": -1.5,
-    "notes_text": "Red fruit, balanced acidity, slightly metallic finish, high tannins"
    }
   ],
   "all": [
+   {
+    "iWine": "3740718",
+    "wine": "Zena Crown Vineyard Pinot Noir",
+    "vintage": "2017",
+    "producer": "Zena Crown Vineyard",
+    "country": "USA",
+    "region": "Oregon",
+    "varietal": "Pinot Noir",
+    "color": "Red",
+    "date": "2026-10-17",
+    "month": "2026-10",
+    "rating": 89.0,
+    "community_score": 90.6666666666667,
+    "delta": -1.7,
+    "notes_text": ""
+   },
+   {
+    "iWine": "4645838",
+    "wine": "Crystallum Pinot Noir Peter Max",
+    "vintage": "2022",
+    "producer": "Crystallum",
+    "country": "South Africa",
+    "region": "Western Cape",
+    "varietal": "Pinot Noir",
+    "color": "Red",
+    "date": "2026-10-17",
+    "month": "2026-10",
+    "rating": 90.0,
+    "community_score": 90.0526315789474,
+    "delta": -0.1,
+    "notes_text": ""
+   },
    {
     "iWine": "2658458",
     "wine": "Château Laroque Saint-Émilion Grand Cru",
@@ -18871,7 +18879,7 @@
     "date": "2026-05-10",
     "month": "2026-05",
     "rating": 93.0,
-    "community_score": 95.4550898203593,
+    "community_score": 95.4544095665172,
     "delta": -2.5,
     "notes_text": ""
    },
@@ -20615,7 +20623,7 @@
     "date": "2025-07-04",
     "month": "2025-07",
     "rating": 88.0,
-    "community_score": 89.5714285714286,
+    "community_score": 89.56,
     "delta": -1.6,
     "notes_text": ""
    },
@@ -24471,7 +24479,7 @@
     "date": "2025-06-01",
     "month": "2025-06",
     "rating": 87.0,
-    "community_score": 91.1182795698925,
+    "community_score": 91.1229946524064,
     "delta": -4.1,
     "notes_text": ""
    },
@@ -24807,7 +24815,7 @@
     "date": "2025-05-30",
     "month": "2025-05",
     "rating": 88.0,
-    "community_score": 90.8333333333333,
+    "community_score": 90.8461538461538,
     "delta": -2.8,
     "notes_text": ""
    },
@@ -25176,8 +25184,8 @@
     },
     {
      "name": "Pinot Noir",
-     "avg_rating": 86.7,
-     "tastings": 44,
+     "avg_rating": 86.8,
+     "tastings": 46,
      "cellar_bottles": 12,
      "cellar_pct": 4.1,
      "verdict": "Neutral"
@@ -25438,7 +25446,7 @@
      "tastings": 10,
      "cellar_bottles": 6,
      "cellar_pct": 2.1,
-     "verdict": "Underweight"
+     "verdict": "Neutral"
     },
     {
      "name": "Slovenia",
@@ -25466,8 +25474,8 @@
     },
     {
      "name": "USA",
-     "avg_rating": 86.0,
-     "tastings": 27,
+     "avg_rating": 86.1,
+     "tastings": 28,
      "cellar_bottles": 7,
      "cellar_pct": 2.4,
      "verdict": "Neutral"
@@ -25497,6 +25505,14 @@
      "verdict": "Neutral"
     },
     {
+     "name": "South Africa",
+     "avg_rating": 82.9,
+     "tastings": 11,
+     "cellar_bottles": 33,
+     "cellar_pct": 11.3,
+     "verdict": "Neutral"
+    },
+    {
      "name": "Argentina",
      "avg_rating": 82.9,
      "tastings": 7,
@@ -25519,14 +25535,6 @@
      "cellar_bottles": 0,
      "cellar_pct": 0,
      "verdict": "Rightly avoided"
-    },
-    {
-     "name": "South Africa",
-     "avg_rating": 82.2,
-     "tastings": 10,
-     "cellar_bottles": 33,
-     "cellar_pct": 11.3,
-     "verdict": "Overweight"
     },
     {
      "name": "Australia",
@@ -25572,8 +25580,8 @@
     },
     {
      "name": "Oregon",
-     "avg_rating": 89.5,
-     "tastings": 2,
+     "avg_rating": 89.3,
+     "tastings": 3,
      "cellar_bottles": 0,
      "cellar_pct": 0,
      "verdict": "Underweight"
@@ -25891,6 +25899,14 @@
      "verdict": "Rightly avoided"
     },
     {
+     "name": "Western Cape",
+     "avg_rating": 80.0,
+     "tastings": 3,
+     "cellar_bottles": 6,
+     "cellar_pct": 2.1,
+     "verdict": "Overweight"
+    },
+    {
      "name": "Veneto",
      "avg_rating": 79.3,
      "tastings": 10,
@@ -25931,14 +25947,6 @@
      "verdict": "Rightly avoided"
     },
     {
-     "name": "Western Cape",
-     "avg_rating": 75.0,
-     "tastings": 2,
-     "cellar_bottles": 6,
-     "cellar_pct": 2.1,
-     "verdict": "Overweight"
-    },
-    {
      "name": "Murcia",
      "avg_rating": 74.0,
      "tastings": 2,
@@ -25950,8 +25958,8 @@
    "by_color": [
     {
      "name": "Red",
-     "avg_rating": 85.4,
-     "tastings": 340,
+     "avg_rating": 85.5,
+     "tastings": 342,
      "cellar_bottles": 261,
      "cellar_pct": 89.7,
      "verdict": "Neutral"
@@ -26047,14 +26055,6 @@
      "verdict": "Underweight"
     },
     {
-     "name": "Zena Crown Vineyard",
-     "avg_rating": 89.5,
-     "tastings": 2,
-     "cellar_bottles": 0,
-     "cellar_pct": 0,
-     "verdict": "Underweight"
-    },
-    {
      "name": "Château Branaire-Ducru",
      "avg_rating": 89.5,
      "tastings": 2,
@@ -26066,6 +26066,14 @@
      "name": "Amphora Wine",
      "avg_rating": 89.5,
      "tastings": 2,
+     "cellar_bottles": 0,
+     "cellar_pct": 0,
+     "verdict": "Underweight"
+    },
+    {
+     "name": "Zena Crown Vineyard",
+     "avg_rating": 89.3,
+     "tastings": 3,
      "cellar_bottles": 0,
      "cellar_pct": 0,
      "verdict": "Underweight"
@@ -26418,10 +26426,10 @@
   }
  },
  "consumption": {
-  "total_purchased_ever": 677,
+  "total_purchased_ever": 678,
   "total_remaining_ever": 291,
-  "total_consumed_ever": 386,
-  "consumed_pct": 57.0,
+  "total_consumed_ever": 387,
+  "consumed_pct": 57.1,
   "turnover_series": [
    {
     "year": 2019,
@@ -26460,7 +26468,7 @@
    },
    {
     "year": 2026,
-    "cumulative_purchased": 677,
+    "cumulative_purchased": 678,
     "cumulative_remaining": 291
    }
   ]
