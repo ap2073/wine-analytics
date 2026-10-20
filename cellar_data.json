@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-19T12:55:23.464070+00:00",
+ "generated_at": "2026-10-20T11:23:23.554731+00:00",
  "current_year": 2026,
  "summary": {
   "total_bottles": 291,
   "total_wines": 83,
-  "total_value": 28925.3,
+  "total_value": 28904.95,
   "total_paid": 21826.75,
   "countries": 11,
   "avg_critic_score": 91.3
@@ -13,7 +13,7 @@
   {
    "name": "France",
    "bottles": 120,
-   "value": 10912.7,
+   "value": 10902.160000000002,
    "wines": 26
   },
   {
@@ -25,7 +25,7 @@
   {
    "name": "Italy",
    "bottles": 62,
-   "value": 4478.890000000001,
+   "value": 4467.020000000001,
    "wines": 19
   },
   {
@@ -61,7 +61,7 @@
   {
    "name": "Germany",
    "bottles": 6,
-   "value": 303.24,
+   "value": 305.3,
    "wines": 1
   },
   {
@@ -81,7 +81,7 @@
   {
    "name": "Red Bordeaux Blend",
    "bottles": 100,
-   "value": 10169.070000000002,
+   "value": 10158.53,
    "wines": 25
   },
   {
@@ -105,7 +105,7 @@
   {
    "name": "Sangiovese",
    "bottles": 30,
-   "value": 1977.52,
+   "value": 1965.56,
    "wines": 7
   },
   {
@@ -123,13 +123,13 @@
   {
    "name": "Riesling",
    "bottles": 16,
-   "value": 707.4300000000001,
+   "value": 709.49,
    "wines": 4
   },
   {
    "name": "Nebbiolo",
    "bottles": 13,
-   "value": 517.28,
+   "value": 517.37,
    "wines": 3
   },
   {
@@ -203,7 +203,7 @@
   {
    "name": "Bordeaux",
    "bottles": 87,
-   "value": 8473.59,
+   "value": 8463.050000000001,
    "wines": 17
   },
   {
@@ -215,7 +215,7 @@
   {
    "name": "Tuscany",
    "bottles": 36,
-   "value": 3371.95,
+   "value": 3359.99,
    "wines": 8
   },
   {
@@ -251,7 +251,7 @@
   {
    "name": "Piedmont",
    "bottles": 13,
-   "value": 517.28,
+   "value": 517.37,
    "wines": 3
   },
   {
@@ -275,7 +275,7 @@
   {
    "name": "Mosel Saar Ruwer",
    "bottles": 6,
-   "value": 303.24,
+   "value": 305.3,
    "wines": 1
   },
   {
@@ -325,24 +325,24 @@
   {
    "name": "Red",
    "bottles": 261,
-   "value": 27429.329999999998
+   "value": 27406.920000000002
   },
   {
    "name": "White",
    "bottles": 30,
-   "value": 1495.97
+   "value": 1498.03
   }
  ],
  "by_style": [
   {
    "name": "Red",
    "bottles": 255,
-   "value": 27036.42
+   "value": 27014.01
   },
   {
    "name": "White",
    "bottles": 23,
-   "value": 1088.5
+   "value": 1090.56
   },
   {
    "name": "Fortified",
@@ -371,7 +371,7 @@
   {
    "name": "Château Pontet-Canet",
    "bottles": 11,
-   "value": 1545.35,
+   "value": 1541.23,
    "wines": 2
   },
   {
@@ -389,13 +389,13 @@
   {
    "name": "Château Léoville Barton",
    "bottles": 9,
-   "value": 873.95,
+   "value": 873.86,
    "wines": 2
   },
   {
    "name": "Château Troplong Mondot",
    "bottles": 9,
-   "value": 871.22,
+   "value": 856.54,
    "wines": 2
   },
   {
@@ -451,17 +451,17 @@
   {
    "name": "Cellar",
    "bottles": 51,
-   "value": 4145.88
+   "value": 4141.76
   },
   {
    "name": "Cellar - Wine Society",
    "bottles": 108,
-   "value": 6095.110000000001
+   "value": 6079.04
   },
   {
    "name": "Cellar - BB&R",
    "bottles": 132,
-   "value": 18684.31
+   "value": 18684.15
   }
  ],
  "drinking_window": {
@@ -1876,9 +1876,9 @@
    "location": "Cellar - Wine Society",
    "quantity": 6,
    "price_paid_bottle": 57.0,
-   "value_bottle": 65.33,
+   "value_bottle": 63.33,
    "total_paid": 342.0,
-   "total_value": 391.95,
+   "total_value": 379.99,
    "avg_critic_score": 93.3,
    "my_score": null,
    "critic_scores": {
@@ -1887,7 +1887,7 @@
    },
    "begin_consume": 2029,
    "end_consume": 2040,
-   "appreciation_pct": 14.6,
+   "appreciation_pct": 11.1,
    "body": "Medium",
    "tannin": "Medium-high",
    "pairings": [
@@ -1899,7 +1899,11 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Sangiovese is a red Italian wine grape variety that derives its name from the Latin sanguis Jovis, \"blood of Jupiter\".",
+    "url": "https://en.wikipedia.org/wiki/Sangiovese",
+    "title": "Sangiovese"
+   }
   },
   {
    "iWine": "1399146",
@@ -1983,7 +1987,11 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Sangiovese is a red Italian wine grape variety that derives its name from the Latin sanguis Jovis, \"blood of Jupiter\".",
+    "url": "https://en.wikipedia.org/wiki/Sangiovese",
+    "title": "Sangiovese"
+   }
   },
   {
    "iWine": "3709255",
@@ -2329,9 +2337,9 @@
    "location": "Cellar",
    "quantity": 5,
    "price_paid_bottle": 136.0,
-   "value_bottle": 206.85,
+   "value_bottle": 206.02,
    "total_paid": 680.0,
-   "total_value": 1034.23,
+   "total_value": 1030.11,
    "avg_critic_score": 90.5,
    "my_score": 93.0,
    "critic_scores": {
@@ -2340,7 +2348,7 @@
    },
    "begin_consume": 2022,
    "end_consume": 2054,
-   "appreciation_pct": 52.1,
+   "appreciation_pct": 51.5,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -2471,7 +2479,11 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Sangiovese is a red Italian wine grape variety that derives its name from the Latin sanguis Jovis, \"blood of Jupiter\".",
+    "url": "https://en.wikipedia.org/wiki/Sangiovese",
+    "title": "Sangiovese"
+   }
   },
   {
    "iWine": "1123088",
@@ -3231,7 +3243,11 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Sangiovese is a red Italian wine grape variety that derives its name from the Latin sanguis Jovis, \"blood of Jupiter\".",
+    "url": "https://en.wikipedia.org/wiki/Sangiovese",
+    "title": "Sangiovese"
+   }
   },
   {
    "iWine": "4876898",
@@ -3271,7 +3287,11 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Sangiovese is a red Italian wine grape variety that derives its name from the Latin sanguis Jovis, \"blood of Jupiter\".",
+    "url": "https://en.wikipedia.org/wiki/Sangiovese",
+    "title": "Sangiovese"
+   }
   },
   {
    "iWine": "3661490",
@@ -3288,9 +3308,9 @@
    "location": "Cellar - Wine Society",
    "quantity": 6,
    "price_paid_bottle": 51.0,
-   "value_bottle": 42.56,
+   "value_bottle": 41.89,
    "total_paid": 306.0,
-   "total_value": 255.35,
+   "total_value": 251.33,
    "avg_critic_score": 87.9,
    "my_score": null,
    "critic_scores": {
@@ -3299,7 +3319,7 @@
    },
    "begin_consume": 2026,
    "end_consume": 2045,
-   "appreciation_pct": -16.5,
+   "appreciation_pct": -17.9,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -3572,9 +3592,9 @@
    "location": "Cellar - Wine Society",
    "quantity": 6,
    "price_paid_bottle": 57.0,
-   "value_bottle": 65.33,
+   "value_bottle": 63.33,
    "total_paid": 342.0,
-   "total_value": 391.95,
+   "total_value": 379.99,
    "avg_critic_score": 93.3,
    "my_score": null,
    "critic_scores": {
@@ -3583,7 +3603,7 @@
    },
    "begin_consume": 2029,
    "end_consume": 2040,
-   "appreciation_pct": 14.6,
+   "appreciation_pct": 11.1,
    "body": "Medium",
    "tannin": "Medium-high",
    "pairings": [
@@ -3595,7 +3615,11 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Sangiovese is a red Italian wine grape variety that derives its name from the Latin sanguis Jovis, \"blood of Jupiter\".",
+    "url": "https://en.wikipedia.org/wiki/Sangiovese",
+    "title": "Sangiovese"
+   }
   },
   {
    "iWine": "2546394",
@@ -4024,7 +4048,11 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Sangiovese is a red Italian wine grape variety that derives its name from the Latin sanguis Jovis, \"blood of Jupiter\".",
+    "url": "https://en.wikipedia.org/wiki/Sangiovese",
+    "title": "Sangiovese"
+   }
   },
   {
    "iWine": "2925612",
@@ -4285,9 +4313,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 18.0,
-   "value_bottle": 27.04,
+   "value_bottle": 28.86,
    "total_paid": 108.0,
-   "total_value": 162.27,
+   "total_value": 173.15,
    "avg_critic_score": 90.1,
    "my_score": null,
    "critic_scores": {
@@ -4296,7 +4324,7 @@
    },
    "begin_consume": 2025,
    "end_consume": 2041,
-   "appreciation_pct": 50.2,
+   "appreciation_pct": 60.3,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -4325,9 +4353,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 18.33,
-   "value_bottle": 33.33,
+   "value_bottle": 33.58,
    "total_paid": 109.98,
-   "total_value": 199.98,
+   "total_value": 201.47,
    "avg_critic_score": 87.7,
    "my_score": null,
    "critic_scores": {
@@ -4336,7 +4364,7 @@
    },
    "begin_consume": 2028,
    "end_consume": 2044,
-   "appreciation_pct": 81.8,
+   "appreciation_pct": 83.2,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -4405,9 +4433,9 @@
    "location": "Cellar - Wine Society",
    "quantity": 3,
    "price_paid_bottle": 53.0,
-   "value_bottle": 63.18,
+   "value_bottle": 63.15,
    "total_paid": 159.0,
-   "total_value": 189.55,
+   "total_value": 189.46,
    "avg_critic_score": 92.2,
    "my_score": null,
    "critic_scores": {
@@ -4608,9 +4636,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 25.0,
-   "value_bottle": 32.29,
+   "value_bottle": 32.31,
    "total_paid": 150.0,
-   "total_value": 193.77,
+   "total_value": 193.86,
    "avg_critic_score": 88.8,
    "my_score": null,
    "critic_scores": {
@@ -4827,7 +4855,11 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Sangiovese is a red Italian wine grape variety that derives its name from the Latin sanguis Jovis, \"blood of Jupiter\".",
+    "url": "https://en.wikipedia.org/wiki/Sangiovese",
+    "title": "Sangiovese"
+   }
   },
   {
    "iWine": "4844161",
@@ -5133,9 +5165,9 @@
    "location": "Cellar",
    "quantity": 5,
    "price_paid_bottle": 136.0,
-   "value_bottle": 206.85,
+   "value_bottle": 206.02,
    "total_paid": 680.0,
-   "total_value": 1034.23,
+   "total_value": 1030.11,
    "avg_critic_score": 90.5,
    "my_score": 93.0,
    "critic_scores": {
@@ -5144,7 +5176,7 @@
    },
    "begin_consume": 2022,
    "end_consume": 2054,
-   "appreciation_pct": 52.1,
+   "appreciation_pct": 51.5,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -5289,15 +5321,15 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 32.5,
-   "value_bottle": 50.54,
+   "value_bottle": 50.88,
    "total_paid": 195.0,
-   "total_value": 303.24,
+   "total_value": 305.3,
    "avg_critic_score": 92.7,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2025,
    "end_consume": 2051,
-   "appreciation_pct": 55.5,
+   "appreciation_pct": 56.6,
    "body": "Light",
    "tannin": "None",
    "pairings": [
@@ -5627,7 +5659,11 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Sangiovese is a red Italian wine grape variety that derives its name from the Latin sanguis Jovis, \"blood of Jupiter\".",
+    "url": "https://en.wikipedia.org/wiki/Sangiovese",
+    "title": "Sangiovese"
+   }
   },
   {
    "iWine": "5271148",
@@ -5667,7 +5703,11 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Sangiovese is a red Italian wine grape variety that derives its name from the Latin sanguis Jovis, \"blood of Jupiter\".",
+    "url": "https://en.wikipedia.org/wiki/Sangiovese",
+    "title": "Sangiovese"
+   }
   },
   {
    "iWine": "5855674",
@@ -5875,9 +5915,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 105.83,
-   "value_bottle": 105.55,
+   "value_bottle": 103.1,
    "total_paid": 634.98,
-   "total_value": 633.27,
+   "total_value": 618.59,
    "avg_critic_score": 89.6,
    "my_score": null,
    "critic_scores": {
@@ -5885,7 +5925,7 @@
    },
    "begin_consume": 2030,
    "end_consume": 2056,
-   "appreciation_pct": -0.3,
+   "appreciation_pct": -2.6,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -6231,9 +6271,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 18.33,
-   "value_bottle": 33.33,
+   "value_bottle": 33.58,
    "total_paid": 109.98,
-   "total_value": 199.98,
+   "total_value": 201.47,
    "avg_critic_score": 87.7,
    "my_score": null,
    "critic_scores": {
@@ -6242,7 +6282,7 @@
    },
    "begin_consume": 2028,
    "end_consume": 2044,
-   "appreciation_pct": 81.8,
+   "appreciation_pct": 83.2,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -6538,6 +6578,46 @@
    }
   },
   {
+   "iWine": "3656215",
+   "wine": "Château Laroque Saint-Émilion Grand Cru",
+   "vintage": "2019",
+   "producer": "Château Laroque",
+   "country": "France",
+   "region": "Bordeaux",
+   "subregion": "Libournais",
+   "appellation": "Saint-Émilion Grand Cru",
+   "color": "Red",
+   "style": "Red",
+   "varietal": "Red Bordeaux Blend",
+   "location": "Cellar - BB&R",
+   "quantity": 6,
+   "price_paid_bottle": 18.0,
+   "value_bottle": 28.86,
+   "total_paid": 108.0,
+   "total_value": 173.15,
+   "avg_critic_score": 90.1,
+   "my_score": null,
+   "critic_scores": {
+    "JR": 82.5,
+    "DR": 96.0
+   },
+   "begin_consume": 2025,
+   "end_consume": 2041,
+   "appreciation_pct": 60.3,
+   "body": "Medium",
+   "tannin": "Medium",
+   "pairings": [
+    "red meat",
+    "hard cheese",
+    "roasted vegetables"
+   ],
+   "decant": {
+    "hours": 1.0,
+    "label": "~1–1.5 hrs (longer if young & tightly wound)"
+   },
+   "wiki": null
+  },
+  {
    "iWine": "4316519",
    "wine": "Penfolds Grange",
    "vintage": "2018",
@@ -6636,15 +6716,15 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 32.5,
-   "value_bottle": 50.54,
+   "value_bottle": 50.88,
    "total_paid": 195.0,
-   "total_value": 303.24,
+   "total_value": 305.3,
    "avg_critic_score": 92.7,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2025,
    "end_consume": 2051,
-   "appreciation_pct": 55.5,
+   "appreciation_pct": 56.6,
    "body": "Light",
    "tannin": "None",
    "pairings": [
@@ -6655,46 +6735,6 @@
    "decant": {
     "hours": 0,
     "label": "No decanting needed — drink straight from the bottle"
-   },
-   "wiki": null
-  },
-  {
-   "iWine": "874157",
-   "wine": "Château Pontet-Canet",
-   "vintage": "2009",
-   "producer": "Château Pontet-Canet",
-   "country": "France",
-   "region": "Bordeaux",
-   "subregion": "Médoc",
-   "appellation": "Pauillac",
-   "color": "Red",
-   "style": "Red",
-   "varietal": "Red Bordeaux Blend",
-   "location": "Cellar",
-   "quantity": 5,
-   "price_paid_bottle": 136.0,
-   "value_bottle": 206.85,
-   "total_paid": 680.0,
-   "total_value": 1034.23,
-   "avg_critic_score": 90.5,
-   "my_score": 93.0,
-   "critic_scores": {
-    "JR": 80.0,
-    "DR": 96.0
-   },
-   "begin_consume": 2022,
-   "end_consume": 2054,
-   "appreciation_pct": 52.1,
-   "body": "Medium",
-   "tannin": "Medium",
-   "pairings": [
-    "red meat",
-    "hard cheese",
-    "roasted vegetables"
-   ],
-   "decant": {
-    "hours": 0.5,
-    "label": "~30 min — a short splash-decant to open it up"
    },
    "wiki": null
   },
@@ -6731,6 +6771,46 @@
     "roast lamb",
     "chorizo & charcuterie",
     "manchego cheese"
+   ],
+   "decant": {
+    "hours": 0.5,
+    "label": "~30 min — a short splash-decant to open it up"
+   },
+   "wiki": null
+  },
+  {
+   "iWine": "874157",
+   "wine": "Château Pontet-Canet",
+   "vintage": "2009",
+   "producer": "Château Pontet-Canet",
+   "country": "France",
+   "region": "Bordeaux",
+   "subregion": "Médoc",
+   "appellation": "Pauillac",
+   "color": "Red",
+   "style": "Red",
+   "varietal": "Red Bordeaux Blend",
+   "location": "Cellar",
+   "quantity": 5,
+   "price_paid_bottle": 136.0,
+   "value_bottle": 206.02,
+   "total_paid": 680.0,
+   "total_value": 1030.11,
+   "avg_critic_score": 90.5,
+   "my_score": 93.0,
+   "critic_scores": {
+    "JR": 80.0,
+    "DR": 96.0
+   },
+   "begin_consume": 2022,
+   "end_consume": 2054,
+   "appreciation_pct": 51.5,
+   "body": "Medium",
+   "tannin": "Medium",
+   "pairings": [
+    "red meat",
+    "hard cheese",
+    "roasted vegetables"
    ],
    "decant": {
     "hours": 0.5,
@@ -6776,47 +6856,11 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": null
-  },
-  {
-   "iWine": "3656215",
-   "wine": "Château Laroque Saint-Émilion Grand Cru",
-   "vintage": "2019",
-   "producer": "Château Laroque",
-   "country": "France",
-   "region": "Bordeaux",
-   "subregion": "Libournais",
-   "appellation": "Saint-Émilion Grand Cru",
-   "color": "Red",
-   "style": "Red",
-   "varietal": "Red Bordeaux Blend",
-   "location": "Cellar - BB&R",
-   "quantity": 6,
-   "price_paid_bottle": 18.0,
-   "value_bottle": 27.04,
-   "total_paid": 108.0,
-   "total_value": 162.27,
-   "avg_critic_score": 90.1,
-   "my_score": null,
-   "critic_scores": {
-    "JR": 82.5,
-    "DR": 96.0
-   },
-   "begin_consume": 2025,
-   "end_consume": 2041,
-   "appreciation_pct": 50.2,
-   "body": "Medium",
-   "tannin": "Medium",
-   "pairings": [
-    "red meat",
-    "hard cheese",
-    "roasted vegetables"
-   ],
-   "decant": {
-    "hours": 1.0,
-    "label": "~1–1.5 hrs (longer if young & tightly wound)"
-   },
-   "wiki": null
+   "wiki": {
+    "summary": "Sangiovese is a red Italian wine grape variety that derives its name from the Latin sanguis Jovis, \"blood of Jupiter\".",
+    "url": "https://en.wikipedia.org/wiki/Sangiovese",
+    "title": "Sangiovese"
+   }
   }
  ],
  "top_losers": [
@@ -6934,6 +6978,46 @@
    "wiki": null
   },
   {
+   "iWine": "3661490",
+   "wine": "Château Cantenac Brown",
+   "vintage": "2019",
+   "producer": "Château Cantenac Brown",
+   "country": "France",
+   "region": "Bordeaux",
+   "subregion": "Médoc",
+   "appellation": "Margaux",
+   "color": "Red",
+   "style": "Red",
+   "varietal": "Red Bordeaux Blend",
+   "location": "Cellar - Wine Society",
+   "quantity": 6,
+   "price_paid_bottle": 51.0,
+   "value_bottle": 41.89,
+   "total_paid": 306.0,
+   "total_value": 251.33,
+   "avg_critic_score": 87.9,
+   "my_score": null,
+   "critic_scores": {
+    "JR": 77.5,
+    "DR": 94.0
+   },
+   "begin_consume": 2026,
+   "end_consume": 2045,
+   "appreciation_pct": -17.9,
+   "body": "Medium",
+   "tannin": "Medium",
+   "pairings": [
+    "red meat",
+    "hard cheese",
+    "roasted vegetables"
+   ],
+   "decant": {
+    "hours": 1.0,
+    "label": "~1–1.5 hrs (longer if young & tightly wound)"
+   },
+   "wiki": null
+  },
+  {
    "iWine": "5322676",
    "wine": "Roccolo Grassi Amarone della Valpolicella",
    "vintage": "2019",
@@ -6973,46 +7057,6 @@
     "url": "https://en.wikipedia.org/wiki/Corvina",
     "title": "Corvina"
    }
-  },
-  {
-   "iWine": "3661490",
-   "wine": "Château Cantenac Brown",
-   "vintage": "2019",
-   "producer": "Château Cantenac Brown",
-   "country": "France",
-   "region": "Bordeaux",
-   "subregion": "Médoc",
-   "appellation": "Margaux",
-   "color": "Red",
-   "style": "Red",
-   "varietal": "Red Bordeaux Blend",
-   "location": "Cellar - Wine Society",
-   "quantity": 6,
-   "price_paid_bottle": 51.0,
-   "value_bottle": 42.56,
-   "total_paid": 306.0,
-   "total_value": 255.35,
-   "avg_critic_score": 87.9,
-   "my_score": null,
-   "critic_scores": {
-    "JR": 77.5,
-    "DR": 94.0
-   },
-   "begin_consume": 2026,
-   "end_consume": 2045,
-   "appreciation_pct": -16.5,
-   "body": "Medium",
-   "tannin": "Medium",
-   "pairings": [
-    "red meat",
-    "hard cheese",
-    "roasted vegetables"
-   ],
-   "decant": {
-    "hours": 1.0,
-    "label": "~1–1.5 hrs (longer if young & tightly wound)"
-   },
-   "wiki": null
   },
   {
    "iWine": "3645986",
@@ -7222,9 +7266,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 105.83,
-   "value_bottle": 105.55,
+   "value_bottle": 103.1,
    "total_paid": 634.98,
-   "total_value": 633.27,
+   "total_value": 618.59,
    "avg_critic_score": 89.6,
    "my_score": null,
    "critic_scores": {
@@ -7232,7 +7276,7 @@
    },
    "begin_consume": 2030,
    "end_consume": 2056,
-   "appreciation_pct": -0.3,
+   "appreciation_pct": -2.6,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -7484,8 +7528,8 @@
    "wines": 2,
    "bottles": 11,
    "paid": 980.0,
-   "value": 1545.35,
-   "appreciation_pct": 57.7,
+   "value": 1541.23,
+   "appreciation_pct": 57.3,
    "avg_score": 90.9,
    "countries": [
     "France"
@@ -7550,7 +7594,7 @@
    "wines": 2,
    "bottles": 9,
    "paid": 568.98,
-   "value": 873.95,
+   "value": 873.86,
    "appreciation_pct": 53.6,
    "avg_score": 92.8,
    "countries": [
@@ -7566,8 +7610,8 @@
    "wines": 2,
    "bottles": 9,
    "paid": 856.98,
-   "value": 871.22,
-   "appreciation_pct": 1.7,
+   "value": 856.54,
+   "appreciation_pct": -0.1,
    "avg_score": 91.0,
    "countries": [
     "France"
@@ -7760,14 +7804,30 @@
    "wines": 1,
    "bottles": 6,
    "paid": 342.0,
-   "value": 391.95,
-   "appreciation_pct": 14.6,
+   "value": 379.99,
+   "appreciation_pct": 11.1,
    "avg_score": 93.3,
    "countries": [
     "Italy"
    ],
    "regions": [
     "Tuscany"
+   ],
+   "wikidata": null
+  },
+  {
+   "name": "Château Laroque",
+   "wines": 2,
+   "bottles": 12,
+   "paid": 217.98,
+   "value": 374.62,
+   "appreciation_pct": 71.9,
+   "avg_score": 88.9,
+   "countries": [
+    "France"
+   ],
+   "regions": [
+    "Bordeaux"
    ],
    "wikidata": null
   },
@@ -7810,22 +7870,6 @@
    "wikidata": null
   },
   {
-   "name": "Château Laroque",
-   "wines": 2,
-   "bottles": 12,
-   "paid": 217.98,
-   "value": 362.25,
-   "appreciation_pct": 66.2,
-   "avg_score": 88.9,
-   "countries": [
-    "France"
-   ],
-   "regions": [
-    "Bordeaux"
-   ],
-   "wikidata": null
-  },
-  {
    "name": "M. Chapoutier",
    "wines": 1,
    "bottles": 6,
@@ -7852,8 +7896,8 @@
    "wines": 1,
    "bottles": 6,
    "paid": 195.0,
-   "value": 303.24,
-   "appreciation_pct": 55.5,
+   "value": 305.3,
+   "appreciation_pct": 56.6,
    "avg_score": 92.7,
    "countries": [
     "Germany"
@@ -7948,8 +7992,8 @@
    "wines": 1,
    "bottles": 6,
    "paid": 306.0,
-   "value": 255.35,
-   "appreciation_pct": -16.6,
+   "value": 251.33,
+   "appreciation_pct": -17.9,
    "avg_score": 87.9,
    "countries": [
     "France"
@@ -8056,7 +8100,7 @@
    "wines": 1,
    "bottles": 6,
    "paid": 150.0,
-   "value": 193.77,
+   "value": 193.86,
    "appreciation_pct": 29.2,
    "avg_score": 88.8,
    "countries": [
@@ -8722,7 +8766,7 @@
    }
   },
   "avg_bottle_price_paid": 75.01,
-  "avg_bottle_value_now": 99.4,
+  "avg_bottle_value_now": 99.33,
   "avg_cellar_age_years": 7.0,
   "largest_single_purchase": {
    "date": "2026-03-06",
@@ -8752,7 +8796,7 @@
     "vintage": "2019",
     "producer": "Dunn Vineyards",
     "since": "2025-05-10",
-    "days_held": 527
+    "days_held": 528
    },
    {
     "iWine": "4986829",
@@ -8760,7 +8804,7 @@
     "vintage": "2023",
     "producer": "Roc de Cambes",
     "since": "2025-06-07",
-    "days_held": 499
+    "days_held": 500
    },
    {
     "iWine": "4390612",
@@ -8768,7 +8812,7 @@
     "vintage": "2022",
     "producer": "Penfolds",
     "since": "2025-06-11",
-    "days_held": 495
+    "days_held": 496
    },
    {
     "iWine": "4641506",
@@ -8776,7 +8820,7 @@
     "vintage": "2022",
     "producer": "Château Clinet",
     "since": "2025-07-03",
-    "days_held": 473
+    "days_held": 474
    },
    {
     "iWine": "4638895",
@@ -8784,7 +8828,7 @@
     "vintage": "2022",
     "producer": "Château Troplong Mondot",
     "since": "2025-07-03",
-    "days_held": 473
+    "days_held": 474
    },
    {
     "iWine": "4876898",
@@ -8792,7 +8836,7 @@
     "vintage": "2019",
     "producer": "Canalicchio di Sopra",
     "since": "2025-07-12",
-    "days_held": 464
+    "days_held": 465
    },
    {
     "iWine": "4547984",
@@ -8800,7 +8844,7 @@
     "vintage": "2019",
     "producer": "Massolino",
     "since": "2025-07-12",
-    "days_held": 464
+    "days_held": 465
    },
    {
     "iWine": "3709255",
@@ -8808,7 +8852,7 @@
     "vintage": "2018",
     "producer": "Penfolds",
     "since": "2025-07-12",
-    "days_held": 464
+    "days_held": 465
    },
    {
     "iWine": "5271148",
@@ -8816,7 +8860,7 @@
     "vintage": "2019",
     "producer": "San Polino",
     "since": "2025-07-12",
-    "days_held": 464
+    "days_held": 465
    },
    {
     "iWine": "4638813",
@@ -8824,16 +8868,16 @@
     "vintage": "2022",
     "producer": "Château Laroque",
     "since": "2025-07-13",
-    "days_held": 463
+    "days_held": 464
    }
   ],
-  "total_appreciation_pct": 32.5
+  "total_appreciation_pct": 32.4
  },
  "map_countries": [
   {
    "name": "France",
    "bottles": 120,
-   "value": 10912.7,
+   "value": 10902.160000000002,
    "wines": 26,
    "lat": 46.6,
    "lon": 2.2
@@ -8849,7 +8893,7 @@
   {
    "name": "Italy",
    "bottles": 62,
-   "value": 4478.890000000001,
+   "value": 4467.020000000001,
    "wines": 19,
    "lat": 42.8,
    "lon": 12.6
@@ -8897,7 +8941,7 @@
   {
    "name": "Germany",
    "bottles": 6,
-   "value": 303.24,
+   "value": 305.3,
    "wines": 1,
    "lat": 50.1,
    "lon": 8.0
@@ -24591,7 +24635,7 @@
     "date": "2025-06-01",
     "month": "2025-06",
     "rating": 89.0,
-    "community_score": 92.507299270073,
+    "community_score": 92.5090909090909,
     "delta": -3.5,
     "notes_text": ""
    },
@@ -24767,7 +24811,7 @@
     "date": "2025-05-30",
     "month": "2025-05",
     "rating": 98.0,
-    "community_score": 95.5027932960894,
+    "community_score": 95.5097493036212,
     "delta": 2.5,
     "notes_text": ""
    },
