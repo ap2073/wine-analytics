@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-29T12:49:22.251088+00:00",
+ "generated_at": "2026-10-30T12:41:17.685869+00:00",
  "current_year": 2026,
  "summary": {
   "total_bottles": 290,
   "total_wines": 87,
-  "total_value": 28625.37,
+  "total_value": 28627.72,
   "total_paid": 21460.25,
   "countries": 12,
   "avg_critic_score": 91.1
@@ -13,7 +13,7 @@
   {
    "name": "France",
    "bottles": 122,
-   "value": 11094.28,
+   "value": 11088.750000000002,
    "wines": 29
   },
   {
@@ -25,13 +25,13 @@
   {
    "name": "Italy",
    "bottles": 59,
-   "value": 4331.840000000001,
+   "value": 4339.700000000001,
    "wines": 18
   },
   {
    "name": "Spain",
    "bottles": 14,
-   "value": 2732.92,
+   "value": 2732.9400000000005,
    "wines": 8
   },
   {
@@ -87,7 +87,7 @@
   {
    "name": "Red Bordeaux Blend",
    "bottles": 102,
-   "value": 10115.470000000001,
+   "value": 10109.94,
    "wines": 26
   },
   {
@@ -99,7 +99,7 @@
   {
    "name": "Tempranillo",
    "bottles": 10,
-   "value": 2557.75,
+   "value": 2557.7700000000004,
    "wines": 4
   },
   {
@@ -111,7 +111,7 @@
   {
    "name": "Sangiovese",
    "bottles": 29,
-   "value": 1947.34,
+   "value": 1954.84,
    "wines": 6
   },
   {
@@ -171,7 +171,7 @@
   {
    "name": "Nerello Mascalese",
    "bottles": 6,
-   "value": 196.86,
+   "value": 197.22,
    "wines": 6
   },
   {
@@ -209,7 +209,7 @@
   {
    "name": "Bordeaux",
    "bottles": 88,
-   "value": 8537.06,
+   "value": 8531.53,
    "wines": 18
   },
   {
@@ -221,13 +221,13 @@
   {
    "name": "Tuscany",
    "bottles": 35,
-   "value": 3323.69,
+   "value": 3331.19,
    "wines": 7
   },
   {
    "name": "Castilla y León",
    "bottles": 10,
-   "value": 2557.75,
+   "value": 2557.7700000000004,
    "wines": 4
   },
   {
@@ -287,7 +287,7 @@
   {
    "name": "Sicily",
    "bottles": 6,
-   "value": 196.86,
+   "value": 197.22,
    "wines": 6
   },
   {
@@ -336,7 +336,7 @@
   {
    "name": "Red",
    "bottles": 257,
-   "value": 27010.369999999995
+   "value": 27012.71999999999
   },
   {
    "name": "Orange",
@@ -353,7 +353,7 @@
   {
    "name": "Red",
    "bottles": 251,
-   "value": 26625.069999999996
+   "value": 26627.41999999999
   },
   {
    "name": "Fortified",
@@ -387,7 +387,7 @@
   {
    "name": "Château Pontet-Canet",
    "bottles": 11,
-   "value": 1591.4099999999999,
+   "value": 1615.6999999999998,
    "wines": 2
   },
   {
@@ -399,7 +399,7 @@
   {
    "name": "Château Cos d'Estournel",
    "bottles": 6,
-   "value": 1070.09,
+   "value": 1063.62,
    "wines": 1
   },
   {
@@ -429,7 +429,7 @@
   {
    "name": "Château Les Carmes Haut-Brion",
    "bottles": 6,
-   "value": 736.52,
+   "value": 718.92,
    "wines": 1
   },
   {
@@ -441,7 +441,7 @@
   {
    "name": "Château Lynch-Bages",
    "bottles": 4,
-   "value": 646.77,
+   "value": 641.02,
    "wines": 1
   },
   {
@@ -467,17 +467,17 @@
   {
    "name": "Cellar",
    "bottles": 50,
-   "value": 3771.1299999999997
+   "value": 3789.69
   },
   {
    "name": "Cellar - Wine Society",
    "bottles": 108,
-   "value": 6074.13
+   "value": 6081.990000000001
   },
   {
    "name": "Cellar - BB&R",
    "bottles": 132,
-   "value": 18780.110000000004
+   "value": 18756.040000000005
   }
  ],
  "drinking_window": {
@@ -1729,9 +1729,9 @@
    "location": "Cellar",
    "quantity": 4,
    "price_paid_bottle": 108.0,
-   "value_bottle": 161.69,
+   "value_bottle": 160.25,
    "total_paid": 432.0,
-   "total_value": 646.77,
+   "total_value": 641.02,
    "avg_critic_score": 93.6,
    "my_score": 92.0,
    "critic_scores": {
@@ -1741,7 +1741,7 @@
    },
    "begin_consume": 2021,
    "end_consume": 2047,
-   "appreciation_pct": 49.7,
+   "appreciation_pct": 48.4,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -1847,9 +1847,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 71.67,
-   "value_bottle": 122.75,
+   "value_bottle": 119.82,
    "total_paid": 430.02,
-   "total_value": 736.52,
+   "total_value": 718.92,
    "avg_critic_score": 93.4,
    "my_score": null,
    "critic_scores": {
@@ -1858,7 +1858,7 @@
    },
    "begin_consume": 2030,
    "end_consume": 2053,
-   "appreciation_pct": 71.3,
+   "appreciation_pct": 67.2,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -1927,9 +1927,9 @@
    "location": "Cellar - Wine Society",
    "quantity": 6,
    "price_paid_bottle": 57.0,
-   "value_bottle": 62.6,
+   "value_bottle": 63.85,
    "total_paid": 342.0,
-   "total_value": 375.57,
+   "total_value": 383.07,
    "avg_critic_score": 93.3,
    "my_score": null,
    "critic_scores": {
@@ -1938,7 +1938,7 @@
    },
    "begin_consume": 2029,
    "end_consume": 2040,
-   "appreciation_pct": 9.8,
+   "appreciation_pct": 12.0,
    "body": "Medium",
    "tannin": "Medium-high",
    "pairings": [
@@ -1990,11 +1990,7 @@
     "hours": 0,
     "label": "No decanting needed — drink straight from the bottle"
    },
-   "wiki": {
-    "summary": "Muscat is the capital and most populous city of Oman. It is the seat of the Governorate of Muscat. According to the National Centre for Statistics and Information (NCSI), the population of the Muscat Governorate in 2022 was 1.72 million. The metropolitan area includes six provinces, called wilayat, and spans approximately 6,500 km2 (2,500 sq mi). The Hajar Mountains dominate the view from Muscat. The city lies on the Gulf of Oman, near the strategically important Strait of…",
-    "url": "https://en.wikipedia.org/wiki/Muscat",
-    "title": "Muscat"
-   }
+   "wiki": null
   },
   {
    "iWine": "5271148",
@@ -2380,9 +2376,9 @@
    "location": "Cellar",
    "quantity": 5,
    "price_paid_bottle": 136.0,
-   "value_bottle": 207.05,
+   "value_bottle": 211.91,
    "total_paid": 680.0,
-   "total_value": 1035.24,
+   "total_value": 1059.53,
    "avg_critic_score": 90.5,
    "my_score": 93.0,
    "critic_scores": {
@@ -2391,7 +2387,7 @@
    },
    "begin_consume": 2022,
    "end_consume": 2054,
-   "appreciation_pct": 52.2,
+   "appreciation_pct": 55.8,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -2420,9 +2416,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 129.0,
-   "value_bottle": 178.35,
+   "value_bottle": 177.27,
    "total_paid": 774.0,
-   "total_value": 1070.09,
+   "total_value": 1063.62,
    "avg_critic_score": 90.2,
    "my_score": null,
    "critic_scores": {
@@ -2431,7 +2427,7 @@
    },
    "begin_consume": 2027,
    "end_consume": 2056,
-   "appreciation_pct": 38.3,
+   "appreciation_pct": 37.4,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -2500,9 +2496,9 @@
    "location": "Cellar",
    "quantity": 4,
    "price_paid_bottle": 108.0,
-   "value_bottle": 161.69,
+   "value_bottle": 160.25,
    "total_paid": 432.0,
-   "total_value": 646.77,
+   "total_value": 641.02,
    "avg_critic_score": 93.6,
    "my_score": 92.0,
    "critic_scores": {
@@ -2512,7 +2508,7 @@
    },
    "begin_consume": 2021,
    "end_consume": 2047,
-   "appreciation_pct": 49.7,
+   "appreciation_pct": 48.4,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -2620,9 +2616,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 71.67,
-   "value_bottle": 122.75,
+   "value_bottle": 119.82,
    "total_paid": 430.02,
-   "total_value": 736.52,
+   "total_value": 718.92,
    "avg_critic_score": 93.4,
    "my_score": null,
    "critic_scores": {
@@ -2631,7 +2627,7 @@
    },
    "begin_consume": 2030,
    "end_consume": 2053,
-   "appreciation_pct": 71.3,
+   "appreciation_pct": 67.2,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -3591,9 +3587,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 129.0,
-   "value_bottle": 178.35,
+   "value_bottle": 177.27,
    "total_paid": 774.0,
-   "total_value": 1070.09,
+   "total_value": 1063.62,
    "avg_critic_score": 90.2,
    "my_score": null,
    "critic_scores": {
@@ -3602,7 +3598,7 @@
    },
    "begin_consume": 2027,
    "end_consume": 2056,
-   "appreciation_pct": 38.3,
+   "appreciation_pct": 37.4,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -3631,9 +3627,9 @@
    "location": "Cellar - Wine Society",
    "quantity": 6,
    "price_paid_bottle": 57.0,
-   "value_bottle": 62.6,
+   "value_bottle": 63.85,
    "total_paid": 342.0,
-   "total_value": 375.57,
+   "total_value": 383.07,
    "avg_critic_score": 93.3,
    "my_score": null,
    "critic_scores": {
@@ -3642,7 +3638,7 @@
    },
    "begin_consume": 2029,
    "end_consume": 2040,
-   "appreciation_pct": 9.8,
+   "appreciation_pct": 12.0,
    "body": "Medium",
    "tannin": "Medium-high",
    "pairings": [
@@ -3712,9 +3708,9 @@
    "location": "Cellar - Wine Society",
    "quantity": 1,
    "price_paid_bottle": 30.0,
-   "value_bottle": 23.38,
+   "value_bottle": 23.74,
    "total_paid": 30.0,
-   "total_value": 23.38,
+   "total_value": 23.74,
    "avg_critic_score": 87.0,
    "my_score": null,
    "critic_scores": {
@@ -3722,7 +3718,7 @@
    },
    "begin_consume": 2025,
    "end_consume": 2029,
-   "appreciation_pct": -22.1,
+   "appreciation_pct": -20.9,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -4024,47 +4020,6 @@
    "color": "White",
    "style": "White",
    "varietal": "Riesling",
-   "location": "Cellar - Wine Society",
-   "quantity": 3,
-   "price_paid_bottle": 45.0,
-   "value_bottle": 45.52,
-   "total_paid": 135.0,
-   "total_value": 136.55,
-   "avg_critic_score": 92.5,
-   "my_score": null,
-   "critic_scores": {},
-   "begin_consume": 2023,
-   "end_consume": 2039,
-   "appreciation_pct": 1.2,
-   "body": "Light",
-   "tannin": "None",
-   "pairings": [
-    "spicy Asian food",
-    "pork",
-    "soft cheese"
-   ],
-   "decant": {
-    "hours": 0,
-    "label": "No decanting needed — drink straight from the bottle"
-   },
-   "wiki": {
-    "summary": "Riesling is a white grape variety that is believed to have originated from the Rhine Valley region of western Germany, before later being traced to the Alsace region by 1470 and Austria by 1700. Riesling is an aromatic grape variety displaying flowery, almost perfumed aromas as well as high acidity. It is used to make dry, semi-sweet, sweet, and sparkling white wines. Riesling wines are usually varietally pure and are seldom oaked. As of 2004, Riesling was estimated to be…",
-    "url": "https://en.wikipedia.org/wiki/Riesling",
-    "title": "Riesling"
-   }
-  },
-  {
-   "iWine": "4773903",
-   "wine": "Hugel Riesling Schoenenbourg Grossi Laüe",
-   "vintage": "2015",
-   "producer": "Hugel",
-   "country": "France",
-   "region": "Alsace",
-   "subregion": "Unknown",
-   "appellation": "Alsace Grand Cru",
-   "color": "White",
-   "style": "White",
-   "varietal": "Riesling",
    "location": "Cellar",
    "quantity": 1,
    "price_paid_bottle": 45.0,
@@ -4088,11 +4043,44 @@
     "hours": 0,
     "label": "No decanting needed — drink straight from the bottle"
    },
-   "wiki": {
-    "summary": "Riesling is a white grape variety that is believed to have originated from the Rhine Valley region of western Germany, before later being traced to the Alsace region by 1470 and Austria by 1700. Riesling is an aromatic grape variety displaying flowery, almost perfumed aromas as well as high acidity. It is used to make dry, semi-sweet, sweet, and sparkling white wines. Riesling wines are usually varietally pure and are seldom oaked. As of 2004, Riesling was estimated to be…",
-    "url": "https://en.wikipedia.org/wiki/Riesling",
-    "title": "Riesling"
-   }
+   "wiki": null
+  },
+  {
+   "iWine": "4773903",
+   "wine": "Hugel Riesling Schoenenbourg Grossi Laüe",
+   "vintage": "2015",
+   "producer": "Hugel",
+   "country": "France",
+   "region": "Alsace",
+   "subregion": "Unknown",
+   "appellation": "Alsace Grand Cru",
+   "color": "White",
+   "style": "White",
+   "varietal": "Riesling",
+   "location": "Cellar - Wine Society",
+   "quantity": 3,
+   "price_paid_bottle": 45.0,
+   "value_bottle": 45.52,
+   "total_paid": 135.0,
+   "total_value": 136.55,
+   "avg_critic_score": 92.5,
+   "my_score": null,
+   "critic_scores": {},
+   "begin_consume": 2023,
+   "end_consume": 2039,
+   "appreciation_pct": 1.2,
+   "body": "Light",
+   "tannin": "None",
+   "pairings": [
+    "spicy Asian food",
+    "pork",
+    "soft cheese"
+   ],
+   "decant": {
+    "hours": 0,
+    "label": "No decanting needed — drink straight from the bottle"
+   },
+   "wiki": null
   },
   {
    "iWine": "3124782",
@@ -4293,11 +4281,7 @@
     "hours": 0,
     "label": "No decanting needed — drink straight from the bottle"
    },
-   "wiki": {
-    "summary": "Muscat is the capital and most populous city of Oman. It is the seat of the Governorate of Muscat. According to the National Centre for Statistics and Information (NCSI), the population of the Muscat Governorate in 2022 was 1.72 million. The metropolitan area includes six provinces, called wilayat, and spans approximately 6,500 km2 (2,500 sq mi). The Hajar Mountains dominate the view from Muscat. The city lies on the Gulf of Oman, near the strategically important Strait of…",
-    "url": "https://en.wikipedia.org/wiki/Muscat",
-    "title": "Muscat"
-   }
+   "wiki": null
   },
   {
    "iWine": "4800037",
@@ -4336,11 +4320,7 @@
     "hours": 0,
     "label": "No decanting needed — drink straight from the bottle"
    },
-   "wiki": {
-    "summary": "Riesling is a white grape variety that is believed to have originated from the Rhine Valley region of western Germany, before later being traced to the Alsace region by 1470 and Austria by 1700. Riesling is an aromatic grape variety displaying flowery, almost perfumed aromas as well as high acidity. It is used to make dry, semi-sweet, sweet, and sparkling white wines. Riesling wines are usually varietally pure and are seldom oaked. As of 2004, Riesling was estimated to be…",
-    "url": "https://en.wikipedia.org/wiki/Riesling",
-    "title": "Riesling"
-   }
+   "wiki": null
   },
   {
    "iWine": "3151572",
@@ -4596,9 +4576,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 71.67,
-   "value_bottle": 122.75,
+   "value_bottle": 119.82,
    "total_paid": 430.02,
-   "total_value": 736.52,
+   "total_value": 718.92,
    "avg_critic_score": 93.4,
    "my_score": null,
    "critic_scores": {
@@ -4607,7 +4587,7 @@
    },
    "begin_consume": 2030,
    "end_consume": 2053,
-   "appreciation_pct": 71.3,
+   "appreciation_pct": 67.2,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -4636,9 +4616,9 @@
    "location": "Cellar",
    "quantity": 4,
    "price_paid_bottle": 108.0,
-   "value_bottle": 161.69,
+   "value_bottle": 160.25,
    "total_paid": 432.0,
-   "total_value": 646.77,
+   "total_value": 641.02,
    "avg_critic_score": 93.6,
    "my_score": 92.0,
    "critic_scores": {
@@ -4648,7 +4628,7 @@
    },
    "begin_consume": 2021,
    "end_consume": 2047,
-   "appreciation_pct": 49.7,
+   "appreciation_pct": 48.4,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -4914,15 +4894,15 @@
    "location": "Cellar",
    "quantity": 1,
    "price_paid_bottle": 23.33,
-   "value_bottle": 39.47,
+   "value_bottle": 39.49,
    "total_paid": 23.33,
-   "total_value": 39.47,
+   "total_value": 39.49,
    "avg_critic_score": 91.3,
    "my_score": 90.0,
    "critic_scores": {},
    "begin_consume": 2025,
    "end_consume": 2038,
-   "appreciation_pct": 69.2,
+   "appreciation_pct": 69.3,
    "body": "Medium-full",
    "tannin": "Medium-high",
    "pairings": [
@@ -5280,9 +5260,9 @@
    "location": "Cellar",
    "quantity": 5,
    "price_paid_bottle": 136.0,
-   "value_bottle": 207.05,
+   "value_bottle": 211.91,
    "total_paid": 680.0,
-   "total_value": 1035.24,
+   "total_value": 1059.53,
    "avg_critic_score": 90.5,
    "my_score": 93.0,
    "critic_scores": {
@@ -5291,7 +5271,7 @@
    },
    "begin_consume": 2022,
    "end_consume": 2054,
-   "appreciation_pct": 52.2,
+   "appreciation_pct": 55.8,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -5456,11 +5436,7 @@
     "hours": 0,
     "label": "No decanting needed — drink straight from the bottle"
    },
-   "wiki": {
-    "summary": "Riesling is a white grape variety that is believed to have originated from the Rhine Valley region of western Germany, before later being traced to the Alsace region by 1470 and Austria by 1700. Riesling is an aromatic grape variety displaying flowery, almost perfumed aromas as well as high acidity. It is used to make dry, semi-sweet, sweet, and sparkling white wines. Riesling wines are usually varietally pure and are seldom oaked. As of 2004, Riesling was estimated to be…",
-    "url": "https://en.wikipedia.org/wiki/Riesling",
-    "title": "Riesling"
-   }
+   "wiki": null
   },
   {
    "iWine": "5386889",
@@ -6602,46 +6578,6 @@
    "wiki": null
   },
   {
-   "iWine": "3984055",
-   "wine": "Château Les Carmes Haut-Brion",
-   "vintage": "2020",
-   "producer": "Château Les Carmes Haut-Brion",
-   "country": "France",
-   "region": "Bordeaux",
-   "subregion": "Graves",
-   "appellation": "Pessac-Léognan",
-   "color": "Red",
-   "style": "Red",
-   "varietal": "Red Bordeaux Blend",
-   "location": "Cellar - BB&R",
-   "quantity": 6,
-   "price_paid_bottle": 71.67,
-   "value_bottle": 122.75,
-   "total_paid": 430.02,
-   "total_value": 736.52,
-   "avg_critic_score": 93.4,
-   "my_score": null,
-   "critic_scores": {
-    "JR": 85.0,
-    "DR": 100.0
-   },
-   "begin_consume": 2030,
-   "end_consume": 2053,
-   "appreciation_pct": 71.3,
-   "body": "Medium",
-   "tannin": "Medium",
-   "pairings": [
-    "red meat",
-    "hard cheese",
-    "roasted vegetables"
-   ],
-   "decant": {
-    "hours": 1.0,
-    "label": "~1–1.5 hrs (longer if young & tightly wound)"
-   },
-   "wiki": null
-  },
-  {
    "iWine": "2656322",
    "wine": "Château Léoville Barton",
    "vintage": "2016",
@@ -6696,15 +6632,15 @@
    "location": "Cellar",
    "quantity": 1,
    "price_paid_bottle": 23.33,
-   "value_bottle": 39.47,
+   "value_bottle": 39.49,
    "total_paid": 23.33,
-   "total_value": 39.47,
+   "total_value": 39.49,
    "avg_critic_score": 91.3,
    "my_score": 90.0,
    "critic_scores": {},
    "begin_consume": 2025,
    "end_consume": 2038,
-   "appreciation_pct": 69.2,
+   "appreciation_pct": 69.3,
    "body": "Medium-full",
    "tannin": "Medium-high",
    "pairings": [
@@ -6715,6 +6651,46 @@
    "decant": {
     "hours": 1.5,
     "label": "~1.5–2 hrs (longer if young & tightly wound)"
+   },
+   "wiki": null
+  },
+  {
+   "iWine": "3984055",
+   "wine": "Château Les Carmes Haut-Brion",
+   "vintage": "2020",
+   "producer": "Château Les Carmes Haut-Brion",
+   "country": "France",
+   "region": "Bordeaux",
+   "subregion": "Graves",
+   "appellation": "Pessac-Léognan",
+   "color": "Red",
+   "style": "Red",
+   "varietal": "Red Bordeaux Blend",
+   "location": "Cellar - BB&R",
+   "quantity": 6,
+   "price_paid_bottle": 71.67,
+   "value_bottle": 119.82,
+   "total_paid": 430.02,
+   "total_value": 718.92,
+   "avg_critic_score": 93.4,
+   "my_score": null,
+   "critic_scores": {
+    "JR": 85.0,
+    "DR": 100.0
+   },
+   "begin_consume": 2030,
+   "end_consume": 2053,
+   "appreciation_pct": 67.2,
+   "body": "Medium",
+   "tannin": "Medium",
+   "pairings": [
+    "red meat",
+    "hard cheese",
+    "roasted vegetables"
+   ],
+   "decant": {
+    "hours": 1.0,
+    "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
    "wiki": null
   },
@@ -6917,11 +6893,7 @@
     "hours": 0,
     "label": "No decanting needed — drink straight from the bottle"
    },
-   "wiki": {
-    "summary": "Riesling is a white grape variety that is believed to have originated from the Rhine Valley region of western Germany, before later being traced to the Alsace region by 1470 and Austria by 1700. Riesling is an aromatic grape variety displaying flowery, almost perfumed aromas as well as high acidity. It is used to make dry, semi-sweet, sweet, and sparkling white wines. Riesling wines are usually varietally pure and are seldom oaked. As of 2004, Riesling was estimated to be…",
-    "url": "https://en.wikipedia.org/wiki/Riesling",
-    "title": "Riesling"
-   }
+   "wiki": null
   },
   {
    "iWine": "874157",
@@ -6938,9 +6910,9 @@
    "location": "Cellar",
    "quantity": 5,
    "price_paid_bottle": 136.0,
-   "value_bottle": 207.05,
+   "value_bottle": 211.91,
    "total_paid": 680.0,
-   "total_value": 1035.24,
+   "total_value": 1059.53,
    "avg_critic_score": 90.5,
    "my_score": 93.0,
    "critic_scores": {
@@ -6949,7 +6921,7 @@
    },
    "begin_consume": 2022,
    "end_consume": 2054,
-   "appreciation_pct": 52.2,
+   "appreciation_pct": 55.8,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -7134,9 +7106,9 @@
    "location": "Cellar - Wine Society",
    "quantity": 1,
    "price_paid_bottle": 30.0,
-   "value_bottle": 23.38,
+   "value_bottle": 23.74,
    "total_paid": 30.0,
-   "total_value": 23.38,
+   "total_value": 23.74,
    "avg_critic_score": 87.0,
    "my_score": null,
    "critic_scores": {
@@ -7144,7 +7116,7 @@
    },
    "begin_consume": 2025,
    "end_consume": 2029,
-   "appreciation_pct": -22.1,
+   "appreciation_pct": -20.9,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -7508,11 +7480,7 @@
     "hours": 0,
     "label": "No decanting needed — drink straight from the bottle"
    },
-   "wiki": {
-    "summary": "Riesling is a white grape variety that is believed to have originated from the Rhine Valley region of western Germany, before later being traced to the Alsace region by 1470 and Austria by 1700. Riesling is an aromatic grape variety displaying flowery, almost perfumed aromas as well as high acidity. It is used to make dry, semi-sweet, sweet, and sparkling white wines. Riesling wines are usually varietally pure and are seldom oaked. As of 2004, Riesling was estimated to be…",
-    "url": "https://en.wikipedia.org/wiki/Riesling",
-    "title": "Riesling"
-   }
+   "wiki": null
   },
   {
    "iWine": "5552048",
@@ -7563,47 +7531,6 @@
    "color": "White",
    "style": "White",
    "varietal": "Riesling",
-   "location": "Cellar - Wine Society",
-   "quantity": 3,
-   "price_paid_bottle": 45.0,
-   "value_bottle": 45.52,
-   "total_paid": 135.0,
-   "total_value": 136.55,
-   "avg_critic_score": 92.5,
-   "my_score": null,
-   "critic_scores": {},
-   "begin_consume": 2023,
-   "end_consume": 2039,
-   "appreciation_pct": 1.2,
-   "body": "Light",
-   "tannin": "None",
-   "pairings": [
-    "spicy Asian food",
-    "pork",
-    "soft cheese"
-   ],
-   "decant": {
-    "hours": 0,
-    "label": "No decanting needed — drink straight from the bottle"
-   },
-   "wiki": {
-    "summary": "Riesling is a white grape variety that is believed to have originated from the Rhine Valley region of western Germany, before later being traced to the Alsace region by 1470 and Austria by 1700. Riesling is an aromatic grape variety displaying flowery, almost perfumed aromas as well as high acidity. It is used to make dry, semi-sweet, sweet, and sparkling white wines. Riesling wines are usually varietally pure and are seldom oaked. As of 2004, Riesling was estimated to be…",
-    "url": "https://en.wikipedia.org/wiki/Riesling",
-    "title": "Riesling"
-   }
-  },
-  {
-   "iWine": "4773903",
-   "wine": "Hugel Riesling Schoenenbourg Grossi Laüe",
-   "vintage": "2015",
-   "producer": "Hugel",
-   "country": "France",
-   "region": "Alsace",
-   "subregion": "Unknown",
-   "appellation": "Alsace Grand Cru",
-   "color": "White",
-   "style": "White",
-   "varietal": "Riesling",
    "location": "Cellar",
    "quantity": 1,
    "price_paid_bottle": 45.0,
@@ -7627,11 +7554,44 @@
     "hours": 0,
     "label": "No decanting needed — drink straight from the bottle"
    },
-   "wiki": {
-    "summary": "Riesling is a white grape variety that is believed to have originated from the Rhine Valley region of western Germany, before later being traced to the Alsace region by 1470 and Austria by 1700. Riesling is an aromatic grape variety displaying flowery, almost perfumed aromas as well as high acidity. It is used to make dry, semi-sweet, sweet, and sparkling white wines. Riesling wines are usually varietally pure and are seldom oaked. As of 2004, Riesling was estimated to be…",
-    "url": "https://en.wikipedia.org/wiki/Riesling",
-    "title": "Riesling"
-   }
+   "wiki": null
+  },
+  {
+   "iWine": "4773903",
+   "wine": "Hugel Riesling Schoenenbourg Grossi Laüe",
+   "vintage": "2015",
+   "producer": "Hugel",
+   "country": "France",
+   "region": "Alsace",
+   "subregion": "Unknown",
+   "appellation": "Alsace Grand Cru",
+   "color": "White",
+   "style": "White",
+   "varietal": "Riesling",
+   "location": "Cellar - Wine Society",
+   "quantity": 3,
+   "price_paid_bottle": 45.0,
+   "value_bottle": 45.52,
+   "total_paid": 135.0,
+   "total_value": 136.55,
+   "avg_critic_score": 92.5,
+   "my_score": null,
+   "critic_scores": {},
+   "begin_consume": 2023,
+   "end_consume": 2039,
+   "appreciation_pct": 1.2,
+   "body": "Light",
+   "tannin": "None",
+   "pairings": [
+    "spicy Asian food",
+    "pork",
+    "soft cheese"
+   ],
+   "decant": {
+    "hours": 0,
+    "label": "No decanting needed — drink straight from the bottle"
+   },
+   "wiki": null
   }
  ],
  "price_distribution": [
@@ -7686,7 +7646,13 @@
    "regions": [
     "South Australia"
    ],
-   "wikidata": null
+   "wikidata": {
+    "description": "Wine producer and winery in south australia, australia",
+    "founded": null,
+    "lat": null,
+    "lon": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Penfolds"
+   }
   },
   {
    "name": "Bodegas Vega-Sicilia",
@@ -7715,8 +7681,8 @@
    "wines": 2,
    "bottles": 11,
    "paid": 980.0,
-   "value": 1591.41,
-   "appreciation_pct": 62.4,
+   "value": 1615.7,
+   "appreciation_pct": 64.9,
    "avg_score": 90.9,
    "countries": [
     "France"
@@ -7759,8 +7725,8 @@
    "wines": 1,
    "bottles": 6,
    "paid": 774.0,
-   "value": 1070.09,
-   "appreciation_pct": 38.3,
+   "value": 1063.62,
+   "appreciation_pct": 37.4,
    "avg_score": 90.2,
    "countries": [
     "France"
@@ -7845,8 +7811,8 @@
    "wines": 1,
    "bottles": 6,
    "paid": 430.02,
-   "value": 736.52,
-   "appreciation_pct": 71.3,
+   "value": 718.92,
+   "appreciation_pct": 67.2,
    "avg_score": 93.4,
    "countries": [
     "France"
@@ -7883,8 +7849,8 @@
    "wines": 1,
    "bottles": 4,
    "paid": 432.0,
-   "value": 646.77,
-   "appreciation_pct": 49.7,
+   "value": 641.02,
+   "appreciation_pct": 48.4,
    "avg_score": 93.6,
    "countries": [
     "France"
@@ -7975,8 +7941,8 @@
    "wines": 1,
    "bottles": 6,
    "paid": 342.0,
-   "value": 375.57,
-   "appreciation_pct": 9.8,
+   "value": 383.07,
+   "appreciation_pct": 12.0,
    "avg_score": 93.3,
    "countries": [
     "Italy"
@@ -8581,8 +8547,8 @@
    "wines": 1,
    "bottles": 1,
    "paid": 23.33,
-   "value": 39.47,
-   "appreciation_pct": 69.2,
+   "value": 39.49,
+   "appreciation_pct": 69.3,
    "avg_score": 91.3,
    "countries": [
     "Spain"
@@ -8743,8 +8709,8 @@
    "wines": 1,
    "bottles": 1,
    "paid": 30.0,
-   "value": 23.38,
-   "appreciation_pct": -22.1,
+   "value": 23.74,
+   "appreciation_pct": -20.9,
    "avg_score": 87.0,
    "countries": [
     "Italy"
@@ -8938,11 +8904,7 @@
     "hours": 0,
     "label": "No decanting needed — drink straight from the bottle"
    },
-   "wiki": {
-    "summary": "Muscat is the capital and most populous city of Oman. It is the seat of the Governorate of Muscat. According to the National Centre for Statistics and Information (NCSI), the population of the Muscat Governorate in 2022 was 1.72 million. The metropolitan area includes six provinces, called wilayat, and spans approximately 6,500 km2 (2,500 sq mi). The Hajar Mountains dominate the view from Muscat. The city lies on the Gulf of Oman, near the strategically important Strait of…",
-    "url": "https://en.wikipedia.org/wiki/Muscat",
-    "title": "Muscat"
-   }
+   "wiki": null
   },
   "most_expensive_bottle": {
    "iWine": "4316519",
@@ -8998,7 +8960,13 @@
    "regions": [
     "South Australia"
    ],
-   "wikidata": null
+   "wikidata": {
+    "description": "Wine producer and winery in south australia, australia",
+    "founded": null,
+    "lat": null,
+    "lon": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Penfolds"
+   }
   },
   "biggest_producer_by_value": {
    "name": "Penfolds",
@@ -9014,10 +8982,16 @@
    "regions": [
     "South Australia"
    ],
-   "wikidata": null
+   "wikidata": {
+    "description": "Wine producer and winery in south australia, australia",
+    "founded": null,
+    "lat": null,
+    "lon": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Penfolds"
+   }
   },
   "avg_bottle_price_paid": 74.0,
-  "avg_bottle_value_now": 98.71,
+  "avg_bottle_value_now": 98.72,
   "avg_cellar_age_years": 7.0,
   "largest_single_purchase": {
    "date": "2026-03-06",
@@ -9047,7 +9021,7 @@
     "vintage": "2019",
     "producer": "Dunn Vineyards",
     "since": "2025-05-10",
-    "days_held": 537
+    "days_held": 538
    },
    {
     "iWine": "4986829",
@@ -9055,7 +9029,7 @@
     "vintage": "2023",
     "producer": "Roc de Cambes",
     "since": "2025-06-07",
-    "days_held": 509
+    "days_held": 510
    },
    {
     "iWine": "4390612",
@@ -9063,7 +9037,7 @@
     "vintage": "2022",
     "producer": "Penfolds",
     "since": "2025-06-11",
-    "days_held": 505
+    "days_held": 506
    },
    {
     "iWine": "4641506",
@@ -9071,7 +9045,7 @@
     "vintage": "2022",
     "producer": "Château Clinet",
     "since": "2025-07-03",
-    "days_held": 483
+    "days_held": 484
    },
    {
     "iWine": "4638895",
@@ -9079,7 +9053,7 @@
     "vintage": "2022",
     "producer": "Château Troplong Mondot",
     "since": "2025-07-03",
-    "days_held": 483
+    "days_held": 484
    },
    {
     "iWine": "4876898",
@@ -9087,7 +9061,7 @@
     "vintage": "2019",
     "producer": "Canalicchio di Sopra",
     "since": "2025-07-12",
-    "days_held": 474
+    "days_held": 475
    },
    {
     "iWine": "4547984",
@@ -9095,7 +9069,7 @@
     "vintage": "2019",
     "producer": "Massolino",
     "since": "2025-07-12",
-    "days_held": 474
+    "days_held": 475
    },
    {
     "iWine": "3709255",
@@ -9103,7 +9077,7 @@
     "vintage": "2018",
     "producer": "Penfolds",
     "since": "2025-07-12",
-    "days_held": 474
+    "days_held": 475
    },
    {
     "iWine": "5271148",
@@ -9111,7 +9085,7 @@
     "vintage": "2019",
     "producer": "San Polino",
     "since": "2025-07-12",
-    "days_held": 474
+    "days_held": 475
    },
    {
     "iWine": "4638813",
@@ -9119,7 +9093,7 @@
     "vintage": "2022",
     "producer": "Château Laroque",
     "since": "2025-07-13",
-    "days_held": 473
+    "days_held": 474
    }
   ],
   "total_appreciation_pct": 33.4
@@ -9128,7 +9102,7 @@
   {
    "name": "France",
    "bottles": 122,
-   "value": 11094.28,
+   "value": 11088.750000000002,
    "wines": 29,
    "lat": 46.6,
    "lon": 2.2
@@ -9144,7 +9118,7 @@
   {
    "name": "Italy",
    "bottles": 59,
-   "value": 4331.840000000001,
+   "value": 4339.700000000001,
    "wines": 18,
    "lat": 42.8,
    "lon": 12.6
@@ -9152,7 +9126,7 @@
   {
    "name": "Spain",
    "bottles": 14,
-   "value": 2732.92,
+   "value": 2732.9400000000005,
    "wines": 8,
    "lat": 40.3,
    "lon": -3.7
@@ -20242,7 +20216,7 @@
     "date": "2025-12-24",
     "month": "2025-12",
     "rating": 87.0,
-    "community_score": 91.4444444444444,
+    "community_score": 91.3684210526316,
     "delta": -4.4,
     "notes_text": "Stone fruits, saline"
    },
@@ -23538,7 +23512,7 @@
     "date": "2025-06-01",
     "month": "2025-06",
     "rating": 86.0,
-    "community_score": 92.42,
+    "community_score": 92.4158415841584,
     "delta": -6.4,
     "notes_text": ""
    },
@@ -24930,7 +24904,7 @@
     "date": "2025-06-01",
     "month": "2025-06",
     "rating": 86.0,
-    "community_score": 89.6153846153846,
+    "community_score": 89.5714285714286,
     "delta": -3.6,
     "notes_text": ""
    },
@@ -25234,7 +25208,7 @@
     "date": "2025-05-30",
     "month": "2025-05",
     "rating": 95.0,
-    "community_score": 94.202614379085,
+    "community_score": 94.1818181818182,
     "delta": 0.8,
     "notes_text": ""
    },
