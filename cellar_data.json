@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-02T15:34:35.803467+00:00",
+ "generated_at": "2026-11-03T14:01:08.734150+00:00",
  "current_year": 2026,
  "summary": {
   "total_bottles": 288,
   "total_wines": 87,
-  "total_value": 28437.03,
+  "total_value": 28445.85,
   "total_paid": 21362.25,
   "countries": 12,
   "avg_critic_score": 91.3
@@ -13,19 +13,19 @@
   {
    "name": "France",
    "bottles": 121,
-   "value": 11015.63,
+   "value": 11004.82,
    "wines": 29
   },
   {
    "name": "Australia",
    "bottles": 29,
-   "value": 7196.880000000001,
+   "value": 7190.4400000000005,
    "wines": 8
   },
   {
    "name": "Italy",
    "bottles": 59,
-   "value": 4304.76,
+   "value": 4330.200000000001,
    "wines": 18
   },
   {
@@ -49,7 +49,7 @@
   {
    "name": "Portugal",
    "bottles": 10,
-   "value": 525.1800000000001,
+   "value": 526.23,
    "wines": 5
   },
   {
@@ -73,7 +73,7 @@
   {
    "name": "Argentina",
    "bottles": 1,
-   "value": 32.2,
+   "value": 31.78,
    "wines": 1
   },
   {
@@ -87,13 +87,13 @@
   {
    "name": "Red Bordeaux Blend",
    "bottles": 102,
-   "value": 10081.59,
+   "value": 10093.460000000001,
    "wines": 26
   },
   {
    "name": "Syrah",
    "bottles": 33,
-   "value": 6580.2,
+   "value": 6573.759999999999,
    "wines": 6
   },
   {
@@ -129,7 +129,7 @@
   {
    "name": "Port Blend",
    "bottles": 8,
-   "value": 492.02,
+   "value": 493.07000000000005,
    "wines": 3
   },
   {
@@ -147,7 +147,7 @@
   {
    "name": "Corvina",
    "bottles": 6,
-   "value": 369.92,
+   "value": 372.68,
    "wines": 1
   },
   {
@@ -209,19 +209,19 @@
   {
    "name": "Bordeaux",
    "bottles": 88,
-   "value": 8516.97,
+   "value": 8506.16,
    "wines": 18
   },
   {
    "name": "South Australia",
    "bottles": 25,
-   "value": 7068.510000000001,
+   "value": 7062.070000000001,
    "wines": 6
   },
   {
    "name": "Tuscany",
    "bottles": 35,
-   "value": 3295.31,
+   "value": 3317.99,
    "wines": 7
   },
   {
@@ -257,7 +257,7 @@
   {
    "name": "Douro",
    "bottles": 9,
-   "value": 512.36,
+   "value": 513.4100000000001,
    "wines": 4
   },
   {
@@ -275,7 +275,7 @@
   {
    "name": "Veneto",
    "bottles": 6,
-   "value": 369.92,
+   "value": 372.68,
    "wines": 1
   },
   {
@@ -336,7 +336,7 @@
   {
    "name": "Red",
    "bottles": 256,
-   "value": 26883.819999999996
+   "value": 26892.639999999996
   },
   {
    "name": "Orange",
@@ -353,12 +353,12 @@
   {
    "name": "Red",
    "bottles": 250,
-   "value": 26495.639999999996
+   "value": 26503.409999999996
   },
   {
    "name": "Fortified",
    "bottles": 6,
-   "value": 388.18
+   "value": 389.23
   },
   {
    "name": "Dessert / Sweet",
@@ -375,7 +375,7 @@
   {
    "name": "Penfolds",
    "bottles": 19,
-   "value": 6898.300000000001,
+   "value": 6891.860000000001,
    "wines": 4
   },
   {
@@ -393,13 +393,13 @@
   {
    "name": "Tenuta San Guido",
    "bottles": 6,
-   "value": 1362.56,
+   "value": 1385.24,
    "wines": 1
   },
   {
    "name": "Château Cos d'Estournel",
    "bottles": 6,
-   "value": 1071.23,
+   "value": 1060.42,
    "wines": 1
   },
   {
@@ -467,17 +467,17 @@
   {
    "name": "Cellar",
    "bottles": 66,
-   "value": 4683.42
+   "value": 4685.76
   },
   {
    "name": "Cellar - Wine Society",
    "bottles": 108,
-   "value": 6065.59
+   "value": 6066.64
   },
   {
    "name": "Cellar - BB&R",
    "bottles": 114,
-   "value": 17688.02
+   "value": 17693.45
   }
  ],
  "drinking_window": {
@@ -1489,15 +1489,15 @@
    "location": "Cellar",
    "quantity": 6,
    "price_paid_bottle": 75.0,
-   "value_bottle": 61.65,
+   "value_bottle": 62.11,
    "total_paid": 450.0,
-   "total_value": 369.92,
+   "total_value": 372.68,
    "avg_critic_score": 94.7,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2027,
    "end_consume": 2037,
-   "appreciation_pct": -17.8,
+   "appreciation_pct": -17.2,
    "body": "Medium-full",
    "tannin": "Medium",
    "pairings": [
@@ -1573,9 +1573,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 333.0,
-   "value_bottle": 410.75,
+   "value_bottle": 409.68,
    "total_paid": 1998.0,
-   "total_value": 2464.51,
+   "total_value": 2458.07,
    "avg_critic_score": 94.2,
    "my_score": null,
    "critic_scores": {
@@ -1583,7 +1583,7 @@
    },
    "begin_consume": 2022,
    "end_consume": 2046,
-   "appreciation_pct": 23.3,
+   "appreciation_pct": 23.0,
    "body": "Full",
    "tannin": "High",
    "pairings": [
@@ -1612,9 +1612,9 @@
    "location": "Cellar - Wine Society",
    "quantity": 3,
    "price_paid_bottle": 56.0,
-   "value_bottle": 63.99,
+   "value_bottle": 64.34,
    "total_paid": 168.0,
-   "total_value": 191.97,
+   "total_value": 193.02,
    "avg_critic_score": 94.0,
    "my_score": null,
    "critic_scores": {
@@ -1622,7 +1622,7 @@
    },
    "begin_consume": 2032,
    "end_consume": 2060,
-   "appreciation_pct": 14.3,
+   "appreciation_pct": 14.9,
    "body": "Rich",
    "tannin": "Low",
    "pairings": [
@@ -1651,9 +1651,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 194.0,
-   "value_bottle": 227.09,
+   "value_bottle": 230.87,
    "total_paid": 1164.0,
-   "total_value": 1362.56,
+   "total_value": 1385.24,
    "avg_critic_score": 94.0,
    "my_score": null,
    "critic_scores": {
@@ -1662,7 +1662,7 @@
    },
    "begin_consume": 2029,
    "end_consume": 2052,
-   "appreciation_pct": 17.1,
+   "appreciation_pct": 19.0,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -1953,7 +1953,11 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Sangiovese is a red Italian wine grape variety that derives its name from the Latin sanguis Jovis, \"blood of Jupiter\".",
+    "url": "https://en.wikipedia.org/wiki/Sangiovese",
+    "title": "Sangiovese"
+   }
   },
   {
    "iWine": "1399146",
@@ -1993,7 +1997,11 @@
     "hours": 0,
     "label": "No decanting needed — drink straight from the bottle"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Muscat is the capital and most populous city of Oman. It is the seat of the Governorate of Muscat. According to the National Centre for Statistics and Information (NCSI), the population of the Muscat Governorate in 2022 was 1.72 million. The metropolitan area includes six provinces, called wilayat, and spans approximately 6,500 km2 (2,500 sq mi). The Hajar Mountains dominate the view from Muscat. The city lies on the Gulf of Oman, near the strategically important Strait of…",
+    "url": "https://en.wikipedia.org/wiki/Muscat",
+    "title": "Muscat"
+   }
   },
   {
    "iWine": "5271148",
@@ -2033,7 +2041,11 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Sangiovese is a red Italian wine grape variety that derives its name from the Latin sanguis Jovis, \"blood of Jupiter\".",
+    "url": "https://en.wikipedia.org/wiki/Sangiovese",
+    "title": "Sangiovese"
+   }
   },
   {
    "iWine": "3709255",
@@ -2136,9 +2148,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 333.0,
-   "value_bottle": 410.75,
+   "value_bottle": 409.68,
    "total_paid": 1998.0,
-   "total_value": 2464.51,
+   "total_value": 2458.07,
    "avg_critic_score": 94.2,
    "my_score": null,
    "critic_scores": {
@@ -2146,7 +2158,7 @@
    },
    "begin_consume": 2022,
    "end_consume": 2046,
-   "appreciation_pct": 23.3,
+   "appreciation_pct": 23.0,
    "body": "Full",
    "tannin": "High",
    "pairings": [
@@ -2299,9 +2311,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 194.0,
-   "value_bottle": 227.09,
+   "value_bottle": 230.87,
    "total_paid": 1164.0,
-   "total_value": 1362.56,
+   "total_value": 1385.24,
    "avg_critic_score": 94.0,
    "my_score": null,
    "critic_scores": {
@@ -2310,7 +2322,7 @@
    },
    "begin_consume": 2029,
    "end_consume": 2052,
-   "appreciation_pct": 17.1,
+   "appreciation_pct": 19.0,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -2419,9 +2431,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 129.0,
-   "value_bottle": 178.54,
+   "value_bottle": 176.74,
    "total_paid": 774.0,
-   "total_value": 1071.23,
+   "total_value": 1060.42,
    "avg_critic_score": 90.2,
    "my_score": null,
    "critic_scores": {
@@ -2430,7 +2442,7 @@
    },
    "begin_consume": 2027,
    "end_consume": 2056,
-   "appreciation_pct": 38.4,
+   "appreciation_pct": 37.0,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -2482,7 +2494,11 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Sangiovese is a red Italian wine grape variety that derives its name from the Latin sanguis Jovis, \"blood of Jupiter\".",
+    "url": "https://en.wikipedia.org/wiki/Sangiovese",
+    "title": "Sangiovese"
+   }
   },
   {
    "iWine": "1123088",
@@ -3204,7 +3220,11 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Sangiovese is a red Italian wine grape variety that derives its name from the Latin sanguis Jovis, \"blood of Jupiter\".",
+    "url": "https://en.wikipedia.org/wiki/Sangiovese",
+    "title": "Sangiovese"
+   }
   },
   {
    "iWine": "4876898",
@@ -3244,7 +3264,11 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Sangiovese is a red Italian wine grape variety that derives its name from the Latin sanguis Jovis, \"blood of Jupiter\".",
+    "url": "https://en.wikipedia.org/wiki/Sangiovese",
+    "title": "Sangiovese"
+   }
   },
   {
    "iWine": "3661490",
@@ -3301,15 +3325,15 @@
    "location": "Cellar",
    "quantity": 1,
    "price_paid_bottle": 29.0,
-   "value_bottle": 32.2,
+   "value_bottle": 31.78,
    "total_paid": 29.0,
-   "total_value": 32.2,
+   "total_value": 31.78,
    "avg_critic_score": 90.0,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2024,
    "end_consume": 2031,
-   "appreciation_pct": 11.0,
+   "appreciation_pct": 9.6,
    "body": "Full",
    "tannin": "Medium-high",
    "pairings": [
@@ -3590,9 +3614,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 129.0,
-   "value_bottle": 178.54,
+   "value_bottle": 176.74,
    "total_paid": 774.0,
-   "total_value": 1071.23,
+   "total_value": 1060.42,
    "avg_critic_score": 90.2,
    "my_score": null,
    "critic_scores": {
@@ -3601,7 +3625,7 @@
    },
    "begin_consume": 2027,
    "end_consume": 2056,
-   "appreciation_pct": 38.4,
+   "appreciation_pct": 37.0,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -3653,7 +3677,11 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Sangiovese is a red Italian wine grape variety that derives its name from the Latin sanguis Jovis, \"blood of Jupiter\".",
+    "url": "https://en.wikipedia.org/wiki/Sangiovese",
+    "title": "Sangiovese"
+   }
   },
   {
    "iWine": "3661320",
@@ -3944,9 +3972,9 @@
    "location": "Cellar - Wine Society",
    "quantity": 3,
    "price_paid_bottle": 56.0,
-   "value_bottle": 63.99,
+   "value_bottle": 64.34,
    "total_paid": 168.0,
-   "total_value": 191.97,
+   "total_value": 193.02,
    "avg_critic_score": 94.0,
    "my_score": null,
    "critic_scores": {
@@ -3954,7 +3982,7 @@
    },
    "begin_consume": 2032,
    "end_consume": 2060,
-   "appreciation_pct": 14.3,
+   "appreciation_pct": 14.9,
    "body": "Rich",
    "tannin": "Low",
    "pairings": [
@@ -3965,43 +3993,6 @@
    "decant": {
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
-   },
-   "wiki": null
-  },
-  {
-   "iWine": "4773903",
-   "wine": "Hugel Riesling Schoenenbourg Grossi Laüe",
-   "vintage": "2015",
-   "producer": "Hugel",
-   "country": "France",
-   "region": "Alsace",
-   "subregion": "Unknown",
-   "appellation": "Alsace Grand Cru",
-   "color": "White",
-   "style": "White",
-   "varietal": "Riesling",
-   "location": "Cellar - Wine Society",
-   "quantity": 3,
-   "price_paid_bottle": 45.0,
-   "value_bottle": 45.52,
-   "total_paid": 135.0,
-   "total_value": 136.55,
-   "avg_critic_score": 92.5,
-   "my_score": null,
-   "critic_scores": {},
-   "begin_consume": 2023,
-   "end_consume": 2039,
-   "appreciation_pct": 1.2,
-   "body": "Light",
-   "tannin": "None",
-   "pairings": [
-    "spicy Asian food",
-    "pork",
-    "soft cheese"
-   ],
-   "decant": {
-    "hours": 0,
-    "label": "No decanting needed — drink straight from the bottle"
    },
    "wiki": null
   },
@@ -4040,7 +4031,52 @@
     "hours": 0,
     "label": "No decanting needed — drink straight from the bottle"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Riesling is a white grape variety that is believed to have originated from the Rhine Valley region of western Germany, before later being traced to the Alsace region by 1470 and Austria by 1700. Riesling is an aromatic grape variety displaying flowery, almost perfumed aromas as well as high acidity. It is used to make dry, semi-sweet, sweet, and sparkling white wines. Riesling wines are usually varietally pure and are seldom oaked. As of 2004, Riesling was estimated to be…",
+    "url": "https://en.wikipedia.org/wiki/Riesling",
+    "title": "Riesling"
+   }
+  },
+  {
+   "iWine": "4773903",
+   "wine": "Hugel Riesling Schoenenbourg Grossi Laüe",
+   "vintage": "2015",
+   "producer": "Hugel",
+   "country": "France",
+   "region": "Alsace",
+   "subregion": "Unknown",
+   "appellation": "Alsace Grand Cru",
+   "color": "White",
+   "style": "White",
+   "varietal": "Riesling",
+   "location": "Cellar - Wine Society",
+   "quantity": 3,
+   "price_paid_bottle": 45.0,
+   "value_bottle": 45.52,
+   "total_paid": 135.0,
+   "total_value": 136.55,
+   "avg_critic_score": 92.5,
+   "my_score": null,
+   "critic_scores": {},
+   "begin_consume": 2023,
+   "end_consume": 2039,
+   "appreciation_pct": 1.2,
+   "body": "Light",
+   "tannin": "None",
+   "pairings": [
+    "spicy Asian food",
+    "pork",
+    "soft cheese"
+   ],
+   "decant": {
+    "hours": 0,
+    "label": "No decanting needed — drink straight from the bottle"
+   },
+   "wiki": {
+    "summary": "Riesling is a white grape variety that is believed to have originated from the Rhine Valley region of western Germany, before later being traced to the Alsace region by 1470 and Austria by 1700. Riesling is an aromatic grape variety displaying flowery, almost perfumed aromas as well as high acidity. It is used to make dry, semi-sweet, sweet, and sparkling white wines. Riesling wines are usually varietally pure and are seldom oaked. As of 2004, Riesling was estimated to be…",
+    "url": "https://en.wikipedia.org/wiki/Riesling",
+    "title": "Riesling"
+   }
   },
   {
    "iWine": "3124782",
@@ -4080,7 +4116,11 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Sangiovese is a red Italian wine grape variety that derives its name from the Latin sanguis Jovis, \"blood of Jupiter\".",
+    "url": "https://en.wikipedia.org/wiki/Sangiovese",
+    "title": "Sangiovese"
+   }
   },
   {
    "iWine": "2925612",
@@ -4241,7 +4281,11 @@
     "hours": 0,
     "label": "No decanting needed — drink straight from the bottle"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Muscat is the capital and most populous city of Oman. It is the seat of the Governorate of Muscat. According to the National Centre for Statistics and Information (NCSI), the population of the Muscat Governorate in 2022 was 1.72 million. The metropolitan area includes six provinces, called wilayat, and spans approximately 6,500 km2 (2,500 sq mi). The Hajar Mountains dominate the view from Muscat. The city lies on the Gulf of Oman, near the strategically important Strait of…",
+    "url": "https://en.wikipedia.org/wiki/Muscat",
+    "title": "Muscat"
+   }
   },
   {
    "iWine": "4800037",
@@ -4280,7 +4324,11 @@
     "hours": 0,
     "label": "No decanting needed — drink straight from the bottle"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Riesling is a white grape variety that is believed to have originated from the Rhine Valley region of western Germany, before later being traced to the Alsace region by 1470 and Austria by 1700. Riesling is an aromatic grape variety displaying flowery, almost perfumed aromas as well as high acidity. It is used to make dry, semi-sweet, sweet, and sparkling white wines. Riesling wines are usually varietally pure and are seldom oaked. As of 2004, Riesling was estimated to be…",
+    "url": "https://en.wikipedia.org/wiki/Riesling",
+    "title": "Riesling"
+   }
   },
   {
    "iWine": "3151572",
@@ -5101,9 +5149,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 333.0,
-   "value_bottle": 410.75,
+   "value_bottle": 409.68,
    "total_paid": 1998.0,
-   "total_value": 2464.51,
+   "total_value": 2458.07,
    "avg_critic_score": 94.2,
    "my_score": null,
    "critic_scores": {
@@ -5111,7 +5159,7 @@
    },
    "begin_consume": 2022,
    "end_consume": 2046,
-   "appreciation_pct": 23.3,
+   "appreciation_pct": 23.0,
    "body": "Full",
    "tannin": "High",
    "pairings": [
@@ -5303,7 +5351,7 @@
    "value_bottle": 52.45,
    "total_paid": 162.0,
    "total_value": 157.36,
-   "avg_critic_score": 91.7,
+   "avg_critic_score": 91.5,
    "my_score": null,
    "critic_scores": {
     "JR": 87.5
@@ -5396,7 +5444,11 @@
     "hours": 0,
     "label": "No decanting needed — drink straight from the bottle"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Riesling is a white grape variety that is believed to have originated from the Rhine Valley region of western Germany, before later being traced to the Alsace region by 1470 and Austria by 1700. Riesling is an aromatic grape variety displaying flowery, almost perfumed aromas as well as high acidity. It is used to make dry, semi-sweet, sweet, and sparkling white wines. Riesling wines are usually varietally pure and are seldom oaked. As of 2004, Riesling was estimated to be…",
+    "url": "https://en.wikipedia.org/wiki/Riesling",
+    "title": "Riesling"
+   }
   },
   {
    "iWine": "5386889",
@@ -5528,15 +5580,15 @@
    "location": "Cellar",
    "quantity": 6,
    "price_paid_bottle": 75.0,
-   "value_bottle": 61.65,
+   "value_bottle": 62.11,
    "total_paid": 450.0,
-   "total_value": 369.92,
+   "total_value": 372.68,
    "avg_critic_score": 94.7,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2027,
    "end_consume": 2037,
-   "appreciation_pct": -17.8,
+   "appreciation_pct": -17.2,
    "body": "Medium-full",
    "tannin": "Medium",
    "pairings": [
@@ -5651,9 +5703,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 194.0,
-   "value_bottle": 227.09,
+   "value_bottle": 230.87,
    "total_paid": 1164.0,
-   "total_value": 1362.56,
+   "total_value": 1385.24,
    "avg_critic_score": 94.0,
    "my_score": null,
    "critic_scores": {
@@ -5662,7 +5714,7 @@
    },
    "begin_consume": 2029,
    "end_consume": 2052,
-   "appreciation_pct": 17.1,
+   "appreciation_pct": 19.0,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -5714,7 +5766,11 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Sangiovese is a red Italian wine grape variety that derives its name from the Latin sanguis Jovis, \"blood of Jupiter\".",
+    "url": "https://en.wikipedia.org/wiki/Sangiovese",
+    "title": "Sangiovese"
+   }
   },
   {
    "iWine": "5271148",
@@ -5754,7 +5810,11 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Sangiovese is a red Italian wine grape variety that derives its name from the Latin sanguis Jovis, \"blood of Jupiter\".",
+    "url": "https://en.wikipedia.org/wiki/Sangiovese",
+    "title": "Sangiovese"
+   }
   },
   {
    "iWine": "5855674",
@@ -6901,7 +6961,11 @@
     "hours": 0,
     "label": "No decanting needed — drink straight from the bottle"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Riesling is a white grape variety that is believed to have originated from the Rhine Valley region of western Germany, before later being traced to the Alsace region by 1470 and Austria by 1700. Riesling is an aromatic grape variety displaying flowery, almost perfumed aromas as well as high acidity. It is used to make dry, semi-sweet, sweet, and sparkling white wines. Riesling wines are usually varietally pure and are seldom oaked. As of 2004, Riesling was estimated to be…",
+    "url": "https://en.wikipedia.org/wiki/Riesling",
+    "title": "Riesling"
+   }
   },
   {
    "iWine": "874157",
@@ -6981,7 +7045,11 @@
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Sangiovese is a red Italian wine grape variety that derives its name from the Latin sanguis Jovis, \"blood of Jupiter\".",
+    "url": "https://en.wikipedia.org/wiki/Sangiovese",
+    "title": "Sangiovese"
+   }
   },
   {
    "iWine": "3778984",
@@ -7100,47 +7168,6 @@
    "wiki": null
   },
   {
-   "iWine": "5322676",
-   "wine": "Roccolo Grassi Amarone della Valpolicella",
-   "vintage": "2019",
-   "producer": "Roccolo Grassi",
-   "country": "Italy",
-   "region": "Veneto",
-   "subregion": "Valpolicella",
-   "appellation": "Amarone della Valpolicella",
-   "color": "Red",
-   "style": "Red",
-   "varietal": "Corvina",
-   "location": "Cellar",
-   "quantity": 6,
-   "price_paid_bottle": 75.0,
-   "value_bottle": 61.65,
-   "total_paid": 450.0,
-   "total_value": 369.92,
-   "avg_critic_score": 94.7,
-   "my_score": null,
-   "critic_scores": {},
-   "begin_consume": 2027,
-   "end_consume": 2037,
-   "appreciation_pct": -17.8,
-   "body": "Medium-full",
-   "tannin": "Medium",
-   "pairings": [
-    "braised meat",
-    "risotto",
-    "aged cheese"
-   ],
-   "decant": {
-    "hours": 1.0,
-    "label": "~1–1.5 hrs (longer if young & tightly wound)"
-   },
-   "wiki": {
-    "summary": "Corvina is an Italian wine grape variety that is sometimes also referred to as Corvina Veronese or Cruina. The total global wine-growing area in 2010 was 7,495 hectares, all of which is grown in the Veneto region of northeast Italy, except for 19 hectares planted in Argentina. Corvina is used with several other grapes to create the light red regional wines Bardolino and Valpolicella that have a mild fruity flavor with hints of almond. These blends include Corvinone,…",
-    "url": "https://en.wikipedia.org/wiki/Corvina",
-    "title": "Corvina"
-   }
-  },
-  {
    "iWine": "5021710",
    "wine": "Donnafugata Etna Sul Vulcano Etna Rosso",
    "vintage": "2022",
@@ -7178,6 +7205,47 @@
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
    "wiki": null
+  },
+  {
+   "iWine": "5322676",
+   "wine": "Roccolo Grassi Amarone della Valpolicella",
+   "vintage": "2019",
+   "producer": "Roccolo Grassi",
+   "country": "Italy",
+   "region": "Veneto",
+   "subregion": "Valpolicella",
+   "appellation": "Amarone della Valpolicella",
+   "color": "Red",
+   "style": "Red",
+   "varietal": "Corvina",
+   "location": "Cellar",
+   "quantity": 6,
+   "price_paid_bottle": 75.0,
+   "value_bottle": 62.11,
+   "total_paid": 450.0,
+   "total_value": 372.68,
+   "avg_critic_score": 94.7,
+   "my_score": null,
+   "critic_scores": {},
+   "begin_consume": 2027,
+   "end_consume": 2037,
+   "appreciation_pct": -17.2,
+   "body": "Medium-full",
+   "tannin": "Medium",
+   "pairings": [
+    "braised meat",
+    "risotto",
+    "aged cheese"
+   ],
+   "decant": {
+    "hours": 1.0,
+    "label": "~1–1.5 hrs (longer if young & tightly wound)"
+   },
+   "wiki": {
+    "summary": "Corvina is an Italian wine grape variety that is sometimes also referred to as Corvina Veronese or Cruina. The total global wine-growing area in 2010 was 7,495 hectares, all of which is grown in the Veneto region of northeast Italy, except for 19 hectares planted in Argentina. Corvina is used with several other grapes to create the light red regional wines Bardolino and Valpolicella that have a mild fruity flavor with hints of almond. These blends include Corvinone,…",
+    "url": "https://en.wikipedia.org/wiki/Corvina",
+    "title": "Corvina"
+   }
   },
   {
    "iWine": "3661490",
@@ -7430,7 +7498,7 @@
    "value_bottle": 52.45,
    "total_paid": 162.0,
    "total_value": 157.36,
-   "avg_critic_score": 91.7,
+   "avg_critic_score": 91.5,
    "my_score": null,
    "critic_scores": {
     "JR": 87.5
@@ -7488,7 +7556,11 @@
     "hours": 0,
     "label": "No decanting needed — drink straight from the bottle"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Riesling is a white grape variety that is believed to have originated from the Rhine Valley region of western Germany, before later being traced to the Alsace region by 1470 and Austria by 1700. Riesling is an aromatic grape variety displaying flowery, almost perfumed aromas as well as high acidity. It is used to make dry, semi-sweet, sweet, and sparkling white wines. Riesling wines are usually varietally pure and are seldom oaked. As of 2004, Riesling was estimated to be…",
+    "url": "https://en.wikipedia.org/wiki/Riesling",
+    "title": "Riesling"
+   }
   },
   {
    "iWine": "5552048",
@@ -7539,43 +7611,6 @@
    "color": "White",
    "style": "White",
    "varietal": "Riesling",
-   "location": "Cellar - Wine Society",
-   "quantity": 3,
-   "price_paid_bottle": 45.0,
-   "value_bottle": 45.52,
-   "total_paid": 135.0,
-   "total_value": 136.55,
-   "avg_critic_score": 92.5,
-   "my_score": null,
-   "critic_scores": {},
-   "begin_consume": 2023,
-   "end_consume": 2039,
-   "appreciation_pct": 1.2,
-   "body": "Light",
-   "tannin": "None",
-   "pairings": [
-    "spicy Asian food",
-    "pork",
-    "soft cheese"
-   ],
-   "decant": {
-    "hours": 0,
-    "label": "No decanting needed — drink straight from the bottle"
-   },
-   "wiki": null
-  },
-  {
-   "iWine": "4773903",
-   "wine": "Hugel Riesling Schoenenbourg Grossi Laüe",
-   "vintage": "2015",
-   "producer": "Hugel",
-   "country": "France",
-   "region": "Alsace",
-   "subregion": "Unknown",
-   "appellation": "Alsace Grand Cru",
-   "color": "White",
-   "style": "White",
-   "varietal": "Riesling",
    "location": "Cellar",
    "quantity": 1,
    "price_paid_bottle": 45.0,
@@ -7599,7 +7634,52 @@
     "hours": 0,
     "label": "No decanting needed — drink straight from the bottle"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Riesling is a white grape variety that is believed to have originated from the Rhine Valley region of western Germany, before later being traced to the Alsace region by 1470 and Austria by 1700. Riesling is an aromatic grape variety displaying flowery, almost perfumed aromas as well as high acidity. It is used to make dry, semi-sweet, sweet, and sparkling white wines. Riesling wines are usually varietally pure and are seldom oaked. As of 2004, Riesling was estimated to be…",
+    "url": "https://en.wikipedia.org/wiki/Riesling",
+    "title": "Riesling"
+   }
+  },
+  {
+   "iWine": "4773903",
+   "wine": "Hugel Riesling Schoenenbourg Grossi Laüe",
+   "vintage": "2015",
+   "producer": "Hugel",
+   "country": "France",
+   "region": "Alsace",
+   "subregion": "Unknown",
+   "appellation": "Alsace Grand Cru",
+   "color": "White",
+   "style": "White",
+   "varietal": "Riesling",
+   "location": "Cellar - Wine Society",
+   "quantity": 3,
+   "price_paid_bottle": 45.0,
+   "value_bottle": 45.52,
+   "total_paid": 135.0,
+   "total_value": 136.55,
+   "avg_critic_score": 92.5,
+   "my_score": null,
+   "critic_scores": {},
+   "begin_consume": 2023,
+   "end_consume": 2039,
+   "appreciation_pct": 1.2,
+   "body": "Light",
+   "tannin": "None",
+   "pairings": [
+    "spicy Asian food",
+    "pork",
+    "soft cheese"
+   ],
+   "decant": {
+    "hours": 0,
+    "label": "No decanting needed — drink straight from the bottle"
+   },
+   "wiki": {
+    "summary": "Riesling is a white grape variety that is believed to have originated from the Rhine Valley region of western Germany, before later being traced to the Alsace region by 1470 and Austria by 1700. Riesling is an aromatic grape variety displaying flowery, almost perfumed aromas as well as high acidity. It is used to make dry, semi-sweet, sweet, and sparkling white wines. Riesling wines are usually varietally pure and are seldom oaked. As of 2004, Riesling was estimated to be…",
+    "url": "https://en.wikipedia.org/wiki/Riesling",
+    "title": "Riesling"
+   }
   }
  ],
  "price_distribution": [
@@ -7645,8 +7725,8 @@
    "wines": 4,
    "bottles": 19,
    "paid": 5056.02,
-   "value": 6898.3,
-   "appreciation_pct": 36.4,
+   "value": 6891.86,
+   "appreciation_pct": 36.3,
    "avg_score": 93.5,
    "countries": [
     "Australia"
@@ -7698,15 +7778,21 @@
    "regions": [
     "Bordeaux"
    ],
-   "wikidata": null
+   "wikidata": {
+    "description": "Bordeaux wine estate, originally named canet",
+    "founded": null,
+    "lat": 45.2083722,
+    "lon": -0.7705639,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Château_Pontet-Canet"
+   }
   },
   {
    "name": "Tenuta San Guido",
    "wines": 1,
    "bottles": 6,
    "paid": 1164.0,
-   "value": 1362.56,
-   "appreciation_pct": 17.1,
+   "value": 1385.24,
+   "appreciation_pct": 19.0,
    "avg_score": 94.0,
    "countries": [
     "Italy"
@@ -7714,21 +7800,15 @@
    "regions": [
     "Tuscany"
    ],
-   "wikidata": {
-    "description": "Italian wine estate producing sassicaia, bolgheri (tuscany)",
-    "founded": 1944,
-    "lat": null,
-    "lon": null,
-    "wikipedia_url": null
-   }
+   "wikidata": null
   },
   {
    "name": "Château Cos d'Estournel",
    "wines": 1,
    "bottles": 6,
    "paid": 774.0,
-   "value": 1071.23,
-   "appreciation_pct": 38.4,
+   "value": 1060.42,
+   "appreciation_pct": 37.0,
    "avg_score": 90.2,
    "countries": [
     "France"
@@ -7959,8 +8039,8 @@
    "wines": 1,
    "bottles": 6,
    "paid": 450.0,
-   "value": 369.92,
-   "appreciation_pct": -17.8,
+   "value": 372.68,
+   "appreciation_pct": -17.2,
    "avg_score": 94.7,
    "countries": [
     "Italy"
@@ -8194,13 +8274,7 @@
    "regions": [
     "North Island"
    ],
-   "wikidata": {
-    "description": "Winery in hawke's bay, new zealand",
-    "founded": null,
-    "lat": null,
-    "lon": null,
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Te_Mata_Estate"
-   }
+   "wikidata": null
   },
   {
    "name": "Taylor (Fladgate)",
@@ -8255,8 +8329,8 @@
    "wines": 1,
    "bottles": 3,
    "paid": 168.0,
-   "value": 191.97,
-   "appreciation_pct": 14.3,
+   "value": 193.02,
+   "appreciation_pct": 14.9,
    "avg_score": 94.0,
    "countries": [
     "Portugal"
@@ -8353,7 +8427,7 @@
    "paid": 162.0,
    "value": 157.36,
    "appreciation_pct": -2.9,
-   "avg_score": 91.7,
+   "avg_score": 91.5,
    "countries": [
     "South Africa"
    ],
@@ -8590,7 +8664,13 @@
    "regions": [
     "Bordeaux"
    ],
-   "wikidata": null
+   "wikidata": {
+    "description": "Bordeaux wine estate",
+    "founded": null,
+    "lat": 45.2584,
+    "lon": -0.789621,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Château_de_Pez"
+   }
   },
   {
    "name": "Royal Tokaji Wine Co.",
@@ -8645,8 +8725,8 @@
    "wines": 1,
    "bottles": 1,
    "paid": 29.0,
-   "value": 32.2,
-   "appreciation_pct": 11.0,
+   "value": 31.78,
+   "appreciation_pct": 9.6,
    "avg_score": 90.0,
    "countries": [
     "Argentina"
@@ -8900,7 +8980,11 @@
     "hours": 0,
     "label": "No decanting needed — drink straight from the bottle"
    },
-   "wiki": null
+   "wiki": {
+    "summary": "Muscat is the capital and most populous city of Oman. It is the seat of the Governorate of Muscat. According to the National Centre for Statistics and Information (NCSI), the population of the Muscat Governorate in 2022 was 1.72 million. The metropolitan area includes six provinces, called wilayat, and spans approximately 6,500 km2 (2,500 sq mi). The Hajar Mountains dominate the view from Muscat. The city lies on the Gulf of Oman, near the strategically important Strait of…",
+    "url": "https://en.wikipedia.org/wiki/Muscat",
+    "title": "Muscat"
+   }
   },
   "most_expensive_bottle": {
    "iWine": "4316519",
@@ -8947,8 +9031,8 @@
    "wines": 4,
    "bottles": 19,
    "paid": 5056.02,
-   "value": 6898.3,
-   "appreciation_pct": 36.4,
+   "value": 6891.86,
+   "appreciation_pct": 36.3,
    "avg_score": 93.5,
    "countries": [
     "Australia"
@@ -8969,8 +9053,8 @@
    "wines": 4,
    "bottles": 19,
    "paid": 5056.02,
-   "value": 6898.3,
-   "appreciation_pct": 36.4,
+   "value": 6891.86,
+   "appreciation_pct": 36.3,
    "avg_score": 93.5,
    "countries": [
     "Australia"
@@ -8987,7 +9071,7 @@
    }
   },
   "avg_bottle_price_paid": 74.17,
-  "avg_bottle_value_now": 98.74,
+  "avg_bottle_value_now": 98.77,
   "avg_cellar_age_years": 6.9,
   "largest_single_purchase": {
    "date": "2026-03-06",
@@ -9017,7 +9101,7 @@
     "vintage": "2019",
     "producer": "Dunn Vineyards",
     "since": "2025-05-10",
-    "days_held": 541
+    "days_held": 542
    },
    {
     "iWine": "4986829",
@@ -9025,7 +9109,7 @@
     "vintage": "2023",
     "producer": "Roc de Cambes",
     "since": "2025-06-07",
-    "days_held": 513
+    "days_held": 514
    },
    {
     "iWine": "4390612",
@@ -9033,7 +9117,7 @@
     "vintage": "2022",
     "producer": "Penfolds",
     "since": "2025-06-11",
-    "days_held": 509
+    "days_held": 510
    },
    {
     "iWine": "4641506",
@@ -9041,7 +9125,7 @@
     "vintage": "2022",
     "producer": "Château Clinet",
     "since": "2025-07-03",
-    "days_held": 487
+    "days_held": 488
    },
    {
     "iWine": "4638895",
@@ -9049,7 +9133,7 @@
     "vintage": "2022",
     "producer": "Château Troplong Mondot",
     "since": "2025-07-03",
-    "days_held": 487
+    "days_held": 488
    },
    {
     "iWine": "4876898",
@@ -9057,7 +9141,7 @@
     "vintage": "2019",
     "producer": "Canalicchio di Sopra",
     "since": "2025-07-12",
-    "days_held": 478
+    "days_held": 479
    },
    {
     "iWine": "4547984",
@@ -9065,7 +9149,7 @@
     "vintage": "2019",
     "producer": "Massolino",
     "since": "2025-07-12",
-    "days_held": 478
+    "days_held": 479
    },
    {
     "iWine": "3709255",
@@ -9073,7 +9157,7 @@
     "vintage": "2018",
     "producer": "Penfolds",
     "since": "2025-07-12",
-    "days_held": 478
+    "days_held": 479
    },
    {
     "iWine": "5271148",
@@ -9081,7 +9165,7 @@
     "vintage": "2019",
     "producer": "San Polino",
     "since": "2025-07-12",
-    "days_held": 478
+    "days_held": 479
    },
    {
     "iWine": "4638813",
@@ -9089,16 +9173,16 @@
     "vintage": "2022",
     "producer": "Château Laroque",
     "since": "2025-07-13",
-    "days_held": 477
+    "days_held": 478
    }
   ],
-  "total_appreciation_pct": 33.1
+  "total_appreciation_pct": 33.2
  },
  "map_countries": [
   {
    "name": "France",
    "bottles": 121,
-   "value": 11015.63,
+   "value": 11004.82,
    "wines": 29,
    "lat": 46.6,
    "lon": 2.2
@@ -9106,7 +9190,7 @@
   {
    "name": "Australia",
    "bottles": 29,
-   "value": 7196.880000000001,
+   "value": 7190.4400000000005,
    "wines": 8,
    "lat": -33.9,
    "lon": 143.9
@@ -9114,7 +9198,7 @@
   {
    "name": "Italy",
    "bottles": 59,
-   "value": 4304.76,
+   "value": 4330.200000000001,
    "wines": 18,
    "lat": 42.8,
    "lon": 12.6
@@ -9146,7 +9230,7 @@
   {
    "name": "Portugal",
    "bottles": 10,
-   "value": 525.1800000000001,
+   "value": 526.23,
    "wines": 5,
    "lat": 39.6,
    "lon": -8.0
@@ -9178,7 +9262,7 @@
   {
    "name": "Argentina",
    "bottles": 1,
-   "value": 32.2,
+   "value": 31.78,
    "wines": 1,
    "lat": -34.6,
    "lon": -68.5
@@ -19273,7 +19357,7 @@
     "date": "2026-05-16",
     "month": "2026-05",
     "rating": 89.0,
-    "community_score": 92.2953020134228,
+    "community_score": 92.2933333333333,
     "delta": -3.3,
     "notes_text": ""
    },
@@ -20665,7 +20749,7 @@
     "date": "2025-08-13",
     "month": "2025-08",
     "rating": 88.0,
-    "community_score": 92.125,
+    "community_score": 92.1111111111111,
     "delta": -4.1,
     "notes_text": ""
    },
@@ -20857,7 +20941,7 @@
     "date": "2025-08-08",
     "month": "2025-08",
     "rating": 91.0,
-    "community_score": 92.125,
+    "community_score": 92.1111111111111,
     "delta": -1.1,
     "notes_text": ""
    },
