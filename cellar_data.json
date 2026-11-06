@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-05T14:30:02.941967+00:00",
+ "generated_at": "2026-11-06T14:07:53.442554+00:00",
  "current_year": 2026,
  "summary": {
   "total_bottles": 291,
   "total_wines": 88,
-  "total_value": 28804.24,
+  "total_value": 28832.73,
   "total_paid": 21647.25,
   "countries": 12,
   "avg_critic_score": 91.3
@@ -13,7 +13,7 @@
   {
    "name": "France",
    "bottles": 124,
-   "value": 11337.339999999998,
+   "value": 11334.519999999999,
    "wines": 30
   },
   {
@@ -25,7 +25,7 @@
   {
    "name": "Italy",
    "bottles": 59,
-   "value": 4327.14,
+   "value": 4358.45,
    "wines": 18
   },
   {
@@ -87,7 +87,7 @@
   {
    "name": "Red Bordeaux Blend",
    "bottles": 102,
-   "value": 10091.009999999998,
+   "value": 10132.429999999998,
    "wines": 26
   },
   {
@@ -111,7 +111,7 @@
   {
    "name": "Sangiovese",
    "bottles": 29,
-   "value": 1938.07,
+   "value": 1932.31,
    "wines": 6
   },
   {
@@ -151,16 +151,16 @@
    "wines": 1
   },
   {
-   "name": "Champagne Blend",
-   "bottles": 3,
-   "value": 317.57,
-   "wines": 1
-  },
-  {
    "name": "Grenache",
    "bottles": 7,
    "value": 315.48,
    "wines": 3
+  },
+  {
+   "name": "Champagne Blend",
+   "bottles": 3,
+   "value": 310.4,
+   "wines": 1
   },
   {
    "name": "Muscat",
@@ -209,7 +209,7 @@
   {
    "name": "Bordeaux",
    "bottles": 88,
-   "value": 8512.11,
+   "value": 8516.46,
    "wines": 18
   },
   {
@@ -221,7 +221,7 @@
   {
    "name": "Tuscany",
    "bottles": 35,
-   "value": 3314.9099999999994,
+   "value": 3346.2200000000003,
    "wines": 7
   },
   {
@@ -281,7 +281,7 @@
   {
    "name": "Champagne",
    "bottles": 3,
-   "value": 317.57,
+   "value": 310.4,
    "wines": 1
   },
   {
@@ -331,12 +331,12 @@
   {
    "name": "White",
    "bottles": 34,
-   "value": 1863.8899999999999
+   "value": 1856.72
   },
   {
    "name": "Red",
    "bottles": 256,
-   "value": 26933.459999999995
+   "value": 26969.12
   },
   {
    "name": "Orange",
@@ -353,7 +353,7 @@
   {
    "name": "Red",
    "bottles": 250,
-   "value": 26544.23
+   "value": 26579.89
   },
   {
    "name": "Fortified",
@@ -368,7 +368,7 @@
   {
    "name": "Sparkling",
    "bottles": 3,
-   "value": 317.57
+   "value": 310.4
   },
   {
    "name": "Orange",
@@ -398,7 +398,7 @@
   {
    "name": "Tenuta San Guido",
    "bottles": 6,
-   "value": 1376.84,
+   "value": 1413.91,
    "wines": 1
   },
   {
@@ -410,7 +410,7 @@
   {
    "name": "Château Léoville Barton",
    "bottles": 9,
-   "value": 884.37,
+   "value": 889.64,
    "wines": 2
   },
   {
@@ -446,7 +446,7 @@
   {
    "name": "Château Lynch-Bages",
    "bottles": 4,
-   "value": 647.02,
+   "value": 647.11,
    "wines": 1
   },
   {
@@ -456,33 +456,33 @@
    "wines": 1
   },
   {
-   "name": "San Polino",
-   "bottles": 8,
-   "value": 489.76,
-   "wines": 2
-  },
-  {
    "name": "Dunn Vineyards",
    "bottles": 6,
    "value": 487.22,
    "wines": 1
+  },
+  {
+   "name": "San Polino",
+   "bottles": 8,
+   "value": 487.0,
+   "wines": 2
   }
  ],
  "by_location": [
   {
    "name": "Cellar",
    "bottles": 66,
-   "value": 4695.88
+   "value": 4695.97
   },
   {
    "name": "Cellar - Wine Society",
    "bottles": 111,
-   "value": 6396.01
+   "value": 6382.070000000001
   },
   {
    "name": "Cellar - BB&R",
    "bottles": 114,
-   "value": 17712.350000000002
+   "value": 17754.690000000002
   }
  ],
  "drinking_window": {
@@ -1236,7 +1236,7 @@
     "producer": "Château Troplong Mondot",
     "quantity": 3,
     "begin": 2032,
-    "end": 2053
+    "end": 2054
    },
    {
     "iWine": "5749031",
@@ -1544,9 +1544,9 @@
    "location": "Cellar - Wine Society",
    "quantity": 3,
    "price_paid_bottle": 95.0,
-   "value_bottle": 105.86,
+   "value_bottle": 103.47,
    "total_paid": 285.0,
-   "total_value": 317.57,
+   "total_value": 310.4,
    "avg_critic_score": 94.6,
    "my_score": null,
    "critic_scores": {
@@ -1555,7 +1555,7 @@
    },
    "begin_consume": 2024,
    "end_consume": 2037,
-   "appreciation_pct": 11.4,
+   "appreciation_pct": 8.9,
    "body": "Light",
    "tannin": "None",
    "pairings": [
@@ -1705,9 +1705,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 194.0,
-   "value_bottle": 229.47,
+   "value_bottle": 235.65,
    "total_paid": 1164.0,
-   "total_value": 1376.84,
+   "total_value": 1413.91,
    "avg_critic_score": 94.0,
    "my_score": null,
    "critic_scores": {
@@ -1716,7 +1716,7 @@
    },
    "begin_consume": 2030,
    "end_consume": 2052,
-   "appreciation_pct": 18.3,
+   "appreciation_pct": 21.5,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -1745,9 +1745,9 @@
    "location": "Cellar",
    "quantity": 4,
    "price_paid_bottle": 108.0,
-   "value_bottle": 161.76,
+   "value_bottle": 161.78,
    "total_paid": 432.0,
-   "total_value": 647.02,
+   "total_value": 647.11,
    "avg_critic_score": 93.6,
    "my_score": 92.0,
    "critic_scores": {
@@ -1786,9 +1786,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 68.33,
-   "value_bottle": 115.84,
+   "value_bottle": 116.72,
    "total_paid": 409.98,
-   "total_value": 695.03,
+   "total_value": 700.3,
    "avg_critic_score": 93.5,
    "my_score": null,
    "critic_scores": {
@@ -1797,7 +1797,7 @@
    },
    "begin_consume": 2026,
    "end_consume": 2047,
-   "appreciation_pct": 69.5,
+   "appreciation_pct": 70.8,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -1980,9 +1980,9 @@
    "location": "Cellar - Wine Society",
    "quantity": 6,
    "price_paid_bottle": 57.0,
-   "value_bottle": 61.87,
+   "value_bottle": 61.37,
    "total_paid": 342.0,
-   "total_value": 371.19,
+   "total_value": 368.19,
    "avg_critic_score": 93.3,
    "my_score": null,
    "critic_scores": {
@@ -1991,7 +1991,7 @@
    },
    "begin_consume": 2029,
    "end_consume": 2040,
-   "appreciation_pct": 8.5,
+   "appreciation_pct": 7.7,
    "body": "Medium",
    "tannin": "Medium-high",
    "pairings": [
@@ -2047,11 +2047,7 @@
     "hours": 0,
     "label": "No decanting needed — drink straight from the bottle"
    },
-   "wiki": {
-    "summary": "Muscat is the capital and most populous city of Oman. It is the seat of the Governorate of Muscat. According to the National Centre for Statistics and Information (NCSI), the population of the Muscat Governorate in 2022 was 1.72 million. The metropolitan area includes six provinces, called wilayat, and spans approximately 6,500 km2 (2,500 sq mi). The Hajar Mountains dominate the view from Muscat. The city lies on the Gulf of Oman, near the strategically important Strait of…",
-    "url": "https://en.wikipedia.org/wiki/Muscat",
-    "title": "Muscat"
-   }
+   "wiki": null
   },
   {
    "iWine": "5271148",
@@ -2317,9 +2313,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 194.0,
-   "value_bottle": 229.47,
+   "value_bottle": 235.65,
    "total_paid": 1164.0,
-   "total_value": 1376.84,
+   "total_value": 1413.91,
    "avg_critic_score": 94.0,
    "my_score": null,
    "critic_scores": {
@@ -2328,7 +2324,7 @@
    },
    "begin_consume": 2030,
    "end_consume": 2052,
-   "appreciation_pct": 18.3,
+   "appreciation_pct": 21.5,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -2521,9 +2517,9 @@
    "location": "Cellar",
    "quantity": 4,
    "price_paid_bottle": 108.0,
-   "value_bottle": 161.76,
+   "value_bottle": 161.78,
    "total_paid": 432.0,
-   "total_value": 647.02,
+   "total_value": 647.11,
    "avg_critic_score": 93.6,
    "my_score": 92.0,
    "critic_scores": {
@@ -2641,9 +2637,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 68.33,
-   "value_bottle": 115.84,
+   "value_bottle": 116.72,
    "total_paid": 409.98,
-   "total_value": 695.03,
+   "total_value": 700.3,
    "avg_critic_score": 93.5,
    "my_score": null,
    "critic_scores": {
@@ -2652,7 +2648,7 @@
    },
    "begin_consume": 2026,
    "end_consume": 2047,
-   "appreciation_pct": 69.5,
+   "appreciation_pct": 70.8,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -3338,7 +3334,7 @@
    "value_bottle": 31.78,
    "total_paid": 29.0,
    "total_value": 31.78,
-   "avg_critic_score": 90.0,
+   "avg_critic_score": 89.9,
    "my_score": null,
    "critic_scores": {},
    "begin_consume": 2024,
@@ -3660,9 +3656,9 @@
    "location": "Cellar - Wine Society",
    "quantity": 6,
    "price_paid_bottle": 57.0,
-   "value_bottle": 61.87,
+   "value_bottle": 61.37,
    "total_paid": 342.0,
-   "total_value": 371.19,
+   "total_value": 368.19,
    "avg_critic_score": 93.3,
    "my_score": null,
    "critic_scores": {
@@ -3671,7 +3667,7 @@
    },
    "begin_consume": 2029,
    "end_consume": 2040,
-   "appreciation_pct": 8.5,
+   "appreciation_pct": 7.7,
    "body": "Medium",
    "tannin": "Medium-high",
    "pairings": [
@@ -4279,11 +4275,7 @@
     "hours": 0,
     "label": "No decanting needed — drink straight from the bottle"
    },
-   "wiki": {
-    "summary": "Muscat is the capital and most populous city of Oman. It is the seat of the Governorate of Muscat. According to the National Centre for Statistics and Information (NCSI), the population of the Muscat Governorate in 2022 was 1.72 million. The metropolitan area includes six provinces, called wilayat, and spans approximately 6,500 km2 (2,500 sq mi). The Hajar Mountains dominate the view from Muscat. The city lies on the Gulf of Oman, near the strategically important Strait of…",
-    "url": "https://en.wikipedia.org/wiki/Muscat",
-    "title": "Muscat"
-   }
+   "wiki": null
   },
   {
    "iWine": "4800037",
@@ -4378,9 +4370,9 @@
    "location": "Cellar - Wine Society",
    "quantity": 6,
    "price_paid_bottle": 51.0,
-   "value_bottle": 44.11,
+   "value_bottle": 43.95,
    "total_paid": 306.0,
-   "total_value": 264.68,
+   "total_value": 263.67,
    "avg_critic_score": 91.3,
    "my_score": null,
    "critic_scores": {
@@ -4389,7 +4381,7 @@
    },
    "begin_consume": 2027,
    "end_consume": 2045,
-   "appreciation_pct": -13.5,
+   "appreciation_pct": -13.8,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -4498,9 +4490,9 @@
    "location": "Cellar - Wine Society",
    "quantity": 3,
    "price_paid_bottle": 95.0,
-   "value_bottle": 105.86,
+   "value_bottle": 103.47,
    "total_paid": 285.0,
-   "total_value": 317.57,
+   "total_value": 310.4,
    "avg_critic_score": 94.6,
    "my_score": null,
    "critic_scores": {
@@ -4509,7 +4501,7 @@
    },
    "begin_consume": 2024,
    "end_consume": 2037,
-   "appreciation_pct": 11.4,
+   "appreciation_pct": 8.9,
    "body": "Light",
    "tannin": "None",
    "pairings": [
@@ -4538,9 +4530,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 68.33,
-   "value_bottle": 115.84,
+   "value_bottle": 116.72,
    "total_paid": 409.98,
-   "total_value": 695.03,
+   "total_value": 700.3,
    "avg_critic_score": 93.5,
    "my_score": null,
    "critic_scores": {
@@ -4549,7 +4541,7 @@
    },
    "begin_consume": 2026,
    "end_consume": 2047,
-   "appreciation_pct": 69.5,
+   "appreciation_pct": 70.8,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -4658,9 +4650,9 @@
    "location": "Cellar",
    "quantity": 4,
    "price_paid_bottle": 108.0,
-   "value_bottle": 161.76,
+   "value_bottle": 161.78,
    "total_paid": 432.0,
-   "total_value": 647.02,
+   "total_value": 647.11,
    "avg_critic_score": 93.6,
    "my_score": 92.0,
    "critic_scores": {
@@ -5729,9 +5721,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 194.0,
-   "value_bottle": 229.47,
+   "value_bottle": 235.65,
    "total_paid": 1164.0,
-   "total_value": 1376.84,
+   "total_value": 1413.91,
    "avg_critic_score": 94.0,
    "my_score": null,
    "critic_scores": {
@@ -5740,7 +5732,7 @@
    },
    "begin_consume": 2030,
    "end_consume": 2052,
-   "appreciation_pct": 18.3,
+   "appreciation_pct": 21.5,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -5769,9 +5761,9 @@
    "location": "Cellar - Wine Society",
    "quantity": 6,
    "price_paid_bottle": 48.0,
-   "value_bottle": 56.78,
+   "value_bottle": 56.32,
    "total_paid": 288.0,
-   "total_value": 340.66,
+   "total_value": 337.9,
    "avg_critic_score": 93.0,
    "my_score": null,
    "critic_scores": {
@@ -5780,7 +5772,7 @@
    },
    "begin_consume": 2029,
    "end_consume": 2042,
-   "appreciation_pct": 18.3,
+   "appreciation_pct": 17.3,
    "body": "Medium",
    "tannin": "Medium-high",
    "pairings": [
@@ -6174,7 +6166,7 @@
     "DR": 96.0
    },
    "begin_consume": 2032,
-   "end_consume": 2053,
+   "end_consume": 2054,
    "appreciation_pct": 6.6,
    "body": "Medium",
    "tannin": "Medium",
@@ -6678,9 +6670,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 68.33,
-   "value_bottle": 115.84,
+   "value_bottle": 116.72,
    "total_paid": 409.98,
-   "total_value": 695.03,
+   "total_value": 700.3,
    "avg_critic_score": 93.5,
    "my_score": null,
    "critic_scores": {
@@ -6689,7 +6681,7 @@
    },
    "begin_consume": 2026,
    "end_consume": 2047,
-   "appreciation_pct": 69.5,
+   "appreciation_pct": 70.8,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -7316,9 +7308,9 @@
    "location": "Cellar - Wine Society",
    "quantity": 6,
    "price_paid_bottle": 51.0,
-   "value_bottle": 44.11,
+   "value_bottle": 43.95,
    "total_paid": 306.0,
-   "total_value": 264.68,
+   "total_value": 263.67,
    "avg_critic_score": 91.3,
    "my_score": null,
    "critic_scores": {
@@ -7327,7 +7319,7 @@
    },
    "begin_consume": 2027,
    "end_consume": 2045,
-   "appreciation_pct": -13.5,
+   "appreciation_pct": -13.8,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -7793,8 +7785,8 @@
    "wines": 1,
    "bottles": 6,
    "paid": 1164.0,
-   "value": 1376.84,
-   "appreciation_pct": 18.3,
+   "value": 1413.91,
+   "appreciation_pct": 21.5,
    "avg_score": 94.0,
    "countries": [
     "Italy"
@@ -7837,8 +7829,8 @@
    "wines": 2,
    "bottles": 9,
    "paid": 568.98,
-   "value": 884.37,
-   "appreciation_pct": 55.4,
+   "value": 889.64,
+   "appreciation_pct": 56.4,
    "avg_score": 92.8,
    "countries": [
     "France"
@@ -7939,7 +7931,7 @@
    "wines": 1,
    "bottles": 4,
    "paid": 432.0,
-   "value": 647.02,
+   "value": 647.11,
    "appreciation_pct": 49.8,
    "avg_score": 93.6,
    "countries": [
@@ -7979,22 +7971,6 @@
    }
   },
   {
-   "name": "San Polino",
-   "wines": 2,
-   "bottles": 8,
-   "paid": 422.0,
-   "value": 489.76,
-   "appreciation_pct": 16.1,
-   "avg_score": 93.1,
-   "countries": [
-    "Italy"
-   ],
-   "regions": [
-    "Tuscany"
-   ],
-   "wikidata": null
-  },
-  {
    "name": "Dunn Vineyards",
    "wines": 1,
    "bottles": 6,
@@ -8007,6 +7983,22 @@
    ],
    "regions": [
     "California"
+   ],
+   "wikidata": null
+  },
+  {
+   "name": "San Polino",
+   "wines": 2,
+   "bottles": 8,
+   "paid": 422.0,
+   "value": 487.0,
+   "appreciation_pct": 15.4,
+   "avg_score": 93.1,
+   "countries": [
+    "Italy"
+   ],
+   "regions": [
+    "Tuscany"
    ],
    "wikidata": null
   },
@@ -8063,8 +8055,8 @@
    "wines": 1,
    "bottles": 6,
    "paid": 342.0,
-   "value": 371.19,
-   "appreciation_pct": 8.5,
+   "value": 368.19,
+   "appreciation_pct": 7.7,
    "avg_score": 93.3,
    "countries": [
     "Italy"
@@ -8101,8 +8093,8 @@
    "wines": 1,
    "bottles": 3,
    "paid": 285.0,
-   "value": 317.57,
-   "appreciation_pct": 11.4,
+   "value": 310.4,
+   "appreciation_pct": 8.9,
    "avg_score": 94.6,
    "countries": [
     "France"
@@ -8187,8 +8179,8 @@
    "wines": 1,
    "bottles": 6,
    "paid": 306.0,
-   "value": 264.68,
-   "appreciation_pct": -13.5,
+   "value": 263.67,
+   "appreciation_pct": -13.8,
    "avg_score": 91.3,
    "countries": [
     "France"
@@ -8757,7 +8749,7 @@
    "paid": 29.0,
    "value": 31.78,
    "appreciation_pct": 9.6,
-   "avg_score": 90.0,
+   "avg_score": 89.9,
    "countries": [
     "Argentina"
    ],
@@ -8987,9 +8979,9 @@
    "location": "Cellar - Wine Society",
    "quantity": 3,
    "price_paid_bottle": 95.0,
-   "value_bottle": 105.86,
+   "value_bottle": 103.47,
    "total_paid": 285.0,
-   "total_value": 317.57,
+   "total_value": 310.4,
    "avg_critic_score": 94.6,
    "my_score": null,
    "critic_scores": {
@@ -8998,7 +8990,7 @@
    },
    "begin_consume": 2024,
    "end_consume": 2037,
-   "appreciation_pct": 11.4,
+   "appreciation_pct": 8.9,
    "body": "Light",
    "tannin": "None",
    "pairings": [
@@ -9097,7 +9089,7 @@
    }
   },
   "avg_bottle_price_paid": 74.39,
-  "avg_bottle_value_now": 98.98,
+  "avg_bottle_value_now": 99.08,
   "avg_cellar_age_years": 17.4,
   "largest_single_purchase": {
    "date": "2026-03-06",
@@ -9127,7 +9119,7 @@
     "vintage": "2019",
     "producer": "Dunn Vineyards",
     "since": "2025-05-10",
-    "days_held": 544
+    "days_held": 545
    },
    {
     "iWine": "4986829",
@@ -9135,7 +9127,7 @@
     "vintage": "2023",
     "producer": "Roc de Cambes",
     "since": "2025-06-07",
-    "days_held": 516
+    "days_held": 517
    },
    {
     "iWine": "4390612",
@@ -9143,7 +9135,7 @@
     "vintage": "2022",
     "producer": "Penfolds",
     "since": "2025-06-11",
-    "days_held": 512
+    "days_held": 513
    },
    {
     "iWine": "4641506",
@@ -9151,7 +9143,7 @@
     "vintage": "2022",
     "producer": "Château Clinet",
     "since": "2025-07-03",
-    "days_held": 490
+    "days_held": 491
    },
    {
     "iWine": "4638895",
@@ -9159,7 +9151,7 @@
     "vintage": "2022",
     "producer": "Château Troplong Mondot",
     "since": "2025-07-03",
-    "days_held": 490
+    "days_held": 491
    },
    {
     "iWine": "4876898",
@@ -9167,7 +9159,7 @@
     "vintage": "2019",
     "producer": "Canalicchio di Sopra",
     "since": "2025-07-12",
-    "days_held": 481
+    "days_held": 482
    },
    {
     "iWine": "4547984",
@@ -9175,7 +9167,7 @@
     "vintage": "2019",
     "producer": "Massolino",
     "since": "2025-07-12",
-    "days_held": 481
+    "days_held": 482
    },
    {
     "iWine": "3709255",
@@ -9183,7 +9175,7 @@
     "vintage": "2018",
     "producer": "Penfolds",
     "since": "2025-07-12",
-    "days_held": 481
+    "days_held": 482
    },
    {
     "iWine": "5271148",
@@ -9191,7 +9183,7 @@
     "vintage": "2019",
     "producer": "San Polino",
     "since": "2025-07-12",
-    "days_held": 481
+    "days_held": 482
    },
    {
     "iWine": "4638813",
@@ -9199,16 +9191,16 @@
     "vintage": "2022",
     "producer": "Château Laroque",
     "since": "2025-07-13",
-    "days_held": 480
+    "days_held": 481
    }
   ],
-  "total_appreciation_pct": 33.1
+  "total_appreciation_pct": 33.2
  },
  "map_countries": [
   {
    "name": "France",
    "bottles": 124,
-   "value": 11337.339999999998,
+   "value": 11334.519999999999,
    "wines": 30,
    "lat": 46.6,
    "lon": 2.2
@@ -9224,7 +9216,7 @@
   {
    "name": "Italy",
    "bottles": 59,
-   "value": 4327.14,
+   "value": 4358.45,
    "wines": 18,
    "lat": 42.8,
    "lon": 12.6
@@ -17222,8 +17214,8 @@
     "date": "2026-10-31",
     "month": "2026-10",
     "rating": 90.0,
-    "community_score": 91.0,
-    "delta": -1.0,
+    "community_score": 91.25,
+    "delta": -1.2,
     "notes_text": ""
    },
    {
@@ -17864,8 +17856,8 @@
     "date": "2026-10-31",
     "month": "2026-10",
     "rating": 90.0,
-    "community_score": 91.0,
-    "delta": -1.0,
+    "community_score": 91.25,
+    "delta": -1.2,
     "notes_text": ""
    },
    {
@@ -19352,8 +19344,8 @@
     "date": "2026-05-22",
     "month": "2026-05",
     "rating": 84.0,
-    "community_score": 88.8888888888889,
-    "delta": -4.9,
+    "community_score": 88.8,
+    "delta": -4.8,
     "notes_text": ""
    },
    {
@@ -24072,7 +24064,7 @@
     "date": "2025-06-01",
     "month": "2025-06",
     "rating": 82.0,
-    "community_score": 89.6842105263158,
+    "community_score": 89.6923076923077,
     "delta": -7.7,
     "notes_text": ""
    },
@@ -25384,8 +25376,8 @@
     "date": "2025-05-31",
     "month": "2025-05",
     "rating": 91.0,
-    "community_score": 92.4473684210526,
-    "delta": -1.4,
+    "community_score": 92.4545454545455,
+    "delta": -1.5,
     "notes_text": ""
    },
    {
