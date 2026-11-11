@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-10T14:45:20.644137+00:00",
+ "generated_at": "2026-11-11T14:01:59.989034+00:00",
  "current_year": 2026,
  "summary": {
   "total_bottles": 291,
   "total_wines": 88,
-  "total_value": 28925.83,
+  "total_value": 28999.99,
   "total_paid": 21647.25,
   "countries": 12,
   "avg_critic_score": 91.3
@@ -13,7 +13,7 @@
   {
    "name": "France",
    "bottles": 124,
-   "value": 11387.87,
+   "value": 11465.440000000002,
    "wines": 30
   },
   {
@@ -25,7 +25,7 @@
   {
    "name": "Italy",
    "bottles": 59,
-   "value": 4331.15,
+   "value": 4327.74,
    "wines": 18
   },
   {
@@ -87,7 +87,7 @@
   {
    "name": "Red Bordeaux Blend",
    "bottles": 102,
-   "value": 10139.45,
+   "value": 10178.9,
    "wines": 26
   },
   {
@@ -111,13 +111,13 @@
   {
    "name": "Sangiovese",
    "bottles": 29,
-   "value": 1921.29,
+   "value": 1917.8799999999997,
    "wines": 6
   },
   {
    "name": "Pinot Noir",
    "bottles": 12,
-   "value": 812.4200000000001,
+   "value": 850.54,
    "wines": 4
   },
   {
@@ -209,7 +209,7 @@
   {
    "name": "Bordeaux",
    "bottles": 88,
-   "value": 8538.14,
+   "value": 8577.59,
    "wines": 18
   },
   {
@@ -221,7 +221,7 @@
   {
    "name": "Tuscany",
    "bottles": 35,
-   "value": 3316.8199999999997,
+   "value": 3313.41,
    "wines": 7
   },
   {
@@ -245,7 +245,7 @@
   {
    "name": "Burgundy",
    "bottles": 11,
-   "value": 759.73,
+   "value": 797.85,
    "wines": 3
   },
   {
@@ -336,7 +336,7 @@
   {
    "name": "Red",
    "bottles": 256,
-   "value": 27065.93999999999
+   "value": 27140.099999999988
   },
   {
    "name": "Orange",
@@ -353,7 +353,7 @@
   {
    "name": "Red",
    "bottles": 250,
-   "value": 26669.00999999999
+   "value": 26743.16999999999
   },
   {
    "name": "Fortified",
@@ -392,7 +392,7 @@
   {
    "name": "Château Pontet-Canet",
    "bottles": 11,
-   "value": 1588.0299999999997,
+   "value": 1590.06,
    "wines": 2
   },
   {
@@ -404,7 +404,7 @@
   {
    "name": "Château Cos d'Estournel",
    "bottles": 6,
-   "value": 1077.53,
+   "value": 1113.12,
    "wines": 1
   },
   {
@@ -416,7 +416,7 @@
   {
    "name": "Château Léoville Barton",
    "bottles": 9,
-   "value": 891.4,
+   "value": 893.23,
    "wines": 2
   },
   {
@@ -472,7 +472,7 @@
   {
    "name": "Cellar",
    "bottles": 66,
-   "value": 4689.870000000001
+   "value": 4724.58
   },
   {
    "name": "Cellar - Wine Society",
@@ -482,7 +482,7 @@
   {
    "name": "Cellar - BB&R",
    "bottles": 114,
-   "value": 17827.18
+   "value": 17866.63
   }
  ],
  "drinking_window": {
@@ -1038,7 +1038,7 @@
     "producer": "Domaine de Bellene",
     "quantity": 2,
     "begin": 2029,
-    "end": 2038
+    "end": 2039
    },
    {
     "iWine": "4876898",
@@ -1786,9 +1786,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 68.33,
-   "value_bottle": 117.01,
+   "value_bottle": 117.32,
    "total_paid": 409.98,
-   "total_value": 702.06,
+   "total_value": 703.89,
    "avg_critic_score": 93.5,
    "my_score": null,
    "critic_scores": {
@@ -1797,7 +1797,7 @@
    },
    "begin_consume": 2026,
    "end_consume": 2047,
-   "appreciation_pct": 71.2,
+   "appreciation_pct": 71.7,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -2425,9 +2425,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 129.0,
-   "value_bottle": 179.59,
+   "value_bottle": 185.52,
    "total_paid": 774.0,
-   "total_value": 1077.53,
+   "total_value": 1113.12,
    "avg_critic_score": 90.2,
    "my_score": null,
    "critic_scores": {
@@ -2436,7 +2436,7 @@
    },
    "begin_consume": 2027,
    "end_consume": 2057,
-   "appreciation_pct": 39.2,
+   "appreciation_pct": 43.8,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -2625,9 +2625,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 68.33,
-   "value_bottle": 117.01,
+   "value_bottle": 117.32,
    "total_paid": 409.98,
-   "total_value": 702.06,
+   "total_value": 703.89,
    "avg_critic_score": 93.5,
    "my_score": null,
    "critic_scores": {
@@ -2636,7 +2636,7 @@
    },
    "begin_consume": 2026,
    "end_consume": 2047,
-   "appreciation_pct": 71.2,
+   "appreciation_pct": 71.7,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -2651,42 +2651,41 @@
    "wiki": null
   },
   {
-   "iWine": "3984055",
-   "wine": "Château Les Carmes Haut-Brion",
-   "vintage": "2020",
-   "producer": "Château Les Carmes Haut-Brion",
+   "iWine": "4561939",
+   "wine": "Domaine de Bellene Nuits-Saint-Georges 1er Cru Aux Chaignots",
+   "vintage": "2021",
+   "producer": "Domaine de Bellene",
    "country": "France",
-   "region": "Bordeaux",
-   "subregion": "Graves",
-   "appellation": "Pessac-Léognan",
+   "region": "Burgundy",
+   "subregion": "Côte de Nuits",
+   "appellation": "Nuits-Saint-Georges 1er Cru",
    "color": "Red",
    "style": "Red",
-   "varietal": "Red Bordeaux Blend",
-   "location": "Cellar - BB&R",
-   "quantity": 6,
-   "price_paid_bottle": 71.67,
-   "value_bottle": 115.78,
-   "total_paid": 430.02,
-   "total_value": 694.66,
-   "avg_critic_score": 93.4,
-   "my_score": null,
+   "varietal": "Pinot Noir",
+   "location": "Cellar",
+   "quantity": 2,
+   "price_paid_bottle": 85.0,
+   "value_bottle": 116.43,
+   "total_paid": 170.0,
+   "total_value": 232.85,
+   "avg_critic_score": 84.2,
+   "my_score": 86.0,
    "critic_scores": {
-    "JR": 85.0,
-    "DR": 100.0
+    "JR": 82.5
    },
-   "begin_consume": 2030,
-   "end_consume": 2053,
-   "appreciation_pct": 61.5,
-   "body": "Medium",
-   "tannin": "Medium",
+   "begin_consume": 2029,
+   "end_consume": 2039,
+   "appreciation_pct": 37.0,
+   "body": "Light-medium",
+   "tannin": "Low-medium",
    "pairings": [
-    "red meat",
-    "hard cheese",
-    "roasted vegetables"
+    "duck",
+    "salmon",
+    "mushroom dishes"
    ],
    "decant": {
-    "hours": 1.0,
-    "label": "~1–1.5 hrs (longer if young & tightly wound)"
+    "hours": 0.5,
+    "label": "~30 min — a short splash-decant to open it up"
    },
    "wiki": null
   }
@@ -3078,17 +3077,17 @@
    "location": "Cellar",
    "quantity": 2,
    "price_paid_bottle": 85.0,
-   "value_bottle": 97.36,
+   "value_bottle": 116.43,
    "total_paid": 170.0,
-   "total_value": 194.73,
+   "total_value": 232.85,
    "avg_critic_score": 84.2,
    "my_score": 86.0,
    "critic_scores": {
     "JR": 82.5
    },
    "begin_consume": 2029,
-   "end_consume": 2038,
-   "appreciation_pct": 14.5,
+   "end_consume": 2039,
+   "appreciation_pct": 37.0,
    "body": "Light-medium",
    "tannin": "Low-medium",
    "pairings": [
@@ -3495,11 +3494,7 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": {
-    "summary": "Montepulciano is a medieval and Renaissance hill town and comune in the Italian province of Siena in southern Tuscany. It sits high on a 605-metre (1,985 ft) limestone ridge, 13 kilometres (8 mi) east of Pienza, 70 kilometres (43 mi) southeast of Siena, 124 kilometres (77 mi) southeast of Florence, and 186 kilometres (116 mi) north of Rome by car.",
-    "url": "https://en.wikipedia.org/wiki/Montepulciano",
-    "title": "Montepulciano"
-   }
+   "wiki": null
   },
   {
    "iWine": "4641506",
@@ -3600,9 +3595,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 129.0,
-   "value_bottle": 179.59,
+   "value_bottle": 185.52,
    "total_paid": 774.0,
-   "total_value": 1077.53,
+   "total_value": 1113.12,
    "avg_critic_score": 90.2,
    "my_score": null,
    "critic_scores": {
@@ -3611,7 +3606,7 @@
    },
    "begin_consume": 2027,
    "end_consume": 2057,
-   "appreciation_pct": 39.2,
+   "appreciation_pct": 43.8,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -4067,9 +4062,9 @@
    "location": "Cellar",
    "quantity": 6,
    "price_paid_bottle": 26.0,
-   "value_bottle": 37.0,
+   "value_bottle": 36.43,
    "total_paid": 156.0,
-   "total_value": 222.0,
+   "total_value": 218.59,
    "avg_critic_score": 91.4,
    "my_score": null,
    "critic_scores": {
@@ -4078,7 +4073,7 @@
    },
    "begin_consume": 2024,
    "end_consume": 2038,
-   "appreciation_pct": 42.3,
+   "appreciation_pct": 40.1,
    "body": "Medium",
    "tannin": "Medium-high",
    "pairings": [
@@ -4506,9 +4501,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 68.33,
-   "value_bottle": 117.01,
+   "value_bottle": 117.32,
    "total_paid": 409.98,
-   "total_value": 702.06,
+   "total_value": 703.89,
    "avg_critic_score": 93.5,
    "my_score": null,
    "critic_scores": {
@@ -4517,7 +4512,7 @@
    },
    "begin_consume": 2026,
    "end_consume": 2047,
-   "appreciation_pct": 71.2,
+   "appreciation_pct": 71.7,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -4728,11 +4723,7 @@
     "hours": 1.0,
     "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
-   "wiki": {
-    "summary": "Montepulciano is a medieval and Renaissance hill town and comune in the Italian province of Siena in southern Tuscany. It sits high on a 605-metre (1,985 ft) limestone ridge, 13 kilometres (8 mi) east of Pienza, 70 kilometres (43 mi) southeast of Siena, 124 kilometres (77 mi) southeast of Florence, and 186 kilometres (116 mi) north of Rome by car.",
-    "url": "https://en.wikipedia.org/wiki/Montepulciano",
-    "title": "Montepulciano"
-   }
+   "wiki": null
   },
   {
    "iWine": "4547984",
@@ -5310,9 +5301,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 50.0,
-   "value_bottle": 89.11,
+   "value_bottle": 89.45,
    "total_paid": 300.0,
-   "total_value": 534.66,
+   "total_value": 536.69,
    "avg_critic_score": 91.3,
    "my_score": null,
    "critic_scores": {
@@ -5321,7 +5312,7 @@
    },
    "begin_consume": 2028,
    "end_consume": 2051,
-   "appreciation_pct": 78.2,
+   "appreciation_pct": 78.9,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -6562,9 +6553,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 50.0,
-   "value_bottle": 89.11,
+   "value_bottle": 89.45,
    "total_paid": 300.0,
-   "total_value": 534.66,
+   "total_value": 536.69,
    "avg_critic_score": 91.3,
    "my_score": null,
    "critic_scores": {
@@ -6573,7 +6564,7 @@
    },
    "begin_consume": 2028,
    "end_consume": 2051,
-   "appreciation_pct": 78.2,
+   "appreciation_pct": 78.9,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -6642,9 +6633,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 68.33,
-   "value_bottle": 117.01,
+   "value_bottle": 117.32,
    "total_paid": 409.98,
-   "total_value": 702.06,
+   "total_value": 703.89,
    "avg_critic_score": 93.5,
    "my_score": null,
    "critic_scores": {
@@ -6653,7 +6644,7 @@
    },
    "begin_consume": 2026,
    "end_consume": 2047,
-   "appreciation_pct": 71.2,
+   "appreciation_pct": 71.7,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -7732,8 +7723,8 @@
    "wines": 2,
    "bottles": 11,
    "paid": 980.0,
-   "value": 1588.03,
-   "appreciation_pct": 62.0,
+   "value": 1590.06,
+   "appreciation_pct": 62.3,
    "avg_score": 90.9,
    "countries": [
     "France"
@@ -7776,8 +7767,8 @@
    "wines": 1,
    "bottles": 6,
    "paid": 774.0,
-   "value": 1077.53,
-   "appreciation_pct": 39.2,
+   "value": 1113.12,
+   "appreciation_pct": 43.8,
    "avg_score": 90.2,
    "countries": [
     "France"
@@ -7814,8 +7805,8 @@
    "wines": 2,
    "bottles": 9,
    "paid": 568.98,
-   "value": 891.4,
-   "appreciation_pct": 56.7,
+   "value": 893.23,
+   "appreciation_pct": 57.0,
    "avg_score": 92.8,
    "countries": [
     "France"
@@ -8198,6 +8189,22 @@
    "wikidata": null
   },
   {
+   "name": "Domaine de Bellene",
+   "wines": 1,
+   "bottles": 2,
+   "paid": 170.0,
+   "value": 232.85,
+   "appreciation_pct": 37.0,
+   "avg_score": 84.2,
+   "countries": [
+    "France"
+   ],
+   "regions": [
+    "Burgundy"
+   ],
+   "wikidata": null
+  },
+  {
    "name": "Kusuda",
    "wines": 1,
    "bottles": 6,
@@ -8218,8 +8225,8 @@
    "wines": 1,
    "bottles": 6,
    "paid": 156.0,
-   "value": 222.0,
-   "appreciation_pct": 42.3,
+   "value": 218.59,
+   "appreciation_pct": 40.1,
    "avg_score": 91.4,
    "countries": [
     "Italy"
@@ -8312,22 +8319,6 @@
    ],
    "regions": [
     "Piedmont"
-   ],
-   "wikidata": null
-  },
-  {
-   "name": "Domaine de Bellene",
-   "wines": 1,
-   "bottles": 2,
-   "paid": 170.0,
-   "value": 194.73,
-   "appreciation_pct": 14.5,
-   "avg_score": 84.2,
-   "countries": [
-    "France"
-   ],
-   "regions": [
-    "Burgundy"
    ],
    "wikidata": null
   },
@@ -9058,7 +9049,7 @@
    }
   },
   "avg_bottle_price_paid": 74.39,
-  "avg_bottle_value_now": 99.4,
+  "avg_bottle_value_now": 99.66,
   "avg_cellar_age_years": 17.4,
   "largest_single_purchase": {
    "date": "2026-03-06",
@@ -9088,7 +9079,7 @@
     "vintage": "2019",
     "producer": "Dunn Vineyards",
     "since": "2025-05-10",
-    "days_held": 549
+    "days_held": 550
    },
    {
     "iWine": "4986829",
@@ -9096,7 +9087,7 @@
     "vintage": "2023",
     "producer": "Roc de Cambes",
     "since": "2025-06-07",
-    "days_held": 521
+    "days_held": 522
    },
    {
     "iWine": "4390612",
@@ -9104,7 +9095,7 @@
     "vintage": "2022",
     "producer": "Penfolds",
     "since": "2025-06-11",
-    "days_held": 517
+    "days_held": 518
    },
    {
     "iWine": "4641506",
@@ -9112,7 +9103,7 @@
     "vintage": "2022",
     "producer": "Château Clinet",
     "since": "2025-07-03",
-    "days_held": 495
+    "days_held": 496
    },
    {
     "iWine": "4638895",
@@ -9120,7 +9111,7 @@
     "vintage": "2022",
     "producer": "Château Troplong Mondot",
     "since": "2025-07-03",
-    "days_held": 495
+    "days_held": 496
    },
    {
     "iWine": "4876898",
@@ -9128,7 +9119,7 @@
     "vintage": "2019",
     "producer": "Canalicchio di Sopra",
     "since": "2025-07-12",
-    "days_held": 486
+    "days_held": 487
    },
    {
     "iWine": "4547984",
@@ -9136,7 +9127,7 @@
     "vintage": "2019",
     "producer": "Massolino",
     "since": "2025-07-12",
-    "days_held": 486
+    "days_held": 487
    },
    {
     "iWine": "3709255",
@@ -9144,7 +9135,7 @@
     "vintage": "2018",
     "producer": "Penfolds",
     "since": "2025-07-12",
-    "days_held": 486
+    "days_held": 487
    },
    {
     "iWine": "5271148",
@@ -9152,7 +9143,7 @@
     "vintage": "2019",
     "producer": "San Polino",
     "since": "2025-07-12",
-    "days_held": 486
+    "days_held": 487
    },
    {
     "iWine": "4638813",
@@ -9160,16 +9151,16 @@
     "vintage": "2022",
     "producer": "Château Laroque",
     "since": "2025-07-13",
-    "days_held": 485
+    "days_held": 486
    }
   ],
-  "total_appreciation_pct": 33.6
+  "total_appreciation_pct": 34.0
  },
  "map_countries": [
   {
    "name": "France",
    "bottles": 124,
-   "value": 11387.87,
+   "value": 11465.440000000002,
    "wines": 30,
    "lat": 46.6,
    "lon": 2.2
@@ -9185,7 +9176,7 @@
   {
    "name": "Italy",
    "bottles": 59,
-   "value": 4331.15,
+   "value": 4327.74,
    "wines": 18,
    "lat": 42.8,
    "lon": 12.6
@@ -19361,7 +19352,7 @@
     "date": "2026-05-16",
     "month": "2026-05",
     "rating": 89.0,
-    "community_score": 92.2960526315789,
+    "community_score": 92.2792207792208,
     "delta": -3.3,
     "notes_text": ""
    },
@@ -25345,8 +25336,8 @@
     "date": "2025-05-31",
     "month": "2025-05",
     "rating": 91.0,
-    "community_score": 92.4545454545455,
-    "delta": -1.5,
+    "community_score": 92.4430379746835,
+    "delta": -1.4,
     "notes_text": ""
    },
    {
@@ -25617,8 +25608,8 @@
     "date": "2025-05-29",
     "month": "2025-05",
     "rating": 85.0,
-    "community_score": 89.2857142857143,
-    "delta": -4.3,
+    "community_score": 88.8571428571429,
+    "delta": -3.9,
     "notes_text": ""
    },
    {
