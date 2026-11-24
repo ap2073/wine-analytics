@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-23T17:56:01.108725+00:00",
+ "generated_at": "2026-11-24T17:29:03.651499+00:00",
  "current_year": 2026,
  "summary": {
   "total_bottles": 292,
   "total_wines": 89,
-  "total_value": 29114.34,
+  "total_value": 29099.15,
   "total_paid": 21647.25,
   "countries": 12,
   "avg_critic_score": 91.3
@@ -13,7 +13,7 @@
   {
    "name": "France",
    "bottles": 126,
-   "value": 11486.040000000003,
+   "value": 11471.060000000003,
    "wines": 32
   },
   {
@@ -67,7 +67,7 @@
   {
    "name": "Hungary",
    "bottles": 1,
-   "value": 37.89,
+   "value": 37.68,
    "wines": 1
   },
   {
@@ -87,7 +87,7 @@
   {
    "name": "Red Bordeaux Blend",
    "bottles": 103,
-   "value": 10195.359999999997,
+   "value": 10180.379999999997,
    "wines": 27
   },
   {
@@ -201,7 +201,7 @@
   {
    "name": "Furmint",
    "bottles": 2,
-   "value": 44.78,
+   "value": 44.57,
    "wines": 2
   }
  ],
@@ -209,7 +209,7 @@
   {
    "name": "Bordeaux",
    "bottles": 90,
-   "value": 8659.369999999999,
+   "value": 8644.39,
    "wines": 20
   },
   {
@@ -331,12 +331,12 @@
   {
    "name": "White",
    "bottles": 35,
-   "value": 1936.6200000000001
+   "value": 1936.41
   },
   {
    "name": "Red",
    "bottles": 256,
-   "value": 27170.829999999984
+   "value": 27155.849999999984
   },
   {
    "name": "Orange",
@@ -353,7 +353,7 @@
   {
    "name": "Red",
    "bottles": 250,
-   "value": 26766.409999999985
+   "value": 26751.429999999986
   },
   {
    "name": "Fortified",
@@ -363,7 +363,7 @@
   {
    "name": "Dessert / Sweet",
    "bottles": 6,
-   "value": 346.8
+   "value": 346.59000000000003
   },
   {
    "name": "Sparkling",
@@ -392,7 +392,7 @@
   {
    "name": "Château Pontet-Canet",
    "bottles": 11,
-   "value": 1588.2,
+   "value": 1591.94,
    "wines": 2
   },
   {
@@ -434,7 +434,7 @@
   {
    "name": "Château Les Carmes Haut-Brion",
    "bottles": 6,
-   "value": 706.58,
+   "value": 687.86,
    "wines": 1
   },
   {
@@ -472,7 +472,7 @@
   {
    "name": "Cellar",
    "bottles": 67,
-   "value": 4780.06
+   "value": 4779.85
   },
   {
    "name": "Cellar - Wine Society",
@@ -482,7 +482,7 @@
   {
    "name": "Cellar - BB&R",
    "bottles": 114,
-   "value": 17915.749999999996
+   "value": 17900.769999999997
   }
  ],
  "drinking_window": {
@@ -1909,9 +1909,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 71.67,
-   "value_bottle": 117.76,
+   "value_bottle": 114.64,
    "total_paid": 430.02,
-   "total_value": 706.58,
+   "total_value": 687.86,
    "avg_critic_score": 93.4,
    "my_score": null,
    "critic_scores": {
@@ -1920,7 +1920,7 @@
    },
    "begin_consume": 2030,
    "end_consume": 2053,
-   "appreciation_pct": 64.3,
+   "appreciation_pct": 60.0,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -2620,46 +2620,6 @@
    "wiki": null
   },
   {
-   "iWine": "3984055",
-   "wine": "Château Les Carmes Haut-Brion",
-   "vintage": "2020",
-   "producer": "Château Les Carmes Haut-Brion",
-   "country": "France",
-   "region": "Bordeaux",
-   "subregion": "Graves",
-   "appellation": "Pessac-Léognan",
-   "color": "Red",
-   "style": "Red",
-   "varietal": "Red Bordeaux Blend",
-   "location": "Cellar - BB&R",
-   "quantity": 6,
-   "price_paid_bottle": 71.67,
-   "value_bottle": 117.76,
-   "total_paid": 430.02,
-   "total_value": 706.58,
-   "avg_critic_score": 93.4,
-   "my_score": null,
-   "critic_scores": {
-    "JR": 85.0,
-    "DR": 100.0
-   },
-   "begin_consume": 2030,
-   "end_consume": 2053,
-   "appreciation_pct": 64.3,
-   "body": "Medium",
-   "tannin": "Medium",
-   "pairings": [
-    "red meat",
-    "hard cheese",
-    "roasted vegetables"
-   ],
-   "decant": {
-    "hours": 1.0,
-    "label": "~1–1.5 hrs (longer if young & tightly wound)"
-   },
-   "wiki": null
-  },
-  {
    "iWine": "4561939",
    "wine": "Domaine de Bellene Nuits-Saint-Georges 1er Cru Aux Chaignots",
    "vintage": "2021",
@@ -2695,6 +2655,46 @@
    "decant": {
     "hours": 0.5,
     "label": "~30 min — a short splash-decant to open it up"
+   },
+   "wiki": null
+  },
+  {
+   "iWine": "3984055",
+   "wine": "Château Les Carmes Haut-Brion",
+   "vintage": "2020",
+   "producer": "Château Les Carmes Haut-Brion",
+   "country": "France",
+   "region": "Bordeaux",
+   "subregion": "Graves",
+   "appellation": "Pessac-Léognan",
+   "color": "Red",
+   "style": "Red",
+   "varietal": "Red Bordeaux Blend",
+   "location": "Cellar - BB&R",
+   "quantity": 6,
+   "price_paid_bottle": 71.67,
+   "value_bottle": 114.64,
+   "total_paid": 430.02,
+   "total_value": 687.86,
+   "avg_critic_score": 93.4,
+   "my_score": null,
+   "critic_scores": {
+    "JR": 85.0,
+    "DR": 100.0
+   },
+   "begin_consume": 2030,
+   "end_consume": 2053,
+   "appreciation_pct": 60.0,
+   "body": "Medium",
+   "tannin": "Medium",
+   "pairings": [
+    "red meat",
+    "hard cheese",
+    "roasted vegetables"
+   ],
+   "decant": {
+    "hours": 1.0,
+    "label": "~1–1.5 hrs (longer if young & tightly wound)"
    },
    "wiki": null
   }
@@ -4682,9 +4682,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 71.67,
-   "value_bottle": 117.76,
+   "value_bottle": 114.64,
    "total_paid": 430.02,
-   "total_value": 706.58,
+   "total_value": 687.86,
    "avg_critic_score": 93.4,
    "my_score": null,
    "critic_scores": {
@@ -4693,7 +4693,7 @@
    },
    "begin_consume": 2030,
    "end_consume": 2053,
-   "appreciation_pct": 64.3,
+   "appreciation_pct": 60.0,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -5361,9 +5361,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 50.0,
-   "value_bottle": 94.68,
+   "value_bottle": 95.31,
    "total_paid": 300.0,
-   "total_value": 568.11,
+   "total_value": 571.85,
    "avg_critic_score": 91.3,
    "my_score": null,
    "critic_scores": {
@@ -5372,7 +5372,7 @@
    },
    "begin_consume": 2028,
    "end_consume": 2051,
-   "appreciation_pct": 89.4,
+   "appreciation_pct": 90.6,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -5674,9 +5674,9 @@
    "location": "Cellar",
    "quantity": 1,
    "price_paid_bottle": 0.0,
-   "value_bottle": 37.89,
+   "value_bottle": 37.68,
    "total_paid": 0.0,
-   "total_value": 37.89,
+   "total_value": 37.68,
    "avg_critic_score": 92.0,
    "my_score": 92.0,
    "critic_scores": {
@@ -6537,9 +6537,9 @@
    "location": "Cellar - BB&R",
    "quantity": 6,
    "price_paid_bottle": 50.0,
-   "value_bottle": 94.68,
+   "value_bottle": 95.31,
    "total_paid": 300.0,
-   "total_value": 568.11,
+   "total_value": 571.85,
    "avg_critic_score": 91.3,
    "my_score": null,
    "critic_scores": {
@@ -6548,7 +6548,7 @@
    },
    "begin_consume": 2028,
    "end_consume": 2051,
-   "appreciation_pct": 89.4,
+   "appreciation_pct": 90.6,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -6800,46 +6800,6 @@
    "wiki": null
   },
   {
-   "iWine": "3984055",
-   "wine": "Château Les Carmes Haut-Brion",
-   "vintage": "2020",
-   "producer": "Château Les Carmes Haut-Brion",
-   "country": "France",
-   "region": "Bordeaux",
-   "subregion": "Graves",
-   "appellation": "Pessac-Léognan",
-   "color": "Red",
-   "style": "Red",
-   "varietal": "Red Bordeaux Blend",
-   "location": "Cellar - BB&R",
-   "quantity": 6,
-   "price_paid_bottle": 71.67,
-   "value_bottle": 117.76,
-   "total_paid": 430.02,
-   "total_value": 706.58,
-   "avg_critic_score": 93.4,
-   "my_score": null,
-   "critic_scores": {
-    "JR": 85.0,
-    "DR": 100.0
-   },
-   "begin_consume": 2030,
-   "end_consume": 2053,
-   "appreciation_pct": 64.3,
-   "body": "Medium",
-   "tannin": "Medium",
-   "pairings": [
-    "red meat",
-    "hard cheese",
-    "roasted vegetables"
-   ],
-   "decant": {
-    "hours": 1.0,
-    "label": "~1–1.5 hrs (longer if young & tightly wound)"
-   },
-   "wiki": null
-  },
-  {
    "iWine": "1739128",
    "wine": "Giacomo Fenocchio Barolo Villero",
    "vintage": "2010",
@@ -6906,6 +6866,46 @@
    "begin_consume": 2025,
    "end_consume": 2041,
    "appreciation_pct": 60.3,
+   "body": "Medium",
+   "tannin": "Medium",
+   "pairings": [
+    "red meat",
+    "hard cheese",
+    "roasted vegetables"
+   ],
+   "decant": {
+    "hours": 1.0,
+    "label": "~1–1.5 hrs (longer if young & tightly wound)"
+   },
+   "wiki": null
+  },
+  {
+   "iWine": "3984055",
+   "wine": "Château Les Carmes Haut-Brion",
+   "vintage": "2020",
+   "producer": "Château Les Carmes Haut-Brion",
+   "country": "France",
+   "region": "Bordeaux",
+   "subregion": "Graves",
+   "appellation": "Pessac-Léognan",
+   "color": "Red",
+   "style": "Red",
+   "varietal": "Red Bordeaux Blend",
+   "location": "Cellar - BB&R",
+   "quantity": 6,
+   "price_paid_bottle": 71.67,
+   "value_bottle": 114.64,
+   "total_paid": 430.02,
+   "total_value": 687.86,
+   "avg_critic_score": 93.4,
+   "my_score": null,
+   "critic_scores": {
+    "JR": 85.0,
+    "DR": 100.0
+   },
+   "begin_consume": 2030,
+   "end_consume": 2053,
+   "appreciation_pct": 60.0,
    "body": "Medium",
    "tannin": "Medium",
    "pairings": [
@@ -7803,8 +7803,8 @@
    "wines": 2,
    "bottles": 11,
    "paid": 980.0,
-   "value": 1588.2,
-   "appreciation_pct": 62.1,
+   "value": 1591.94,
+   "appreciation_pct": 62.4,
    "avg_score": 90.9,
    "countries": [
     "France"
@@ -7933,8 +7933,8 @@
    "wines": 1,
    "bottles": 6,
    "paid": 430.02,
-   "value": 706.58,
-   "appreciation_pct": 64.3,
+   "value": 687.86,
+   "appreciation_pct": 60.0,
    "avg_score": 93.4,
    "countries": [
     "France"
@@ -8713,22 +8713,6 @@
    "wikidata": null
   },
   {
-   "name": "Royal Tokaji Wine Co.",
-   "wines": 1,
-   "bottles": 1,
-   "paid": 0.0,
-   "value": 37.89,
-   "appreciation_pct": null,
-   "avg_score": 92.0,
-   "countries": [
-    "Hungary"
-   ],
-   "regions": [
-    "Tokaji"
-   ],
-   "wikidata": null
-  },
-  {
    "name": "Château de Pez",
    "wines": 1,
    "bottles": 1,
@@ -8749,6 +8733,22 @@
     "lon": -0.789621,
     "wikipedia_url": "https://en.wikipedia.org/wiki/Château_de_Pez"
    }
+  },
+  {
+   "name": "Royal Tokaji Wine Co.",
+   "wines": 1,
+   "bottles": 1,
+   "paid": 0.0,
+   "value": 37.68,
+   "appreciation_pct": null,
+   "avg_score": 92.0,
+   "countries": [
+    "Hungary"
+   ],
+   "regions": [
+    "Tokaji"
+   ],
+   "wikidata": null
   },
   {
    "name": "Kanonkop",
@@ -9129,7 +9129,7 @@
    }
   },
   "avg_bottle_price_paid": 74.13,
-  "avg_bottle_value_now": 99.71,
+  "avg_bottle_value_now": 99.65,
   "avg_cellar_age_years": 17.3,
   "largest_single_purchase": {
    "date": "2026-03-06",
@@ -9159,7 +9159,7 @@
     "vintage": "2019",
     "producer": "Dunn Vineyards",
     "since": "2025-05-10",
-    "days_held": 562
+    "days_held": 563
    },
    {
     "iWine": "4986829",
@@ -9167,7 +9167,7 @@
     "vintage": "2023",
     "producer": "Roc de Cambes",
     "since": "2025-06-07",
-    "days_held": 534
+    "days_held": 535
    },
    {
     "iWine": "4390612",
@@ -9175,7 +9175,7 @@
     "vintage": "2022",
     "producer": "Penfolds",
     "since": "2025-06-11",
-    "days_held": 530
+    "days_held": 531
    },
    {
     "iWine": "4641506",
@@ -9183,7 +9183,7 @@
     "vintage": "2022",
     "producer": "Château Clinet",
     "since": "2025-07-03",
-    "days_held": 508
+    "days_held": 509
    },
    {
     "iWine": "4638895",
@@ -9191,7 +9191,7 @@
     "vintage": "2022",
     "producer": "Château Troplong Mondot",
     "since": "2025-07-03",
-    "days_held": 508
+    "days_held": 509
    },
    {
     "iWine": "4876898",
@@ -9199,7 +9199,7 @@
     "vintage": "2019",
     "producer": "Canalicchio di Sopra",
     "since": "2025-07-12",
-    "days_held": 499
+    "days_held": 500
    },
    {
     "iWine": "4547984",
@@ -9207,7 +9207,7 @@
     "vintage": "2019",
     "producer": "Massolino",
     "since": "2025-07-12",
-    "days_held": 499
+    "days_held": 500
    },
    {
     "iWine": "3709255",
@@ -9215,7 +9215,7 @@
     "vintage": "2018",
     "producer": "Penfolds",
     "since": "2025-07-12",
-    "days_held": 499
+    "days_held": 500
    },
    {
     "iWine": "5271148",
@@ -9223,7 +9223,7 @@
     "vintage": "2019",
     "producer": "San Polino",
     "since": "2025-07-12",
-    "days_held": 499
+    "days_held": 500
    },
    {
     "iWine": "4638813",
@@ -9231,16 +9231,16 @@
     "vintage": "2022",
     "producer": "Château Laroque",
     "since": "2025-07-13",
-    "days_held": 498
+    "days_held": 499
    }
   ],
-  "total_appreciation_pct": 34.5
+  "total_appreciation_pct": 34.4
  },
  "map_countries": [
   {
    "name": "France",
    "bottles": 126,
-   "value": 11486.040000000003,
+   "value": 11471.060000000003,
    "wines": 32,
    "lat": 46.6,
    "lon": 2.2
@@ -9312,7 +9312,7 @@
   {
    "name": "Hungary",
    "bottles": 1,
-   "value": 37.89,
+   "value": 37.68,
    "wines": 1,
    "lat": 47.2,
    "lon": 19.5
@@ -19658,7 +19658,7 @@
     "date": "2026-05-16",
     "month": "2026-05",
     "rating": 88.0,
-    "community_score": 92.2948717948718,
+    "community_score": 92.2929936305732,
     "delta": -4.3,
     "notes_text": ""
    },
@@ -20730,8 +20730,8 @@
     "date": "2025-12-23",
     "month": "2025-12",
     "rating": 85.0,
-    "community_score": 89.65,
-    "delta": -4.7,
+    "community_score": 89.6190476190476,
+    "delta": -4.6,
     "notes_text": ""
    },
    {
@@ -25914,8 +25914,8 @@
     "date": "2025-05-29",
     "month": "2025-05",
     "rating": 87.0,
-    "community_score": 92.7142857142857,
-    "delta": -5.7,
+    "community_score": 92.625,
+    "delta": -5.6,
     "notes_text": ""
    },
    {
